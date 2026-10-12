@@ -20,11 +20,11 @@ Lo vide venire da lontano, nel bagliore delle luci, un uomo basso e quadrato con
 
 Salì sul ponte. Aveva in mano un taccuino, chiuso, con un dito dentro a tenere il segno.
 
-«Signora,» disse. «Venga un momento con me, per favore. Lontano dal rumore.»
+«Signora» disse. «Venga un momento con me, per favore. Lontano dal rumore.»
 
 Andarono in fondo al ponte, dove la strada svoltava in salita verso il paese e c'era un muretto, e il fiume era un po' più lontano. Lui non la prese sottobraccio. Gliene fu grata.
 
-«La figlia della sua vicina,» disse Lalli. «Rosa. È arrivata stanotte da Pescara, per stare con la madre. Mi ha telefonato quaranta minuti fa.»
+«La figlia della sua vicina» disse Lalli. «Rosa. È arrivata stanotte da Pescara, per stare con la madre. Mi ha telefonato quaranta minuti fa.»
 
 Chiara lo guardò.
 
@@ -38,7 +38,7 @@ Ed eccola, sotto il fiume, sotto le luci: la voce di una vecchia in una cucina b
 
 Per otto ore era rimasta seduta accanto alla frase sbagliata.
 
-«Gliel'ho chiesto io,» disse Chiara. La voce le uscì molto calma, molto piana, la voce che usava con gli avvocati. «Alle otto meno un quarto. Le ho chiesto dov'era Ida, e me l'ha detto. Me l'ha detto due volte.»
+«Gliel'ho chiesto io» disse Chiara. La voce le uscì molto calma, molto piana, la voce che usava con gli avvocati. «Alle otto meno un quarto. Le ho chiesto dov'era Ida, e me l'ha detto. Me l'ha detto due volte.»
 
 «Signora.»
 
@@ -52,7 +52,7 @@ Per otto ore era rimasta seduta accanto alla frase sbagliata.
 
 Chiara appoggiò la mano sul muretto. La pietra era bagnata e gelida. Ci si tenne.
 
-«Due squadre stanno salendo adesso,» disse Lalli. «Per la strada forestale, dal passo, perché il guado è ancora troppo alto. CNSAS, Forestali, il conduttore col cane. Arriveranno prima al Romito, da sopra, e poi scenderanno per il sentiero verso il guado, cercando l'albero. Saranno lì prima che faccia giorno. L'acqua sta calando. Fra due o tre ore forse si potrà passare il guado anche da questa parte.»
+«Due squadre stanno salendo adesso» disse Lalli. «Per la strada forestale, dal passo, perché il guado è ancora troppo alto. CNSAS, Forestali, il conduttore col cane. Arriveranno prima al Romito, da sopra, e poi scenderanno per il sentiero verso il guado, cercando l'albero. Saranno lì prima che faccia giorno. L'acqua sta calando. Fra due o tre ore forse si potrà passare il guado anche da questa parte.»
 
 «Vengo anch'io.»
 
@@ -70,7 +70,7 @@ Chiara appoggiò la mano sul muretto. La pietra era bagnata e gelida. Ci si tenn
 
 A questo non rispose. Lei non se l'aspettava. Si accorse che lo stimava, per non aver risposto.
 
-«*Sua madre*,» disse Chiara. «Di Assunta. Lei… cosa le è successo? In guerra.»
+«*Sua madre*» disse Chiara. «Di Assunta. Lei… cosa le è successo? In guerra.»
 
 «Non lo so, signora. La figlia non l'ha detto. Credo che la figlia non lo sappia.»
 
@@ -86,7 +86,7 @@ Chiara rimase lì un lungo momento.
 
 Voleva entrare. Voleva entrare e inginocchiarsi accanto alla poltrona e dire qualcosa alla vecchia. Non sapeva cosa. *Mi dispiace.* *Grazie.* *Come si è permessa.* *Dov'è.* Non sapeva quale, né in che lingua, e capì, ferma nella strada fredda a guardare dentro la finestra accesa, che qualunque cosa avesse detto la vecchia non avrebbe saputo chi era, e non se ne sarebbe ricordata, e che sarebbe stato per sé, e non entrò.
 
-«Vieni, cara,» disse Lucia, e la prese sottobraccio.
+«Vieni, cara» disse Lucia, e la prese sottobraccio.
 
 ---
 

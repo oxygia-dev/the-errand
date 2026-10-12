@@ -10,9 +10,9 @@ Ecco quello che si sa.
 
 La faccia con il bastone e il cane e il cappello marrone fa la strada alla prima luce e all'ultima luce e non dà niente e non prende niente. Né.
 
-La faccia con il lungo bastone lucente che ha fatto *crac* nell'inverno della neve alta, dalla casa con il cancello blu: pericolo. Quasi nessuno di noi era uscito dall'uovo nell'inverno della neve alta. Non importa. Ci è stato detto. Noi lo diciamo ai giovani, e quando quella faccia esce dal cancello blu ci alziamo dai fili tutti insieme, tutti, anche quelli che il crac non l'hanno mai sentito, e lo gridiamo giù per la strada, *quella, quella*, e quella faccia alza gli occhi verso di noi e non capisce come si sappia. Si sa perché siamo tanti e siamo lunghi. Una cornacchia dimentica. Noi no.
+La faccia con il lungo bastone lucente che ha fatto *crac* nell'inverno della neve alta, dalla casa con il cancello blu: pericolo. Quasi nessuna di noi era uscita dall'uovo nell'inverno della neve alta. Non importa. Ci è stato detto. Noi lo diciamo ai giovani, e quando quella faccia esce dal cancello blu ci alziamo dai fili tutti insieme, tutti, anche quelle che il crac non l'hanno mai sentito, e lo gridiamo giù per la strada, *quella, quella*, e quella faccia alza gli occhi verso di noi e non capisce come si sappia. Si sa perché siamo tanti e siamo lunghi. Una cornacchia dimentica. Noi no.
 
-La faccia curva della casa con le scatole che ronzano, quella che si muove piano e parla da sola: dà. Dà da più tempo di quanto sia vivo chiunque di noi. Avanzi sul muro dietro le scatole, ogni giorno, le punte gialle del pane, le croste, le lische dei pesci piccoli. Quelli prima di noi conoscevano la sua faccia, e quelli prima di loro. Adesso certi giorni dimentica. Certi giorni esce al muro con niente in mano e sta lì e parla alle scatole e rientra. Noi guardiamo. Aspettiamo. Non sta a lei dimenticare. Ma è ancora dà.
+La faccia curva della casa con le scatole che ronzano, quella che si muove piano e parla da sola: dà. Dà da più tempo di quanto sia vivo chiunque di noi. Avanzi sul muro dietro le scatole, ogni giorno, le punte gialle del pane, le croste, le lische dei pesci piccoli. Quelle prima di noi conoscevano la sua faccia, e quelle prima di loro. Adesso certi giorni dimentica. Certi giorni esce al muro con niente in mano e sta lì e parla alle scatole e rientra. Noi guardiamo. Aspettiamo. Non è da lei, dimenticare. Ma è ancora dà.
 
 La faccia piccola della casa accanto alla sua, nuova quest'inverno: dà. Ha imparato in fretta. Croste sul muro al limite del rumore-di-scuola, quando le facce grandi non guardano. Si avvicina. Troppo. Ci guarda. Ci guarda come noi guardiamo le facce, che non è come guardano le facce; le facce guardano la nostra forma e poi altrove; questa guarda *noi*, questo e quello, e così sappiamo che ci sta imparando come noi impariamo lei, e questo è strano, e l'abbiamo detto, tante volte, all'imbrunire, e non abbiamo deciso niente.
 
@@ -58,7 +58,7 @@ Questo si sa. Non si dice. Non c'è niente da dire. È solo una cosa fra le cose
 
 Buio. Quasi. Il colore se n'è andato da tutto tranne che dal cielo dietro la montagna, dove è ancora del colore che ha dentro una bocca.
 
-Arrivano gli ultimi. Il litigio si quieta. Ci spostiamo, e ci aggrappiamo, e ci appoggiamo l'uno alla spalla dell'altro sulle cime nere dei cipressi, e il grigio delle nostre schiene diventa lo stesso grigio dell'aria.
+Arrivano le ultime. Il litigio si quieta. Ci spostiamo, e ci aggrappiamo, e ci appoggiamo l'una alla spalla dell'altra sulle cime nere dei cipressi, e il grigio delle nostre schiene diventa lo stesso grigio dell'aria.
 
 Sotto di noi il cane torna.
 
@@ -68,9 +68,9 @@ Lo guardiamo andare.
 
 La faccia piccola non torna giù per il sentiero.
 
-L'aspettiamo, un poco. Non a lungo. Non siamo fatti per aspettare al buio; il buio è quando ci chiudiamo. Ma qualcuno di noi aspetta, un poco, con un occhio sul punto dove gli alberi si sono chiusi. Non sappiamo perché. Non è dovuto niente. Lei è solo dà. Ci sono altre facce che danno.
+L'aspettiamo, un poco. Non a lungo. Non siamo fatte per aspettare al buio; il buio è quando ci chiudiamo. Ma qualcuna di noi aspetta, un poco, con un occhio sul punto dove gli alberi si sono chiusi. Non sappiamo perché. Non è dovuto niente. Lei è solo dà. Ci sono altre facce che danno.
 
-Ma lei ci guarda. Ci sta imparando. Conosce questo e quello, ha un suono per quello con la piuma bianca nell'ala, lo dice ogni volta che lo vede, sempre lo stesso suono. *Bianchino.* Così. È l'unica faccia che abbia mai avuto un suono per uno di noi.
+Ma lei ci guarda. Ci sta imparando. Conosce questo e quello, ha un suono per quello con la penna bianca nell'ala, lo dice ogni volta che lo vede, sempre lo stesso suono. *Bianchino.* Così. È l'unica faccia che abbia mai avuto un suono per uno di noi.
 
 Noi non abbiamo un suono per lei. Non abbiamo suoni per le facce. Abbiamo *dà* e *pericolo* e *né*, e abbiamo la faccia stessa, che teniamo, come le pietre tengono i nomi incisi sopra.
 

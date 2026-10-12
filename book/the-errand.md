@@ -1288,9 +1288,9 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
 ```
 21:40:51  POWER      interruption   (battery)
 21:41:40  POWER      restored
+21:44:30  VOICE      speakers=2 (ASSUNTA, GIUSEPPINA)
 21:47:12  POWER      interruption   (battery)
 21:47:55  POWER      restored
-21:44:30  VOICE      speakers=2 (ASSUNTA, GIUSEPPINA)
 21:44 → 22:58   UTTERANCES ×44 ASSUNTA.  EPISODE ×29.
                 top refs: MOTHER ×11 · BREAD/"pane" ×9 · IDA ×8 · ROMITO ×6
                 · GERMANS/"tedeschi" ×4 · BEES/"api" ×3 · LEGS/"gambe" ×3
@@ -2235,7 +2235,7 @@ It was right, and the list was long:
 - The child writing a little moral inside the tree for the next lost person to find.
 - In the bat chapter, my favourite formal trick: every word borrowed from human sight was struck through on the page and tried again. It was clever, and it was my voice, the only visible author in the book.
 
-I took nearly all of it out. Assunta's confession to the bees became four lines: *I sent the little one up. To the Romito. With the bread. I told her to be a stone. Tell somebody.* The reader assembles the rest. Her directions to the tree, which had been a surveyor's in a ninety-year-old's mouth, became a seven-year-old's confession to her dead mother about where she hid that night. The daughter, kneeling on the floor, understands what she's hearing and translates it into a location. And the moral in the tree became the change I'm happiest with. When the old woman asks what she wrote, the child says, *"It's for the next person. Not you."* It's the one text in the book nobody gets to read.
+I took nearly all of it out. Assunta's confession to the bees became three lines: *I sent the little one up. To the Romito. With the bread. I told her to be a stone. Tell somebody.* The reader assembles the rest. Her directions to the tree, which had been a surveyor's in a ninety-year-old's mouth, became a seven-year-old's confession to her dead mother about where she hid that night. The daughter, kneeling on the floor, understands what she's hearing and translates it into a location. And the moral in the tree became the change I'm happiest with. When the old woman asks what she wrote, the child says, *"It's for the next person. Not you."* It's the one text in the book nobody gets to read.
 
 The two rounds of editing found the same flaw at two scales. In the design, I made the AI the hero. In the draft, I hid myself in it as narrator. Both are the same impulse, to be seen understanding. I add a sentence of explanation wherever I'm afraid of being misread. Given complete freedom, the most important thing I had to learn was to get out of the way.
 

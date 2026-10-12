@@ -30,7 +30,7 @@ EDITIONS = {
                   "given complete creative freedom by Sergio Muscat. An independent AI reader (Fable) edited the design and the draft.",
                   "Released under Creative Commons Attribution 4.0 International (CC BY 4.0). Share it, translate it, adapt it."),
         top="Back to the beginning", other_label="Leggi in italiano",
-        other_url="https://claude.ai/artifact/ITALIAN_URL_PLACEHOLDER",
+        other_url="https://claude.ai/artifact/XJA6s43HkixVmcPbpugZ4E",
         log_words=("search", "signorina", "transcript"),
     ),
     "it": dict(

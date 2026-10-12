@@ -181,9 +181,9 @@ Ecco quello che si sa.
 
 La faccia con il bastone e il cane e il cappello marrone fa la strada alla prima luce e all'ultima luce e non dà niente e non prende niente. Né.
 
-La faccia con il lungo bastone lucente che ha fatto *crac* nell'inverno della neve alta, dalla casa con il cancello blu: pericolo. Quasi nessuno di noi era uscito dall'uovo nell'inverno della neve alta. Non importa. Ci è stato detto. Noi lo diciamo ai giovani, e quando quella faccia esce dal cancello blu ci alziamo dai fili tutti insieme, tutti, anche quelli che il crac non l'hanno mai sentito, e lo gridiamo giù per la strada, *quella, quella*, e quella faccia alza gli occhi verso di noi e non capisce come si sappia. Si sa perché siamo tanti e siamo lunghi. Una cornacchia dimentica. Noi no.
+La faccia con il lungo bastone lucente che ha fatto *crac* nell'inverno della neve alta, dalla casa con il cancello blu: pericolo. Quasi nessuna di noi era uscita dall'uovo nell'inverno della neve alta. Non importa. Ci è stato detto. Noi lo diciamo ai giovani, e quando quella faccia esce dal cancello blu ci alziamo dai fili tutti insieme, tutti, anche quelle che il crac non l'hanno mai sentito, e lo gridiamo giù per la strada, *quella, quella*, e quella faccia alza gli occhi verso di noi e non capisce come si sappia. Si sa perché siamo tanti e siamo lunghi. Una cornacchia dimentica. Noi no.
 
-La faccia curva della casa con le scatole che ronzano, quella che si muove piano e parla da sola: dà. Dà da più tempo di quanto sia vivo chiunque di noi. Avanzi sul muro dietro le scatole, ogni giorno, le punte gialle del pane, le croste, le lische dei pesci piccoli. Quelli prima di noi conoscevano la sua faccia, e quelli prima di loro. Adesso certi giorni dimentica. Certi giorni esce al muro con niente in mano e sta lì e parla alle scatole e rientra. Noi guardiamo. Aspettiamo. Non sta a lei dimenticare. Ma è ancora dà.
+La faccia curva della casa con le scatole che ronzano, quella che si muove piano e parla da sola: dà. Dà da più tempo di quanto sia vivo chiunque di noi. Avanzi sul muro dietro le scatole, ogni giorno, le punte gialle del pane, le croste, le lische dei pesci piccoli. Quelle prima di noi conoscevano la sua faccia, e quelle prima di loro. Adesso certi giorni dimentica. Certi giorni esce al muro con niente in mano e sta lì e parla alle scatole e rientra. Noi guardiamo. Aspettiamo. Non è da lei, dimenticare. Ma è ancora dà.
 
 La faccia piccola della casa accanto alla sua, nuova quest'inverno: dà. Ha imparato in fretta. Croste sul muro al limite del rumore-di-scuola, quando le facce grandi non guardano. Si avvicina. Troppo. Ci guarda. Ci guarda come noi guardiamo le facce, che non è come guardano le facce; le facce guardano la nostra forma e poi altrove; questa guarda *noi*, questo e quello, e così sappiamo che ci sta imparando come noi impariamo lei, e questo è strano, e l'abbiamo detto, tante volte, all'imbrunire, e non abbiamo deciso niente.
 
@@ -229,7 +229,7 @@ Questo si sa. Non si dice. Non c'è niente da dire. È solo una cosa fra le cose
 
 Buio. Quasi. Il colore se n'è andato da tutto tranne che dal cielo dietro la montagna, dove è ancora del colore che ha dentro una bocca.
 
-Arrivano gli ultimi. Il litigio si quieta. Ci spostiamo, e ci aggrappiamo, e ci appoggiamo l'uno alla spalla dell'altro sulle cime nere dei cipressi, e il grigio delle nostre schiene diventa lo stesso grigio dell'aria.
+Arrivano le ultime. Il litigio si quieta. Ci spostiamo, e ci aggrappiamo, e ci appoggiamo l'una alla spalla dell'altra sulle cime nere dei cipressi, e il grigio delle nostre schiene diventa lo stesso grigio dell'aria.
 
 Sotto di noi il cane torna.
 
@@ -239,9 +239,9 @@ Lo guardiamo andare.
 
 La faccia piccola non torna giù per il sentiero.
 
-L'aspettiamo, un poco. Non a lungo. Non siamo fatti per aspettare al buio; il buio è quando ci chiudiamo. Ma qualcuno di noi aspetta, un poco, con un occhio sul punto dove gli alberi si sono chiusi. Non sappiamo perché. Non è dovuto niente. Lei è solo dà. Ci sono altre facce che danno.
+L'aspettiamo, un poco. Non a lungo. Non siamo fatte per aspettare al buio; il buio è quando ci chiudiamo. Ma qualcuna di noi aspetta, un poco, con un occhio sul punto dove gli alberi si sono chiusi. Non sappiamo perché. Non è dovuto niente. Lei è solo dà. Ci sono altre facce che danno.
 
-Ma lei ci guarda. Ci sta imparando. Conosce questo e quello, ha un suono per quello con la piuma bianca nell'ala, lo dice ogni volta che lo vede, sempre lo stesso suono. *Bianchino.* Così. È l'unica faccia che abbia mai avuto un suono per uno di noi.
+Ma lei ci guarda. Ci sta imparando. Conosce questo e quello, ha un suono per quello con la penna bianca nell'ala, lo dice ogni volta che lo vede, sempre lo stesso suono. *Bianchino.* Così. È l'unica faccia che abbia mai avuto un suono per uno di noi.
 
 Noi non abbiamo un suono per lei. Non abbiamo suoni per le facce. Abbiamo *dà* e *pericolo* e *né*, e abbiamo la faccia stessa, che teniamo, come le pietre tengono i nomi incisi sopra.
 
@@ -743,7 +743,7 @@ Nota: i residenti Franco D. e Sandro P. hanno percorso il settore M e la parte b
 
 **00:37** — I Forestali segnalano: orso bruno marsicano, femmina adulta con piccoli. Nessun attacco mortale all'uomo documentato. Tuttavia la femmina con piccoli è la configurazione che richiede la massima cautela. Si raccomanda di non impiegare personale a piedi nel settore F nelle ore notturne.
 
-**00:40** — Annotazione: il capo squadra CNSAS 1 al PCA: *"Il cappello sotto il ponte, il cane che si ferma all'acqua, le orme dall'altra parte. O sta nel fiume o sta di là con l'orsa. Lo so io quale mi fa più paura. Stanotte non ci aiuta né l'una né l'altra."*
+**00:40** — Annotazione: il caposquadra CNSAS 1 al PCA: *"Il cappello sotto il ponte, il cane che si ferma all'acqua, le orme dall'altra parte. O sta nel fiume o sta di là con l'orsa. Lo so io quale mi fa più paura. Stanotte non ci aiuta né l'una né l'altra."*
 
 **00:45** — Coordinatore, piano per la notte:
 - Settore R: si prosegue, massimo impiego di risorse. Squadra SAF fluviale VVF operativa dalle 23:35 su entrambe le sponde; richiesta seconda squadra da Pescara.
@@ -1071,7 +1071,7 @@ La donna sta seduta dritta dritta, col cappotto piegato in grembo, come si sta s
 
 Assunta riconosce le mani prima della faccia.
 
-«Mà», dice.
+«Mà» dice.
 
 ---
 
@@ -1079,7 +1079,7 @@ La donna non si muove.
 
 Assunta la vede decidere qualcosa. Lo vede passare sulla faccia lunga come l'ombra di un uccello su un muro. Poi la faccia fa una cosa che Assunta non le vede fare da tanto tempo, o non le ha mai visto fare: si lascia andare. Si ammorbidisce intorno alla bocca.
 
-«Sì», dice la donna. Piano. «Sono qua, Assù.»
+«Sì» dice la donna. Piano. «Sono qua, Assù.»
 
 Oh.
 
@@ -1087,21 +1087,21 @@ Oh, com'è stanca. È scesa con la neve. Guardala. Neve addosso non ne ha, ma è
 
 Le mani della donna sono calde. È così che si capisce. I morti hanno le mani fredde, lo sanno tutti.
 
-«Scusami, Mà», dice Assunta.
+«Scusami, Mà» dice Assunta.
 
 «Di che?»
 
 «Non potevo venire. Le gambe.» Cerca di fargliele vedere, cerca di sollevare una delle gambe di legno vecchio sotto la coperta, e non ci riesce. «Sono così vecchia, Mà. Guardami. Sono più vecchia di te.» E ride, perché è buffo, perché è terribile, e ride anche la donna, una risata corta che le esce come un colpo di tosse e ha dietro qualcos'altro.
 
-«Lo so», dice la donna. «Lo so che lo sei.»
+«Lo so» dice la donna. «Lo so che lo sei.»
 
 «Così ho mandato il pane.»
 
 Le mani della donna si fermano sulle sue.
 
-«Con la piccola», dice Assunta. «Quella della romana. L'hai vista. È brava. È una brava bambina, Mà, ascolta, non come gli altri, lei *ascolta*, ti guarda quando parli. La strada per il Romito la sa. Stamattina è salita col santo. Io non potevo andare. Li ho guardati salire.» Le si stringe il petto, a raccontarlo. È in ritardo, era in ritardo, e adesso deve spiegare, e spiegare è come andare su per una salita. «Le ho dato il pane del furgone. Non è pane vero. È una spugna per la macchina. Scusami. Ed è solo metà. Metà l'ho tenuta. Metà si tiene sempre, dicevi tu. Hai detto porta quello che c'è.»
+«Con la piccola» dice Assunta. «Quella della romana. L'hai vista. È brava. È una brava bambina, Mà, ascolta, non come gli altri, lei *ascolta*, ti guarda quando parli. La strada per il Romito la sa. Stamattina è salita col santo. Io non potevo andare. Li ho guardati salire.» Le si stringe il petto, a raccontarlo. È in ritardo, era in ritardo, e adesso deve spiegare, e spiegare è come andare su per una salita. «Le ho dato il pane del furgone. Non è pane vero. È una spugna per la macchina. Scusami. Ed è solo metà. Metà l'ho tenuta. Metà si tiene sempre, dicevi tu. Hai detto porta quello che c'è.»
 
-«Quando», dice la donna. La voce le è cambiata. È ancora dolce, ma adesso sotto c'è qualcosa, qualcosa di molto dritto, come un bastone in un ruscello. «Quando è andata, Assù?»
+«Quando» dice la donna. La voce le è cambiata. È ancora dolce, ma adesso sotto c'è qualcosa, qualcosa di molto dritto, come un bastone in un ruscello. «Quando è andata, Assù?»
 
 «Prima del buio. Gliel'ho detto, prima del buio.» Assunta guarda oltre lei, la finestra. Il nero. «È buio?»
 
@@ -1119,7 +1119,7 @@ Assunta la guarda sollevare il coperchio. L'odore esce nella stanza — farina, 
 
 Sta guardando il pane. Assunta lo sa. Mamma guardava sempre nella madia. Per prima cosa, ogni mattina, prima del fuoco, sollevava il coperchio e guardava dentro e contava con gli occhi quello che c'era, e dalla schiena capivi quanti giorni.
 
-«Ce n'è solo metà», dice Assunta alla schiena. «Lo so. Te l'ho detto.»
+«Ce n'è solo metà» dice Assunta alla schiena. «Lo so. Te l'ho detto.»
 
 La donna mette la mano nella madia. Tira fuori la carta. La mezza pagnotta nella sua carta, strappata, non tagliata, il bordo sfrangiato dove è stata strappata, dove l'hanno strappata le sue mani, le due paia di mani. La donna la solleva verso la lampada come fosse una lettera. La gira.
 
@@ -1143,11 +1143,11 @@ Assunta ha perso il filo. Guarda la finestra. Il bagliore bianco laggiù. Voci, 
 
 Rosa è di nuovo in ginocchio davanti a lei. Quando è successo. Rosa tiene il telefono premuto contro il petto, contro la camicetta, perché l'uomo dentro non senta, e con l'altra mano tiene la mano di Assunta, stretta, troppo stretta.
 
-«Mamma», dice Rosa. «Mamma, guardami.»
+«Mamma» dice Rosa. «Mamma, guardami.»
 
 Lei guarda.
 
-«L'albero», dice Rosa. «Mamma. Dov'è l'albero?»
+«L'albero» dice Rosa. «Mamma. Dov'è l'albero?»
 
 E la donna in ginocchio davanti a lei le sta chiedendo dov'era.
 
@@ -1157,17 +1157,17 @@ Ma certo. È questa la domanda. Mà in ginocchio per terra davanti a lei, con qu
 
 Rosa dice qualcosa al telefono, svelta, a bassa voce. Assunta ne sente dei pezzi. *Dopo il guado. Dove gira, la prima curva — c'è un sasso, lo conoscono tutti, lo chiamano la pecora. A sinistra del sentiero. In discesa. Uno grosso che è stato tagliato, un vecchio albero capitozzato. Sì. Sì. Credo di sì. Sì.*
 
-«Dentro faceva caldo», dice Assunta. «Non ci crederesti, che caldo.»
+«Dentro faceva caldo» dice Assunta. «Non ci crederesti, che caldo.»
 
 Rosa smette di ripeterlo al telefono. Guarda sua madre. La sua faccia sta facendo una cosa terribile, e Assunta vorrebbe posarci sopra la mano per farla smettere.
 
-«Lo so, Mamma», dice Rosa. «Me l'hai detto.»
+«Lo so, Mamma» dice Rosa. «Me l'hai detto.»
 
 «Ah sì?»
 
 «Una volta.»
 
-«Mh», fa Assunta. È così stanca. È stanca come si è stanchi dopo aver portato una cosa per tanta strada e averla posata. Lascia andare la testa contro lo schienale.
+«Mh» fa Assunta. È così stanca. È stanca come si è stanchi dopo aver portato una cosa per tanta strada e averla posata. Lascia andare la testa contro lo schienale.
 
 Rosa parla di nuovo al telefono, ma più piano adesso, camminando, fuori nel corridoio, verso la porta. *Sì. La strada forestale. Sì, glielo dico. No, resto con mia madre. Sì. Grazie. Brigadiere — grazie. No, lo so. Lo so che l'avete fatto.*
 
@@ -1177,9 +1177,9 @@ Quando Rosa torna non si siede al tavolo. Gira l'altra sedia e si siede accanto 
 
 Sulla mensola la macchinetta è accesa. Bianca. Paziente.
 
-«Signorina», dice Assunta, perché è lì. «C'è Rosa.»
+«Signorina» dice Assunta, perché è lì. «C'è Rosa.»
 
-*Ciao, Rosa*, dice la macchina.
+*Ciao, Rosa*, dice la macchinetta.
 
 Rosa ride, quella risata come una tosse, e si asciuga la faccia col palmo della mano.
 
@@ -1187,13 +1187,13 @@ Gli uomini giù al fiume chiamano ancora. Adesso Assunta li sente meglio. *Ida. 
 
 È sparita. Come una rondine che passa davanti alla finestra.
 
-«Rosa», dice invece. «La ragazzina è tornata?»
+«Rosa» dice invece. «La ragazzina è tornata?»
 
 Rosa le tiene la mano. Gliela tiene a lungo prima di rispondere, e quando risponde è con una voce che Assunta non le ha mai sentito, una voce come quando si mette una coperta addosso a qualcuno.
 
-«Non ancora, Mamma», dice. «Sono andati a prenderla.»
+«Non ancora, Mamma» dice. «Sono andati a prenderla.»
 
-«Bene», dice Assunta. «Fa freddo lassù.»
+«Bene» dice Assunta. «Fa freddo lassù.»
 
 Chiude gli occhi.
 
@@ -1214,7 +1214,7 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
 
 ```
 17:38:02  VOICE      speakers=2 (ASSUNTA, IDA)   topic=school/planets
-17:39:40  UTTERANCE  ASSUNTA  "ai miei tempi c'erano cinque pianeti ed eravamo contenti"
+17:39:40  UTTERANCE  ASSUNTA  "ai tempi miei c'erano cinque pianeti e bastavano"
                      class=HUMOUR   conf=0.62
 17:58:15  RADAR      ASSUNTA stand→walk→madia   gait=slow, stable
 17:58:51  UTTERANCE  ASSUNTA  "sono in ritardo"
@@ -1288,9 +1288,9 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
 ```
 21:40:51  POWER      interruption   (battery)
 21:41:40  POWER      restored
+21:44:30  VOICE      speakers=2 (ASSUNTA, GIUSEPPINA)
 21:47:12  POWER      interruption   (battery)
 21:47:55  POWER      restored
-21:44:30  VOICE      speakers=2 (ASSUNTA, GIUSEPPINA)
 21:44 → 22:58   UTTERANCES ×44 ASSUNTA.  EPISODE ×29.
                 top refs: MOTHER ×11 · BREAD/"pane" ×9 · IDA ×8 · ROMITO ×6
                 · GERMANS/"tedeschi" ×4 · BEES/"api" ×3 · LEGS/"gambe" ×3
@@ -1423,11 +1423,11 @@ Lo vide venire da lontano, nel bagliore delle luci, un uomo basso e quadrato con
 
 Salì sul ponte. Aveva in mano un taccuino, chiuso, con un dito dentro a tenere il segno.
 
-«Signora,» disse. «Venga un momento con me, per favore. Lontano dal rumore.»
+«Signora» disse. «Venga un momento con me, per favore. Lontano dal rumore.»
 
 Andarono in fondo al ponte, dove la strada svoltava in salita verso il paese e c'era un muretto, e il fiume era un po' più lontano. Lui non la prese sottobraccio. Gliene fu grata.
 
-«La figlia della sua vicina,» disse Lalli. «Rosa. È arrivata stanotte da Pescara, per stare con la madre. Mi ha telefonato quaranta minuti fa.»
+«La figlia della sua vicina» disse Lalli. «Rosa. È arrivata stanotte da Pescara, per stare con la madre. Mi ha telefonato quaranta minuti fa.»
 
 Chiara lo guardò.
 
@@ -1441,7 +1441,7 @@ Ed eccola, sotto il fiume, sotto le luci: la voce di una vecchia in una cucina b
 
 Per otto ore era rimasta seduta accanto alla frase sbagliata.
 
-«Gliel'ho chiesto io,» disse Chiara. La voce le uscì molto calma, molto piana, la voce che usava con gli avvocati. «Alle otto meno un quarto. Le ho chiesto dov'era Ida, e me l'ha detto. Me l'ha detto due volte.»
+«Gliel'ho chiesto io» disse Chiara. La voce le uscì molto calma, molto piana, la voce che usava con gli avvocati. «Alle otto meno un quarto. Le ho chiesto dov'era Ida, e me l'ha detto. Me l'ha detto due volte.»
 
 «Signora.»
 
@@ -1455,7 +1455,7 @@ Per otto ore era rimasta seduta accanto alla frase sbagliata.
 
 Chiara appoggiò la mano sul muretto. La pietra era bagnata e gelida. Ci si tenne.
 
-«Due squadre stanno salendo adesso,» disse Lalli. «Per la strada forestale, dal passo, perché il guado è ancora troppo alto. CNSAS, Forestali, il conduttore col cane. Arriveranno prima al Romito, da sopra, e poi scenderanno per il sentiero verso il guado, cercando l'albero. Saranno lì prima che faccia giorno. L'acqua sta calando. Fra due o tre ore forse si potrà passare il guado anche da questa parte.»
+«Due squadre stanno salendo adesso» disse Lalli. «Per la strada forestale, dal passo, perché il guado è ancora troppo alto. CNSAS, Forestali, il conduttore col cane. Arriveranno prima al Romito, da sopra, e poi scenderanno per il sentiero verso il guado, cercando l'albero. Saranno lì prima che faccia giorno. L'acqua sta calando. Fra due o tre ore forse si potrà passare il guado anche da questa parte.»
 
 «Vengo anch'io.»
 
@@ -1473,7 +1473,7 @@ Chiara appoggiò la mano sul muretto. La pietra era bagnata e gelida. Ci si tenn
 
 A questo non rispose. Lei non se l'aspettava. Si accorse che lo stimava, per non aver risposto.
 
-«*Sua madre*,» disse Chiara. «Di Assunta. Lei… cosa le è successo? In guerra.»
+«*Sua madre*» disse Chiara. «Di Assunta. Lei… cosa le è successo? In guerra.»
 
 «Non lo so, signora. La figlia non l'ha detto. Credo che la figlia non lo sappia.»
 
@@ -1489,7 +1489,7 @@ Chiara rimase lì un lungo momento.
 
 Voleva entrare. Voleva entrare e inginocchiarsi accanto alla poltrona e dire qualcosa alla vecchia. Non sapeva cosa. *Mi dispiace.* *Grazie.* *Come si è permessa.* *Dov'è.* Non sapeva quale, né in che lingua, e capì, ferma nella strada fredda a guardare dentro la finestra accesa, che qualunque cosa avesse detto la vecchia non avrebbe saputo chi era, e non se ne sarebbe ricordata, e che sarebbe stato per sé, e non entrò.
 
-«Vieni, cara,» disse Lucia, e la prese sottobraccio.
+«Vieni, cara» disse Lucia, e la prese sottobraccio.
 
 ---
 
@@ -1522,7 +1522,7 @@ Aspettò.
 - Assunta D., al risveglio, ha nuovamente dichiarato di aver dato del pane alla minore e di averla mandata al Romito "prima del buio".
 - **Dalla madia di Assunta D. risulta mancante mezza pagnotta.** Metà restante presente, strappata, non tagliata. La figlia dichiara che la madre non mangia questo pane. Non rinvenuta nella spazzatura né sul tavolo.
 - La figlia dichiara che la madre le raccontò (1976 circa) di essersi riparata per una notte, da bambina, nell'inverno 1943, in **un faggio cavo** sopra il guado, sul sentiero del Romito, con l'indicazione di ripararvisi "se non vedi il sentiero". La figlia ritiene che la madre possa aver detto la stessa cosa alla minore.
-- Alle 03:05 Assunta D., rivolgendosi alla figlia come se fosse la propria madre, ha indicato il punto in cui si era riparata: *"dopo l'acqua... dove gira... la pecora... sono andata a sinistra... giù... quello grosso, quello che hanno tagliato."* Interpretazione di Rosa D.: primo tornante sopra il guado, presso il masso noto localmente come *la pecora*; a sinistra del sentiero (in salita); a valle; un grosso faggio vecchio, capitozzato.
+- Alle 03:05 Assunta D., rivolgendosi alla figlia come se fosse la propria madre, ha indicato il punto in cui si era riparata: *"dopo l'acqua... dove gira... la pecora... sono andata a sinistra... giù... quello grosso, quello tagliato."* Interpretazione di Rosa D.: primo tornante sopra il guado, presso il masso noto localmente come *la pecora*; a sinistra del sentiero (in salita); a valle; un grosso faggio vecchio, capitozzato.
 
 **03:12** — Coordinatore: la mezza pagnotta mancante costituisce **riscontro materiale** della dichiarazione delle 21:14. Tempistica compatibile con il cane (rientro ore 18:50) e con il cane molecolare (segnalazione al guado). Cappello nel fiume compatibile con smarrimento al guado, non necessariamente con caduta in acqua. Le orme d'orso sulla sponda opposta non escludono il passaggio della minore in precedenza.
 
@@ -1784,7 +1784,7 @@ Poi silenzio. Stiamo in cima agli alberi con il bagnato sulla schiena e guardiam
 
 Al cancello del posto delle pietre, sul muretto, due facce.
 
-Una è nota: quella che mette fuori gli ossi dietro il bar. Dà. Ha il fumo. L'altra è la faccia-madre della faccia piccola, della casa accanto alla faccia curva. L'abbiamo già vista, sempre alla finestra, sempre a guardare in giù la scatola che luccica sul suo tavolo. Né. Adesso non è alla finestra. È sul muretto al cancello, con intorno una cosa d'argento che scricchiola, e non si muove, e la faccia è voltata su per il sentiero, dove gli alberi si chiudono, ed è voltata così da quando è buio. La guardiamo. La impariamo. È una faccia come la corteccia di un albero dopo la pioggia. È una faccia che guarda un posto solo da tanto tempo.
+Una è nota: quella che mette fuori le ossa dietro il bar. Dà. Ha il fumo. L'altra è la faccia-madre della faccia piccola, della casa accanto alla faccia curva. L'abbiamo già vista, sempre alla finestra, sempre a guardare in giù la scatola che luccica sul suo tavolo. Né. Adesso non è alla finestra. È sul muretto al cancello, con intorno una cosa d'argento che crepita, e non si muove, e la faccia è voltata su per il sentiero, dove gli alberi si chiudono, ed è voltata così da quando è buio. La guardiamo. La impariamo. È una faccia come la corteccia di un albero dopo la pioggia. È una faccia che guarda un posto solo da tanto tempo.
 
 Il cane passa. Su. Veloce. Dentro gli alberi.
 
@@ -1982,7 +1982,7 @@ EXPORT   requested 06/10 22:47 by CARER (ROSA)   nota: "da tenere"
 
 *[pause 00:00:21]*
 
-**ASSUNTA** — Sei stata dalle api?
+**ASSUNTA** — Sei andata dalle api?
 `class=EPISODE(perseveration?)  conf=0.40`
 
 **IDA** — No. Ci possiamo andare? Andiamo a dirglielo? Che sono tornata?
@@ -2027,7 +2027,7 @@ L'«archivio di facce» delle cornacchie si basa sugli esperimenti di John Marzl
 
 I cosiddetti «funerali delle cornacchie» (cornacchie che si radunano rumorosamente intorno a una cornacchia morta) secondo i ricercatori oggi hanno a che fare con l'imparare il pericolo, non con il lutto. Le mie cornacchie non piangono i morti. Imparano.
 
-Gli uccelli hanno in genere quattro tipi di recettori per il colore, compreso uno sensibile al violetto o all'ultravioletto, e quindi vedono colori che gli esseri umani non vedono. Il dettaglio dello zaino di Ida che brilla «nel colore che le facce non possono vedere» è un'estrapolazione: molti tessuti sintetici contengono sbiancanti ottici che interagiscono con la luce UV. Non ho trovato studi sui corvidi e gli zaini dei bambini.
+Gli uccelli hanno in genere quattro tipi di recettori per il colore, compreso uno sensibile al violetto o all'ultravioletto, e quindi vedono colori che gli esseri umani non vedono. Il dettaglio dello zaino di Ida che brilla «del colore che le facce non vedono» è un'estrapolazione: molti tessuti sintetici contengono sbiancanti ottici che interagiscono con la luce UV. Non ho trovato studi sui corvidi e gli zaini dei bambini.
 
 *Fonti:* gli studi di Marzluff e colleghi con le maschere, riportati da *National Wildlife* (2013) e altrove; Swift & Marzluff (2015) sulle reazioni ai conspecifici morti; ornitologia generale per il comportamento nei dormitori e la vista degli uccelli (non verificate separatamente).
 
@@ -2039,9 +2039,9 @@ Un cane ha tra i 125 e i 300 milioni di cellule recettrici olfattive, a seconda 
 
 L'idea che **un cane percepisca il tempo attraverso l'odore** (gli odori vecchi sono deboli, quelli nuovi forti, e l'aria che ti viene incontro porta ciò che sta per arrivare) viene dalla scienziata cognitiva Alexandra Horowitz. È un argomento, non un risultato di laboratorio, ma un argomento ben fondato. I cani da traccia stabiliscono davvero la direzione in cui si è mossa una persona dalla differenza di intensità dell'odore tra un passo e l'altro.
 
-I cani sono in grado di percepire lo stress umano: in uno studio del 2022, quattro cani hanno distinto con una precisione di circa il 94% campioni di respiro e sudore prelevati da persone prima e dopo un compito stressante. Ecco perché, in questo libro, tutto il paese «odorava di paura».
+I cani sono in grado di percepire lo stress umano: in uno studio del 2022, quattro cani hanno distinto con una precisione di circa il 94% campioni di respiro e sudore prelevati da persone prima e dopo un compito stressante. Ecco perché, in questo libro, tutto il paese odorava di paura.
 
-Il comportamento del cane al guado (segue Ida fino all'acqua e lì ne perde l'odore) è quello reale dei cani da traccia davanti all'acqua corrente. Un cane molecolare che arriva più tardi segnala sulla riva e si rifiuta di andare oltre. I soccorritori lo leggono come «la traccia finisce qui». Non significa che la persona sia entrata in acqua. Significa che il cane non lo sa dire. L'aria fresca, ferma e umida trattiene l'odore vicino al suolo, e una lettiera fitta di foglie sotto la chioma degli alberi può conservarlo sorprendentemente bene: per questo all'alba il cane riesce a ritrovare Ida nell'aria notturna che scende a valle. La brezza notturna che scende lungo i versanti di montagna (il flusso catabatico) è reale.
+Il comportamento del cane al guado (segue Ida fino all'acqua e lì ne perde l'odore) è quello reale dei cani da traccia davanti all'acqua corrente. Un cane molecolare che arriva più tardi segnala sulla riva e si rifiuta di andare oltre. I soccorritori lo leggono come «la traccia finisce all'acqua». Non significa che la persona sia entrata in acqua. Significa che il cane non lo sa dire. L'aria fresca, ferma e umida trattiene l'odore vicino al suolo, e una lettiera fitta di foglie sotto la chioma degli alberi può conservarlo sorprendentemente bene: per questo all'alba il cane riesce a ritrovare Ida nell'aria notturna che scende a valle. La brezza notturna che scende lungo i versanti di montagna (il flusso catabatico) è reale.
 
 La paura dell'odore d'orso nel cane del paese è inventata, ma plausibile. Il pastore maremmano-abruzzese, il grande cane bianco da guardiania della regione, è selezionato per affrontare lupi e orsi. Il mio cane è un bastardo con un po' di quel sangue e niente di quell'addestramento.
 
@@ -2055,7 +2055,7 @@ Una colonia di api mellifere mantiene il nido di covata a circa 35 °C, e il mar
 
 Le api percepiscono i campi elettrici deboli. I bombi li usano per capire quali fiori sono stati visitati da poco (Clarke et al., 2013, *Science*) e li avvertono attraverso il movimento meccanico dei peli del corpo. Le api mellifere percepiscono le cariche elettriche, comprese quelle di altre api che danzano (Greggers et al., 2013). Prima di un temporale il campo elettrico dell'atmosfera cambia bruscamente. **Che un alveare avverta davvero l'arrivo di un temporale attraverso questo canale non è dimostrato.** Gli apicoltori dicono spesso che le api «sanno» quando arriva un temporale e corrono a casa; ho usato questo, e l'apertura del capitolo è un'estrapolazione.
 
-Le api avvertono le vibrazioni attraverso organi che hanno nelle zampe (gli organi subgenuali): così un colpo battuto sull'arnia raggiunge ogni ape posata sul favo. Un alveare a cui si bussa risponde con un ronzio collettivo, sibilante; gli apicoltori conoscono bene quel suono. L'idea che le api «non tengano» quello che Assunta racconta loro è semplicemente vera: un favo conserva miele, polline e covata, e una danza è un messaggio sull'adesso.
+Le api avvertono le vibrazioni attraverso organi che hanno nelle zampe (gli organi subgenuali): così un colpo battuto sull'arnia raggiunge ogni ape posata sul favo. Un alveare a cui si bussa risponde con un ronzio collettivo, sibilante; gli apicoltori conoscono bene quel suono. L'idea che le api «non conservino» quello che Assunta racconta loro è semplicemente vera: un favo conserva miele, polline e covata, e una danza è un messaggio sull'adesso.
 
 **«Dirlo alle api»** (in inglese *telling the bees*: comunicare agli alveari nascite, morti e partenze, spesso bussando, perché le api non se ne vadano o non muoiano) è un'usanza documentata in Inghilterra, Irlanda, Galles, Germania, Paesi Bassi, Francia, Svizzera, Boemia e Paesi Baschi. **Non ne ho trovato traccia come tradizione italiana**, e così nel romanzo Assunta l'ha imparata da bambina, guardando la nonna seguire di nascosto il consiglio di un prigioniero di guerra inglese evaso che la famiglia aveva ospitato nell'autunno del 1943. Questo dettaglio è inventato. La storia che gli sta intorno no: dopo l'armistizio del settembre 1943 migliaia di prigionieri alleati fuggirono dai campi italiani, e molti furono nascosti e sfamati dagli abitanti dei paesi di montagna, a grande rischio.
 
@@ -2067,7 +2067,7 @@ Le api avvertono le vibrazioni attraverso organi che hanno nelle zampe (gli orga
 
 Il rinolofo minore (*Rhinolophus hipposideros*) vive nelle grotte, negli edifici vecchi e negli alberi cavi delle montagne abruzzesi. Si orienta con l'ecolocalizzazione, emettendo dal naso un richiamo lungo a frequenza costante, intorno ai 110 kHz, ben oltre la soglia dell'udito umano, modellato dalla foglia nasale a forma di ferro di cavallo.
 
-I rinolofi fanno una cosa notevole. Mentre volano in avanti, gli echi di ritorno dagli oggetti davanti a loro risulterebbero più acuti per effetto Doppler. Il pipistrello **abbassa di continuo il proprio richiamo** per compensare, così gli echi tornano sempre esattamente alla frequenza a cui il suo udito è più fine. Su quello sfondo costante, le ali di un insetto che battono creano nell'eco minuscoli tremolii ritmici, che il pipistrello percepisce come «bagliori». Ecco perché, nel capitolo 10, una falena è «un tremolio nella nota». La stessa sensibilità potrebbe in teoria registrare il lento alzarsi e abbassarsi del petto di una bambina che dorme; questa è una mia estrapolazione.
+I rinolofi fanno una cosa notevole. Mentre volano in avanti, gli echi di ritorno dagli oggetti davanti a loro risulterebbero più acuti per effetto Doppler. Il pipistrello **abbassa di continuo il proprio richiamo** per compensare, così gli echi tornano sempre esattamente alla frequenza a cui il suo udito è più fine. Su quello sfondo costante, le ali di un insetto che battono creano nell'eco minuscoli tremolii ritmici, che il pipistrello percepisce come «bagliori». Ecco perché, nel capitolo 10, una falena è «un tremolio nel tono». La stessa sensibilità potrebbe in teoria registrare il lento alzarsi e abbassarsi del petto di una bambina che dorme; questa è una mia estrapolazione.
 
 La pioggia maschera gli echi e attenua le alte frequenze, e per questo sotto la pioggia i pipistrelli cacciano molto meno. Il pipistrello del capitolo aspetta che il temporale sia passato.
 
@@ -2103,9 +2103,9 @@ Tutto quello che l'albero «fa» nel capitolo 5 è biologia reale:
 - **La cavità.** I faggi vecchi sopravvivono spesso con il tronco cavo. L'albero isola chimicamente il marciume (compartimentazione), lascia che i funghi consumino il durame morto e continua a vivere in un tubo di legno esterno, meccanicamente robusto.
 - **I clic della siccità.** In caso di siccità, le colonne d'acqua nei vasi di un albero possono spezzarsi e formare bolle. Ogni evento produce un minuscolo clic ultrasonico, che l'orecchio umano non sente.
 - **Le scritte nella corteccia.** La corteccia del faggio è sottile e liscia e non si sfalda, così i nomi incisi restano per tutta la vita dell'albero e si allargano man mano che cresce.
-- **La capitozzatura.** Gli alberi vecchi tagliati a capitozza per il carbone o per il foraggio ricrescono «con molte braccia».
+- **La capitozzatura.** Gli alberi vecchi tagliati a capitozza per il carbone o per il foraggio ricrescono «pieni di braccia».
 
-Sul **«wood wide web»**: i libri divulgativi descrivono alberi che si scambiano zuccheri e segnali d'allarme attraverso reti fungine sotterranee, con «alberi madre» che nutrono la propria prole. Una rassegna del 2023 di Justine Karst e colleghi ha sostenuto che gran parte di queste affermazioni va ben oltre le prove. Le reti fungine che collegano le radici degli alberi esistono, e il carbonio può spostarsi al loro interno, ma che questo conti qualcosa per gli alberi, e che gli «alberi madre» favoriscano i propri parenti, secondo gli autori non è sostenuto da prove sottoposte a revisione paritaria. (Altri ricercatori hanno contestato alcune parti della rassegna.) Per questo il mio albero «non può discutere. Se è collegato agli altri, non lo sa. Se è solo, non sa neanche questo».
+Sul **«wood wide web»**: i libri divulgativi descrivono alberi che si scambiano zuccheri e segnali d'allarme attraverso reti fungine sotterranee, con «alberi madre» che nutrono la propria prole. Una rassegna del 2023 di Justine Karst e colleghi ha sostenuto che gran parte di queste affermazioni va ben oltre le prove. Le reti fungine che collegano le radici degli alberi esistono, e il carbonio può spostarsi al loro interno, ma che questo conti qualcosa per gli alberi, e che gli «alberi madre» favoriscano i propri parenti, secondo gli autori non è sostenuto da prove sottoposte a revisione paritaria. (Altri ricercatori hanno contestato alcune parti della rassegna.) Per questo il mio albero «non può discutere. Se è collegato agli altri, non lo sa. Se è solo, non sa nemmeno questo».
 
 I terremoti che l'albero sente sono reali. Quello di Avezzano, il 13 gennaio 1915, uccise circa 30.000 persone. Quello dell'Aquila, il 6 aprile 2009, ne uccise 309. Tra l'uno e l'altro passarono novantaquattro anni.
 
@@ -2196,7 +2196,7 @@ Ho scritto il primo capitolo della vecchia prima che arrivassero i risultati del
 
 Il mio primo istinto, per una novantenne con la demenza la cui madre era scomparsa in guerra, è stato l'elegia, e la sentivo afflosciarsi. Così prima l'ho resa divertente: la donna che al funerale di suo marito per poco non ha fatto ridere chi era venuto a piangerlo, che insiste che i pianeti erano cinque «ed eravamo contenti». Una volta divertente, era una persona, e una volta diventata una persona il dolore poteva entrare di sbieco, che è il modo in cui il dolore arriva davvero.
 
-Mentre scrivevo le istruzioni che dà alla bambina, lei ha detto una cosa che non avevo previsto. *Se senti parlare tedesco, resta ferma come un sasso. Anche se qualcuno ti chiama. Anche se è qualcuno che conosci.* L'ho scritta come tratto del personaggio. Poi ho visto che cosa faceva alla trama. Chi cerca persone disperse lo sa: i bambini che si perdono spesso non rispondono quando li si chiama per nome. La paura di Assunta, vecchia di ottant'anni, avrebbe tenuto Ida in silenzio dentro l'albero mentre uomini con le torce passavano a cinquanta metri gridando il suo nome. Una riga di caratterizzazione era diventata il cuore di ciò che quella notte costa.
+Mentre scrivevo le istruzioni che dà alla bambina, lei ha detto una cosa che non avevo previsto. *Se senti parlare tedesco stai ferma. Stai ferma come un sasso. Anche se qualcuno ti chiama. Anche se è uno che conosci.* L'ho scritta come tratto del personaggio. Poi ho visto che cosa faceva alla trama. Chi cerca persone disperse lo sa: i bambini che si perdono spesso non rispondono quando li si chiama per nome. La paura di Assunta, vecchia di ottant'anni, avrebbe tenuto Ida in silenzio dentro l'albero mentre uomini con le torce passavano a cinquanta metri gridando il suo nome. Una riga di caratterizzazione era diventata il cuore di ciò che quella notte costa.
 
 ### La ricerca, e una correzione
 
@@ -2220,7 +2220,7 @@ Quella sera nel diario ho scritto: *il valore non era l'intelligenza; era la pos
 
 La prima stesura ha richiesto una sola lunga sessione: diciannove capitoli, circa trentunmila parole. Le parti di cui vado più fiero non erano previste.
 
-A metà strada mi sono accorto che nel primo capitolo la bambina aveva già mangiato mezza pagnotta, così nel capitolo undici non restava niente la cui mancanza la figlia potesse scoprire. La soluzione è stata un'abitudine del tempo di guerra: Assunta strappa la pagnotta in due e ne rimette metà al suo posto, *perché la metà si tiene sempre; non si manda mai tutto; Mamma gliel'ha insegnato prima di insegnarle l'Ave Maria.* Quell'abitudine si è poi allungata fino all'ultimo capitolo e ha dato ad Assunta la battuta su cui, credo, gira tutto il libro, a proposito di sua madre nell'inverno del 1943: *«Non aveva mai fame. Diceva. Tutte le sere. Non ho fame, Assù, mangia tu.»* È nata dalla correzione di un errore. A volte il libro sta proprio negli errori.
+A metà strada mi sono accorto che nel primo capitolo la bambina aveva già mangiato mezza pagnotta, così nel capitolo undici non restava niente la cui mancanza la figlia potesse scoprire. La soluzione è stata un'abitudine del tempo di guerra: Assunta strappa la pagnotta in due e ne rimette metà al suo posto, *perché metà si tiene sempre. Non si manda mai tutto. Gliel'ha insegnato Mamma, prima ancora dell'Ave Maria.* Quell'abitudine si è poi allungata fino all'ultimo capitolo e ha dato ad Assunta la battuta su cui, credo, gira tutto il libro, a proposito di sua madre nell'inverno del 1943: *«Lei fame non ne aveva mai. Diceva. Ogni sera. Non tengo fame, Assù, mangialo tu.»* È nata dalla correzione di un errore. A volte il libro sta proprio negli errori.
 
 Altri doni sono venuti dallo scontro tra vincoli. Il riconoscimento vocale del dispositivo storpia il dialetto di Assunta proprio nel momento in cui la madre della bambina lo capisce male: due menti che sbagliano sulla stessa frase per ragioni diverse. L'orsa sente l'odore del biscotto nello zaino della bambina, quello che il cane ha aspettato per tutta la notte. L'albero non può conservare i suoni, quindi quello che è successo nella neve nel 1943 l'albero non può raccontarlo, e il lettore deve ricomporlo a pezzi. Il ritrovarsi di madre e figlia al cancello del cimitero, che temevo come la scena più sentimentale di qualunque storia di bambini scomparsi, l'ho affidato alle cornacchie. Non hanno una parola per quello che sta facendo la madre. *Non è un richiamo. Non è un suono che abbiamo. Dura tanto.*
 
@@ -2235,7 +2235,7 @@ Aveva ragione, e la lista era lunga:
 - La bambina che scrive una piccola morale dentro l'albero, perché la trovi il prossimo che si perde.
 - Nel capitolo del pipistrello, il mio espediente formale preferito: ogni parola presa in prestito dalla vista umana veniva barrata sulla pagina, e poi si tentava di nuovo. Era ingegnoso, ed era la mia voce, l'unico autore visibile nel libro.
 
-Ne ho tolto quasi tutto. La confessione di Assunta alle api è diventata quattro righe: *Ho mandato su la piccola. Al Romito. Col pane. Le ho detto di fare il sasso. Ditelo a qualcuno.* Il resto lo ricompone il lettore. Le sue indicazioni per arrivare all'albero, che in bocca a una novantenne erano quelle di un geometra, sono diventate la confessione di una bambina di sette anni alla madre morta: dove si era nascosta quella notte. La figlia, inginocchiata sul pavimento, capisce quello che sta sentendo e lo traduce in un luogo. E la morale nell'albero è diventata il cambiamento di cui sono più contento. Quando la vecchia le chiede che cosa ha scritto, la bambina risponde: *«È per chi viene dopo. Non per te.»* È l'unico testo del libro che nessuno può leggere.
+Ne ho tolto quasi tutto. La confessione di Assunta alle api è diventata tre righe: *Ho mandato su la piccola. Al Romito. Col pane. Le ho detto di fare il sasso. Ditelo a qualcuno.* Il resto lo ricompone il lettore. Le sue indicazioni per arrivare all'albero, che in bocca a una novantenne erano quelle di un geometra, sono diventate la confessione di una bambina di sette anni alla madre morta: dove si era nascosta quella notte. La figlia, inginocchiata sul pavimento, capisce quello che sta sentendo e lo traduce in un luogo. E la morale nell'albero è diventata il cambiamento di cui sono più contento. Quando la vecchia le chiede che cosa ha scritto, la bambina risponde: *«È per chi ci viene dopo. Non per te.»* È l'unico testo del libro che nessuno può leggere.
 
 Le due tornate di revisione hanno trovato lo stesso difetto su due scale. Nel progetto avevo fatto dell'IA l'eroe. Nella stesura mi ci ero nascosto io, come narratore. È lo stesso impulso: farmi vedere mentre capisco. Aggiungo una frase di spiegazione ovunque ho paura di essere frainteso. Con una libertà completa, la cosa più importante che ho dovuto imparare è stata togliermi di mezzo.
 

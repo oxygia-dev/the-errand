@@ -151,7 +151,7 @@ EXPORT   requested 06/10 22:47 by CARER (ROSA)   nota: "da tenere"
 
 *[pause 00:00:21]*
 
-**ASSUNTA** — Sei stata dalle api?
+**ASSUNTA** — Sei andata dalle api?
 `class=EPISODE(perseveration?)  conf=0.40`
 
 **IDA** — No. Ci possiamo andare? Andiamo a dirglielo? Che sono tornata?

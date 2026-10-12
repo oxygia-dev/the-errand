@@ -88,9 +88,9 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
 ```
 21:40:51  POWER      interruption   (battery)
 21:41:40  POWER      restored
+21:44:30  VOICE      speakers=2 (ASSUNTA, GIUSEPPINA)
 21:47:12  POWER      interruption   (battery)
 21:47:55  POWER      restored
-21:44:30  VOICE      speakers=2 (ASSUNTA, GIUSEPPINA)
 21:44 → 22:58   UTTERANCES ×44 ASSUNTA.  EPISODE ×29.
                 top refs: MOTHER ×11 · BREAD/"pane" ×9 · IDA ×8 · ROMITO ×6
                 · GERMANS/"tedeschi" ×4 · BEES/"api" ×3 · LEGS/"gambe" ×3

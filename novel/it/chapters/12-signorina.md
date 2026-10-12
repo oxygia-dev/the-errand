@@ -14,7 +14,7 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
 
 ```
 17:38:02  VOICE      speakers=2 (ASSUNTA, IDA)   topic=school/planets
-17:39:40  UTTERANCE  ASSUNTA  "ai miei tempi c'erano cinque pianeti ed eravamo contenti"
+17:39:40  UTTERANCE  ASSUNTA  "ai tempi miei c'erano cinque pianeti e bastavano"
                      class=HUMOUR   conf=0.62
 17:58:15  RADAR      ASSUNTA stand→walk→madia   gait=slow, stable
 17:58:51  UTTERANCE  ASSUNTA  "sono in ritardo"
@@ -88,9 +88,9 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
 ```
 21:40:51  POWER      interruption   (battery)
 21:41:40  POWER      restored
+21:44:30  VOICE      speakers=2 (ASSUNTA, GIUSEPPINA)
 21:47:12  POWER      interruption   (battery)
 21:47:55  POWER      restored
-21:44:30  VOICE      speakers=2 (ASSUNTA, GIUSEPPINA)
 21:44 → 22:58   UTTERANCES ×44 ASSUNTA.  EPISODE ×29.
                 top refs: MOTHER ×11 · BREAD/"pane" ×9 · IDA ×8 · ROMITO ×6
                 · GERMANS/"tedeschi" ×4 · BEES/"api" ×3 · LEGS/"gambe" ×3

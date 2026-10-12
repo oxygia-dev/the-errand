@@ -10,7 +10,7 @@ La donna sta seduta dritta dritta, col cappotto piegato in grembo, come si sta s
 
 Assunta riconosce le mani prima della faccia.
 
-«Mà», dice.
+«Mà» dice.
 
 ---
 
@@ -18,7 +18,7 @@ La donna non si muove.
 
 Assunta la vede decidere qualcosa. Lo vede passare sulla faccia lunga come l'ombra di un uccello su un muro. Poi la faccia fa una cosa che Assunta non le vede fare da tanto tempo, o non le ha mai visto fare: si lascia andare. Si ammorbidisce intorno alla bocca.
 
-«Sì», dice la donna. Piano. «Sono qua, Assù.»
+«Sì» dice la donna. Piano. «Sono qua, Assù.»
 
 Oh.
 
@@ -26,21 +26,21 @@ Oh, com'è stanca. È scesa con la neve. Guardala. Neve addosso non ne ha, ma è
 
 Le mani della donna sono calde. È così che si capisce. I morti hanno le mani fredde, lo sanno tutti.
 
-«Scusami, Mà», dice Assunta.
+«Scusami, Mà» dice Assunta.
 
 «Di che?»
 
 «Non potevo venire. Le gambe.» Cerca di fargliele vedere, cerca di sollevare una delle gambe di legno vecchio sotto la coperta, e non ci riesce. «Sono così vecchia, Mà. Guardami. Sono più vecchia di te.» E ride, perché è buffo, perché è terribile, e ride anche la donna, una risata corta che le esce come un colpo di tosse e ha dietro qualcos'altro.
 
-«Lo so», dice la donna. «Lo so che lo sei.»
+«Lo so» dice la donna. «Lo so che lo sei.»
 
 «Così ho mandato il pane.»
 
 Le mani della donna si fermano sulle sue.
 
-«Con la piccola», dice Assunta. «Quella della romana. L'hai vista. È brava. È una brava bambina, Mà, ascolta, non come gli altri, lei *ascolta*, ti guarda quando parli. La strada per il Romito la sa. Stamattina è salita col santo. Io non potevo andare. Li ho guardati salire.» Le si stringe il petto, a raccontarlo. È in ritardo, era in ritardo, e adesso deve spiegare, e spiegare è come andare su per una salita. «Le ho dato il pane del furgone. Non è pane vero. È una spugna per la macchina. Scusami. Ed è solo metà. Metà l'ho tenuta. Metà si tiene sempre, dicevi tu. Hai detto porta quello che c'è.»
+«Con la piccola» dice Assunta. «Quella della romana. L'hai vista. È brava. È una brava bambina, Mà, ascolta, non come gli altri, lei *ascolta*, ti guarda quando parli. La strada per il Romito la sa. Stamattina è salita col santo. Io non potevo andare. Li ho guardati salire.» Le si stringe il petto, a raccontarlo. È in ritardo, era in ritardo, e adesso deve spiegare, e spiegare è come andare su per una salita. «Le ho dato il pane del furgone. Non è pane vero. È una spugna per la macchina. Scusami. Ed è solo metà. Metà l'ho tenuta. Metà si tiene sempre, dicevi tu. Hai detto porta quello che c'è.»
 
-«Quando», dice la donna. La voce le è cambiata. È ancora dolce, ma adesso sotto c'è qualcosa, qualcosa di molto dritto, come un bastone in un ruscello. «Quando è andata, Assù?»
+«Quando» dice la donna. La voce le è cambiata. È ancora dolce, ma adesso sotto c'è qualcosa, qualcosa di molto dritto, come un bastone in un ruscello. «Quando è andata, Assù?»
 
 «Prima del buio. Gliel'ho detto, prima del buio.» Assunta guarda oltre lei, la finestra. Il nero. «È buio?»
 
@@ -58,7 +58,7 @@ Assunta la guarda sollevare il coperchio. L'odore esce nella stanza — farina, 
 
 Sta guardando il pane. Assunta lo sa. Mamma guardava sempre nella madia. Per prima cosa, ogni mattina, prima del fuoco, sollevava il coperchio e guardava dentro e contava con gli occhi quello che c'era, e dalla schiena capivi quanti giorni.
 
-«Ce n'è solo metà», dice Assunta alla schiena. «Lo so. Te l'ho detto.»
+«Ce n'è solo metà» dice Assunta alla schiena. «Lo so. Te l'ho detto.»
 
 La donna mette la mano nella madia. Tira fuori la carta. La mezza pagnotta nella sua carta, strappata, non tagliata, il bordo sfrangiato dove è stata strappata, dove l'hanno strappata le sue mani, le due paia di mani. La donna la solleva verso la lampada come fosse una lettera. La gira.
 
@@ -82,11 +82,11 @@ Assunta ha perso il filo. Guarda la finestra. Il bagliore bianco laggiù. Voci, 
 
 Rosa è di nuovo in ginocchio davanti a lei. Quando è successo. Rosa tiene il telefono premuto contro il petto, contro la camicetta, perché l'uomo dentro non senta, e con l'altra mano tiene la mano di Assunta, stretta, troppo stretta.
 
-«Mamma», dice Rosa. «Mamma, guardami.»
+«Mamma» dice Rosa. «Mamma, guardami.»
 
 Lei guarda.
 
-«L'albero», dice Rosa. «Mamma. Dov'è l'albero?»
+«L'albero» dice Rosa. «Mamma. Dov'è l'albero?»
 
 E la donna in ginocchio davanti a lei le sta chiedendo dov'era.
 
@@ -96,17 +96,17 @@ Ma certo. È questa la domanda. Mà in ginocchio per terra davanti a lei, con qu
 
 Rosa dice qualcosa al telefono, svelta, a bassa voce. Assunta ne sente dei pezzi. *Dopo il guado. Dove gira, la prima curva — c'è un sasso, lo conoscono tutti, lo chiamano la pecora. A sinistra del sentiero. In discesa. Uno grosso che è stato tagliato, un vecchio albero capitozzato. Sì. Sì. Credo di sì. Sì.*
 
-«Dentro faceva caldo», dice Assunta. «Non ci crederesti, che caldo.»
+«Dentro faceva caldo» dice Assunta. «Non ci crederesti, che caldo.»
 
 Rosa smette di ripeterlo al telefono. Guarda sua madre. La sua faccia sta facendo una cosa terribile, e Assunta vorrebbe posarci sopra la mano per farla smettere.
 
-«Lo so, Mamma», dice Rosa. «Me l'hai detto.»
+«Lo so, Mamma» dice Rosa. «Me l'hai detto.»
 
 «Ah sì?»
 
 «Una volta.»
 
-«Mh», fa Assunta. È così stanca. È stanca come si è stanchi dopo aver portato una cosa per tanta strada e averla posata. Lascia andare la testa contro lo schienale.
+«Mh» fa Assunta. È così stanca. È stanca come si è stanchi dopo aver portato una cosa per tanta strada e averla posata. Lascia andare la testa contro lo schienale.
 
 Rosa parla di nuovo al telefono, ma più piano adesso, camminando, fuori nel corridoio, verso la porta. *Sì. La strada forestale. Sì, glielo dico. No, resto con mia madre. Sì. Grazie. Brigadiere — grazie. No, lo so. Lo so che l'avete fatto.*
 
@@ -116,9 +116,9 @@ Quando Rosa torna non si siede al tavolo. Gira l'altra sedia e si siede accanto 
 
 Sulla mensola la macchinetta è accesa. Bianca. Paziente.
 
-«Signorina», dice Assunta, perché è lì. «C'è Rosa.»
+«Signorina» dice Assunta, perché è lì. «C'è Rosa.»
 
-*Ciao, Rosa*, dice la macchina.
+*Ciao, Rosa*, dice la macchinetta.
 
 Rosa ride, quella risata come una tosse, e si asciuga la faccia col palmo della mano.
 
@@ -126,12 +126,12 @@ Gli uomini giù al fiume chiamano ancora. Adesso Assunta li sente meglio. *Ida. 
 
 È sparita. Come una rondine che passa davanti alla finestra.
 
-«Rosa», dice invece. «La ragazzina è tornata?»
+«Rosa» dice invece. «La ragazzina è tornata?»
 
 Rosa le tiene la mano. Gliela tiene a lungo prima di rispondere, e quando risponde è con una voce che Assunta non le ha mai sentito, una voce come quando si mette una coperta addosso a qualcuno.
 
-«Non ancora, Mamma», dice. «Sono andati a prenderla.»
+«Non ancora, Mamma» dice. «Sono andati a prenderla.»
 
-«Bene», dice Assunta. «Fa freddo lassù.»
+«Bene» dice Assunta. «Fa freddo lassù.»
 
 Chiude gli occhi.

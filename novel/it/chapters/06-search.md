@@ -106,7 +106,7 @@ Nota: i residenti Franco D. e Sandro P. hanno percorso il settore M e la parte b
 
 **00:37** — I Forestali segnalano: orso bruno marsicano, femmina adulta con piccoli. Nessun attacco mortale all'uomo documentato. Tuttavia la femmina con piccoli è la configurazione che richiede la massima cautela. Si raccomanda di non impiegare personale a piedi nel settore F nelle ore notturne.
 
-**00:40** — Annotazione: il capo squadra CNSAS 1 al PCA: *"Il cappello sotto il ponte, il cane che si ferma all'acqua, le orme dall'altra parte. O sta nel fiume o sta di là con l'orsa. Lo so io quale mi fa più paura. Stanotte non ci aiuta né l'una né l'altra."*
+**00:40** — Annotazione: il caposquadra CNSAS 1 al PCA: *"Il cappello sotto il ponte, il cane che si ferma all'acqua, le orme dall'altra parte. O sta nel fiume o sta di là con l'orsa. Lo so io quale mi fa più paura. Stanotte non ci aiuta né l'una né l'altra."*
 
 **00:45** — Coordinatore, piano per la notte:
 - Settore R: si prosegue, massimo impiego di risorse. Squadra SAF fluviale VVF operativa dalle 23:35 su entrambe le sponde; richiesta seconda squadra da Pescara.

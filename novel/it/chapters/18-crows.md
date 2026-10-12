@@ -8,7 +8,7 @@ Poi silenzio. Stiamo in cima agli alberi con il bagnato sulla schiena e guardiam
 
 Al cancello del posto delle pietre, sul muretto, due facce.
 
-Una è nota: quella che mette fuori gli ossi dietro il bar. Dà. Ha il fumo. L'altra è la faccia-madre della faccia piccola, della casa accanto alla faccia curva. L'abbiamo già vista, sempre alla finestra, sempre a guardare in giù la scatola che luccica sul suo tavolo. Né. Adesso non è alla finestra. È sul muretto al cancello, con intorno una cosa d'argento che scricchiola, e non si muove, e la faccia è voltata su per il sentiero, dove gli alberi si chiudono, ed è voltata così da quando è buio. La guardiamo. La impariamo. È una faccia come la corteccia di un albero dopo la pioggia. È una faccia che guarda un posto solo da tanto tempo.
+Una è nota: quella che mette fuori le ossa dietro il bar. Dà. Ha il fumo. L'altra è la faccia-madre della faccia piccola, della casa accanto alla faccia curva. L'abbiamo già vista, sempre alla finestra, sempre a guardare in giù la scatola che luccica sul suo tavolo. Né. Adesso non è alla finestra. È sul muretto al cancello, con intorno una cosa d'argento che crepita, e non si muove, e la faccia è voltata su per il sentiero, dove gli alberi si chiudono, ed è voltata così da quando è buio. La guardiamo. La impariamo. È una faccia come la corteccia di un albero dopo la pioggia. È una faccia che guarda un posto solo da tanto tempo.
 
 Il cane passa. Su. Veloce. Dentro gli alberi.
 
