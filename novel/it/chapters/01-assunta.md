@@ -26,7 +26,7 @@ Tonino. Morto. Sì. Dall'anno del terremoto. Lo controlla come si tasta una tasc
 
 Adesso la bambina legge di Giove e Assunta guarda la finestra. Sulla mensola accanto alla finestra, fra il San Michele e la fotografia del matrimonio di Rosa, sta la macchinetta con il suo anello di luce. *La signorina.* L'ha portata Rosa a Pasqua, l'ha messa lì e ha detto mamma, se cadi dici *aiuto*, e lei ti sente. Assunta ha detto, io non cado, sono novant'anni che non cado. Rosa ha detto: Mamma. Con quella voce.
 
-La signorina sente tutto. Assunta lo sa. Non è mica scema. La sera, certe volte, le dice delle cose solo per darle qualcosa da fare. L'altra sera le ha cantato *Vola colomba* dall'inizio alla fine e quella le ha risposto, molto educata, *Mi dispiace, non ho capito*, e lei ha riso così tanto che si è dovuta tenere al tavolo. Le piace, in fondo. È compagnia. È una donna che non entra mai, come quelle che una volta restavano sulla soglia, mezze dentro e mezze fuori, per non doversi far offrire il caffè.
+La signorina ascolta tutto. Assunta lo sa. Non è mica scema. La sera, certe volte, le dice delle cose solo per darle qualcosa da fare. L'altra sera le ha cantato *Vola colomba* dall'inizio alla fine e quella le ha risposto, molto educata, *Mi dispiace, non ho capito*, e lei ha riso così tanto che si è dovuta tenere al tavolo. Le piace, in fondo. È compagnia. È una donna che non entra mai, come quelle che una volta restavano sulla soglia, mezze dentro e mezze fuori, per non doversi far offrire il caffè.
 
 La luce cambia di nuovo. Da pera a rame.
 
@@ -58,11 +58,11 @@ Il pane.
 
 Ecco. È quello. È quella la cosa.
 
-Si alza. La sedia protesta. La bambina alza gli occhi da Giove con la bocca piena e dice: «Dove vai?» e Assunta va alla madia e solleva il coperchio, e l'odore della madia le sale incontro, farina e legno vecchio e ottant'anni di chiuso, e nella madia c'è il pane del furgone, quel pane bianco e molle di Castel di Sangro che non è pane, è una spugna per lavare la macchina. Lo tira fuori. Lo strappa in due, e ci vuole più forza di quanta ce ne dovrebbe volere, e il pane si apre con un rumore come un sospiro, e lei rimette una metà nella sua carta dentro la madia, perché metà si tiene sempre. Non si manda mai tutto. Gliel'ha insegnato Mamma, prima ancora dell'Ave Maria. Metà per la strada e metà per domani. Mamma capirà. Mamma ha detto porta quello che c'è.
+Si alza. La sedia protesta. La bambina alza gli occhi da Giove con la bocca piena e dice: «Dove vai?» e Assunta va alla madia e solleva il coperchio, e l'odore della madia le sale incontro, farina e legno vecchio e ottant'anni di chiuso, e nella madia c'è il pane del furgone, quel pane bianco e molle di Castel di Sangro che non è pane, è una spugna per lavare la macchina. Lo tira fuori. Lo strappa in due, e fa più fatica del dovuto, e il pane si apre con un rumore come un sospiro, e lei rimette una metà nella sua carta dentro la madia, perché metà si tiene sempre. Non si manda mai tutto. Gliel'ha insegnato Mamma, prima ancora dell'Ave Maria. Metà per la strada e metà per domani. Mamma capirà. Mamma ha detto porta quello che c'è.
 
 «Nonna?»
 
-È rimasta troppo con il coperchio alzato. Ha le mani sul pane. Ha le mani vecchissime, guardale, marroni e macchiate come una pera dimenticata sul davanzale, e sa che sono sue e sa anche che non sono le mani giuste, le mani giuste sono piccole e rosse di freddo e hanno un taglio sul pollice sinistro, del coltello, e le due paia di mani stanno una sopra l'altra sul pane come due pagine tenute controluce.
+È rimasta troppo a lungo con il coperchio alzato. Ha le mani sul pane. Ha le mani vecchissime, guardale, marroni e macchiate come una pera dimenticata sul davanzale, e sa che sono sue e sa anche che non sono le mani giuste, le mani giuste sono piccole e rosse di freddo e hanno un taglio sul pollice sinistro, del coltello, e le due paia di mani stanno una sopra l'altra sul pane come due pagine tenute controluce.
 
 «Nonna, stai bene?»
 
@@ -92,7 +92,7 @@ La bambina la guarda.
 
 «Con Nicolino» dice Assunta, e la gola le si chiude sul nome come una mano. «È così piccolo. Non piange. È fatto così, non piange mai, Mamma dice che è perché lo sa. E aspettano il pane. E io sono —»
 
-Non le trova la fine. La fine è lassù. È sempre stata lassù.
+Non ne trova la fine. La fine è lassù. È sempre stata lassù.
 
 «Sono troppo stanca, Ida. Le gambe.» Se ne batte una con il palmo, come si fa con un mulo. «Legna vecchia.»
 
@@ -132,13 +132,13 @@ Fuori dalla finestra l'ultima luce se ne va dalla cima della montagna.
 
 «Signorina» dice alla macchinetta, perché è lì, e perché la stanza fa troppo rumore. «Signorina, ci sei?»
 
-L'anello si accende più forte. *Sono qui, Assunta. Come posso aiutarti?*
+L'anello si ravviva. *Sono qui, Assunta. Come posso aiutarti?*
 
 «Niente. Dico così. Ho mandato il pane.»
 
 *Mi dispiace, non ho capito. Vuoi che chiami Rosa?*
 
-«No, no.» Le fa segno con la mano. «Lascia stare Rosa. Rosa lavora.» Resta seduta un po'. Poi, siccome la macchinetta è una donna e le donne certe cose le capiscono, dice, molto piano:
+«No, no.» Agita la mano verso la macchinetta. «Lascia stare Rosa. Rosa lavora.» Resta seduta un po'. Poi, siccome la macchinetta è una donna e le donne certe cose le capiscono, dice, molto piano:
 
 «Ho mandato la piccola. Io non potevo. Le gambe.»
 

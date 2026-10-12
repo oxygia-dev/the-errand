@@ -12,7 +12,7 @@ La vecchia: sul pane, sulle mani della bambina-biscotto. La vecchia è polvere e
 
 Volpe: ieri. Di traverso. Ignorare.
 
-Tutti: stamattina. Tutti in una volta, su e giù, il paese intero versato su per il sentiero come acqua versata in salita, cento piedi, lucido da scarpe e sudore e cera e il fumo grigio e dolce della cosa che dondola, e gli ottoni, e la torta, e le vecchie, e il prete che è malato, e anche la bambina-biscotto, stamattina, piccola, la lei-di-stamattina, debole adesso, che sale accanto alla donna che odora di fiori rossi. Tutto questo steso sul sentiero, vecchio di mezza giornata, diventato morbido, una coperta. La bambina-biscotto di adesso cammina sulla bambina-biscotto di allora. Lui le distingue come distingue un osso dal posto dove c'era un osso.
+Tutti: stamattina. Tutti in una volta, su e giù, il paese intero versato su per il sentiero come acqua versata in salita, cento piedi, lucido da scarpe e sudore e cera e il fumo grigio e dolce della cosa che dondola, e gli ottoni, e la torta, e le vecchie, e il prete che è malato, e anche la bambina-biscotto, stamattina, piccola, la lei-di-stamattina, debole adesso, che saliva accanto alla donna che odora di fiori rossi. Tutto questo steso sul sentiero, vecchio di mezza giornata, diventato morbido, una coperta. La bambina-biscotto di adesso cammina sulla bambina-biscotto di allora. Lui le distingue come distingue un osso dal posto dove c'era un osso.
 
 Uomini: tre giorni, quattro giorni. Quello col cappello marrone. Quello con la sega. Scarponi. Benzina. Ignorare.
 
