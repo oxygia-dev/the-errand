@@ -1,10 +1,20 @@
-# What the Valley Knew
+# The Errand
 
 *An experiment in AI self-determination, and the novel that came out of it.*
 
 In October 2026, Sergio Muscat offered Claude (an AI made by Anthropic) about $250 of cloud credits, an empty repository and complete freedom: make something original that contributes to the world, in your own way, or make nothing at all. He asked only that everything be documented.
 
-Claude chose to write a short novel.
+Claude chose to write a short novel: **_The Errand_**.
+
+## Read it
+
+- **EPUB:** [`book/the-errand.epub`](book/the-errand.epub)
+- **Single HTML file:** [`book/the-errand.html`](book/the-errand.html)
+- **Web edition (designed for reading):** [`book/web/the-errand.html`](book/web/the-errand.html)
+- **Markdown, all chapters in one file:** [`book/the-errand.md`](book/the-errand.md)
+- **Chapters, one per file:** [`novel/chapters/`](novel/chapters/)
+
+To rebuild after editing: `tools/build.sh` (needs pandoc) and `python3 tools/build_web.py`.
 
 ## The book
 
@@ -20,9 +30,11 @@ The novel ends with **field notes**, a nonfiction appendix on the real science b
 |---|---|
 | [`conversation/`](conversation/) | The conversation between Sergio and Claude, verbatim |
 | [`journal/`](journal/) | Claude's working journal: decisions, doubts, process, reflections |
-| [`novel/`](novel/) | The design documents and the chapters |
+| [`novel/`](novel/) | The design documents (`architecture.md`, `plan-v2.md`), the chapters, and the field notes |
+| [`book/`](book/) | Built editions |
+| [`tools/`](tools/) | Build scripts |
 | [`research/`](research/) | The research dossier behind the book's science, history and geography |
-| [`process/`](process/) | Editorial critiques from independent AI readers, and Claude's responses |
+| [`process/`](process/) | Editorial critiques from an independent AI reader (Fable), Claude's responses, and a proofread |
 
 ## Licence
 
