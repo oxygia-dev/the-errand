@@ -6,7 +6,7 @@ SITE     via del Forno 4, Pietrafonda (AQ)
 USER     ASSUNTA D. (b. 1936)   profile: MCI→dementia (mod.), lives alone
 CARER    ROSA D. (daughter)   primary contact   +39 3•• ••• ••41
          GIUSEPPINA R. (neighbour)   secondary contact
-KNOWN    IDA (neighbour child) · CHIARA (neighbour) · DON PAOLO (priest)
+KNOWN    IDA (neighbour child) · CHIARA (neighbour) · DON CARLO (priest)
 VOICES
 SENSORS  mic array (far-field, 4) · radar (kitchen, bedroom) · door (front, back)
          · bed pressure · smoke/CO · temp
@@ -17,38 +17,25 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
 17:38:02  VOICE      speakers=2 (ASSUNTA, IDA)   topic=school/planets
 17:39:40  UTTERANCE  ASSUNTA  "in my day there were five planets and that was plenty"
                      class=HUMOUR   conf=0.62
-17:40:15  RADAR      ASSUNTA stand→walk→madia   gait=slow, stable
-17:40:51  UTTERANCE  ASSUNTA  "sono in ritardo"  [I'm late]
+17:58:15  RADAR      ASSUNTA stand→walk→madia   gait=slow, stable
+17:58:51  UTTERANCE  ASSUNTA  "sono in ritardo"
                      class=EPISODE(sundowning_agitation)   conf=0.74
-17:41:30  UTTERANCE  ASSUNTA  ASR: "sai la strada dietro il cimitero ... su al
-                     romito ... e là che sta mamma ... con nicolino"
-                     ASR conf=0.58 (dialect)
+17:59:30  UTTERANCE  ASSUNTA  ASR: "... su al romito ... e là che sta mamma ...
+                     con nicolino"   ASR conf=0.58 (dialect)
                      class=EPISODE(temporal_disorientation)   conf=0.91
-                     ref: deceased_relative(MOTHER) · deceased_relative(?NICOLINO)
                      note: NICOLINO not in profile
-17:42:05  UTTERANCE  ASSUNTA  "prima del buio ... prima dei tedeschi"
-                     class=EPISODE(temporal_disorientation)   conf=0.95
-17:42:31  UTTERANCE  ASSUNTA  "se senti il tedesco stai ferma ... anche se ti
-                     chiamano ... anche se è uno che conosci"
-                     class=EPISODE(temporal_disorientation)   conf=0.88
-17:43:10  UTTERANCE  ASSUNTA  "l'albero grosso ... con la porta ... ti fai
-                     piccola e aspetti che fa giorno"
-                     class=EPISODE(temporal_disorientation)   conf=0.80
-17:43:52  UTTERANCE  ASSUNTA  ASR: "ecco ma sono arrivata"
-                     class=EPISODE(perseveration?)   conf=0.41
-17:43:58  UTTERANCE  IDA      ASR: "ecco ma sono arrivata"
+18:00 → 18:02   UTTERANCES ×7 ASSUNTA.  EPISODE ×6.
+                ref: GERMANS ×1 · TREE ×2 · MOTHER ×2 · BREAD ×1
+18:02:20  UTTERANCE  IDA      "okay nonna sunta va bene"
                      class=—   (non-user speaker)
-17:44:20  UTTERANCE  IDA      "okay nonna sunta va bene"
-                     class=—   (non-user speaker)
-17:44:41  DOOR       front   OPEN
-17:44:49  DOOR       front   CLOSED
-17:44:50  VOICE      speakers=1 (ASSUNTA)
-17:51:06  UTTERANCE  ASSUNTA  "signorina ci sei"
+18:02:41  DOOR       front   OPEN
+18:02:49  DOOR       front   CLOSED
+18:05:06  UTTERANCE  ASSUNTA  "signorina ci sei"
                      → WAKE   response: "I'm here, Assunta. How can I help?"
-17:51:19  UTTERANCE  ASSUNTA  "niente ... dico ... ho mandato il pane"
+18:05:19  UTTERANCE  ASSUNTA  "niente ... dico ... ho mandato il pane"
                      intent=UNKNOWN   response: "I'm sorry, I didn't understand.
                      Would you like me to call Rosa?"
-17:51:30  UTTERANCE  ASSUNTA  "no no ... lascia stare rosa ... rosa lavora"
+18:05:30  UTTERANCE  ASSUNTA  "no no ... lascia stare rosa ... rosa lavora"
                      intent=CANCEL
 18:07:52  UTTERANCE  ASSUNTA  "ho mandato la piccola ... io non potevo ... le gambe"
                      intent=UNKNOWN   response: "Okay."
@@ -73,7 +60,6 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
 19:45:40  UTTERANCE  CHIARA   "grazie assunta"
 19:45:44  DOOR       front   CLOSED
 19:47:58  DOOR       front   OPEN
-19:48:05  UTTERANCE  CHIARA   "assunta non è a casa ... dov'è andata"
 19:48:11  UTTERANCE  ASSUNTA  "te l'ho detto ... lu pane ... a mamma ... è andata
                      ... io non potevo ... le gambe"
                      class=EPISODE(temporal_disorientation)   conf=0.77
@@ -90,18 +76,11 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
 ```
 21:10:14  DOOR       front   OPEN
 21:10:20  VOICE      speakers=3 (ASSUNTA, UNKNOWN_M1, UNKNOWN_M2)
-21:10:41  UTTERANCE  UNKNOWN_M1  "signora ha visto la bambina oggi pomeriggio ida"
-21:10:45  UTTERANCE  ASSUNTA  "sì era qua"
-21:11:02  UTTERANCE  UNKNOWN_M1  "sa dov'è andata"
 21:11:06  UTTERANCE  ASSUNTA  "l'ho mandata io ... su al romito ... col pane ...
                      per mia madre"
                      class=EPISODE(temporal_disorientation)   conf=0.86
-                     ref: deceased_relative(MOTHER)
 21:11:20  UTTERANCE  ASSUNTA  "bisogna andare prima che arrivano i tedeschi"
                      class=EPISODE(temporal_disorientation)   conf=0.97
-21:12:30  UTTERANCE  ASSUNTA  "sei un bravo ragazzo ... sei di concetta"
-                     class=EPISODE(misidentification)   conf=0.70
-21:13:02  UTTERANCE  UNKNOWN_M1  "grazie nonna"
 21:13:09  DOOR       front   CLOSED
 21:13:10  NOTE       unknown voices present 21:10–21:13 (2). Carer not notified
                      (rule: visitors non-escalating).
@@ -147,7 +126,7 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
                      escalate=NO
 23:13:31  UTTERANCE  GIUSEPPINA  "madonna sunta ma che fai ... con le api ...
                      sei fradicia"
-23:14:02  UTTERANCE  ASSUNTA  "gliel'ho detto alle api ... qualcuno deve dirlo"
+23:14:02  UTTERANCE  ASSUNTA  "gliel'ho detto alle api"
                      class=EPISODE(temporal_disorientation)   conf=0.66
 ```
 
@@ -155,12 +134,9 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
 23:20 → 00:44   UTTERANCES ×17 ASSUNTA (low volume). EPISODE ×15.
                 AMBIENT: KEYWORD "IDA" ×88.  helicopter: not detected.
                 generator noise from 23:30.
+00:21:11  RADAR      GIUSEPPINA head on table   (sleep likely)
 00:44:10  RADAR      ASSUNTA seated, armchair, no movement   (sleep likely)
 00:45:00  SLEEP      onset detected (chair)   note: not in bed
-00:52:11  RADAR      GIUSEPPINA head on table   (sleep likely)
-```
-
-```
 00:46:22  DOOR       front   OPEN
 00:46:30  VOICE      speakers=2 (GIUSEPPINA, ROSA)   ROSA voice match 0.98
 00:46:30  CARER      present
@@ -189,16 +165,13 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
 03:00:58  CALL       outbound (ROSA's device, not hub)   not logged
 03:01 → 03:08   UTTERANCES ×31 ROSA (call).  KEYWORD "IDA" ×4 ·
                 "romito" ×3 · "pane" ×6
-03:05:12  UTTERANCE  ROSA     "mamma l'albero ... l'albero con la porta ... dov'è
-                     esattamente"
-03:05:20  UTTERANCE  ASSUNTA  "dopo l'acqua ... passi l'acqua sulle pietre ...
-                     poi su ... dove il sentiero gira la prima volta c'è un
-                     sasso come una pecora coricata ... lasci il sentiero ...
-                     a sinistra ... cinquanta passi ... scende un po' ... ed
-                     eccola ... la madre ... la più grossa ... la porta guarda
-                     in giù"
+03:05:12  UTTERANCE  ROSA     "mamma ... l'albero ... dov'è l'albero"
+03:05:20  UTTERANCE  ASSUNTA  "ero nell'albero mà ... dopo l'acqua ... dove gira
+                     ... la pecora ... sono andata a sinistra ... giù ... quello
+                     grosso ... quello tagliato ... scusami ... era così buio"
                      class=EPISODE(temporal_disorientation)   conf=0.52
-03:06:01  UTTERANCE  ASSUNTA  "dentro fa caldo ... non ci crederesti"
+                     ref: deceased_relative(MOTHER) → present_person(ROSA)
+03:06:01  UTTERANCE  ASSUNTA  "dentro faceva caldo ... non ci crederesti"
                      class=EPISODE(temporal_disorientation)   conf=0.71
 03:06:05  UTTERANCE  ROSA     "lo so mamma ... me l'hai detto"
 03:09:40  UTTERANCE  ASSUNTA  "signorina ... c'è rosa"

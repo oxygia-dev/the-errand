@@ -42,7 +42,7 @@ The last hundred years are written mostly on the bark.
 
 The bark of a beech is thin and stays smooth for its whole life and does not crack and does not shed, so that what is written on it stays, and spreads as the tree grows, the letters widening year on year, a name cut by a boy becoming over decades a name the size of a man's hand, its edges rolled and swollen and grey.
 
-So: crosses, cut by shepherds, for luck or for counting. A date, 1888, the eights gone fat as snowmen. A heart with initials in it that no one living can read. Letters in another alphabet, cut deep and careful, by someone who had time and a good knife and was far from home, which have grown so wide now that they are only shapes. A row of notches. A J. An M. A date half-swallowed by the swelling bark around it, 194-, the last figure gone under.
+So: crosses, cut by shepherds, for luck or for counting. A date, 1888, the eights gone fat as snowmen. A heart with initials in it that no one living can read. Letters in another alphabet, cut deep and careful, by someone who had time and a good knife and was far from home, which have grown so wide now that they are only shapes. A row of notches. A J. A date half-swallowed by the swelling bark around it, 194-, the last figure gone under.
 
 The ground shakes once, hard, in a winter — the roots feel it as a long low shudder coming through the rock from the west, one of those shocks that knocks a town flat sixty kilometres away and leaves the forest standing as if nothing had happened, which for the forest is the case.
 
@@ -104,11 +104,15 @@ Now:
 
 The light is going. The leaves are closing their pores. All along the slope the beeches are letting their day's water go still in them, settling for the dark.
 
-Far off, beyond the ridge, the air has begun to move in a way it has not moved all summer. The tree feels it first in the crown: a pressure on the windward leaves, steady, then not steady, then a long sigh across the whole canopy of the slope, the leaves turning their pale undersides up all at once like a flock. The trunk takes the bending into itself and the roots grip and the long root-plate under the slope lifts by the width of a fingernail and settles back.
+Far off, to the west, across the valley, the air has begun to move in a way it has not moved all summer. The tree feels it first in the crown: a pressure on the windward leaves, steady, then not steady, then a long sigh across the whole canopy of the slope, the leaves turning their pale undersides up all at once like a flock. The trunk takes the bending into itself and the roots grip and the long root-plate under the slope lifts by the width of a fingernail and settles back.
 
 A sound, so low that it is not a sound but a shudder in the air. And another.
 
-And on the path below, feet. Small, uneven. Not going up. Going down, then not going down; stopping; turning; going a little way off the path among the trunks, through the litter, through the empty husks of last year's mast, toward the tree, then stopping again.
+And on the path below, feet. Small, uneven. Not going up. Going down, then not going down; stopping; turning one way, the other; stopping.
+
+Then light. White, from everywhere at once, for less time than it takes a leaf to turn over: every leaf on the slope taking it as a sudden noon, and losing it.
+
+The feet go off the path. Among the trunks, through the litter, through the empty husks of last year's mast, quickly, toward the tree, and stop.
 
 Then the hand. The same hand. The tree cannot know this. There is no record. But the hand comes to the lip of the door and holds it, hard this time, and the tree takes the weight of it, and then the weight of a whole small body climbing in through the door, a knee on the lip, a scrape, a breath, and the body goes down into the deep red dust at the bottom of the hollow, and folds up there.
 

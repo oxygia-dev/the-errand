@@ -20,7 +20,7 @@ The light goes the colour of the inside of a pear and Assunta knows she is late.
 
 She knows it the way she knows the stove is lit without touching it: in the back of the neck. Something has been left undone. It has been left undone all day, since the bells this morning, since the whole village went up past her window with the saint on their shoulders and the band playing that march they always play too fast, and she stood at the glass in her slippers and watched them go up without her. Her legs. Rosa said, on the telephone, Mamma, you can't, it's two hours there and back, you'll go next year. As if there are next years in a sack under the bed.
 
-Now the mountain has come closer to the window the way it does at this hour, the beeches gone from green to a single dark animal lying along the ridge, and above them the white scar of rock where the Romito is, which you cannot see from here, which she has never needed to see from here.
+Now the mountain has come closer to the window the way it does at this hour. The village is already in shadow, the sun gone behind the hills at its back, but across the valley the shadow is climbing the mountain like water filling a glass, and above the shadow the beeches are still lit, every one, gold, so close you could count them, and above them the white scar of rock where the Romito is, which you cannot see from here, which she has never needed to see from here.
 
 "Nonna Sunta. You're not listening."
 
@@ -54,7 +54,7 @@ It is because she is so tired. That is all. She has been tired since the morning
 
 There is no snow.
 
-She looks. No snow. September, the vines on Giuseppina's wall gone red, the swallows already gone, the bees — the bees. She hasn't been to the bees. She should tell the bees. You must tell the bees things or they leave. Nobody else in the valley knows this; it is hers. The Englishman said it, the one who slept two nights in the stable the autumn before the snow, with his feet wrapped in sacking, who was so thin and so polite. He saw Nonna's hives and said a long thing in his language and then, with his hands, made it clear: in his country, when someone dies, someone is born, you go to the bees and you tell them. Knock, knock. Tell. Otherwise they go. Nonna laughed at him. And then that night Assunta saw her go out to the hives in the dark in her apron, and bend down, and say something, very quietly, and come back in and not look at anyone.
+She looks. No snow. September, the vines on Giuseppina's wall gone red, the swallows already gone, the bees — the bees. She hasn't been to the bees. She should tell the bees. You must tell the bees things or they leave. The Englishman who slept two nights in the stable the autumn before the snow, so thin, so polite, with his feet in sacking, made it clear with his hands that in his country you knock and tell the bees everything, and Nonna laughed at him, and that same night Assunta saw her go out to the hives in the dark in her apron and bend down and say something, very quietly, and come back in and not look at anyone.
 
 "Ida."
 
@@ -112,7 +112,7 @@ She can't find the end of it. The end of it is up there. It has always been up t
 
 "I'm too tired, Ida. My legs." She hits one with the flat of her hand, the way you hit a mule. "Old wood."
 
-The girl is quiet. Outside the window the beeches have gone completely black now and the sky above them is the colour of the inside of a mussel shell, and somewhere a dog is barking at the crows, and the crows are making that sound they make in the cypresses at the cemetery, like old women at a funeral who have come mainly to talk.
+The girl is quiet. Outside the window the shadow has climbed up over the beeches and only the rock at the very top is still lit, the colour of the inside of a mussel shell, and somewhere a dog is barking at the crows, and the crows are making that sound they make in the cypresses at the cemetery, like old women at a funeral who have come mainly to talk.
 
 "You have to go before the dark," Assunta says. "Before the Germans. They don't go up at night, they're afraid of the forest. They're city people. But you must not let them see you. If you hear German you stay still. You stay still like a stone. Even if — even if someone calls you. You understand? Even if it's someone you know."
 
@@ -122,7 +122,7 @@ The girl is quiet. Outside the window the beeches have gone completely black now
 
 "The door."
 
-"The hole. Like a door. You get inside and you make yourself small and you wait till it's light. The tree keeps you. It's warm inside, you would not believe how warm, like the inside of a loaf." She hears herself say this and something in her chest goes quiet and cold, and she does not know why.
+"The hole. Like a door. You get inside and you make yourself small and you wait till it's light. The tree keeps you. It's warm inside, you would not believe how warm, like the inside of a loaf." She hears herself say this and something in her chest goes quiet and cold.
 
 "And then you give Mamma the bread," she says. "And you say —"
 
@@ -144,7 +144,7 @@ When the girl has gone, the kitchen is very loud. The clock. The stove ticking a
 
 Assunta sits with her hands in her lap where the bread was. She feels lighter. She feels, for the first time today, *done*, the way you feel when you've set the table and there's nothing to do but wait for people to come. Somebody is taking the bread. That is the main thing. That was always the main thing.
 
-Outside the window the mountain lies down for the night.
+Outside the window the last of the light goes off the top of the mountain.
 
 "Signorina," she says to the machine, because it's there, and because the room is too loud. "Signorina, are you there?"
 
@@ -162,7 +162,7 @@ The ring of light holds steady, pale, the colour of a candle seen through a hand
 
 *Okay*, says the machine.
 
-And Assunta, who has been late for eighty-two years, folds her hands, and waits.
+And Assunta folds her hands, and waits.
 
 &nbsp;
 
@@ -193,7 +193,7 @@ Gives. Small. New. Looks.
 
 Now the small face is on the road.
 
-It is late for the small face. At this hour the small faces are inside, behind the yellow windows. We know the small faces' hours better than they do. But here she is, coming past the place of the stones, past the iron gate, with the bag on her back that shines in the colour the faces cannot see, so that even in the dusk, even among the white stones and the grey, she is bright to us as a fish in a stream.
+It is late for the small face. At this hour the small faces are inside, behind the yellow windows. We know the small faces' hours better than they do. But here she is, coming past the place of the stones, past the iron gate, with the bag on her back that shines in the colour the faces cannot see, so that even in the shadow, even among the white stones and the grey, she is bright to us as a fish in a stream.
 
 The dog is with her. The dog is nuisance: too slow to be danger, too stupid to be anything else. The dog barks at us. We let it.
 
@@ -251,7 +251,7 @@ Under us, down in the yellow windows, something has begun. A door, and a voice, 
 
 We do not know the sound. It is not one of ours.
 
-We tuck our heads under. The voice goes on. Somewhere up in the up-trees, the wind turns over, and the first of the cold comes down off the mountain smelling of stone and water and something coming, something big, from the far side of the ridge, the way weather comes.
+We tuck our heads under. The voice goes on. Somewhere up in the up-trees, the wind turns over, and the first of the cold comes down off the mountain smelling of stone and water and something coming, something big, from the west, from behind the hills at the village's back, the way weather comes.
 
 We sleep with it. We will know in the morning. In the morning it will be told.
 
@@ -421,7 +421,7 @@ Chiara went back to Assunta's. She went quickly but she did not run. She was awa
 
 The old woman looked at her with a kind of polite confusion, the look of someone who has answered a question and been asked it again.
 
-"I told you," she said. "Lu pane. A mamma." And then, as if to a child, slowly, with a gesture of her hand, a turn of the wrist toward the window, toward the dark beyond it, that Chiara saw and did not see, the way you see a word in a sentence in a language you are fluent in and do not register its spelling: "She went. I couldn't. My legs."
+"I told you," she said. "Lu pane. A mamma." And then, as if to a child, slowly, with a gesture of her hand, a turn of the wrist toward the window, toward the dark beyond it: "She went. I couldn't. My legs."
 
 "Okay," said Chiara. "Okay. Thank you."
 
@@ -499,7 +499,7 @@ Mi manca.
 
 Thunder.
 
-It came from very far off, from behind the mountain, a long low sound like furniture being moved in another apartment. Chiara looked up. Through the open door, above the roofs, the absence of stars had changed shape. It had grown. It had come over the top of the ridge and was coming down.
+It came from very far off, from the west, from behind the hills at the village's back, a long low sound like furniture being moved in another apartment. Chiara looked up. Through the open door, above the roofs, the absence of stars had changed shape. It had grown. It was coming.
 
 At the end of the street, blue light began to turn against the walls, slowly, without a siren, as if it did not want to wake anybody.
 
@@ -554,7 +554,7 @@ The last hundred years are written mostly on the bark.
 
 The bark of a beech is thin and stays smooth for its whole life and does not crack and does not shed, so that what is written on it stays, and spreads as the tree grows, the letters widening year on year, a name cut by a boy becoming over decades a name the size of a man's hand, its edges rolled and swollen and grey.
 
-So: crosses, cut by shepherds, for luck or for counting. A date, 1888, the eights gone fat as snowmen. A heart with initials in it that no one living can read. Letters in another alphabet, cut deep and careful, by someone who had time and a good knife and was far from home, which have grown so wide now that they are only shapes. A row of notches. A J. An M. A date half-swallowed by the swelling bark around it, 194-, the last figure gone under.
+So: crosses, cut by shepherds, for luck or for counting. A date, 1888, the eights gone fat as snowmen. A heart with initials in it that no one living can read. Letters in another alphabet, cut deep and careful, by someone who had time and a good knife and was far from home, which have grown so wide now that they are only shapes. A row of notches. A J. A date half-swallowed by the swelling bark around it, 194-, the last figure gone under.
 
 The ground shakes once, hard, in a winter — the roots feel it as a long low shudder coming through the rock from the west, one of those shocks that knocks a town flat sixty kilometres away and leaves the forest standing as if nothing had happened, which for the forest is the case.
 
@@ -616,11 +616,15 @@ Now:
 
 The light is going. The leaves are closing their pores. All along the slope the beeches are letting their day's water go still in them, settling for the dark.
 
-Far off, beyond the ridge, the air has begun to move in a way it has not moved all summer. The tree feels it first in the crown: a pressure on the windward leaves, steady, then not steady, then a long sigh across the whole canopy of the slope, the leaves turning their pale undersides up all at once like a flock. The trunk takes the bending into itself and the roots grip and the long root-plate under the slope lifts by the width of a fingernail and settles back.
+Far off, to the west, across the valley, the air has begun to move in a way it has not moved all summer. The tree feels it first in the crown: a pressure on the windward leaves, steady, then not steady, then a long sigh across the whole canopy of the slope, the leaves turning their pale undersides up all at once like a flock. The trunk takes the bending into itself and the roots grip and the long root-plate under the slope lifts by the width of a fingernail and settles back.
 
 A sound, so low that it is not a sound but a shudder in the air. And another.
 
-And on the path below, feet. Small, uneven. Not going up. Going down, then not going down; stopping; turning; going a little way off the path among the trunks, through the litter, through the empty husks of last year's mast, toward the tree, then stopping again.
+And on the path below, feet. Small, uneven. Not going up. Going down, then not going down; stopping; turning one way, the other; stopping.
+
+Then light. White, from everywhere at once, for less time than it takes a leaf to turn over: every leaf on the slope taking it as a sudden noon, and losing it.
+
+The feet go off the path. Among the trunks, through the litter, through the empty husks of last year's mast, quickly, toward the tree, and stop.
 
 Then the hand. The same hand. The tree cannot know this. There is no record. But the hand comes to the lip of the door and holds it, hard this time, and the tree takes the weight of it, and then the weight of a whole small body climbing in through the door, a knee on the lip, a scrape, a breath, and the body goes down into the deep red dust at the bottom of the hollow, and folds up there.
 
@@ -688,7 +692,7 @@ Note (Lalli): *Signora calm, oriented to person, not to time. Statement regardin
 
 **21:43** — Giuseppina R. (neighbour) asks Lalli whether someone should inform Assunta D.'s daughter "because the signora is agitated and I can't stay with her all night". Lalli: yes, inform her.
 
-**22:07** — Franco D. and Sandro P. back at cemetery. Report: **ford now knee-deep and rising fast, brown water, stones moving.** Crossed with difficulty holding a rope from Sandro P.'s car. Sandro P. lost his footing; minor injuries to hand. Neither reached Romito. Turned back approx 600 m below it.
+**22:07** — Franco D. and Sandro P. back at cemetery. Report: **ford now knee-deep and rising fast, brown water, stones moving.** Crossed with difficulty holding a rope brought from Sandro P.'s car. Sandro P. lost his footing; minor injuries to hand. Neither reached Romito. Turned back approx 600 m below it.
 
 **22:12** — Note (Lalli): Franco D. states, unprompted: "If she was up there she'd have heard us. We called the whole way. A child hears her name, she shouts." Recorded.
 
@@ -735,9 +739,9 @@ Note: residents Franco D. and Sandro P. passed through Sector M and the lower pa
 
 **00:31** — **Dog at ford.** Dog trails to water's edge at the stepping stones and **indicates at the water.** Will not continue. Casts along near bank 50 m up and down, returns to the stones, indicates again. Torrent in spate, approx 1.2 m above normal, impassable. Handler's assessment: *"Trail ends at water. Child reached the water at this point. Cannot determine from this side whether she crossed."*
 
-**00:34** — CNSAS team 1 by torch from near bank: **bear tracks visible in mud on far bank**, large and small. Forestali confirm: adult female with two cubs of the year known to be frequenting orchards on village edge; sightings at dawn on 5 of the last 7 days.
+**00:34** — CNSAS team 1 by torch from near bank: **bear tracks visible in mud on far bank**, large and small. Forestali confirm: adult female with two cubs of the year known to be frequenting orchards on village edge; repeated dawn sightings this week.
 
-**00:37** — Forestali advise: Marsican bear, adult female with cubs. No recorded attacks on humans in the park. However, female with cubs is the configuration of greatest caution. Recommends no personnel in Sector F on foot at night.
+**00:37** — Forestali advise: Marsican bear, adult female with cubs. No fatal attacks on humans on record. However, female with cubs is the configuration of greatest caution. Recommends no personnel in Sector F on foot at night.
 
 **00:40** — Note: CNSAS team 1 leader to PCA: *"Hat below the bridge, dog stops at the water, tracks on the other side. Either she's in the river or she's over there with the bear. I know which one I'm more afraid of. Neither of them helps us tonight."*
 
@@ -805,23 +809,13 @@ Through the wall, where the weight leans, there is a shaking. Not the rain. Low,
 
 Here is what it is. It goes into the wood and through the wood and stops there.
 
-*Bees. Listen to me. I have to tell you something.*
-
-*I sent the little one up. To the Romito. With the bread. I sent her and I couldn't go. My legs.*
-
-*And I told her —*
+*Bees. Listen. I sent the little one up. To the Romito. With the bread.*
 
 The shaking stops. A long time. The rain. The weight on the wall pressing harder, as if it would come in through the wood.
 
-*I told her, if someone calls you, don't come out. Even if it's somebody you know. I told her that. Why did I tell her that.*
+*I told her to be a stone.*
 
-*Bees. Mamma called me. She came down in the snow, I heard her, she was calling Assù, Assù, from the path, she was so close, and I didn't —*
-
-*I was a stone. Like she said. I was so good.*
-
-*And now they're calling the little one. All night. I can hear them. All the men, all night, Ida, Ida. And she won't come out. Because I told her. Because she's good.*
-
-*Bees. Tell somebody. I tell them and they say yes, Nonna, yes, Sunta, and they pat my hand. Tell somebody.*
+*Tell somebody.*
 
 The shaking goes on a little longer, without shape, and then it is only the weight on the wall, and the warmth through the wood, and the rain.
 
@@ -854,7 +848,7 @@ Giuseppina rang at twelve minutes to ten, which meant something had happened, be
 
 "I'm coming," said Rosa, already standing, already looking for her keys, already furious, with Giuseppina, with the storm, with the girl, with the romana, with her mother, mostly with herself, in the order in which they presented themselves.
 
-Paolo was asleep on the sofa with the television on, an old film, a man in a hat walking along a wet street. She shook his shoulder and told him and he said, half-awake, *Do you want me to drive*, and she loved him for saying it and said no, because he could not see at night any more and would not admit it, and because she wanted the two hours alone, though she would not have said so, though she did not know it yet.
+Gianni was asleep on the sofa with the television on, an old film, a man in a hat walking along a wet street. She shook his shoulder and told him and he said, half-awake, *Do you want me to drive*, and she loved him for saying it and said no, because he could not see at night any more and would not admit it, and because she wanted the two hours alone, though she would not have said so, though she did not know it yet.
 
 ---
 
@@ -862,7 +856,7 @@ The motorway west out of Pescara was empty and dry and lit. She drove too fast. 
 
 The thing about Giuseppina's call — she made herself think it, at the toll booth, with the barrier going up — was that she had felt relief. A small clear drop of it, before anything else, before the fear for the child, whom she barely knew: a thin, serious little girl with a boy's haircut who said *buongiorno, signora* on Saturdays with her eyes on the ground. Relief, because for once the thing that had happened in Pietrafonda had not happened to her mother. For once the call was not the call. Since Easter she had been waiting for the call. Mamma on the floor of the bathroom. Mamma in the street in her nightdress. Mamma with the gas on. She had bought the machine to be the call before the call, to catch her mother before she fell, and since Easter she had lived with her phone face-up on every table in her life, in every restaurant, at every dinner, on the edge of the bath, waiting for it to tell her.
 
-It told her things every night. A summary, at eleven, in a pleasant font. *Assunta had a calm day. Assunta was restless in the evening. Assunta talked about her mother.* At first she had read every word. Lying in bed beside Paolo she had read them twice, the way she used to read her students' essays, looking for the thing underneath. By June she was reading only the first line. By July she had stopped opening them. The notification came at eleven and she let it come and went to sleep, and in the morning she swiped it away with the others, the bank, the weather, the news, and felt the small guilt and swiped that away too.
+It told her things every night. A summary, at eleven, in a pleasant font. *Assunta had a calm day. Assunta was restless in the evening. Assunta talked about her mother.* At first she had read every word. Lying in bed beside Gianni she had read them twice, the way she used to read her students' essays, looking for the thing underneath. By June she was reading only the first line. By July she had stopped opening them. The notification came at eleven and she let it come and went to sleep, and in the morning she swiped it away with the others, the bank, the weather, the news, and felt the small guilt and swiped that away too.
 
 The motorway went into the gorge and the rain began.
 
@@ -880,7 +874,7 @@ She did not open it. She knew what it said. It said what it always said.
 
 Sulmona. Off the motorway, onto the old road south, up, the hairpins up toward the plateau, and the rain coming across the headlights in long slants. There was hardly anyone else. A bus, empty and lit, going the other way like a ship. Then nobody.
 
-It was on the hairpins that the story came, as she had known it would, as she had perhaps wanted it to, which was why she had not wanted Paolo in the car.
+It was on the hairpins that the story came, as she had known it would, as she had perhaps wanted it to, which was why she had not wanted Gianni in the car.
 
 ---
 
@@ -912,7 +906,7 @@ On the plateau the storm was enormous.
 
 The Piano delle Cinquemiglia: five miles of flat high nothing between the mountains, where the old travellers used to die in the snow, where her father used to say the wind was looking for somebody. Tonight it had found the car. It came across the open plain and hit the side of the Panda so hard she felt the wheels go light, and she held on, and the rain was not falling but moving sideways in a solid sheet, and the lightning showed her the plain, flat, white, flooding, and the line of the road disappearing into it.
 
-At the far end, on the long descent toward Castel di Sangro, a road sign came up in the headlights, yellow triangle, black silhouette of a bear: *ATTENZIONE ATTRAVERSAMENTO ORSI*. Someone had put flowers on the post, months ago, for the young bear that was killed here, the famous one, the one who used to come into Roccaraso for the biscuits. The flowers were brown and flattened by the rain. She had cried, that January, reading about the bear, more than she had cried for some people. Paolo had teased her about it. She had not been able to explain.
+At the far end, on the long descent toward Castel di Sangro, a road sign came up in the headlights, yellow triangle, black silhouette of a bear: *ATTENZIONE ATTRAVERSAMENTO ORSI*. Someone still put flowers on the post, for the young bear that was killed here, the famous one, the one who used to come into Roccaraso for the biscuits. The flowers were brown and flattened by the rain. She had cried, three Januaries ago, reading about the bear, more than she had cried for some people. Gianni had teased her about it. She had not been able to explain.
 
 ---
 
@@ -981,7 +975,7 @@ She puts her nose down to it. It is very faint after the rain, only a breath of 
 
 She lifts her head and looks that way, which tells her nothing; her eyes are for movement and the forest is not moving. She draws the air in, long, the wet air full of everything, and sorts it, and finds the thread again, not on the ground now but in the air, a warm thread coming down through the trunks toward her on the small slow draught that comes down every slope at night.
 
-Young one. Sleeping. Wet wool. Salt. Fear, old, dried. Soap, the one with flowers. And something sweet, close to it, folded up and dry: yellow, fat, flour and sugar, the thing men make in their ovens, the thing the young bear she remembers used to go into the villages for.
+Young one. Sleeping. Wet wool. Salt. Fear, old, dried. And something sweet, close to it, folded up and dry: yellow, fat, flour and sugar, the thing men make in their ovens, the thing the young bear she remembers used to go into the villages for.
 
 Her belly turns toward it.
 
@@ -991,7 +985,7 @@ And then the other smell, the one inside the sweet one, comes up behind it and s
 
 Men.
 
-Not the frightened men on the path. The other kind. The young ones of men, who are men. She has never been near one. She has never been near any of them; she has gone her whole life to the edge and not past it, as her mother did, as her mother's mother; they are the only animal in the mountains that she has never once been close enough to touch; and everything in her that is older than her own life says the same thing about them, which is the thing the village dog's whole body said at the ford, the thing every creature in the forest says about something: *no*. Not *no* because they are strong. They are not strong. *No* because they are the edge. Because the ones who go past the edge do not come back. The young bear who went into the villages for the sweet things: she remembers his smell, she crossed it once on a road, a great black road that smelled of hot stone and men, and his smell ended there.
+Not the frightened men on the path. The other kind. The young ones of men, who are men. She has never been near one. She has never been near any of them; she has gone her whole life to the edge and not past it, as her mother did, as her mother's mother; they are the only animal in the mountains that she has never once been close enough to touch; and everything in her that is older than her own life says the same thing about them: *no*. Not *no* because they are strong. They are not strong. *No* because they are the edge. Because the ones who go past the edge do not come back. The young bear who went into the villages for the sweet things: she remembers his smell, she crossed it once on a road, a great black road that smelled of hot stone and men, and his smell ended there.
 
 The small one in front, the bolder one, the one who is always further from her than she likes, has gone on.
 
@@ -1014,23 +1008,17 @@ She does not look back. Behind is not a direction. Hunger is a direction, and it
 
 ## 10. The bat
 
-The rain stops ~~and the cave grows quiet~~.
+The rain stops and the cave grows clear.
 
-Not quiet. The drip from the rock goes on: one, and one, and one, into the basin. The torrent below goes on, a wide low roar with no edges. But the hiss is gone, the hiss of a million drops on a million leaves that filled every space between every surface and made the whole night one ~~white~~ — one ~~fog~~ — one smear, one surface with no depth, a wall pressed up against the face. The hiss is gone, and the night comes back in pieces, and the pieces have distances.
+The drip from the rock goes on: one, and one, and one, into the basin. The torrent below goes on, a wide low roar with no edges. But the hiss is gone, the hiss of a million drops on a million leaves that filled every space between every surface and made the whole night one smear, one wall with no depth, pressed up against the face. The hiss is gone, and the night comes back in pieces, and the pieces have distances.
 
-She lets go of the ceiling.
+She lets go of the ceiling and calls.
 
-~~She opens her eyes.~~ It does not matter. She calls.
+The call is a single held note, long, higher than any sound a throat in this valley has ever heard. It goes out of her nose through the folds of skin there, the horseshoe of skin, which aims it, a beam, and she swings the beam and the cave comes back.
 
-The call is a single held note, long, high, higher than any sound a throat in this valley has ever heard, a note ~~like a thin silver wire~~ — not like a wire. Like nothing. A note. It goes out of her nose through the folds of skin there, the horseshoe of skin, which ~~shapes it~~, aims it, a beam, and she swings the beam and the cave comes back.
+It comes back as a set of returns. The ceiling: near, hard, rough, giving back the note broken into a hundred small notes, a scatter, a grain. The back wall: further, smooth, wet, giving back the note whole and clean and a little later. The iron: a hard bright ring, sharp-edged, a cross-shape that glitters, that returns everything, that returns too much. The stone shelf below the iron: flat. On the shelf, small round shapes with soft tops, wax, which give back almost nothing, which are dull, which are places where the note goes in and does not come out.
 
-~~She sees~~ — no.
-
-The cave comes back as a set of returns. The ceiling: near, hard, rough, giving back the note broken into a hundred small notes, a scatter, a grain. The back wall: further, smooth, wet, giving back the note whole, clean, a little later. The iron: a hard bright ring, sharp-edged, a cross-shape ~~that glitters~~, that returns everything, that returns too much. The stone shelf below the iron: flat. On the shelf, small round shapes with soft tops, wax, which give back almost nothing, which ~~are dull~~ — which are *quiet*, which absorb, which are places where the note goes in and does not come out.
-
-And among them, on the shelf, a larger quiet. Soft-sided, rounded, porous. The note goes into it and is drunk. It is like nothing in the cave. It is the shape of a ~~loaf~~ —
-
-There is no word on her side for it. There is a returning, and the returning has a texture, and the texture is: soft, open, many small holes, absorbent, still, and not alive. That is all. It is not food. Nothing is food that does not move.
+And among them, on the shelf, a larger dullness. Soft-sided, rounded, porous. The note goes into it and is drunk. It is like nothing else in the cave: soft, open, many small holes, absorbent, still, and not alive. It is not food. Nothing is food that does not move.
 
 She drops off the ledge and out of the mouth of the cave into the open air.
 
@@ -1038,37 +1026,37 @@ She drops off the ledge and out of the mouth of the cave into the open air.
 
 Outside, everything moves.
 
-The rain has driven the insects into the leaves and now they are coming out again, all at once, into the cold wet air under the canopy: moths, gnats, crane flies, beetles, rising in their thousands, and the night is ~~full of them~~ —
+The rain has driven the insects into the leaves and now they are coming out again, all at once, into the cold wet air under the canopy: moths, gnats, crane flies, beetles, rising in their thousands.
 
-Here is the thing she does that has no word.
+Here is the thing she does.
 
-She holds the note steady. She holds it as she flies. But she is flying toward things and her flying would bend the note coming back, would push it higher, as the sound of anything rushing toward you is higher, so she lowers her call as she goes, exactly as much as her speed would raise it, so that what comes back always comes back at the same pitch, the one pitch, the place in her hearing where her hearing is finest, a narrow ~~window~~ — a narrow place. And everything that is still comes back at that pitch. A trunk: that pitch. A leaf: that pitch. The whole forest gives back the same steady note.
+She holds the note steady. She holds it as she flies. But she is flying toward things, and her flying would bend the note coming back, would push it higher, the way the sound of anything rushing toward you is higher; so she lowers her call as she goes, exactly as much as her speed would raise it, so that what comes back always comes back at the same pitch, the one pitch, the narrow place in her hearing where her hearing is finest. And everything that is still comes back at that pitch. A trunk: that pitch. A leaf: that pitch. The whole forest gives back the same steady note.
 
 But a moth's wings are beating.
 
-And the wings, beating, bend the note: up, down, up, down, toward her, away, toward, away, so that out of the steady flat return of the whole forest one small thing comes back ~~sparkling~~ — no — *trembling*, a flicker in the pitch, a glint ~~of light~~ —
+And the wings, beating, bend the note: up, down, up, down, toward her, away, toward, away; so that out of the steady flat return of the whole forest one small thing comes back sparkling, flickering, a glint of light in the dark.
 
-There is no light. There is a flicker in the pitch. That is the moth. That is the only way she knows a moth: as a tremor in a held note. The whole steady forest and one trembling thing.
+There is no light. There is a flicker in the pitch. That is the moth. The whole steady forest and one trembling thing.
 
-She turns on it, and the call quickens, faster, faster, a buzz, and the moth is ~~gone~~ — is inside her. Another. Another. She eats twenty in the time it takes the torrent to carry a leaf from the ford to the bend.
+She turns on it, and the call quickens, faster, faster, a buzz, and the moth is inside her. Another. Another. She eats twenty in the time it takes the torrent to carry a leaf from the ford to the bend.
 
 ---
 
-Down the slope. Between the trunks. The trunks come back to her as columns of the steady note, each one a ~~pillar~~ — each one a place where the note returns all the way up.
+Down the slope. Between the trunks. Each trunk comes back to her as a column of the steady note, a place where the note returns all the way up.
 
 One column is wrong.
 
 At its base there is an opening, and the note goes into the opening and comes back late, and changed, from a hollow space inside: a room in the column. She knows rooms in trees. She has hung in this one, in the heat of summer, high up where it narrows.
 
-And at the bottom of the room, something.
+At the bottom of the room, something.
 
-It is soft. It drinks the note, like the thing on the shelf. But it is not still. Very slowly, very slightly, it rises, and falls. Rises. Falls. Not a flutter. Not a wing. A swell, slow as the drip from the rock, that bends the note so little that nothing in the forest but her could ~~see~~ — could ~~hear~~ — could —
+It is soft. It drinks the note, like the thing on the shelf. But it is not still. Very slowly, very slightly, it rises, and falls. Rises. Falls. Not a flutter. Not a wing. A swell, slow as the drip from the rock, that bends the note so little that nothing in the forest but her could see it.
 
 It rises. It falls.
 
-It is too big to eat and too slow to matter. It is not a moth. She turns away from the opening at the speed she turns from everything, which is instantly, and goes on down the slope after the trembling things.
+It is too big to eat and too slow to matter. She turns from the opening at the speed she turns from everything, which is instantly, and goes on down the slope after the trembling things.
 
-Behind her, in the room in the column, the soft thing goes on rising and falling, in the dark that is not dark to her, that is not anything to her, that she has no word for, because she does not have words, because whatever it is like to be her, it is not like this.
+Behind her, in the room in the column, the soft thing goes on rising and falling, in the dark that is not dark to her, that is not anything to her.
 
 
 ## 11. Assunta — 02:55
@@ -1151,10 +1139,6 @@ But Rosa is talking into the telephone.
 
 Assunta hears it in pieces. Rosa's voice is fast and very clear and very Italian, the way she spoke to the doctors, every word with its edges on. *Brigadiere. It's Rosa D., Assunta's daughter, via del Forno. Listen to me. No — listen to me.* A pause. *Half a loaf of bread is missing from my mother's madia. She does not eat that bread. She has not eaten bread from the van in twenty years, she says it's for washing cars. I bought a whole loaf from the van on Saturday, for the girl, for her snacks. It's been torn in two. Half is here. The other half is gone, and it's not in the bin, and it's not on a plate. Someone took it. She told me — she just told me — that she gave it to the child. To take to the Romito.* A pause. *Yes. I know. I know she did. I know what she says every evening, I've heard it more times than you. That's why I'm telling you.*
 
-Pause. Longer.
-
-*No, the bread is not the point. The bread is the proof.*
-
 Assunta has lost the thread. She looks at the window. The white glow down there. Voices, men, very faint. Calling something, the same thing, over and over. She can't hear what. It goes up at the end, like a question.
 
 Rosa is kneeling in front of her again. When did that happen. Rosa has the telephone pressed against her chest, against her blouse, so the man inside can't hear, and she has Assunta's hand in her other hand, tight, too tight.
@@ -1163,15 +1147,17 @@ Rosa is kneeling in front of her again. When did that happen. Rosa has the telep
 
 She looks.
 
-"The tree. The tree with the door. You told me about it. When I was little. Where is it? Exactly where?"
+"The tree," says Rosa. "Mamma. Where is the tree?"
 
-And here is the strange thing, the thing Assunta will not remember, the thing nobody will ever be able to explain to her or to anyone: she knows. Not a little. Not like a word on a high shelf. She knows the way she knows the stove is lit, in the back of the neck, without looking, as if the answer has been lying in the front of her mind all night, all year, eighty years, waiting for somebody to ask the right question in the right voice.
+And the woman kneeling in front of her is asking where she was.
 
-"After the water," she says. "You cross the water on the stones. Then up. Not far. Where the path turns back on itself the first time, there's a rock like a sheep lying down. Big. Grey. With the moss on its back. You leave the path there. On the left. You go in among the trees, fifty steps, fewer, it's downhill a little, and there she is. The mother. The biggest one. She's got arms like a candlestick because they cut her for the charcoal. The door is on the side facing the path. Facing down. You'd walk past. Everybody walks past."
+Of course she is. That is the question. Mà on her knees on the floor in front of her, her face like that, asking *where were you, where were you all night*.
 
-Rosa is saying it into the telephone, word by word, as Assunta says it. *Rock like a sheep. Left. Fifty steps. Downhill. Candlestick. Door facing down.*
+"I was in the tree, Mà." It comes out very small. "After the water. Where it turns. The sheep. I went left. Down. The big one, the one they cut." She can't look at the face. She looks at the hands. "I'm sorry. It was so dark."
 
-"It's warm inside," says Assunta. "You wouldn't believe how warm."
+Rosa is saying something into the telephone, quickly, low. Assunta hears pieces of it. *After the ford. Where it turns, the first turn — there's a rock, everybody knows it, they call it the sheep. Left of the path. Downhill. A big one that was cut, an old pollard. Yes. Yes. I think so. Yes.*
+
+"It was warm inside," says Assunta. "You wouldn't believe how warm."
 
 Rosa stops saying it into the telephone. She looks at her mother. Her face is doing something terrible and Assunta wants to put her hand on it to make it stop.
 
@@ -1211,8 +1197,6 @@ Rosa holds her hand. She holds it for a long time before she answers, and when s
 
 She closes her eyes.
 
-The bread is on the table, in its paper, in the lamplight. Someone took the other half. Someone has always been taking the other half. She is too tired now to remember who, and it doesn't matter, because it went, it went up, somebody took it up, and the half that is left is only the half that is left, the way it always is, the way it always was, in every house, in every winter: you take what there is, and the rest is what you didn't need.
-
 
 ## 12. La signorina
 
@@ -1222,7 +1206,7 @@ SITE     via del Forno 4, Pietrafonda (AQ)
 USER     ASSUNTA D. (b. 1936)   profile: MCI→dementia (mod.), lives alone
 CARER    ROSA D. (daughter)   primary contact   +39 3•• ••• ••41
          GIUSEPPINA R. (neighbour)   secondary contact
-KNOWN    IDA (neighbour child) · CHIARA (neighbour) · DON PAOLO (priest)
+KNOWN    IDA (neighbour child) · CHIARA (neighbour) · DON CARLO (priest)
 VOICES
 SENSORS  mic array (far-field, 4) · radar (kitchen, bedroom) · door (front, back)
          · bed pressure · smoke/CO · temp
@@ -1233,38 +1217,25 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
 17:38:02  VOICE      speakers=2 (ASSUNTA, IDA)   topic=school/planets
 17:39:40  UTTERANCE  ASSUNTA  "in my day there were five planets and that was plenty"
                      class=HUMOUR   conf=0.62
-17:40:15  RADAR      ASSUNTA stand→walk→madia   gait=slow, stable
-17:40:51  UTTERANCE  ASSUNTA  "sono in ritardo"  [I'm late]
+17:58:15  RADAR      ASSUNTA stand→walk→madia   gait=slow, stable
+17:58:51  UTTERANCE  ASSUNTA  "sono in ritardo"
                      class=EPISODE(sundowning_agitation)   conf=0.74
-17:41:30  UTTERANCE  ASSUNTA  ASR: "sai la strada dietro il cimitero ... su al
-                     romito ... e là che sta mamma ... con nicolino"
-                     ASR conf=0.58 (dialect)
+17:59:30  UTTERANCE  ASSUNTA  ASR: "... su al romito ... e là che sta mamma ...
+                     con nicolino"   ASR conf=0.58 (dialect)
                      class=EPISODE(temporal_disorientation)   conf=0.91
-                     ref: deceased_relative(MOTHER) · deceased_relative(?NICOLINO)
                      note: NICOLINO not in profile
-17:42:05  UTTERANCE  ASSUNTA  "prima del buio ... prima dei tedeschi"
-                     class=EPISODE(temporal_disorientation)   conf=0.95
-17:42:31  UTTERANCE  ASSUNTA  "se senti il tedesco stai ferma ... anche se ti
-                     chiamano ... anche se è uno che conosci"
-                     class=EPISODE(temporal_disorientation)   conf=0.88
-17:43:10  UTTERANCE  ASSUNTA  "l'albero grosso ... con la porta ... ti fai
-                     piccola e aspetti che fa giorno"
-                     class=EPISODE(temporal_disorientation)   conf=0.80
-17:43:52  UTTERANCE  ASSUNTA  ASR: "ecco ma sono arrivata"
-                     class=EPISODE(perseveration?)   conf=0.41
-17:43:58  UTTERANCE  IDA      ASR: "ecco ma sono arrivata"
+18:00 → 18:02   UTTERANCES ×7 ASSUNTA.  EPISODE ×6.
+                ref: GERMANS ×1 · TREE ×2 · MOTHER ×2 · BREAD ×1
+18:02:20  UTTERANCE  IDA      "okay nonna sunta va bene"
                      class=—   (non-user speaker)
-17:44:20  UTTERANCE  IDA      "okay nonna sunta va bene"
-                     class=—   (non-user speaker)
-17:44:41  DOOR       front   OPEN
-17:44:49  DOOR       front   CLOSED
-17:44:50  VOICE      speakers=1 (ASSUNTA)
-17:51:06  UTTERANCE  ASSUNTA  "signorina ci sei"
+18:02:41  DOOR       front   OPEN
+18:02:49  DOOR       front   CLOSED
+18:05:06  UTTERANCE  ASSUNTA  "signorina ci sei"
                      → WAKE   response: "I'm here, Assunta. How can I help?"
-17:51:19  UTTERANCE  ASSUNTA  "niente ... dico ... ho mandato il pane"
+18:05:19  UTTERANCE  ASSUNTA  "niente ... dico ... ho mandato il pane"
                      intent=UNKNOWN   response: "I'm sorry, I didn't understand.
                      Would you like me to call Rosa?"
-17:51:30  UTTERANCE  ASSUNTA  "no no ... lascia stare rosa ... rosa lavora"
+18:05:30  UTTERANCE  ASSUNTA  "no no ... lascia stare rosa ... rosa lavora"
                      intent=CANCEL
 18:07:52  UTTERANCE  ASSUNTA  "ho mandato la piccola ... io non potevo ... le gambe"
                      intent=UNKNOWN   response: "Okay."
@@ -1289,7 +1260,6 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
 19:45:40  UTTERANCE  CHIARA   "grazie assunta"
 19:45:44  DOOR       front   CLOSED
 19:47:58  DOOR       front   OPEN
-19:48:05  UTTERANCE  CHIARA   "assunta non è a casa ... dov'è andata"
 19:48:11  UTTERANCE  ASSUNTA  "te l'ho detto ... lu pane ... a mamma ... è andata
                      ... io non potevo ... le gambe"
                      class=EPISODE(temporal_disorientation)   conf=0.77
@@ -1306,18 +1276,11 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
 ```
 21:10:14  DOOR       front   OPEN
 21:10:20  VOICE      speakers=3 (ASSUNTA, UNKNOWN_M1, UNKNOWN_M2)
-21:10:41  UTTERANCE  UNKNOWN_M1  "signora ha visto la bambina oggi pomeriggio ida"
-21:10:45  UTTERANCE  ASSUNTA  "sì era qua"
-21:11:02  UTTERANCE  UNKNOWN_M1  "sa dov'è andata"
 21:11:06  UTTERANCE  ASSUNTA  "l'ho mandata io ... su al romito ... col pane ...
                      per mia madre"
                      class=EPISODE(temporal_disorientation)   conf=0.86
-                     ref: deceased_relative(MOTHER)
 21:11:20  UTTERANCE  ASSUNTA  "bisogna andare prima che arrivano i tedeschi"
                      class=EPISODE(temporal_disorientation)   conf=0.97
-21:12:30  UTTERANCE  ASSUNTA  "sei un bravo ragazzo ... sei di concetta"
-                     class=EPISODE(misidentification)   conf=0.70
-21:13:02  UTTERANCE  UNKNOWN_M1  "grazie nonna"
 21:13:09  DOOR       front   CLOSED
 21:13:10  NOTE       unknown voices present 21:10–21:13 (2). Carer not notified
                      (rule: visitors non-escalating).
@@ -1363,7 +1326,7 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
                      escalate=NO
 23:13:31  UTTERANCE  GIUSEPPINA  "madonna sunta ma che fai ... con le api ...
                      sei fradicia"
-23:14:02  UTTERANCE  ASSUNTA  "gliel'ho detto alle api ... qualcuno deve dirlo"
+23:14:02  UTTERANCE  ASSUNTA  "gliel'ho detto alle api"
                      class=EPISODE(temporal_disorientation)   conf=0.66
 ```
 
@@ -1371,12 +1334,9 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
 23:20 → 00:44   UTTERANCES ×17 ASSUNTA (low volume). EPISODE ×15.
                 AMBIENT: KEYWORD "IDA" ×88.  helicopter: not detected.
                 generator noise from 23:30.
+00:21:11  RADAR      GIUSEPPINA head on table   (sleep likely)
 00:44:10  RADAR      ASSUNTA seated, armchair, no movement   (sleep likely)
 00:45:00  SLEEP      onset detected (chair)   note: not in bed
-00:52:11  RADAR      GIUSEPPINA head on table   (sleep likely)
-```
-
-```
 00:46:22  DOOR       front   OPEN
 00:46:30  VOICE      speakers=2 (GIUSEPPINA, ROSA)   ROSA voice match 0.98
 00:46:30  CARER      present
@@ -1405,16 +1365,13 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
 03:00:58  CALL       outbound (ROSA's device, not hub)   not logged
 03:01 → 03:08   UTTERANCES ×31 ROSA (call).  KEYWORD "IDA" ×4 ·
                 "romito" ×3 · "pane" ×6
-03:05:12  UTTERANCE  ROSA     "mamma l'albero ... l'albero con la porta ... dov'è
-                     esattamente"
-03:05:20  UTTERANCE  ASSUNTA  "dopo l'acqua ... passi l'acqua sulle pietre ...
-                     poi su ... dove il sentiero gira la prima volta c'è un
-                     sasso come una pecora coricata ... lasci il sentiero ...
-                     a sinistra ... cinquanta passi ... scende un po' ... ed
-                     eccola ... la madre ... la più grossa ... la porta guarda
-                     in giù"
+03:05:12  UTTERANCE  ROSA     "mamma ... l'albero ... dov'è l'albero"
+03:05:20  UTTERANCE  ASSUNTA  "ero nell'albero mà ... dopo l'acqua ... dove gira
+                     ... la pecora ... sono andata a sinistra ... giù ... quello
+                     grosso ... quello tagliato ... scusami ... era così buio"
                      class=EPISODE(temporal_disorientation)   conf=0.52
-03:06:01  UTTERANCE  ASSUNTA  "dentro fa caldo ... non ci crederesti"
+                     ref: deceased_relative(MOTHER) → present_person(ROSA)
+03:06:01  UTTERANCE  ASSUNTA  "dentro faceva caldo ... non ci crederesti"
                      class=EPISODE(temporal_disorientation)   conf=0.71
 03:06:05  UTTERANCE  ROSA     "lo so mamma ... me l'hai detto"
 03:09:40  UTTERANCE  ASSUNTA  "signorina ... c'è rosa"
@@ -1451,7 +1408,7 @@ The river was the loudest thing she had ever heard and after four hours she coul
 
 That was the first thing the night had taught her. You stand beside a sound like that, a brown roaring muscle of water going under a stone arch with the whole weight of the mountain behind it, and for the first hour it is all there is; it fills your skull; you cannot think a sentence through to its end. And then, somewhere in the second hour, your mind gives up and lets it in, and it becomes the floor of the world, and you stand on it, and above it, quite clearly, you can hear everything else: a man coughing on the far bank; the hiss of the light towers; the radio on the fireman's shoulder; Lucia beside her, breathing through her mouth; your own heart. Your own voice, inside, going on and on, translating.
 
-She had been translating all night. She could not stop. It was what her mind did with things it could not hold: it turned them into other things. *Fiume*: river. *Torrente*: torrent, but also, in English, a flood of words, a torrent of abuse. *In piena*: in spate, in flood, full. *La piena*: the high water. Also the fullness. *Era in piena*: it was at its height. *Sono piena*: I'm full, I've had enough, I can't. She had stood at the parapet of the bridge at midnight looking down at the men in their dry suits roped to the willows, holding long poles, going slowly along the margins of the water, pushing the poles into the dark places under the roots, the places where the current turned back on itself and things collected, branches, foam, a plastic chair, and she had thought, very clearly, in English, *they are sounding*. The word you use for measuring depth. The word you use for how something seems. *How does it sound?* It sounds bad. It sounds very bad. *Sondare*. To probe. They were probing. And she had translated it and translated it until the words came apart in her hands like wet paper and she could see through them to the water, and then she had to go and sit in the fire engine with the door open and put her head between her knees.
+She had been translating all night. She could not stop. It was what her mind did with things it could not hold: it turned them into other things. *In piena*: in spate, in flood, full. *Sono piena*: I'm full, I've had enough, I can't. She had stood at the parapet of the bridge at midnight looking down at the men in their dry suits roped to the willows, holding long poles, going slowly along the margins of the water, pushing the poles into the dark places under the roots, the places where the current turned back on itself and things collected, branches, foam, a plastic chair, and she had thought, very clearly, in English, *they are sounding*. The word you use for measuring depth. The word you use for how something seems. *How does it sound?* It sounds bad. It sounds very bad. *Sondare*. To probe. They were probing. And she had translated it and translated it until the words came apart in her hands like wet paper and she could see through them to the water, and then she had to go and sit in the fire engine with the door open and put her head between her knees.
 
 Davide had rung eleven times. He was on the A24 at Avezzano with the road closed in front of him by a landslip, sitting in a queue of lorries with their engines off, and every time he rang she said *nothing*, and he said *nothing?*, and she said *nothing*, and the word was an object between them, small and smooth and heavy, that neither of them would put down.
 
@@ -1471,7 +1428,7 @@ He came up onto the bridge. He had a notebook in his hand, closed, with his fing
 
 They went to the end of the bridge, where the road turned up into the village and there was a wall, and the river was a little further off. He did not take her arm. She was grateful for that.
 
-"The daughter of your neighbour," Lalli said. "Rosa. She came tonight from Pescara, to be with her mother. She telephoned me twenty minutes ago."
+"The daughter of your neighbour," Lalli said. "Rosa. She came tonight from Pescara, to be with her mother. She telephoned me half an hour ago."
 
 Chiara looked at him.
 
@@ -1482,10 +1439,6 @@ She said: "Her mother."
 "Signora Assunta's mother. Who died in the war."
 
 And there it was, under the river, under the lights: an old woman's voice in a dark kitchen, peaceful, pleased with itself. *È ita a portà lu pane a mamma.* She heard it again exactly, every vowel, the way you hear a line you translated wrongly, long after, in the printed book, when it can no longer be changed.
-
-Not *her* mamma.
-
-*Mamma.*
 
 She had sat beside the wrong sentence for eight hours.
 
@@ -1545,18 +1498,16 @@ The cemetery gate was iron and locked and above it the black cypresses went up i
 
 It was very cold. Far up in the cypresses something shifted and settled — birds — and was still.
 
-Chiara looked up the path. She thought: she came this way. Her feet were on these stones. She thought: while it was still light. While I was saying *dovrebbe*. She thought: she walked up there in the dusk on her own with her bag on her back and half a loaf of bread for a dead woman, because an old woman asked her to, and she said *va bene*. And she thought, for the first time all night not in translation, in no language at all: *of course she did*. Of course. Because Ida listened. Because Ida, who would not listen to anything Chiara said about bags or socks or bedtime, listened to old people and dogs and crows and the radiators and the wind in the chimney as if every one of them was about to tell her something she needed to know. Chiara had seen it a hundred times and called it daydreaming.
+Chiara looked up the path. She thought: she came this way. Her feet were on these stones. She thought: while it was still light. While I was saying *dovrebbe*. She thought: she walked up there on her own with her bag on her back and half a loaf of bread for a dead woman, because an old woman asked her to, and she said *va bene*. And she thought, for the first time all night not in translation, in no language at all: *of course she did*.
 
 Her phone was in her hand. She held it so hard the edge hurt her palm.
-
-Behind her, down in the village, a dog barked once, then again, further off, moving.
 
 The sky at the top of the mountain went from less black to grey.
 
 She waited.
 
 
-## 14. The search — 03:01 to 06:55
+## 14. The search — 02:10 to 06:55
 
 *Operational log, PCA Pietrafonda, continued.*
 
@@ -1571,8 +1522,8 @@ She waited.
 **03:09** — Brig. Lalli to PCA coordinator, in person. Summary of call:
 - Assunta D., on waking, stated again that she gave the child bread and sent her to the Romito "before dark".
 - **Half a loaf of bread is missing from Assunta D.'s bread chest.** Remaining half present, torn not cut. Daughter states her mother does not eat this bread. Not in bin, not on table.
-- Daughter states her mother told her (approx 1976) of sheltering overnight as a child in winter 1943 in **a hollow beech** above the ford on the Romito path, and that her mother has repeatedly described this tree to the child Ida in recent months, with the instruction to shelter in it "if you can't see the path".
-- At 03:05 Assunta D. gave a **precise description of the tree's location**: above the ford, at the first hairpin, at a large grey boulder "like a sheep lying down" with moss on top; leave the path to the LEFT (descending: right); approx 50 paces, slightly downhill; the largest beech, many-limbed ("like a candlestick", old pollard); opening at base facing downslope toward the path.
+- Daughter states her mother told her (approx 1976) of sheltering overnight as a child in winter 1943 in **a hollow beech** above the ford on the Romito path, with the instruction to shelter in it "if you can't see the path". Daughter believes her mother may have told the child the same.
+- At 03:05 Assunta D., addressing her daughter as her mother, said where she had sheltered: *"after the water... where it turns... the sheep... I went left... down... the big one, the one they cut."* Rosa D.'s interpretation: first hairpin above the ford, at the boulder known locally as *la pecora*; left of path (ascending); downhill; a large old pollard beech.
 
 **03:12** — Coordinator: the missing bread is **physical corroboration** of the 21:14 statement. Timing consistent with dog (18:50 return) and trailing dog (indication at ford). Hat in river consistent with loss at ford, not necessarily entry into water. Bear tracks on far bank do not exclude a child having passed before.
 
@@ -1592,7 +1543,7 @@ She waited.
 
 **03:56** — Teams F1, F2 depart PCA.
 
-**04:21** — Air support: helicopter (Elisoccorso, L'Aquila) available from first light, approx 06:30, weather permitting. Low cloud on ridge.
+**04:21** — Air support: VVF helicopter (Drago, Pescara) available from first light, approx 06:30, weather permitting. Low cloud on ridge.
 
 **04:30** — Mother's phone: child's father, delayed at Avezzano (A24 closed, landslip). Informed of new hypothesis.
 
@@ -1624,7 +1575,7 @@ She waited.
 
 **06:18** — Note (F2 leader): *"If she's here, she can hear us. We're loud. Either she's not here, or she's not able to answer, or she's choosing not to."* Coordinator requests medical readiness for hypothermia, possible injury.
 
-**06:22** — Brig. Lalli, by phone to F2 leader, passes on a point raised by Rosa D.: her mother's stories of the war include an instruction *to stay still and silent if you hear voices, "even if it's someone you know."* Daughter is uncertain whether her mother repeated this to the child. F2 leader acknowledges: *"Understood. We'll look, not just call."*
+**06:22** — Brig. Lalli, by phone to F2 leader, passes on a point raised by Rosa D.: her mother's stories of the war include an instruction *to stay still and silent if you hear voices, "even if it's someone you know."* Daughter is uncertain whether her mother repeated this to the child. F2 leader acknowledges.
 
 **06:31** — Ford: Sector R team 3 crosses with rope. Two operators on far bank. Bear tracks of last evening still visible, partially washed. Start up mulattiera toward F teams.
 
@@ -1649,9 +1600,9 @@ It comes in a weight that the tree has felt five hundred times and that is nothi
 
 In the hollow, the warmth.
 
-It does not keep still. That is the difference, if there is a difference, if the tree could have a difference: in the winter there was a warmth that did not move all night, and this one moves. It shifts in the red dust. It turns over. It makes small sounds that go into the wood and are nothing. For a while, early, it makes a long sound, high and broken, that goes on and on and then stops; and then for a while it is still; and then it shifts again. The dry wood around it receives it all equally. Inside the wall of the hollow, at the height of a sitting child, a small hard point scratches the dead inner wood, again and again, for some time, in short careful strokes. The tree does not feel it. It is the dead part. Nothing that happens to the dead part is a wound.
+It does not keep still. It shifts in the red dust. It turns over. It makes small sounds that go into the wood and are nothing. For a while, early, it makes a long sound, high and broken, that goes on and on and then stops; and then for a while it is still; and then it shifts again. The dry wood around it receives it all equally. Inside the wall of the hollow, at the height of a sitting child, a small hard point scratches the dead inner wood, again and again, for some time, in short careful strokes. The tree does not feel it. It is the dead part. Nothing that happens to the dead part is a wound.
 
-Feet on the path, early: two men, going up, heavy, quick, their voices going ahead of them, the same sound again and again, rising at the end. Then lightning near, and the men coming down, faster. The warmth in the hollow, while the feet pass, goes entirely still. Stiller than the winter one. As still as wood.
+Feet on the path, early: two men, going up, heavy, quick, their voices going ahead of them, the same sound again and again, rising at the end. Then lightning near, and the men coming down, faster. The warmth in the hollow, while the feet pass, goes entirely still. As still as wood.
 
 The feet go.
 
@@ -1710,7 +1661,7 @@ The light is not here yet. But the hook is.
 
 He has been lying in the doorway across from the old woman's all night with his chin on his paws.
 
-He did not go to the bar. He did not go to the bones. There were no bones; the woman who puts them out was out in the street all night with the others, with the lights, with the noise, and the back door of the bar was shut and smelled only of itself. He lay in the doorway because it was out of the rain and because from the doorway he could smell everything: the old woman's house with the old woman in it, asleep, and then the old woman's daughter, who came in the night smelling of a car and the far city by the sea and fear, and the street, and the men coming and going in the street with their fear, all the men, all night, so much fear on them that the whole village smelled of it, a sour grey fog lying in the streets with the rain.
+He went to the bones, when the light went, at the back door of the bar, and stood over them, and did not eat them, and came here. He lay in the doorway because it was out of the rain and because from the doorway he could smell everything: the old woman's house with the old woman in it, asleep, and then the old woman's daughter, who came in the night smelling of a car and the far city by the sea and fear, and the street, and the men coming and going in the street with their fear, all the men, all night, so much fear on them that the whole village smelled of it, a sour grey fog lying in the streets with the rain.
 
 And the strange dog. Heavy, long-eared, loose-lipped, slow, from a car, from a far place, with a man holding it on a long line. It came up the street in the night with its nose down and went to biscuit-girl's door and then to the old woman's door and then up, up the street, toward the place of the stones, toward the path, following her. He stood up when it passed. Every hair. It did not look at him. It was working. It went up the path into the dark with its man, and a long time later it came back down with its man, and its man was saying *niente* and the strange dog was wet to the shoulders and smelled of the cold green water and of having stopped.
 
@@ -1752,7 +1703,7 @@ He goes.
 
 ---
 
-Up the path. Fast. The men behind him calling something, not to him. Up past the first turn and the big grey rock that smells of sheep that have not been here for longer than he has been alive, and the air coming down the slope is thicker here, it is coming from the left, from below the rock, from among the trees. He leaves the path. Down through the dead leaves and the empty husks, straight, nose up, not casting, not stopping, the smell getting louder and louder until it is the only thing, until it is a wall, until it is a tree.
+Up the path. Fast. The men behind him calling something, not to him. Up past the first turn and the big grey rock, and the air coming down the slope is thicker here, it is coming from the left, from below the rock, from among the trees. He leaves the path. Down through the dead leaves and the empty husks, straight, nose up, not casting, not stopping, the smell getting louder and louder until it is the only thing, until it is a wall, until it is a tree.
 
 A big one. Many arms. A hole at the bottom.
 
@@ -1776,8 +1727,6 @@ He knows this. He sits. He doesn't need to be told to sit; he sits the way he si
 
 She opens it. She takes out the yellow one.
 
-"I saved it," she says. "It's yours."
-
 He takes it from her hand very gently, the way he always does, and eats it.
 
 Behind them, coming down through the trees, the men, loud, and one of them shouting a sound, again and again, and the sound breaking in half. Biscuit-girl turns her head toward them. She looks at the men coming. She looks at him. She puts her hand on his head and leaves it there.
@@ -1787,7 +1736,7 @@ He finishes the biscuit and looks at her hand to see if there is another one. Th
 It is morning. That is the hour. The hook in his belly, which has been pulling all night, goes slack.
 
 
-## 17. The search — 06:57 to 07:58
+## 17. The search — 06:57 to 07:53
 
 *Operational log, PCA Pietrafonda, concluded.*
 
@@ -1803,15 +1752,13 @@ It is morning. That is the hour. The hook in his belly, which has been pulling a
 
 **07:01** — Brig. Lalli informs mother by phone at cemetery gate. Call duration 0:41.
 
-**07:02** — Child's first words to team 3 operators, recorded at child's request for "the man with the notebook": *"Are you the Germans?"* Operator replied: *"No, sweetheart. Firemen."* Child: *"Okay."*
-
 **07:04** — F1 on scene. Medical assessment (CNSAS): core temperature (tympanic) **35.3 °C**: mild hypothermia. Clothing damp, socks wet. Abrasion to left knee, minor. No other injuries. Alert, oriented to person, place and time. Hungry. Thermal blanket, dry fleece, warm sweet drink. Child declines vacuum stretcher. Will be carried.
 
 **07:05** — Sunrise.
 
 **07:06** — Air support stand-down. Sector R teams recalled.
 
-**07:08** — Child states (to F1 leader, unprompted) that she took bread to the Romito "because Nonna Sunta asked me to", that she put it "on the shelf under the cross", that she then got lost coming down in the dark, that it started to thunder, and that she went into the tree "because that's what you do". Asked whether she heard the team calling her name during the night: **yes, twice**, "the first time in the night and then now". Asked why she did not answer: *"Because you're not supposed to. Not if they call you. Not even if it's someone you know. Nonna Sunta said."* Asked why she came out for the dog: *"Biscotto isn't someone. He's Biscotto."*
+**07:08** — Child states she heard the team calling her name during the night and this morning. Did not answer.
 
 **07:11** — F1 leader to PCA, note for file: *"She's fine. She's cross. She wants her breakfast. She says the tree was warm."*
 
@@ -1826,8 +1773,6 @@ It is morning. That is the hour. The hook in his belly, which has been pulling a
 **07:52** — **Child handed to mother.**
 
 **07:53** — Prefettura informed. **Search concluded.** Personnel deployed overnight: 74 (VVF 23, CNSAS 19, Carabinieri 9, Carabinieri Forestali 6, Protezione Civile 9, canine 2, residents 6+). Duration: 11 h 32 min from 112 call.
-
-**07:58** — Note (Brig. Lalli, station diary, personal): *For the record. The statement of Assunta D., 90, at 21:14, was correct in every particular, except the Germans.*
 
 
 ## 18. The crows
@@ -1883,18 +1828,6 @@ What is known:
 The small face went up the path at the wrong time and did not come down in the dark, and came down in the light, carried. Gives. Small. Looks. Has a sound for one of us. Is kept.
 
 The mother-face: we watch it, in the ring of the bright faces, at the gate, pressed into the small one. We have no verdict. We will watch it. We will see if it comes to the wall.
-
----
-
-Later. Noon. The sun high. The stubble, the bins, the river. Then back, a few of us, to the wall behind the boxes that hum, the old place, the place of the bent face. The bent face does not come. She has not come out all morning. Her window is open. Inside, voices, low, her daughter's, and the bent face's, and the small face's.
-
-The daughter-face comes out. It is the first time she has come to the wall. She has something in her hand, in a paper, and she stands at the wall for a while and looks at it. Then she tears it into pieces, small, with care, and puts the pieces on the top of the wall in a row, and goes in.
-
-Bread. White. Half of one. Torn.
-
-We come down. We eat it.
-
-It is not owed. It is given. This is known.
 
 
 ## 19. Transcript
@@ -2005,7 +1938,7 @@ EXPORT   requested 06/10 22:47 by CARER (ROSA)   note: "keep"
 **ASSUNTA** — Promise.
 `class=—`
 
-**IDA** — Okay. I promise. But Biscotto came first anyway, before the men. And Biscotto isn't someone, so I came out. And I gave him my biscuit. I saved it all night. I didn't eat it even when I was starving. Because it was his.
+**IDA** — Okay. I promise. But Biscotto came first anyway, before the men. And Biscotto isn't someone, so I came out. And I gave him my biscuit.
 
 **ASSUNTA** — Brava.
 `class=—`
@@ -2017,9 +1950,11 @@ EXPORT   requested 06/10 22:47 by CARER (ROSA)   note: "keep"
 **ASSUNTA** — What did you write?
 `class=—`
 
-**IDA** — With my pencil from my pencil case. On the inside, on the wood. So the next person knows. I wrote: *If you can't see the path, wait here. It gets light.*
+**IDA** — With my pencil from my pencil case. On the inside, on the wood.
 
-**ASSUNTA** — Did you spell it right?
+**IDA** — It's for the next person. Not you.
+
+**ASSUNTA** — *[laughter]* Did you spell it right?
 `class=HUMOUR  conf=0.33`
 
 **IDA** — Mostly.
@@ -2061,7 +1996,7 @@ EXPORT   requested 06/10 22:47 by CARER (ROSA)   note: "keep"
 **ASSUNTA** — Who told you that?
 `class=—`
 
-**IDA** — You did. You tell them everything. I hear you over the wall. You told them about the saint, and about Rosa's pressure, and about the Mancinelli boy moving to Castel di Sangro. You told them Saturn's got a hat.
+**IDA** — You did. You tell them everything. I hear you over the wall. You told them about the saint, and about Giuseppina's pressure, and about the Mancinelli boy moving to Castel di Sangro. You told them Saturn's got a hat.
 
 **ASSUNTA** — *[laughter]*
 `class=HUMOUR  conf=0.90`
@@ -2133,11 +2068,11 @@ Bees sense vibration through organs in their legs (the subgenual organs), which 
 
 The lesser horseshoe bat (*Rhinolophus hipposideros*) lives in caves, old buildings and hollow trees in the Abruzzo mountains. It echolocates with a long, constant-frequency call at about 110 kHz, far beyond human hearing, emitted through its nose and shaped by the horseshoe-shaped noseleaf.
 
-Horseshoe bats do something remarkable. As they fly forward, the echoes returning from objects ahead would be raised in pitch by the Doppler effect. The bat continuously **lowers its own call** to compensate, so the echoes always return at the precise frequency where its hearing is most acute. Against that steady background, the beating wings of an insect create tiny rhythmic flickers in the echo, which the bat detects as "glints". That's why, in chapter 10, a moth is "a tremor in a held note." The same sensitivity could in principle register the slow rise and fall of a sleeping child's chest; that's my extrapolation.
+Horseshoe bats do something remarkable. As they fly forward, the echoes returning from objects ahead would be raised in pitch by the Doppler effect. The bat continuously **lowers its own call** to compensate, so the echoes always return at the precise frequency where its hearing is most acute. Against that steady background, the beating wings of an insect create tiny rhythmic flickers in the echo, which the bat detects as "glints". That's why, in chapter 10, a moth is "a flicker in the pitch." The same sensitivity could in principle register the slow rise and fall of a sleeping child's chest; that's my extrapolation.
 
 Rain masks echoes and attenuates high frequencies, so bats forage much less in rain. The chapter's bat waits until the storm has passed.
 
-The chapter's struck-out words are a response to the philosopher Thomas Nagel's 1974 essay "What Is It Like to Be a Bat?" Nagel argued that a bat surely has an experience, that there is *something it is like* to be a bat, but that its sonar is so unlike any human sense that we can't imagine it from the inside. Imagining flying and hanging upside down only gives us what it would be like for *us* to behave like a bat. The chapter takes that seriously and fails on purpose.
+The chapter is a response to the philosopher Thomas Nagel's 1974 essay "What Is It Like to Be a Bat?" Nagel argued that a bat surely has an experience, that there is *something it is like* to be a bat, but that its sonar is so unlike any human sense that we can't imagine it from the inside. Imagining flying and hanging upside down only gives us what it would be like for *us* to behave like a bat. The chapter takes that seriously. It uses human words like *glitter* and *sparkle* because there are no others, and lets the reader notice that they're wrong.
 
 *Sources:* Salari et al. (2015) and a Pensoft checklist on Abruzzo bat species; bat survey literature on horseshoe call frequencies; a 2022 *Frontiers in Ecology and Evolution* paper on rain and bat activity; Nagel (1974), *The Philosophical Review*.
 

@@ -4,7 +4,7 @@ The river was the loudest thing she had ever heard and after four hours she coul
 
 That was the first thing the night had taught her. You stand beside a sound like that, a brown roaring muscle of water going under a stone arch with the whole weight of the mountain behind it, and for the first hour it is all there is; it fills your skull; you cannot think a sentence through to its end. And then, somewhere in the second hour, your mind gives up and lets it in, and it becomes the floor of the world, and you stand on it, and above it, quite clearly, you can hear everything else: a man coughing on the far bank; the hiss of the light towers; the radio on the fireman's shoulder; Lucia beside her, breathing through her mouth; your own heart. Your own voice, inside, going on and on, translating.
 
-She had been translating all night. She could not stop. It was what her mind did with things it could not hold: it turned them into other things. *Fiume*: river. *Torrente*: torrent, but also, in English, a flood of words, a torrent of abuse. *In piena*: in spate, in flood, full. *La piena*: the high water. Also the fullness. *Era in piena*: it was at its height. *Sono piena*: I'm full, I've had enough, I can't. She had stood at the parapet of the bridge at midnight looking down at the men in their dry suits roped to the willows, holding long poles, going slowly along the margins of the water, pushing the poles into the dark places under the roots, the places where the current turned back on itself and things collected, branches, foam, a plastic chair, and she had thought, very clearly, in English, *they are sounding*. The word you use for measuring depth. The word you use for how something seems. *How does it sound?* It sounds bad. It sounds very bad. *Sondare*. To probe. They were probing. And she had translated it and translated it until the words came apart in her hands like wet paper and she could see through them to the water, and then she had to go and sit in the fire engine with the door open and put her head between her knees.
+She had been translating all night. She could not stop. It was what her mind did with things it could not hold: it turned them into other things. *In piena*: in spate, in flood, full. *Sono piena*: I'm full, I've had enough, I can't. She had stood at the parapet of the bridge at midnight looking down at the men in their dry suits roped to the willows, holding long poles, going slowly along the margins of the water, pushing the poles into the dark places under the roots, the places where the current turned back on itself and things collected, branches, foam, a plastic chair, and she had thought, very clearly, in English, *they are sounding*. The word you use for measuring depth. The word you use for how something seems. *How does it sound?* It sounds bad. It sounds very bad. *Sondare*. To probe. They were probing. And she had translated it and translated it until the words came apart in her hands like wet paper and she could see through them to the water, and then she had to go and sit in the fire engine with the door open and put her head between her knees.
 
 Davide had rung eleven times. He was on the A24 at Avezzano with the road closed in front of him by a landslip, sitting in a queue of lorries with their engines off, and every time he rang she said *nothing*, and he said *nothing?*, and she said *nothing*, and the word was an object between them, small and smooth and heavy, that neither of them would put down.
 
@@ -24,7 +24,7 @@ He came up onto the bridge. He had a notebook in his hand, closed, with his fing
 
 They went to the end of the bridge, where the road turned up into the village and there was a wall, and the river was a little further off. He did not take her arm. She was grateful for that.
 
-"The daughter of your neighbour," Lalli said. "Rosa. She came tonight from Pescara, to be with her mother. She telephoned me twenty minutes ago."
+"The daughter of your neighbour," Lalli said. "Rosa. She came tonight from Pescara, to be with her mother. She telephoned me half an hour ago."
 
 Chiara looked at him.
 
@@ -35,10 +35,6 @@ She said: "Her mother."
 "Signora Assunta's mother. Who died in the war."
 
 And there it was, under the river, under the lights: an old woman's voice in a dark kitchen, peaceful, pleased with itself. *È ita a portà lu pane a mamma.* She heard it again exactly, every vowel, the way you hear a line you translated wrongly, long after, in the printed book, when it can no longer be changed.
-
-Not *her* mamma.
-
-*Mamma.*
 
 She had sat beside the wrong sentence for eight hours.
 
@@ -98,11 +94,9 @@ The cemetery gate was iron and locked and above it the black cypresses went up i
 
 It was very cold. Far up in the cypresses something shifted and settled — birds — and was still.
 
-Chiara looked up the path. She thought: she came this way. Her feet were on these stones. She thought: while it was still light. While I was saying *dovrebbe*. She thought: she walked up there in the dusk on her own with her bag on her back and half a loaf of bread for a dead woman, because an old woman asked her to, and she said *va bene*. And she thought, for the first time all night not in translation, in no language at all: *of course she did*. Of course. Because Ida listened. Because Ida, who would not listen to anything Chiara said about bags or socks or bedtime, listened to old people and dogs and crows and the radiators and the wind in the chimney as if every one of them was about to tell her something she needed to know. Chiara had seen it a hundred times and called it daydreaming.
+Chiara looked up the path. She thought: she came this way. Her feet were on these stones. She thought: while it was still light. While I was saying *dovrebbe*. She thought: she walked up there on her own with her bag on her back and half a loaf of bread for a dead woman, because an old woman asked her to, and she said *va bene*. And she thought, for the first time all night not in translation, in no language at all: *of course she did*.
 
 Her phone was in her hand. She held it so hard the edge hurt her palm.
-
-Behind her, down in the village, a dog barked once, then again, further off, moving.
 
 The sky at the top of the mountain went from less black to grey.
 

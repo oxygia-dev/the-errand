@@ -55,7 +55,7 @@ Note (Lalli): *Signora calm, oriented to person, not to time. Statement regardin
 
 **21:43** — Giuseppina R. (neighbour) asks Lalli whether someone should inform Assunta D.'s daughter "because the signora is agitated and I can't stay with her all night". Lalli: yes, inform her.
 
-**22:07** — Franco D. and Sandro P. back at cemetery. Report: **ford now knee-deep and rising fast, brown water, stones moving.** Crossed with difficulty holding a rope from Sandro P.'s car. Sandro P. lost his footing; minor injuries to hand. Neither reached Romito. Turned back approx 600 m below it.
+**22:07** — Franco D. and Sandro P. back at cemetery. Report: **ford now knee-deep and rising fast, brown water, stones moving.** Crossed with difficulty holding a rope brought from Sandro P.'s car. Sandro P. lost his footing; minor injuries to hand. Neither reached Romito. Turned back approx 600 m below it.
 
 **22:12** — Note (Lalli): Franco D. states, unprompted: "If she was up there she'd have heard us. We called the whole way. A child hears her name, she shouts." Recorded.
 
@@ -102,9 +102,9 @@ Note: residents Franco D. and Sandro P. passed through Sector M and the lower pa
 
 **00:31** — **Dog at ford.** Dog trails to water's edge at the stepping stones and **indicates at the water.** Will not continue. Casts along near bank 50 m up and down, returns to the stones, indicates again. Torrent in spate, approx 1.2 m above normal, impassable. Handler's assessment: *"Trail ends at water. Child reached the water at this point. Cannot determine from this side whether she crossed."*
 
-**00:34** — CNSAS team 1 by torch from near bank: **bear tracks visible in mud on far bank**, large and small. Forestali confirm: adult female with two cubs of the year known to be frequenting orchards on village edge; sightings at dawn on 5 of the last 7 days.
+**00:34** — CNSAS team 1 by torch from near bank: **bear tracks visible in mud on far bank**, large and small. Forestali confirm: adult female with two cubs of the year known to be frequenting orchards on village edge; repeated dawn sightings this week.
 
-**00:37** — Forestali advise: Marsican bear, adult female with cubs. No recorded attacks on humans in the park. However, female with cubs is the configuration of greatest caution. Recommends no personnel in Sector F on foot at night.
+**00:37** — Forestali advise: Marsican bear, adult female with cubs. No fatal attacks on humans on record. However, female with cubs is the configuration of greatest caution. Recommends no personnel in Sector F on foot at night.
 
 **00:40** — Note: CNSAS team 1 leader to PCA: *"Hat below the bridge, dog stops at the water, tracks on the other side. Either she's in the river or she's over there with the bear. I know which one I'm more afraid of. Neither of them helps us tonight."*
 

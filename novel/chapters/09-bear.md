@@ -42,7 +42,7 @@ She puts her nose down to it. It is very faint after the rain, only a breath of 
 
 She lifts her head and looks that way, which tells her nothing; her eyes are for movement and the forest is not moving. She draws the air in, long, the wet air full of everything, and sorts it, and finds the thread again, not on the ground now but in the air, a warm thread coming down through the trunks toward her on the small slow draught that comes down every slope at night.
 
-Young one. Sleeping. Wet wool. Salt. Fear, old, dried. Soap, the one with flowers. And something sweet, close to it, folded up and dry: yellow, fat, flour and sugar, the thing men make in their ovens, the thing the young bear she remembers used to go into the villages for.
+Young one. Sleeping. Wet wool. Salt. Fear, old, dried. And something sweet, close to it, folded up and dry: yellow, fat, flour and sugar, the thing men make in their ovens, the thing the young bear she remembers used to go into the villages for.
 
 Her belly turns toward it.
 
@@ -52,7 +52,7 @@ And then the other smell, the one inside the sweet one, comes up behind it and s
 
 Men.
 
-Not the frightened men on the path. The other kind. The young ones of men, who are men. She has never been near one. She has never been near any of them; she has gone her whole life to the edge and not past it, as her mother did, as her mother's mother; they are the only animal in the mountains that she has never once been close enough to touch; and everything in her that is older than her own life says the same thing about them, which is the thing the village dog's whole body said at the ford, the thing every creature in the forest says about something: *no*. Not *no* because they are strong. They are not strong. *No* because they are the edge. Because the ones who go past the edge do not come back. The young bear who went into the villages for the sweet things: she remembers his smell, she crossed it once on a road, a great black road that smelled of hot stone and men, and his smell ended there.
+Not the frightened men on the path. The other kind. The young ones of men, who are men. She has never been near one. She has never been near any of them; she has gone her whole life to the edge and not past it, as her mother did, as her mother's mother; they are the only animal in the mountains that she has never once been close enough to touch; and everything in her that is older than her own life says the same thing about them: *no*. Not *no* because they are strong. They are not strong. *No* because they are the edge. Because the ones who go past the edge do not come back. The young bear who went into the villages for the sweet things: she remembers his smell, she crossed it once on a road, a great black road that smelled of hot stone and men, and his smell ended there.
 
 The small one in front, the bolder one, the one who is always further from her than she likes, has gone on.
 

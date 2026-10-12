@@ -42,23 +42,13 @@ Through the wall, where the weight leans, there is a shaking. Not the rain. Low,
 
 Here is what it is. It goes into the wood and through the wood and stops there.
 
-*Bees. Listen to me. I have to tell you something.*
-
-*I sent the little one up. To the Romito. With the bread. I sent her and I couldn't go. My legs.*
-
-*And I told her —*
+*Bees. Listen. I sent the little one up. To the Romito. With the bread.*
 
 The shaking stops. A long time. The rain. The weight on the wall pressing harder, as if it would come in through the wood.
 
-*I told her, if someone calls you, don't come out. Even if it's somebody you know. I told her that. Why did I tell her that.*
+*I told her to be a stone.*
 
-*Bees. Mamma called me. She came down in the snow, I heard her, she was calling Assù, Assù, from the path, she was so close, and I didn't —*
-
-*I was a stone. Like she said. I was so good.*
-
-*And now they're calling the little one. All night. I can hear them. All the men, all night, Ida, Ida. And she won't come out. Because I told her. Because she's good.*
-
-*Bees. Tell somebody. I tell them and they say yes, Nonna, yes, Sunta, and they pat my hand. Tell somebody.*
+*Tell somebody.*
 
 The shaking goes on a little longer, without shape, and then it is only the weight on the wall, and the warmth through the wood, and the rain.
 

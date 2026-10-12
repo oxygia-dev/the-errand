@@ -12,7 +12,7 @@ The light is not here yet. But the hook is.
 
 He has been lying in the doorway across from the old woman's all night with his chin on his paws.
 
-He did not go to the bar. He did not go to the bones. There were no bones; the woman who puts them out was out in the street all night with the others, with the lights, with the noise, and the back door of the bar was shut and smelled only of itself. He lay in the doorway because it was out of the rain and because from the doorway he could smell everything: the old woman's house with the old woman in it, asleep, and then the old woman's daughter, who came in the night smelling of a car and the far city by the sea and fear, and the street, and the men coming and going in the street with their fear, all the men, all night, so much fear on them that the whole village smelled of it, a sour grey fog lying in the streets with the rain.
+He went to the bones, when the light went, at the back door of the bar, and stood over them, and did not eat them, and came here. He lay in the doorway because it was out of the rain and because from the doorway he could smell everything: the old woman's house with the old woman in it, asleep, and then the old woman's daughter, who came in the night smelling of a car and the far city by the sea and fear, and the street, and the men coming and going in the street with their fear, all the men, all night, so much fear on them that the whole village smelled of it, a sour grey fog lying in the streets with the rain.
 
 And the strange dog. Heavy, long-eared, loose-lipped, slow, from a car, from a far place, with a man holding it on a long line. It came up the street in the night with its nose down and went to biscuit-girl's door and then to the old woman's door and then up, up the street, toward the place of the stones, toward the path, following her. He stood up when it passed. Every hair. It did not look at him. It was working. It went up the path into the dark with its man, and a long time later it came back down with its man, and its man was saying *niente* and the strange dog was wet to the shoulders and smelled of the cold green water and of having stopped.
 
@@ -54,7 +54,7 @@ He goes.
 
 ---
 
-Up the path. Fast. The men behind him calling something, not to him. Up past the first turn and the big grey rock that smells of sheep that have not been here for longer than he has been alive, and the air coming down the slope is thicker here, it is coming from the left, from below the rock, from among the trees. He leaves the path. Down through the dead leaves and the empty husks, straight, nose up, not casting, not stopping, the smell getting louder and louder until it is the only thing, until it is a wall, until it is a tree.
+Up the path. Fast. The men behind him calling something, not to him. Up past the first turn and the big grey rock, and the air coming down the slope is thicker here, it is coming from the left, from below the rock, from among the trees. He leaves the path. Down through the dead leaves and the empty husks, straight, nose up, not casting, not stopping, the smell getting louder and louder until it is the only thing, until it is a wall, until it is a tree.
 
 A big one. Many arms. A hole at the bottom.
 
@@ -77,8 +77,6 @@ Then she lets go and takes the bag off her back.
 He knows this. He sits. He doesn't need to be told to sit; he sits the way he sits at the corner every morning, square, with his front feet together, looking at the bag.
 
 She opens it. She takes out the yellow one.
-
-"I saved it," she says. "It's yours."
 
 He takes it from her hand very gently, the way he always does, and eats it.
 

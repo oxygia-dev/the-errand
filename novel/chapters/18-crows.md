@@ -51,15 +51,3 @@ What is known:
 The small face went up the path at the wrong time and did not come down in the dark, and came down in the light, carried. Gives. Small. Looks. Has a sound for one of us. Is kept.
 
 The mother-face: we watch it, in the ring of the bright faces, at the gate, pressed into the small one. We have no verdict. We will watch it. We will see if it comes to the wall.
-
----
-
-Later. Noon. The sun high. The stubble, the bins, the river. Then back, a few of us, to the wall behind the boxes that hum, the old place, the place of the bent face. The bent face does not come. She has not come out all morning. Her window is open. Inside, voices, low, her daughter's, and the bent face's, and the small face's.
-
-The daughter-face comes out. It is the first time she has come to the wall. She has something in her hand, in a paper, and she stands at the wall for a while and looks at it. Then she tears it into pieces, small, with care, and puts the pieces on the top of the wall in a row, and goes in.
-
-Bread. White. Half of one. Torn.
-
-We come down. We eat it.
-
-It is not owed. It is given. This is known.

@@ -22,7 +22,7 @@ Gives. Small. New. Looks.
 
 Now the small face is on the road.
 
-It is late for the small face. At this hour the small faces are inside, behind the yellow windows. We know the small faces' hours better than they do. But here she is, coming past the place of the stones, past the iron gate, with the bag on her back that shines in the colour the faces cannot see, so that even in the dusk, even among the white stones and the grey, she is bright to us as a fish in a stream.
+It is late for the small face. At this hour the small faces are inside, behind the yellow windows. We know the small faces' hours better than they do. But here she is, coming past the place of the stones, past the iron gate, with the bag on her back that shines in the colour the faces cannot see, so that even in the shadow, even among the white stones and the grey, she is bright to us as a fish in a stream.
 
 The dog is with her. The dog is nuisance: too slow to be danger, too stupid to be anything else. The dog barks at us. We let it.
 
@@ -80,6 +80,6 @@ Under us, down in the yellow windows, something has begun. A door, and a voice, 
 
 We do not know the sound. It is not one of ours.
 
-We tuck our heads under. The voice goes on. Somewhere up in the up-trees, the wind turns over, and the first of the cold comes down off the mountain smelling of stone and water and something coming, something big, from the far side of the ridge, the way weather comes.
+We tuck our heads under. The voice goes on. Somewhere up in the up-trees, the wind turns over, and the first of the cold comes down off the mountain smelling of stone and water and something coming, something big, from the west, from behind the hills at the village's back, the way weather comes.
 
 We sleep with it. We will know in the morning. In the morning it will be told.

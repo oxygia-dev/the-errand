@@ -10,7 +10,7 @@ Giuseppina rang at twelve minutes to ten, which meant something had happened, be
 
 "I'm coming," said Rosa, already standing, already looking for her keys, already furious, with Giuseppina, with the storm, with the girl, with the romana, with her mother, mostly with herself, in the order in which they presented themselves.
 
-Paolo was asleep on the sofa with the television on, an old film, a man in a hat walking along a wet street. She shook his shoulder and told him and he said, half-awake, *Do you want me to drive*, and she loved him for saying it and said no, because he could not see at night any more and would not admit it, and because she wanted the two hours alone, though she would not have said so, though she did not know it yet.
+Gianni was asleep on the sofa with the television on, an old film, a man in a hat walking along a wet street. She shook his shoulder and told him and he said, half-awake, *Do you want me to drive*, and she loved him for saying it and said no, because he could not see at night any more and would not admit it, and because she wanted the two hours alone, though she would not have said so, though she did not know it yet.
 
 ---
 
@@ -18,7 +18,7 @@ The motorway west out of Pescara was empty and dry and lit. She drove too fast. 
 
 The thing about Giuseppina's call — she made herself think it, at the toll booth, with the barrier going up — was that she had felt relief. A small clear drop of it, before anything else, before the fear for the child, whom she barely knew: a thin, serious little girl with a boy's haircut who said *buongiorno, signora* on Saturdays with her eyes on the ground. Relief, because for once the thing that had happened in Pietrafonda had not happened to her mother. For once the call was not the call. Since Easter she had been waiting for the call. Mamma on the floor of the bathroom. Mamma in the street in her nightdress. Mamma with the gas on. She had bought the machine to be the call before the call, to catch her mother before she fell, and since Easter she had lived with her phone face-up on every table in her life, in every restaurant, at every dinner, on the edge of the bath, waiting for it to tell her.
 
-It told her things every night. A summary, at eleven, in a pleasant font. *Assunta had a calm day. Assunta was restless in the evening. Assunta talked about her mother.* At first she had read every word. Lying in bed beside Paolo she had read them twice, the way she used to read her students' essays, looking for the thing underneath. By June she was reading only the first line. By July she had stopped opening them. The notification came at eleven and she let it come and went to sleep, and in the morning she swiped it away with the others, the bank, the weather, the news, and felt the small guilt and swiped that away too.
+It told her things every night. A summary, at eleven, in a pleasant font. *Assunta had a calm day. Assunta was restless in the evening. Assunta talked about her mother.* At first she had read every word. Lying in bed beside Gianni she had read them twice, the way she used to read her students' essays, looking for the thing underneath. By June she was reading only the first line. By July she had stopped opening them. The notification came at eleven and she let it come and went to sleep, and in the morning she swiped it away with the others, the bank, the weather, the news, and felt the small guilt and swiped that away too.
 
 The motorway went into the gorge and the rain began.
 
@@ -36,7 +36,7 @@ She did not open it. She knew what it said. It said what it always said.
 
 Sulmona. Off the motorway, onto the old road south, up, the hairpins up toward the plateau, and the rain coming across the headlights in long slants. There was hardly anyone else. A bus, empty and lit, going the other way like a ship. Then nobody.
 
-It was on the hairpins that the story came, as she had known it would, as she had perhaps wanted it to, which was why she had not wanted Paolo in the car.
+It was on the hairpins that the story came, as she had known it would, as she had perhaps wanted it to, which was why she had not wanted Gianni in the car.
 
 ---
 
@@ -68,7 +68,7 @@ On the plateau the storm was enormous.
 
 The Piano delle Cinquemiglia: five miles of flat high nothing between the mountains, where the old travellers used to die in the snow, where her father used to say the wind was looking for somebody. Tonight it had found the car. It came across the open plain and hit the side of the Panda so hard she felt the wheels go light, and she held on, and the rain was not falling but moving sideways in a solid sheet, and the lightning showed her the plain, flat, white, flooding, and the line of the road disappearing into it.
 
-At the far end, on the long descent toward Castel di Sangro, a road sign came up in the headlights, yellow triangle, black silhouette of a bear: *ATTENZIONE ATTRAVERSAMENTO ORSI*. Someone had put flowers on the post, months ago, for the young bear that was killed here, the famous one, the one who used to come into Roccaraso for the biscuits. The flowers were brown and flattened by the rain. She had cried, that January, reading about the bear, more than she had cried for some people. Paolo had teased her about it. She had not been able to explain.
+At the far end, on the long descent toward Castel di Sangro, a road sign came up in the headlights, yellow triangle, black silhouette of a bear: *ATTENZIONE ATTRAVERSAMENTO ORSI*. Someone still put flowers on the post, for the young bear that was killed here, the famous one, the one who used to come into Roccaraso for the biscuits. The flowers were brown and flattened by the rain. She had cried, three Januaries ago, reading about the bear, more than she had cried for some people. Gianni had teased her about it. She had not been able to explain.
 
 ---
 

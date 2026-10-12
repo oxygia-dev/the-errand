@@ -6,9 +6,9 @@ It comes in a weight that the tree has felt five hundred times and that is nothi
 
 In the hollow, the warmth.
 
-It does not keep still. That is the difference, if there is a difference, if the tree could have a difference: in the winter there was a warmth that did not move all night, and this one moves. It shifts in the red dust. It turns over. It makes small sounds that go into the wood and are nothing. For a while, early, it makes a long sound, high and broken, that goes on and on and then stops; and then for a while it is still; and then it shifts again. The dry wood around it receives it all equally. Inside the wall of the hollow, at the height of a sitting child, a small hard point scratches the dead inner wood, again and again, for some time, in short careful strokes. The tree does not feel it. It is the dead part. Nothing that happens to the dead part is a wound.
+It does not keep still. It shifts in the red dust. It turns over. It makes small sounds that go into the wood and are nothing. For a while, early, it makes a long sound, high and broken, that goes on and on and then stops; and then for a while it is still; and then it shifts again. The dry wood around it receives it all equally. Inside the wall of the hollow, at the height of a sitting child, a small hard point scratches the dead inner wood, again and again, for some time, in short careful strokes. The tree does not feel it. It is the dead part. Nothing that happens to the dead part is a wound.
 
-Feet on the path, early: two men, going up, heavy, quick, their voices going ahead of them, the same sound again and again, rising at the end. Then lightning near, and the men coming down, faster. The warmth in the hollow, while the feet pass, goes entirely still. Stiller than the winter one. As still as wood.
+Feet on the path, early: two men, going up, heavy, quick, their voices going ahead of them, the same sound again and again, rising at the end. Then lightning near, and the men coming down, faster. The warmth in the hollow, while the feet pass, goes entirely still. As still as wood.
 
 The feet go.
 

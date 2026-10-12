@@ -62,7 +62,7 @@ Chiara went back to Assunta's. She went quickly but she did not run. She was awa
 
 The old woman looked at her with a kind of polite confusion, the look of someone who has answered a question and been asked it again.
 
-"I told you," she said. "Lu pane. A mamma." And then, as if to a child, slowly, with a gesture of her hand, a turn of the wrist toward the window, toward the dark beyond it, that Chiara saw and did not see, the way you see a word in a sentence in a language you are fluent in and do not register its spelling: "She went. I couldn't. My legs."
+"I told you," she said. "Lu pane. A mamma." And then, as if to a child, slowly, with a gesture of her hand, a turn of the wrist toward the window, toward the dark beyond it: "She went. I couldn't. My legs."
 
 "Okay," said Chiara. "Okay. Thank you."
 
@@ -140,7 +140,7 @@ Mi manca.
 
 Thunder.
 
-It came from very far off, from behind the mountain, a long low sound like furniture being moved in another apartment. Chiara looked up. Through the open door, above the roofs, the absence of stars had changed shape. It had grown. It had come over the top of the ridge and was coming down.
+It came from very far off, from the west, from behind the hills at the village's back, a long low sound like furniture being moved in another apartment. Chiara looked up. Through the open door, above the roofs, the absence of stars had changed shape. It had grown. It was coming.
 
 At the end of the street, blue light began to turn against the walls, slowly, without a siren, as if it did not want to wake anybody.
 

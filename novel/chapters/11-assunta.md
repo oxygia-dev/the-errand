@@ -78,10 +78,6 @@ But Rosa is talking into the telephone.
 
 Assunta hears it in pieces. Rosa's voice is fast and very clear and very Italian, the way she spoke to the doctors, every word with its edges on. *Brigadiere. It's Rosa D., Assunta's daughter, via del Forno. Listen to me. No — listen to me.* A pause. *Half a loaf of bread is missing from my mother's madia. She does not eat that bread. She has not eaten bread from the van in twenty years, she says it's for washing cars. I bought a whole loaf from the van on Saturday, for the girl, for her snacks. It's been torn in two. Half is here. The other half is gone, and it's not in the bin, and it's not on a plate. Someone took it. She told me — she just told me — that she gave it to the child. To take to the Romito.* A pause. *Yes. I know. I know she did. I know what she says every evening, I've heard it more times than you. That's why I'm telling you.*
 
-Pause. Longer.
-
-*No, the bread is not the point. The bread is the proof.*
-
 Assunta has lost the thread. She looks at the window. The white glow down there. Voices, men, very faint. Calling something, the same thing, over and over. She can't hear what. It goes up at the end, like a question.
 
 Rosa is kneeling in front of her again. When did that happen. Rosa has the telephone pressed against her chest, against her blouse, so the man inside can't hear, and she has Assunta's hand in her other hand, tight, too tight.
@@ -90,15 +86,17 @@ Rosa is kneeling in front of her again. When did that happen. Rosa has the telep
 
 She looks.
 
-"The tree. The tree with the door. You told me about it. When I was little. Where is it? Exactly where?"
+"The tree," says Rosa. "Mamma. Where is the tree?"
 
-And here is the strange thing, the thing Assunta will not remember, the thing nobody will ever be able to explain to her or to anyone: she knows. Not a little. Not like a word on a high shelf. She knows the way she knows the stove is lit, in the back of the neck, without looking, as if the answer has been lying in the front of her mind all night, all year, eighty years, waiting for somebody to ask the right question in the right voice.
+And the woman kneeling in front of her is asking where she was.
 
-"After the water," she says. "You cross the water on the stones. Then up. Not far. Where the path turns back on itself the first time, there's a rock like a sheep lying down. Big. Grey. With the moss on its back. You leave the path there. On the left. You go in among the trees, fifty steps, fewer, it's downhill a little, and there she is. The mother. The biggest one. She's got arms like a candlestick because they cut her for the charcoal. The door is on the side facing the path. Facing down. You'd walk past. Everybody walks past."
+Of course she is. That is the question. Mà on her knees on the floor in front of her, her face like that, asking *where were you, where were you all night*.
 
-Rosa is saying it into the telephone, word by word, as Assunta says it. *Rock like a sheep. Left. Fifty steps. Downhill. Candlestick. Door facing down.*
+"I was in the tree, Mà." It comes out very small. "After the water. Where it turns. The sheep. I went left. Down. The big one, the one they cut." She can't look at the face. She looks at the hands. "I'm sorry. It was so dark."
 
-"It's warm inside," says Assunta. "You wouldn't believe how warm."
+Rosa is saying something into the telephone, quickly, low. Assunta hears pieces of it. *After the ford. Where it turns, the first turn — there's a rock, everybody knows it, they call it the sheep. Left of the path. Downhill. A big one that was cut, an old pollard. Yes. Yes. I think so. Yes.*
+
+"It was warm inside," says Assunta. "You wouldn't believe how warm."
 
 Rosa stops saying it into the telephone. She looks at her mother. Her face is doing something terrible and Assunta wants to put her hand on it to make it stop.
 
@@ -137,5 +135,3 @@ Rosa holds her hand. She holds it for a long time before she answers, and when s
 "Good," says Assunta. "It's cold up there."
 
 She closes her eyes.
-
-The bread is on the table, in its paper, in the lamplight. Someone took the other half. Someone has always been taking the other half. She is too tired now to remember who, and it doesn't matter, because it went, it went up, somebody took it up, and the half that is left is only the half that is left, the way it always is, the way it always was, in every house, in every winter: you take what there is, and the rest is what you didn't need.

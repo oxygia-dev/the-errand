@@ -1,4 +1,4 @@
-## 14. The search — 03:01 to 06:55
+## 14. The search — 02:10 to 06:55
 
 *Operational log, PCA Pietrafonda, continued.*
 
@@ -13,8 +13,8 @@
 **03:09** — Brig. Lalli to PCA coordinator, in person. Summary of call:
 - Assunta D., on waking, stated again that she gave the child bread and sent her to the Romito "before dark".
 - **Half a loaf of bread is missing from Assunta D.'s bread chest.** Remaining half present, torn not cut. Daughter states her mother does not eat this bread. Not in bin, not on table.
-- Daughter states her mother told her (approx 1976) of sheltering overnight as a child in winter 1943 in **a hollow beech** above the ford on the Romito path, and that her mother has repeatedly described this tree to the child Ida in recent months, with the instruction to shelter in it "if you can't see the path".
-- At 03:05 Assunta D. gave a **precise description of the tree's location**: above the ford, at the first hairpin, at a large grey boulder "like a sheep lying down" with moss on top; leave the path to the LEFT (descending: right); approx 50 paces, slightly downhill; the largest beech, many-limbed ("like a candlestick", old pollard); opening at base facing downslope toward the path.
+- Daughter states her mother told her (approx 1976) of sheltering overnight as a child in winter 1943 in **a hollow beech** above the ford on the Romito path, with the instruction to shelter in it "if you can't see the path". Daughter believes her mother may have told the child the same.
+- At 03:05 Assunta D., addressing her daughter as her mother, said where she had sheltered: *"after the water... where it turns... the sheep... I went left... down... the big one, the one they cut."* Rosa D.'s interpretation: first hairpin above the ford, at the boulder known locally as *la pecora*; left of path (ascending); downhill; a large old pollard beech.
 
 **03:12** — Coordinator: the missing bread is **physical corroboration** of the 21:14 statement. Timing consistent with dog (18:50 return) and trailing dog (indication at ford). Hat in river consistent with loss at ford, not necessarily entry into water. Bear tracks on far bank do not exclude a child having passed before.
 
@@ -34,7 +34,7 @@
 
 **03:56** — Teams F1, F2 depart PCA.
 
-**04:21** — Air support: helicopter (Elisoccorso, L'Aquila) available from first light, approx 06:30, weather permitting. Low cloud on ridge.
+**04:21** — Air support: VVF helicopter (Drago, Pescara) available from first light, approx 06:30, weather permitting. Low cloud on ridge.
 
 **04:30** — Mother's phone: child's father, delayed at Avezzano (A24 closed, landslip). Informed of new hypothesis.
 
@@ -66,7 +66,7 @@
 
 **06:18** — Note (F2 leader): *"If she's here, she can hear us. We're loud. Either she's not here, or she's not able to answer, or she's choosing not to."* Coordinator requests medical readiness for hypothermia, possible injury.
 
-**06:22** — Brig. Lalli, by phone to F2 leader, passes on a point raised by Rosa D.: her mother's stories of the war include an instruction *to stay still and silent if you hear voices, "even if it's someone you know."* Daughter is uncertain whether her mother repeated this to the child. F2 leader acknowledges: *"Understood. We'll look, not just call."*
+**06:22** — Brig. Lalli, by phone to F2 leader, passes on a point raised by Rosa D.: her mother's stories of the war include an instruction *to stay still and silent if you hear voices, "even if it's someone you know."* Daughter is uncertain whether her mother repeated this to the child. F2 leader acknowledges.
 
 **06:31** — Ford: Sector R team 3 crosses with rope. Two operators on far bank. Bear tracks of last evening still visible, partially washed. Start up mulattiera toward F teams.
 

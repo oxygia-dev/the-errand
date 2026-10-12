@@ -106,7 +106,7 @@ EXPORT   requested 06/10 22:47 by CARER (ROSA)   note: "keep"
 **ASSUNTA** — Promise.
 `class=—`
 
-**IDA** — Okay. I promise. But Biscotto came first anyway, before the men. And Biscotto isn't someone, so I came out. And I gave him my biscuit. I saved it all night. I didn't eat it even when I was starving. Because it was his.
+**IDA** — Okay. I promise. But Biscotto came first anyway, before the men. And Biscotto isn't someone, so I came out. And I gave him my biscuit.
 
 **ASSUNTA** — Brava.
 `class=—`
@@ -118,9 +118,11 @@ EXPORT   requested 06/10 22:47 by CARER (ROSA)   note: "keep"
 **ASSUNTA** — What did you write?
 `class=—`
 
-**IDA** — With my pencil from my pencil case. On the inside, on the wood. So the next person knows. I wrote: *If you can't see the path, wait here. It gets light.*
+**IDA** — With my pencil from my pencil case. On the inside, on the wood.
 
-**ASSUNTA** — Did you spell it right?
+**IDA** — It's for the next person. Not you.
+
+**ASSUNTA** — *[laughter]* Did you spell it right?
 `class=HUMOUR  conf=0.33`
 
 **IDA** — Mostly.
@@ -162,7 +164,7 @@ EXPORT   requested 06/10 22:47 by CARER (ROSA)   note: "keep"
 **ASSUNTA** — Who told you that?
 `class=—`
 
-**IDA** — You did. You tell them everything. I hear you over the wall. You told them about the saint, and about Rosa's pressure, and about the Mancinelli boy moving to Castel di Sangro. You told them Saturn's got a hat.
+**IDA** — You did. You tell them everything. I hear you over the wall. You told them about the saint, and about Giuseppina's pressure, and about the Mancinelli boy moving to Castel di Sangro. You told them Saturn's got a hat.
 
 **ASSUNTA** — *[laughter]*
 `class=HUMOUR  conf=0.90`

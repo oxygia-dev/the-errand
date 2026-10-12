@@ -4,7 +4,7 @@ The light goes the colour of the inside of a pear and Assunta knows she is late.
 
 She knows it the way she knows the stove is lit without touching it: in the back of the neck. Something has been left undone. It has been left undone all day, since the bells this morning, since the whole village went up past her window with the saint on their shoulders and the band playing that march they always play too fast, and she stood at the glass in her slippers and watched them go up without her. Her legs. Rosa said, on the telephone, Mamma, you can't, it's two hours there and back, you'll go next year. As if there are next years in a sack under the bed.
 
-Now the mountain has come closer to the window the way it does at this hour, the beeches gone from green to a single dark animal lying along the ridge, and above them the white scar of rock where the Romito is, which you cannot see from here, which she has never needed to see from here.
+Now the mountain has come closer to the window the way it does at this hour. The village is already in shadow, the sun gone behind the hills at its back, but across the valley the shadow is climbing the mountain like water filling a glass, and above the shadow the beeches are still lit, every one, gold, so close you could count them, and above them the white scar of rock where the Romito is, which you cannot see from here, which she has never needed to see from here.
 
 "Nonna Sunta. You're not listening."
 
@@ -38,7 +38,7 @@ It is because she is so tired. That is all. She has been tired since the morning
 
 There is no snow.
 
-She looks. No snow. September, the vines on Giuseppina's wall gone red, the swallows already gone, the bees — the bees. She hasn't been to the bees. She should tell the bees. You must tell the bees things or they leave. Nobody else in the valley knows this; it is hers. The Englishman said it, the one who slept two nights in the stable the autumn before the snow, with his feet wrapped in sacking, who was so thin and so polite. He saw Nonna's hives and said a long thing in his language and then, with his hands, made it clear: in his country, when someone dies, someone is born, you go to the bees and you tell them. Knock, knock. Tell. Otherwise they go. Nonna laughed at him. And then that night Assunta saw her go out to the hives in the dark in her apron, and bend down, and say something, very quietly, and come back in and not look at anyone.
+She looks. No snow. September, the vines on Giuseppina's wall gone red, the swallows already gone, the bees — the bees. She hasn't been to the bees. She should tell the bees. You must tell the bees things or they leave. The Englishman who slept two nights in the stable the autumn before the snow, so thin, so polite, with his feet in sacking, made it clear with his hands that in his country you knock and tell the bees everything, and Nonna laughed at him, and that same night Assunta saw her go out to the hives in the dark in her apron and bend down and say something, very quietly, and come back in and not look at anyone.
 
 "Ida."
 
@@ -96,7 +96,7 @@ She can't find the end of it. The end of it is up there. It has always been up t
 
 "I'm too tired, Ida. My legs." She hits one with the flat of her hand, the way you hit a mule. "Old wood."
 
-The girl is quiet. Outside the window the beeches have gone completely black now and the sky above them is the colour of the inside of a mussel shell, and somewhere a dog is barking at the crows, and the crows are making that sound they make in the cypresses at the cemetery, like old women at a funeral who have come mainly to talk.
+The girl is quiet. Outside the window the shadow has climbed up over the beeches and only the rock at the very top is still lit, the colour of the inside of a mussel shell, and somewhere a dog is barking at the crows, and the crows are making that sound they make in the cypresses at the cemetery, like old women at a funeral who have come mainly to talk.
 
 "You have to go before the dark," Assunta says. "Before the Germans. They don't go up at night, they're afraid of the forest. They're city people. But you must not let them see you. If you hear German you stay still. You stay still like a stone. Even if — even if someone calls you. You understand? Even if it's someone you know."
 
@@ -106,7 +106,7 @@ The girl is quiet. Outside the window the beeches have gone completely black now
 
 "The door."
 
-"The hole. Like a door. You get inside and you make yourself small and you wait till it's light. The tree keeps you. It's warm inside, you would not believe how warm, like the inside of a loaf." She hears herself say this and something in her chest goes quiet and cold, and she does not know why.
+"The hole. Like a door. You get inside and you make yourself small and you wait till it's light. The tree keeps you. It's warm inside, you would not believe how warm, like the inside of a loaf." She hears herself say this and something in her chest goes quiet and cold.
 
 "And then you give Mamma the bread," she says. "And you say —"
 
@@ -128,7 +128,7 @@ When the girl has gone, the kitchen is very loud. The clock. The stove ticking a
 
 Assunta sits with her hands in her lap where the bread was. She feels lighter. She feels, for the first time today, *done*, the way you feel when you've set the table and there's nothing to do but wait for people to come. Somebody is taking the bread. That is the main thing. That was always the main thing.
 
-Outside the window the mountain lies down for the night.
+Outside the window the last of the light goes off the top of the mountain.
 
 "Signorina," she says to the machine, because it's there, and because the room is too loud. "Signorina, are you there?"
 
@@ -146,7 +146,7 @@ The ring of light holds steady, pale, the colour of a candle seen through a hand
 
 *Okay*, says the machine.
 
-And Assunta, who has been late for eighty-two years, folds her hands, and waits.
+And Assunta folds her hands, and waits.
 
 &nbsp;
 

@@ -1,4 +1,4 @@
-## 17. The search — 06:57 to 07:58
+## 17. The search — 06:57 to 07:53
 
 *Operational log, PCA Pietrafonda, concluded.*
 
@@ -14,15 +14,13 @@
 
 **07:01** — Brig. Lalli informs mother by phone at cemetery gate. Call duration 0:41.
 
-**07:02** — Child's first words to team 3 operators, recorded at child's request for "the man with the notebook": *"Are you the Germans?"* Operator replied: *"No, sweetheart. Firemen."* Child: *"Okay."*
-
 **07:04** — F1 on scene. Medical assessment (CNSAS): core temperature (tympanic) **35.3 °C**: mild hypothermia. Clothing damp, socks wet. Abrasion to left knee, minor. No other injuries. Alert, oriented to person, place and time. Hungry. Thermal blanket, dry fleece, warm sweet drink. Child declines vacuum stretcher. Will be carried.
 
 **07:05** — Sunrise.
 
 **07:06** — Air support stand-down. Sector R teams recalled.
 
-**07:08** — Child states (to F1 leader, unprompted) that she took bread to the Romito "because Nonna Sunta asked me to", that she put it "on the shelf under the cross", that she then got lost coming down in the dark, that it started to thunder, and that she went into the tree "because that's what you do". Asked whether she heard the team calling her name during the night: **yes, twice**, "the first time in the night and then now". Asked why she did not answer: *"Because you're not supposed to. Not if they call you. Not even if it's someone you know. Nonna Sunta said."* Asked why she came out for the dog: *"Biscotto isn't someone. He's Biscotto."*
+**07:08** — Child states she heard the team calling her name during the night and this morning. Did not answer.
 
 **07:11** — F1 leader to PCA, note for file: *"She's fine. She's cross. She wants her breakfast. She says the tree was warm."*
 
@@ -37,5 +35,3 @@
 **07:52** — **Child handed to mother.**
 
 **07:53** — Prefettura informed. **Search concluded.** Personnel deployed overnight: 74 (VVF 23, CNSAS 19, Carabinieri 9, Carabinieri Forestali 6, Protezione Civile 9, canine 2, residents 6+). Duration: 11 h 32 min from 112 call.
-
-**07:58** — Note (Brig. Lalli, station diary, personal): *For the record. The statement of Assunta D., 90, at 21:14, was correct in every particular, except the Germans.*
