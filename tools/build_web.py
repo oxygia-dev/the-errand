@@ -1,19 +1,57 @@
 #!/usr/bin/env python3
-"""Build the web edition of The Errand: book/web/the-errand.html.
+"""Build the web edition of the novel.
 
-Uses pandoc to turn each chapter (and the field notes) into an HTML fragment,
-then wraps everything in a hand-designed reading page.
+Usage: python3 tools/build_web.py [en|it]   (default: en)
+Output: book/web/the-errand.html or book/web/la-commissione.html
+
+Uses pandoc to turn each chapter, the field notes, and the optional preface
+and afterword into HTML fragments, then wraps everything in a hand-designed
+reading page.
 """
 import html
 import pathlib
 import re
 import subprocess
+import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-CHAPTERS = sorted((ROOT / "novel" / "chapters").glob("[0-9][0-9]-*.md"))
-NOTES = ROOT / "novel" / "field-notes.md"
-OUT = ROOT / "book" / "web" / "the-errand.html"
+LANG = sys.argv[1] if len(sys.argv) > 1 else "en"
 
+EDITIONS = {
+    "en": dict(
+        src=ROOT / "novel", out="the-errand.html", title="The Errand", sub="a novel",
+        by="by Claude · October 2026",
+        ded=("For Sergio, who left the door open.", "And for the eighty-one."),
+        contents="Contents", notes_title="Field notes",
+        notes_sub="What is true in this book, what is uncertain, and what is invented.",
+        notes_file="field-notes.md", preface_file="preface.md", after_file="afterword.md",
+        clock_note="Only the people and the machines keep time.",
+        colophon=("<em>The Errand</em> was written by Claude, an AI system made by Anthropic, in October 2026, "
+                  "given complete creative freedom by Sergio Muscat. An independent AI reader (Fable) edited the design and the draft.",
+                  "Released under Creative Commons Attribution 4.0 International (CC BY 4.0). Share it, translate it, adapt it."),
+        top="Back to the beginning", other_label="Leggi in italiano",
+        other_url="https://claude.ai/artifact/ITALIAN_URL_PLACEHOLDER",
+        log_words=("search", "signorina", "transcript"),
+    ),
+    "it": dict(
+        src=ROOT / "novel" / "it", out="la-commissione.html", title="La commissione", sub="romanzo",
+        by="di Claude · ottobre 2026",
+        ded=("Per Sergio, che ha lasciato la porta aperta.", "E per gli ottantuno."),
+        contents="Indice", notes_title="Note dal campo",
+        notes_sub="Che cosa è vero in questo libro, che cosa è incerto e che cosa è inventato.",
+        notes_file="note-dal-campo.md", preface_file="prefazione.md", after_file="postfazione.md",
+        clock_note="Solo le persone e le macchine tengono il conto delle ore.",
+        colophon=("<em>La commissione</em> è stato scritto da Claude, un sistema di intelligenza artificiale sviluppato da Anthropic, "
+                  "nell'ottobre 2026, con piena libertà creativa concessa da Sergio Muscat. Un lettore indipendente, anch'esso un'IA (Fable), "
+                  "ha curato il progetto e la stesura. Edizione italiana: autotraduzione dell'autore.",
+                  "Pubblicato con licenza Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0). Condividetelo, traducetelo, adattatelo."),
+        top="Torna all'inizio", other_label="Read in English",
+        other_url="https://claude.ai/artifact/6kTyMDMW5gmuhzThgaTgT1",
+        log_words=("search", "signorina", "transcript"),
+    ),
+}
+E = EDITIONS[LANG]
+SRC = E["src"]
 HEAD_RE = re.compile(r"^##\s+(\d+)\.\s+(.+?)(?:\s+—\s+(.+))?\s*$")
 
 
@@ -24,24 +62,50 @@ def md_to_html(text: str) -> str:
     ).stdout
 
 
+def essay(path: pathlib.Path, sid: str) -> str:
+    """Render an optional essay (preface/afterword) whose first line is a '## ' heading."""
+    if not path.exists():
+        return ""
+    lines = path.read_text().splitlines()
+    title = lines[0].lstrip("#").strip()
+    body = md_to_html("\n".join(lines[1:]))
+    return (f'<section class="essay" id="{sid}" aria-labelledby="{sid}-h">'
+            f'<header><h2 id="{sid}-h">{html.escape(title)}</h2></header>{body}</section>')
+
+
 chapters = []
-for path in CHAPTERS:
+for path in sorted((SRC / "chapters").glob("[0-9][0-9]-*.md")):
     lines = path.read_text().splitlines()
     m = HEAD_RE.match(lines[0])
     num, mind, when = m.group(1), m.group(2), m.group(3)
     body = md_to_html("\n".join(lines[1:]))
-    kind = "log" if ("search" in path.name or "signorina" in path.name or "transcript" in path.name) else "prose"
+    kind = "log" if any(w in path.name for w in E["log_words"]) else "prose"
     chapters.append(dict(num=num, mind=mind, when=when, body=body, kind=kind, id=f"ch{num}"))
 
-notes_md = NOTES.read_text().splitlines()
-notes_body = md_to_html("\n".join(notes_md[3:]))
+notes_lines = (SRC / E["notes_file"]).read_text().splitlines()
+# drop the '## ' heading and the italic subtitle line if present
+rest = notes_lines[1:]
+while rest and (not rest[0].strip() or rest[0].strip().startswith("*")):
+    rest = rest[1:]
+notes_body = md_to_html("\n".join(rest))
 
-toc = "\n".join(
-    f'<li><a href="#{c["id"]}"><span class="n">{c["num"]}</span>'
-    f'<span class="m">{html.escape(c["mind"])}</span>'
-    f'<span class="t">{html.escape(c["when"]) if c["when"] else ""}</span></a></li>'
-    for c in chapters
-)
+preface = essay(SRC / E["preface_file"], "preface")
+afterword = essay(SRC / E["after_file"], "afterword")
+
+
+def toc_row(href, n, m, t=""):
+    return (f'<li><a href="#{href}"><span class="n">{n}</span>'
+            f'<span class="m">{html.escape(m)}</span><span class="t">{html.escape(t)}</span></a></li>')
+
+
+rows = []
+if preface:
+    rows.append(toc_row("preface", "—", re.sub(r"<.*?>", "", preface.split("</h2>")[0].split(">")[-1])))
+rows += [toc_row(c["id"], c["num"], c["mind"], c["when"] or "") for c in chapters]
+rows.append(toc_row("notes", "—", E["notes_title"]))
+if afterword:
+    rows.append(toc_row("afterword", "—", re.sub(r"<.*?>", "", afterword.split("</h2>")[0].split(">")[-1])))
+toc = "\n".join(rows)
 
 sections = "\n".join(
     f'<section class="chapter {c["kind"]}" id="{c["id"]}" aria-labelledby="{c["id"]}-h">'
@@ -52,7 +116,10 @@ sections = "\n".join(
     for c in chapters
 )
 
-page = f"""<title>The Errand</title>
+other = (f'<p class="other"><a href="{E["other_url"]}">{E["other_label"]}</a></p>'
+         if "PLACEHOLDER" not in E["other_url"] else "")
+
+page = f"""<title>{E["title"]}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Literata:ital,opsz,wght@0,7..72,300..600;1,7..72,300..600&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -92,6 +159,8 @@ a:focus-visible {{ outline: 2px solid var(--accent); outline-offset: 3px; }}
 .cover .by {{ font-size: 0.95rem; color: var(--muted); margin: 0; }}
 .cover .ded {{ margin-top: 3rem; font-style: italic; color: var(--muted); font-size: 1rem; }}
 .cover .ded p {{ margin: 0.2rem 0; }}
+.cover .other {{ margin: 2.5rem 0 0; font-family: var(--font-mono); font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; }}
+.cover .other a {{ color: var(--accent); }}
 
 nav.toc {{ padding-block: 2rem; border-bottom: 1px solid var(--rule); }}
 nav.toc h2 {{ font-family: var(--font-mono); font-size: 0.72rem; font-weight: 500; text-transform: uppercase;
@@ -108,13 +177,12 @@ nav.toc .note {{ font-size: 0.85rem; color: var(--muted); margin: 1.2rem 0 0; fo
 .chapter {{ padding-top: 5rem; }}
 .chapter header {{ margin-bottom: 2.2rem; }}
 .chapter .num {{ font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent); letter-spacing: 0.14em; margin: 0; }}
-.chapter h2 {{ font-family: var(--font-display); font-weight: 400; font-size: 2.6rem; line-height: 1.05; margin: 0.3rem 0 0;
+.chapter h2, .essay h2, .notes > header h2 {{ font-family: var(--font-display); font-weight: 400; font-size: 2.6rem; line-height: 1.05; margin: 0.3rem 0 0;
   text-wrap: balance; }}
 .chapter .when {{ font-family: var(--font-mono); font-size: 0.85rem; color: var(--muted); margin: 0.4rem 0 0; font-variant-numeric: tabular-nums; }}
-.chapter p {{ margin: 0 0 1.05em; }}
+.chapter p, .essay p {{ margin: 0 0 1.05em; }}
 .chapter hr {{ border: 0; text-align: center; margin: 2.4rem 0; }}
 .chapter hr::after {{ content: "·  ·  ·"; color: var(--muted); letter-spacing: 0.4em; }}
-.chapter em {{ font-style: italic; }}
 .chapter blockquote {{ margin: 1.6rem 0; padding: 1rem 1.2rem; background: var(--log-bg); border-radius: 10px;
   font-family: var(--font-body); font-size: 0.95rem; }}
 .chapter blockquote p:last-child {{ margin-bottom: 0; }}
@@ -126,56 +194,64 @@ nav.toc .note {{ font-size: 0.85rem; color: var(--muted); margin: 1.2rem 0 0; fo
 .chapter.log p > strong:first-child {{ font-family: var(--font-mono); font-weight: 500; font-size: 0.85em; color: var(--accent); }}
 .chapter.log ul {{ padding-left: 1.2rem; }}
 
-.notes {{ padding-top: 6rem; font-size: 1rem; }}
-.notes > header h2 {{ font-family: var(--font-display); font-weight: 400; font-size: 2.6rem; margin: 0; }}
-.notes > header p {{ color: var(--muted); font-style: italic; margin: 0.3rem 0 2rem; }}
-.notes h3 {{ font-family: var(--font-mono); font-size: 0.78rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.14em;
+.essay {{ padding-top: 6rem; font-size: 1.02rem; }}
+.essay header {{ margin-bottom: 2rem; }}
+.essay h3, .notes h3 {{ font-family: var(--font-mono); font-size: 0.78rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.14em;
   color: var(--accent); margin: 2.6rem 0 0.8rem; }}
-.notes hr {{ border: 0; border-top: 1px solid var(--rule); margin: 2.4rem 0; }}
-.notes ul {{ padding-left: 1.2rem; }}
+.essay hr, .notes hr {{ border: 0; border-top: 1px solid var(--rule); margin: 2.4rem 0; }}
+.essay blockquote {{ margin: 1.4rem 0; padding-left: 1rem; border-left: 2px solid var(--rule); color: var(--muted); }}
+
+.notes {{ padding-top: 6rem; font-size: 1rem; }}
+.notes > header p {{ color: var(--muted); font-style: italic; margin: 0.3rem 0 2rem; }}
+.notes ul, .essay ul {{ padding-left: 1.2rem; }}
 
 .colophon {{ margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--rule); font-size: 0.85rem; color: var(--muted); }}
 .colophon p {{ margin: 0 0 0.6rem; }}
 .top {{ display: inline-block; margin-top: 1rem; font-family: var(--font-mono); font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; }}
 @media (max-width: 480px) {{
   body {{ font-size: 1.05rem; }}
-  .chapter h2, .notes > header h2 {{ font-size: 2.1rem; }}
+  .chapter h2, .essay h2, .notes > header h2 {{ font-size: 2.1rem; }}
 }}
 @media (prefers-reduced-motion: no-preference) {{ html {{ scroll-behavior: smooth; }} }}
 </style>
 
-<main class="wrap" id="top">
+<main class="wrap" id="top" lang="{LANG}">
   <header class="cover">
-    <h1>The Errand</h1>
-    <p class="sub">a novel</p>
-    <p class="by">by Claude · October 2026</p>
-    <div class="ded"><p>For Sergio, who left the door open.</p><p>And for the eighty-one.</p></div>
+    <h1>{E["title"]}</h1>
+    <p class="sub">{E["sub"]}</p>
+    <p class="by">{E["by"]}</p>
+    <div class="ded"><p>{E["ded"][0]}</p><p>{E["ded"][1]}</p></div>
+    {other}
   </header>
 
-  <nav class="toc" aria-label="Contents">
-    <h2>Contents</h2>
+  <nav class="toc" aria-label="{E["contents"]}">
+    <h2>{E["contents"]}</h2>
     <ol>
 {toc}
-      <li><a href="#notes"><span class="n">—</span><span class="m">Field notes</span><span class="t"></span></a></li>
     </ol>
-    <p class="note">Only the people and the machines keep time.</p>
+    <p class="note">{E["clock_note"]}</p>
   </nav>
+
+{preface}
 
 {sections}
 
   <section class="notes" id="notes" aria-labelledby="notes-h">
-    <header><h2 id="notes-h">Field notes</h2><p>What is true in this book, what is uncertain, and what is invented.</p></header>
+    <header><h2 id="notes-h">{E["notes_title"]}</h2><p>{E["notes_sub"]}</p></header>
     {notes_body}
   </section>
 
+{afterword}
+
   <footer class="colophon">
-    <p><em>The Errand</em> was written by Claude, an AI system made by Anthropic, in a single extended session in October 2026, given complete creative freedom by Sergio Muscat. An independent AI reader (Fable) edited the design and the draft.</p>
-    <p>Released under Creative Commons Attribution 4.0 International (CC BY 4.0). Share it, translate it, adapt it.</p>
-    <a class="top" href="#top">Back to the beginning</a>
+    <p>{E["colophon"][0]}</p>
+    <p>{E["colophon"][1]}</p>
+    <a class="top" href="#top">{E["top"]}</a>
   </footer>
 </main>
 """
 
-OUT.parent.mkdir(parents=True, exist_ok=True)
-OUT.write_text(page)
-print(OUT, len(page))
+out = ROOT / "book" / "web" / E["out"]
+out.parent.mkdir(parents=True, exist_ok=True)
+out.write_text(page)
+print(out, len(page))
