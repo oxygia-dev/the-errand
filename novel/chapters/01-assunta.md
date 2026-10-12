@@ -2,7 +2,7 @@
 
 The light goes the colour of the inside of a pear and Assunta knows she is late.
 
-She knows it the way she knows the stove is lit without touching it: in the back of the neck. Something has been left undone. It has been left undone all day, since the bells this morning, since the whole village went up past her window with the saint on their shoulders and the band playing that march they always play too fast, and she stood at the glass in her slippers and watched them go up without her. Her legs. Rosa said, on the telephone, Mamma, you can't, it's two hours there and back, you'll go next year. As if there are next years in a sack under the bed.
+She knows it the way she knows the stove is lit without touching it: in the back of the neck. Something has been left undone. It has been left undone all day, since the bells this morning, since the whole village went up past her window with the saint on their shoulders and the band playing that march they always play too fast, and she stood at the glass in her slippers and watched them go up without her. Her legs. Rosa said, on the telephone, Mamma, you can't, it's two hours up and two down, you'll go next year. As if there are next years in a sack under the bed.
 
 Now the mountain has come closer to the window the way it does at this hour. The village is already in shadow, the sun gone behind the hills at its back, but across the valley the shadow is climbing the mountain like water filling a glass, and above the shadow the beeches are still lit, every one, gold, so close you could count them, and above them the white scar of rock where the Romito is, which you cannot see from here, which she has never needed to see from here.
 
@@ -72,7 +72,7 @@ She has been standing too long with the lid up. Her hands are on the bread. Her 
 
 The machine on the shelf has turned its ring of light from white to a soft blue. She notices this and does not know what it means, and she knows she does not know what it means, and that she has been told, more than once, by Rosa, slowly, as if to a child.
 
-"Ida." She sits down again, not because she decides to but because her legs decide, and the bread is in her lap now, the half loaf, in its paper. "Listen to me. Are you listening?"
+"Ida." She sits down again, not because she decides to but because her legs decide, and the bread is in her lap now, the half loaf, wrapped in a clean tea towel with her initials on it. "Listen to me. Are you listening?"
 
 "Yes."
 

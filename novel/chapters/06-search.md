@@ -16,7 +16,7 @@
 
 **20:44** — Weather: Protezione Civile Abruzzo yellow alert, thunderstorms, upper Sangro valley, 20:00–02:00. Radar shows cell approaching from W.
 
-**21:02** — Patrol on scene. Brig. Lalli takes statement from mother at Bar Centrale.
+**21:02** — Patrol on scene. Brig. Lalli takes statement from mother at her home.
 
 **21:06** — Mother's statement (summary): last saw child at lunch. Child had attended the San Michele procession that morning with a neighbour (Giuseppina R., 74). Mother went at 19:45 to collect child from elderly neighbour's house. **Neighbour stated child had "gone home" with bread.** Child not at home; rucksack not at home. No known reason for child to leave. No problems at home or at school. Child "afraid of the dark". No phone. No medical conditions.
 

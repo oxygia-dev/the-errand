@@ -4,7 +4,7 @@
 
 ---
 
-**02:10–02:50** — VVF thermal drone (SAPR), Sector R, ford to confluence. Rain light. Returns: 2 × VVF fluvial operators (known), 1 × fox, 3 × small mammal. **No human signature in or beside the water.**
+**02:10–02:50** — VVF thermal drone (SAPR), Sector R, ford to confluence. Rain stopped. Returns: 2 × VVF fluvial operators (known), 1 × fox, 3 × small mammal. **No human signature in or beside the water.**
 
 **02:55** — Sector R ground search continuing. Fluvial team 2 (Pescara) on scene 02:40. Water level at bridge falling: −0.3 m from peak.
 
@@ -42,9 +42,9 @@
 
 **05:00–05:35** — VVF thermal drone, Sector F (upper), launched from Passo della Croce. Cloud base low. **Canopy closed** (beech, full leaf; first yellowing only). Returns through gaps: roe deer ×3; wild boar ×1; **large mammal + 2 small** moving upslope near cliff base approx 1,550 m (Forestali: consistent with bear, female with cubs; moving away from path); Teams F1/F2 (known). **No signature consistent with a child.** Drone operator notes: *"Under this canopy we only see what's in the gaps. If she's under a tree we won't see her. If she's inside one, nothing will."*
 
-**05:09** — **F1 at Romito.** Cave mouth and hermit's cell searched. No child. **Found: on stone shelf beneath iron cross, among candle stubs from yesterday's procession, a half loaf of white bread in paper.** Dry (sheltered). End crust missing (torn). Bread placed upright, *"set out carefully, like something on an altar"* (F1 leader). Photo sent to PCA 05:11.
+**05:09** — **F1 at Romito.** Cave mouth and hermit's cell searched. No child. **Found: on stone shelf beneath iron cross, among candle stubs from yesterday's procession, a half loaf of white bread wrapped in a tea towel.** Dry (sheltered). End crust missing (torn). Bread placed upright, *"set out carefully, like something on an altar"* (F1 leader). Photo sent to PCA 05:11.
 
-**05:12** — Photo shown to Rosa D. by Brig. Lalli (by phone message). Rosa D. confirms paper and bread consistent with her mother's (van bakery, Castel di Sangro, printed paper).
+**05:12** — Photo shown to Rosa D. by Brig. Lalli (by phone message). Rosa D. confirms the tea towel is her mother's (embroidered initials A.D.).
 
 **05:13** — **Child's presence at Romito confirmed.**
 
@@ -54,9 +54,9 @@
 
 **05:31** — F1, approx 200 m below Romito on mulattiera. Trailing dog loses trail on open wet scree. Casts, does not recover. Handler: *"Rain's taken it."* Teams continue down the path on foot, searching both sides, calling.
 
-**05:40** — F2: hollow beech approx 30 m left of path, below a rock outcrop. Checked: **negative** (dormouse nest, old).
+**05:40** — F2: hollow beech approx 30 m left of path (descending), below a rock outcrop. Checked: **negative** (dormouse nest, old).
 
-**05:48** — F1: second hollow beech, large, approx 60 m right of path. Checked with torch: **negative.**
+**05:48** — F1: second hollow beech, large, approx 60 m right of path (descending). Checked with torch: **negative.**
 
 **05:53** — F1 leader to PCA: *"There are hollow beeches all over this slope. Half the old ones are hollow. And there are rocks everywhere and half of them look like sheep. We need the hairpin. We need the first hairpin above the ford, coming up. Coming down, that's the last. We're looking for the last hairpin."*
 

@@ -6,8 +6,7 @@ SITE     via del Forno 4, Pietrafonda (AQ)
 USER     ASSUNTA D. (b. 1936)   profile: MCI→dementia (mod.), lives alone
 CARER    ROSA D. (daughter)   primary contact   +39 3•• ••• ••41
          GIUSEPPINA R. (neighbour)   secondary contact
-KNOWN    IDA (neighbour child) · CHIARA (neighbour) · DON CARLO (priest)
-VOICES
+VOICES   IDA (neighbour child) · CHIARA (neighbour) · DON CARLO (priest)
 SENSORS  mic array (far-field, 4) · radar (kitchen, bedroom) · door (front, back)
          · bed pressure · smoke/CO · temp
 LOG      29/09   local time   export requested 30/09 10:12 by CARER
@@ -91,8 +90,8 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
 21:41:40  POWER      restored
 21:47:12  POWER      interruption   (battery)
 21:47:55  POWER      restored
-21:52:00  VOICE      speakers=2 (ASSUNTA, GIUSEPPINA)
-21:52 → 22:58   UTTERANCES ×44 ASSUNTA.  EPISODE ×29.
+21:44:30  VOICE      speakers=2 (ASSUNTA, GIUSEPPINA)
+21:44 → 22:58   UTTERANCES ×44 ASSUNTA.  EPISODE ×29.
                 top refs: MOTHER ×11 · BREAD/"pane" ×9 · IDA ×8 · ROMITO ×6
                 · GERMANS/"tedeschi" ×4 · BEES/"api" ×3 · LEGS/"gambe" ×3
                 distress (est.) 0.52–0.71
@@ -105,7 +104,7 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
 
 > **Daily summary — Assunta, Tuesday 29 September**
 >
-> Assunta had a restless evening. She spent the afternoon with Ida, and they talked about school. Later she talked about her mother, about bread, and about the Germans. She said that she had sent Ida to the Romito with bread for her mother. (Note: Assunta's mother is recorded as deceased. This is likely to be a memory from the past.) Assunta did not eat her evening meal at the usual time. Giuseppina has been with her since 21:52.
+> Assunta had a restless evening. She spent the afternoon with Ida, and they talked about school. Later she talked about her mother, about bread, and about the Germans. She said that she had sent Ida to the Romito with bread for her mother. (Note: Assunta's mother is recorded as deceased. This is likely to be a memory from the past.) Assunta did not eat her evening meal at the usual time. Giuseppina has been with her since 21:44.
 >
 > Visitors today: Ida, Chiara, Giuseppina, 2 unknown.
 > Episodes today: 37 (↑ 12 vs. 7-day average).

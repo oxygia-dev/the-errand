@@ -24,7 +24,7 @@ He came up onto the bridge. He had a notebook in his hand, closed, with his fing
 
 They went to the end of the bridge, where the road turned up into the village and there was a wall, and the river was a little further off. He did not take her arm. She was grateful for that.
 
-"The daughter of your neighbour," Lalli said. "Rosa. She came tonight from Pescara, to be with her mother. She telephoned me half an hour ago."
+"The daughter of your neighbour," Lalli said. "Rosa. She came tonight from Pescara, to be with her mother. She telephoned me forty minutes ago."
 
 Chiara looked at him.
 
@@ -90,7 +90,7 @@ She wanted to go in. She wanted to go in and kneel down by the chair and say som
 
 ---
 
-The cemetery gate was iron and locked and above it the black cypresses went up into a sky that was beginning, very slightly, at the top of the mountain, to be less black. Not grey. Only less. Chiara sat on the low wall beside the gate with the thermal blanket round her shoulders crackling every time she breathed, and Lucia sat beside her and smoked, and in front of them the mulattiera went up between its broken walls into the dark and disappeared.
+The cemetery gate was iron and locked and above it the black cypresses went up into a sky with no light in it at all. Chiara sat on the low wall beside the gate with the thermal blanket round her shoulders crackling every time she breathed, and Lucia sat beside her and smoked, and in front of them the mulattiera went up between its broken walls into the dark and disappeared.
 
 It was very cold. Far up in the cypresses something shifted and settled — birds — and was still.
 
@@ -98,6 +98,6 @@ Chiara looked up the path. She thought: she came this way. Her feet were on thes
 
 Her phone was in her hand. She held it so hard the edge hurt her palm.
 
-The sky at the top of the mountain went from less black to grey.
+Very slowly, at the top of the mountain, the sky began to be less black. Not grey. Only less. Then grey.
 
 She waited.

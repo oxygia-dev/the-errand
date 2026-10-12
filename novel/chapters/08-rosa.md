@@ -28,7 +28,7 @@ At Bussi the rain was ordinary. By Popoli it was not. She came out of a tunnel i
 
 Her phone, in the holder on the dashboard, lit up.
 
-23:00. *Daily summary — Assunta.* The first line, in the pleasant font: *Assunta had a restless evening. She talked about her mother, about bread, and about —*
+23:00. *Daily summary — Assunta.* The first lines, in the pleasant font: *Assunta had a restless evening. She spent the afternoon with Ida, and they talked about school. Later she talked about her mother, about —*
 
 A lorry came past and the windscreen went white and she held the wheel and counted, and when she could see again the screen had gone dark.
 
@@ -68,7 +68,7 @@ On the plateau the storm was enormous.
 
 The Piano delle Cinquemiglia: five miles of flat high nothing between the mountains, where the old travellers used to die in the snow, where her father used to say the wind was looking for somebody. Tonight it had found the car. It came across the open plain and hit the side of the Panda so hard she felt the wheels go light, and she held on, and the rain was not falling but moving sideways in a solid sheet, and the lightning showed her the plain, flat, white, flooding, and the line of the road disappearing into it.
 
-At the far end, on the long descent toward Castel di Sangro, a road sign came up in the headlights, yellow triangle, black silhouette of a bear: *ATTENZIONE ATTRAVERSAMENTO ORSI*. Someone still put flowers on the post, for the young bear that was killed here, the famous one, the one who used to come into Roccaraso for the biscuits. The flowers were brown and flattened by the rain. She had cried, three Januaries ago, reading about the bear, more than she had cried for some people. Gianni had teased her about it. She had not been able to explain.
+At the far end, on the long descent toward Castel di Sangro, a road sign came up in the headlights, yellow triangle, black silhouette of a bear: *ATTENZIONE ATTRAVERSAMENTO ORSI*. Someone still put flowers on the post, for the young bear that was killed here, the famous one, the one who used to come into Roccaraso for the biscuits. The flowers were brown and flattened by the rain. She had cried, four Januaries ago, reading about the bear, more than she had cried for some people. Gianni had teased her about it. She had not been able to explain.
 
 ---
 

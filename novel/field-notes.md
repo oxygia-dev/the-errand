@@ -46,7 +46,7 @@ Bees can detect weak electric fields. Bumblebees use them to tell which flowers 
 
 Bees sense vibration through organs in their legs (the subgenual organs), which is how a knock on the hive reaches every bee standing on comb. A hive that's knocked answers with a collective hissing buzz; beekeepers know the sound well. The idea that the bees "do not keep" what Assunta tells them is simply true: a comb stores honey, pollen and brood, and a dance is a message about now.
 
-**"Telling the bees"** (reporting births, deaths and departures to the hives, often with a knock, so that they don't leave or die) is documented in England, Ireland, Wales, Germany, the Netherlands, France, Switzerland, Bohemia and the Basque Country. I found **no record of it as an Italian tradition**, so in the novel Assunta learned it from an escaped English prisoner of war sheltered by her family in autumn 1943. That detail is invented. The history around it isn't: thousands of Allied prisoners escaped from Italian camps after the armistice of September 1943, and many were hidden and fed by mountain villagers at great risk.
+**"Telling the bees"** (reporting births, deaths and departures to the hives, often with a knock, so that they don't leave or die) is documented in England, Ireland, Wales, Germany, the Netherlands, France, Switzerland, Bohemia and the Basque Country. I found **no record of it as an Italian tradition**, so in the novel Assunta learned it as a child, watching her grandmother quietly follow the advice of an escaped English prisoner of war whom the family sheltered in autumn 1943. That detail is invented. The history around it isn't: thousands of Allied prisoners escaped from Italian camps after the armistice of September 1943, and many were hidden and fed by mountain villagers at great risk.
 
 *Sources:* Bristol University press releases on Clarke et al. (2013) and Sutton et al. (2016, *PNAS*); Greggers et al. (2013); literature on brood thermoregulation; Wikipedia and Basque ethnographic sources on telling the bees.
 
@@ -123,6 +123,8 @@ The "probability of area" table is a real search-management tool: teams assign e
 The night-time temperatures (5–9°C at ~1,000 m in late September, a mean September minimum of about 6.4°C at nearby Pescasseroli) and Ida's mild hypothermia (35.3°C after a night in a damp sock) are realistic. A child who stays dry and out of the wind, as she does in the tree, can survive such a night.
 
 Children who are lost often don't respond to searchers calling their names, from fear, shame, or having been told not to talk to strangers. Search-and-rescue teams are trained to *look*, not only to call.
+
+*Sources:* Italian press reports of real searches (Serle, Brescia; Anterselva, South Tyrol; a night search near Campobasso); general search-and-rescue practice (not separately verified).
 
 ---
 

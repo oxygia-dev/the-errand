@@ -51,7 +51,7 @@ EXPORT   requested 06/10 22:47 by CARER (ROSA)   note: "keep"
 
 **IDA** — I know.
 
-**IDA** — And then it started thundering and I went to come back down but it was so dark I couldn't see the path, I couldn't see *anything*, Nonna, I couldn't see my hand, and I was scared, a bit, not very, and then I remembered what you said, about the tree. And I found it. It was right where you said. Where the path goes round and there's the sheep rock and you go left and down a bit. I saw it in the morning anyway, I put my head in it in the morning. Giuseppina pulled me out. She said there's mice.
+**IDA** — And then it started thundering and I went to come back down but it was so dark I couldn't see the path, I couldn't see *anything*, Nonna, I couldn't see my hand, and I was scared, a bit, not very, and then I remembered what you said, about the tree. And I found it. It was where I saw it in the morning, where the path goes round and there's the big rock like a sheep, and you go left and down a bit. I put my head in it in the morning. Giuseppina pulled me out. She said there's mice.
 
 **ASSUNTA** — There's mice.
 `class=—`

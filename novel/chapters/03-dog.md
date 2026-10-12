@@ -58,7 +58,7 @@ He hears it long before. Smells it longer: the cold green smell that comes up of
 
 Biscuit-girl goes down the bank. Her smell goes down in front of her, down, to the edge.
 
-He follows her to the edge. He puts his front feet in. Cold. Fast. The water takes everything and runs away with it downhill; the water is a mouth that eats smells; at the edge of it the smell of biscuit-girl stops as if it had been bitten off. She is across. She is on the stones in the middle, arms out, wobbling. She is on the far side. Her red thing has come off her head — no — she has it in her hand — no —
+He follows her to the edge and in, up to his belly. Cold. Fast. The water takes everything and runs away with it downhill; the water is a mouth that eats smells; at the edge of it the smell of biscuit-girl stops as if it had been bitten off. She is across. She is on the stones in the middle, arms out, wobbling. She is on the far side. Her red thing has come off her head — no — she has it in her hand — no —
 
 There. In the water. Red. Going.
 

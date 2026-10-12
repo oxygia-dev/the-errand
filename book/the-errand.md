@@ -18,7 +18,7 @@ rights: CC BY 4.0
 
 The light goes the colour of the inside of a pear and Assunta knows she is late.
 
-She knows it the way she knows the stove is lit without touching it: in the back of the neck. Something has been left undone. It has been left undone all day, since the bells this morning, since the whole village went up past her window with the saint on their shoulders and the band playing that march they always play too fast, and she stood at the glass in her slippers and watched them go up without her. Her legs. Rosa said, on the telephone, Mamma, you can't, it's two hours there and back, you'll go next year. As if there are next years in a sack under the bed.
+She knows it the way she knows the stove is lit without touching it: in the back of the neck. Something has been left undone. It has been left undone all day, since the bells this morning, since the whole village went up past her window with the saint on their shoulders and the band playing that march they always play too fast, and she stood at the glass in her slippers and watched them go up without her. Her legs. Rosa said, on the telephone, Mamma, you can't, it's two hours up and two down, you'll go next year. As if there are next years in a sack under the bed.
 
 Now the mountain has come closer to the window the way it does at this hour. The village is already in shadow, the sun gone behind the hills at its back, but across the valley the shadow is climbing the mountain like water filling a glass, and above the shadow the beeches are still lit, every one, gold, so close you could count them, and above them the white scar of rock where the Romito is, which you cannot see from here, which she has never needed to see from here.
 
@@ -88,7 +88,7 @@ She has been standing too long with the lid up. Her hands are on the bread. Her 
 
 The machine on the shelf has turned its ring of light from white to a soft blue. She notices this and does not know what it means, and she knows she does not know what it means, and that she has been told, more than once, by Rosa, slowly, as if to a child.
 
-"Ida." She sits down again, not because she decides to but because her legs decide, and the bread is in her lap now, the half loaf, in its paper. "Listen to me. Are you listening?"
+"Ida." She sits down again, not because she decides to but because her legs decide, and the bread is in her lap now, the half loaf, wrapped in a clean tea towel with her initials on it. "Listen to me. Are you listening?"
 
 "Yes."
 
@@ -316,7 +316,7 @@ He hears it long before. Smells it longer: the cold green smell that comes up of
 
 Biscuit-girl goes down the bank. Her smell goes down in front of her, down, to the edge.
 
-He follows her to the edge. He puts his front feet in. Cold. Fast. The water takes everything and runs away with it downhill; the water is a mouth that eats smells; at the edge of it the smell of biscuit-girl stops as if it had been bitten off. She is across. She is on the stones in the middle, arms out, wobbling. She is on the far side. Her red thing has come off her head — no — she has it in her hand — no —
+He follows her to the edge and in, up to his belly. Cold. Fast. The water takes everything and runs away with it downhill; the water is a mouth that eats smells; at the edge of it the smell of biscuit-girl stops as if it had been bitten off. She is across. She is on the stones in the middle, arms out, wobbling. She is on the far side. Her red thing has come off her head — no — she has it in her hand — no —
 
 There. In the water. Red. Going.
 
@@ -632,7 +632,7 @@ A warmth.
 
 The dry wood around it receives it, slowly, only a little, without preference.
 
-Above, the first rain comes onto the crown, and the crown holds it.
+Above, the first drops come onto the crown, far ahead of the rest, and the crown holds them.
 
 
 ## 6. The search — 20:21 to 01:10
@@ -653,7 +653,7 @@ Above, the first rain comes onto the crown, and the crown holds it.
 
 **20:44** — Weather: Protezione Civile Abruzzo yellow alert, thunderstorms, upper Sangro valley, 20:00–02:00. Radar shows cell approaching from W.
 
-**21:02** — Patrol on scene. Brig. Lalli takes statement from mother at Bar Centrale.
+**21:02** — Patrol on scene. Brig. Lalli takes statement from mother at her home.
 
 **21:06** — Mother's statement (summary): last saw child at lunch. Child had attended the San Michele procession that morning with a neighbour (Giuseppina R., 74). Mother went at 19:45 to collect child from elderly neighbour's house. **Neighbour stated child had "gone home" with bread.** Child not at home; rucksack not at home. No known reason for child to leave. No problems at home or at school. Child "afraid of the dark". No phone. No medical conditions.
 
@@ -866,7 +866,7 @@ At Bussi the rain was ordinary. By Popoli it was not. She came out of a tunnel i
 
 Her phone, in the holder on the dashboard, lit up.
 
-23:00. *Daily summary — Assunta.* The first line, in the pleasant font: *Assunta had a restless evening. She talked about her mother, about bread, and about —*
+23:00. *Daily summary — Assunta.* The first lines, in the pleasant font: *Assunta had a restless evening. She spent the afternoon with Ida, and they talked about school. Later she talked about her mother, about —*
 
 A lorry came past and the windscreen went white and she held the wheel and counted, and when she could see again the screen had gone dark.
 
@@ -906,7 +906,7 @@ On the plateau the storm was enormous.
 
 The Piano delle Cinquemiglia: five miles of flat high nothing between the mountains, where the old travellers used to die in the snow, where her father used to say the wind was looking for somebody. Tonight it had found the car. It came across the open plain and hit the side of the Panda so hard she felt the wheels go light, and she held on, and the rain was not falling but moving sideways in a solid sheet, and the lightning showed her the plain, flat, white, flooding, and the line of the road disappearing into it.
 
-At the far end, on the long descent toward Castel di Sangro, a road sign came up in the headlights, yellow triangle, black silhouette of a bear: *ATTENZIONE ATTRAVERSAMENTO ORSI*. Someone still put flowers on the post, for the young bear that was killed here, the famous one, the one who used to come into Roccaraso for the biscuits. The flowers were brown and flattened by the rain. She had cried, three Januaries ago, reading about the bear, more than she had cried for some people. Gianni had teased her about it. She had not been able to explain.
+At the far end, on the long descent toward Castel di Sangro, a road sign came up in the headlights, yellow triangle, black silhouette of a bear: *ATTENZIONE ATTRAVERSAMENTO ORSI*. Someone still put flowers on the post, for the young bear that was killed here, the famous one, the one who used to come into Roccaraso for the biscuits. The flowers were brown and flattened by the rain. She had cried, four Januaries ago, reading about the bear, more than she had cried for some people. Gianni had teased her about it. She had not been able to explain.
 
 ---
 
@@ -965,7 +965,7 @@ The path.
 
 She crosses it where it switches back above the torrent, and it is loud. It is so loud that she stops with her front feet on it and the small ones bump into her from behind.
 
-Men. Two, tonight, early, before the storm, going up and coming down, fast, heavy, sweating, frightened — she can smell the frightened, it is a sharp sour thing on the trail like a broken stem. Tobacco. Rope. Blood, a little, a man's, on a rock. And before them, under them, older, softer — the smell of the morning, the whole village going up, a hundred feet and the smoke they carry, half a day old and washed half away now but still there in the cracks between the stones.
+Men. Two, tonight, early, going up before the storm and coming down in it, fast, heavy, sweating, frightened — she can smell the frightened, it is a sharp sour thing on the trail like a broken stem. Tobacco. Rope. Blood, a little, a man's, on a rock. And before them, under them, older, softer — the smell of the morning, the whole village going up, a hundred feet and the smoke they carry, half a day old and washed half away now but still there in the cracks between the stones.
 
 And something else. Between the morning and the men.
 
@@ -999,7 +999,7 @@ She makes it again.
 
 He comes back. Fast, tumbling, ears flat. She puts her nose on him, rough, all over, and he smells of the door, of the warm thread, of the young one of men and the sweet thing, and she breathes him in once, deep, all of it, and keeps it, the way she keeps every smell she has ever taken in, a place and a thing and what it means, for the rest of her life, which will be long or short depending on roads.
 
-Then she turns them both, and the other one with them, and goes on up the slope, away, upwind, at the steady rolling walk that eats distance without seeming to, toward the rocks under the cliff and the black bitter berries and the few old trees on the south face that have fruited this year, a little, not much, something.
+Then she turns, and turns the two small ones with her, and goes on up the slope, away, upwind, at the steady rolling walk that eats distance without seeming to, toward the rocks under the cliff and the black bitter berries and the few old trees on the south face that have fruited this year, a little, not much, something.
 
 Behind her the tree stands in the dark with the warm thing in it.
 
@@ -1099,7 +1099,7 @@ The woman's hands are warm. That's how you know. The dead have cold hands, every
 
 The woman's hands go still on hers.
 
-"With the little one," says Assunta. "The romana's. You've seen her. She's good. She's a good girl, Mà, she listens, not like the others, she *listens*, she looks at you when you talk. She knows the way. She went up this morning with the saint. I couldn't go. I watched them go up." Her chest is tight, telling it. She is late, she was late, and now she has to explain, and the explaining is like going up a hill. "I gave her the bread from the van. It's not real bread. It's a sponge for the car. I'm sorry. And it's only half. I kept half. You always keep half, you said. You said bring what there is."
+"With the little one," says Assunta. "The romana's. You've seen her. She's good. She's a good girl, Mà, she listens, not like the others, she *listens*, she looks at you when you talk. She knows the way to the Romito. She went up this morning with the saint. I couldn't go. I watched them go up." Her chest is tight, telling it. She is late, she was late, and now she has to explain, and the explaining is like going up a hill. "I gave her the bread from the van. It's not real bread. It's a sponge for the car. I'm sorry. And it's only half. I kept half. You always keep half, you said. You said bring what there is."
 
 "When," says the woman. Her voice has changed. It is still soft but there is something under it now, something very straight, like a stick in a stream. "When did she go, Assù?"
 
@@ -1137,7 +1137,7 @@ But Rosa is talking into the telephone.
 
 ---
 
-Assunta hears it in pieces. Rosa's voice is fast and very clear and very Italian, the way she spoke to the doctors, every word with its edges on. *Brigadiere. It's Rosa D., Assunta's daughter, via del Forno. Listen to me. No — listen to me.* A pause. *Half a loaf of bread is missing from my mother's madia. She does not eat that bread. She has not eaten bread from the van in twenty years, she says it's for washing cars. I bought a whole loaf from the van on Saturday, for the girl, for her snacks. It's been torn in two. Half is here. The other half is gone, and it's not in the bin, and it's not on a plate. Someone took it. She told me — she just told me — that she gave it to the child. To take to the Romito.* A pause. *Yes. I know. I know she did. I know what she says every evening, I've heard it more times than you. That's why I'm telling you.*
+Assunta hears it in pieces. Rosa's voice is fast and very clear and very Italian, the way she spoke to the doctors, every word with its edges on. *Brigadiere. It's Rosa D., Assunta's daughter, via del Forno. Listen to me. No — listen to me.* A pause. *Half a loaf of bread is missing from my mother's madia. She does not eat that bread. She won't eat bread from the van, she says it's for washing cars. I bought a whole loaf from the van on Saturday, for the girl, for her snacks. It's been torn in two. Half is here. The other half is gone, and it's not in the bin, and it's not on a plate. Someone took it. She told me — she just told me — that she gave it to the child. To take to the Romito.* A pause. *Yes. I know. I know she did. I know what she says every evening, I've heard it more times than you. That's why I'm telling you.*
 
 Assunta has lost the thread. She looks at the window. The white glow down there. Voices, men, very faint. Calling something, the same thing, over and over. She can't hear what. It goes up at the end, like a question.
 
@@ -1206,8 +1206,7 @@ SITE     via del Forno 4, Pietrafonda (AQ)
 USER     ASSUNTA D. (b. 1936)   profile: MCI→dementia (mod.), lives alone
 CARER    ROSA D. (daughter)   primary contact   +39 3•• ••• ••41
          GIUSEPPINA R. (neighbour)   secondary contact
-KNOWN    IDA (neighbour child) · CHIARA (neighbour) · DON CARLO (priest)
-VOICES
+VOICES   IDA (neighbour child) · CHIARA (neighbour) · DON CARLO (priest)
 SENSORS  mic array (far-field, 4) · radar (kitchen, bedroom) · door (front, back)
          · bed pressure · smoke/CO · temp
 LOG      29/09   local time   export requested 30/09 10:12 by CARER
@@ -1291,8 +1290,8 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
 21:41:40  POWER      restored
 21:47:12  POWER      interruption   (battery)
 21:47:55  POWER      restored
-21:52:00  VOICE      speakers=2 (ASSUNTA, GIUSEPPINA)
-21:52 → 22:58   UTTERANCES ×44 ASSUNTA.  EPISODE ×29.
+21:44:30  VOICE      speakers=2 (ASSUNTA, GIUSEPPINA)
+21:44 → 22:58   UTTERANCES ×44 ASSUNTA.  EPISODE ×29.
                 top refs: MOTHER ×11 · BREAD/"pane" ×9 · IDA ×8 · ROMITO ×6
                 · GERMANS/"tedeschi" ×4 · BEES/"api" ×3 · LEGS/"gambe" ×3
                 distress (est.) 0.52–0.71
@@ -1305,7 +1304,7 @@ LOG      29/09   local time   export requested 30/09 10:12 by CARER
 
 > **Daily summary — Assunta, Tuesday 29 September**
 >
-> Assunta had a restless evening. She spent the afternoon with Ida, and they talked about school. Later she talked about her mother, about bread, and about the Germans. She said that she had sent Ida to the Romito with bread for her mother. (Note: Assunta's mother is recorded as deceased. This is likely to be a memory from the past.) Assunta did not eat her evening meal at the usual time. Giuseppina has been with her since 21:52.
+> Assunta had a restless evening. She spent the afternoon with Ida, and they talked about school. Later she talked about her mother, about bread, and about the Germans. She said that she had sent Ida to the Romito with bread for her mother. (Note: Assunta's mother is recorded as deceased. This is likely to be a memory from the past.) Assunta did not eat her evening meal at the usual time. Giuseppina has been with her since 21:44.
 >
 > Visitors today: Ida, Chiara, Giuseppina, 2 unknown.
 > Episodes today: 37 (↑ 12 vs. 7-day average).
@@ -1428,7 +1427,7 @@ He came up onto the bridge. He had a notebook in his hand, closed, with his fing
 
 They went to the end of the bridge, where the road turned up into the village and there was a wall, and the river was a little further off. He did not take her arm. She was grateful for that.
 
-"The daughter of your neighbour," Lalli said. "Rosa. She came tonight from Pescara, to be with her mother. She telephoned me half an hour ago."
+"The daughter of your neighbour," Lalli said. "Rosa. She came tonight from Pescara, to be with her mother. She telephoned me forty minutes ago."
 
 Chiara looked at him.
 
@@ -1494,7 +1493,7 @@ She wanted to go in. She wanted to go in and kneel down by the chair and say som
 
 ---
 
-The cemetery gate was iron and locked and above it the black cypresses went up into a sky that was beginning, very slightly, at the top of the mountain, to be less black. Not grey. Only less. Chiara sat on the low wall beside the gate with the thermal blanket round her shoulders crackling every time she breathed, and Lucia sat beside her and smoked, and in front of them the mulattiera went up between its broken walls into the dark and disappeared.
+The cemetery gate was iron and locked and above it the black cypresses went up into a sky with no light in it at all. Chiara sat on the low wall beside the gate with the thermal blanket round her shoulders crackling every time she breathed, and Lucia sat beside her and smoked, and in front of them the mulattiera went up between its broken walls into the dark and disappeared.
 
 It was very cold. Far up in the cypresses something shifted and settled — birds — and was still.
 
@@ -1502,7 +1501,7 @@ Chiara looked up the path. She thought: she came this way. Her feet were on thes
 
 Her phone was in her hand. She held it so hard the edge hurt her palm.
 
-The sky at the top of the mountain went from less black to grey.
+Very slowly, at the top of the mountain, the sky began to be less black. Not grey. Only less. Then grey.
 
 She waited.
 
@@ -1513,7 +1512,7 @@ She waited.
 
 ---
 
-**02:10–02:50** — VVF thermal drone (SAPR), Sector R, ford to confluence. Rain light. Returns: 2 × VVF fluvial operators (known), 1 × fox, 3 × small mammal. **No human signature in or beside the water.**
+**02:10–02:50** — VVF thermal drone (SAPR), Sector R, ford to confluence. Rain stopped. Returns: 2 × VVF fluvial operators (known), 1 × fox, 3 × small mammal. **No human signature in or beside the water.**
 
 **02:55** — Sector R ground search continuing. Fluvial team 2 (Pescara) on scene 02:40. Water level at bridge falling: −0.3 m from peak.
 
@@ -1551,9 +1550,9 @@ She waited.
 
 **05:00–05:35** — VVF thermal drone, Sector F (upper), launched from Passo della Croce. Cloud base low. **Canopy closed** (beech, full leaf; first yellowing only). Returns through gaps: roe deer ×3; wild boar ×1; **large mammal + 2 small** moving upslope near cliff base approx 1,550 m (Forestali: consistent with bear, female with cubs; moving away from path); Teams F1/F2 (known). **No signature consistent with a child.** Drone operator notes: *"Under this canopy we only see what's in the gaps. If she's under a tree we won't see her. If she's inside one, nothing will."*
 
-**05:09** — **F1 at Romito.** Cave mouth and hermit's cell searched. No child. **Found: on stone shelf beneath iron cross, among candle stubs from yesterday's procession, a half loaf of white bread in paper.** Dry (sheltered). End crust missing (torn). Bread placed upright, *"set out carefully, like something on an altar"* (F1 leader). Photo sent to PCA 05:11.
+**05:09** — **F1 at Romito.** Cave mouth and hermit's cell searched. No child. **Found: on stone shelf beneath iron cross, among candle stubs from yesterday's procession, a half loaf of white bread wrapped in a tea towel.** Dry (sheltered). End crust missing (torn). Bread placed upright, *"set out carefully, like something on an altar"* (F1 leader). Photo sent to PCA 05:11.
 
-**05:12** — Photo shown to Rosa D. by Brig. Lalli (by phone message). Rosa D. confirms paper and bread consistent with her mother's (van bakery, Castel di Sangro, printed paper).
+**05:12** — Photo shown to Rosa D. by Brig. Lalli (by phone message). Rosa D. confirms the tea towel is her mother's (embroidered initials A.D.).
 
 **05:13** — **Child's presence at Romito confirmed.**
 
@@ -1563,9 +1562,9 @@ She waited.
 
 **05:31** — F1, approx 200 m below Romito on mulattiera. Trailing dog loses trail on open wet scree. Casts, does not recover. Handler: *"Rain's taken it."* Teams continue down the path on foot, searching both sides, calling.
 
-**05:40** — F2: hollow beech approx 30 m left of path, below a rock outcrop. Checked: **negative** (dormouse nest, old).
+**05:40** — F2: hollow beech approx 30 m left of path (descending), below a rock outcrop. Checked: **negative** (dormouse nest, old).
 
-**05:48** — F1: second hollow beech, large, approx 60 m right of path. Checked with torch: **negative.**
+**05:48** — F1: second hollow beech, large, approx 60 m right of path (descending). Checked with torch: **negative.**
 
 **05:53** — F1 leader to PCA: *"There are hollow beeches all over this slope. Half the old ones are hollow. And there are rocks everywhere and half of them look like sheep. We need the hairpin. We need the first hairpin above the ford, coming up. Coming down, that's the last. We're looking for the last hairpin."*
 
@@ -1883,7 +1882,7 @@ EXPORT   requested 06/10 22:47 by CARER (ROSA)   note: "keep"
 
 **IDA** — I know.
 
-**IDA** — And then it started thundering and I went to come back down but it was so dark I couldn't see the path, I couldn't see *anything*, Nonna, I couldn't see my hand, and I was scared, a bit, not very, and then I remembered what you said, about the tree. And I found it. It was right where you said. Where the path goes round and there's the sheep rock and you go left and down a bit. I saw it in the morning anyway, I put my head in it in the morning. Giuseppina pulled me out. She said there's mice.
+**IDA** — And then it started thundering and I went to come back down but it was so dark I couldn't see the path, I couldn't see *anything*, Nonna, I couldn't see my hand, and I was scared, a bit, not very, and then I remembered what you said, about the tree. And I found it. It was where I saw it in the morning, where the path goes round and there's the big rock like a sheep, and you go left and down a bit. I put my head in it in the morning. Giuseppina pulled me out. She said there's mice.
 
 **ASSUNTA** — There's mice.
 `class=—`
@@ -2058,7 +2057,7 @@ Bees can detect weak electric fields. Bumblebees use them to tell which flowers 
 
 Bees sense vibration through organs in their legs (the subgenual organs), which is how a knock on the hive reaches every bee standing on comb. A hive that's knocked answers with a collective hissing buzz; beekeepers know the sound well. The idea that the bees "do not keep" what Assunta tells them is simply true: a comb stores honey, pollen and brood, and a dance is a message about now.
 
-**"Telling the bees"** (reporting births, deaths and departures to the hives, often with a knock, so that they don't leave or die) is documented in England, Ireland, Wales, Germany, the Netherlands, France, Switzerland, Bohemia and the Basque Country. I found **no record of it as an Italian tradition**, so in the novel Assunta learned it from an escaped English prisoner of war sheltered by her family in autumn 1943. That detail is invented. The history around it isn't: thousands of Allied prisoners escaped from Italian camps after the armistice of September 1943, and many were hidden and fed by mountain villagers at great risk.
+**"Telling the bees"** (reporting births, deaths and departures to the hives, often with a knock, so that they don't leave or die) is documented in England, Ireland, Wales, Germany, the Netherlands, France, Switzerland, Bohemia and the Basque Country. I found **no record of it as an Italian tradition**, so in the novel Assunta learned it as a child, watching her grandmother quietly follow the advice of an escaped English prisoner of war whom the family sheltered in autumn 1943. That detail is invented. The history around it isn't: thousands of Allied prisoners escaped from Italian camps after the armistice of September 1943, and many were hidden and fed by mountain villagers at great risk.
 
 *Sources:* Bristol University press releases on Clarke et al. (2013) and Sutton et al. (2016, *PNAS*); Greggers et al. (2013); literature on brood thermoregulation; Wikipedia and Basque ethnographic sources on telling the bees.
 
@@ -2135,6 +2134,8 @@ The "probability of area" table is a real search-management tool: teams assign e
 The night-time temperatures (5–9°C at ~1,000 m in late September, a mean September minimum of about 6.4°C at nearby Pescasseroli) and Ida's mild hypothermia (35.3°C after a night in a damp sock) are realistic. A child who stays dry and out of the wind, as she does in the tree, can survive such a night.
 
 Children who are lost often don't respond to searchers calling their names, from fear, shame, or having been told not to talk to strangers. Search-and-rescue teams are trained to *look*, not only to call.
+
+*Sources:* Italian press reports of real searches (Serle, Brescia; Anterselva, South Tyrol; a night search near Campobasso); general search-and-rescue practice (not separately verified).
 
 ---
 

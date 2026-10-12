@@ -32,7 +32,7 @@ The path.
 
 She crosses it where it switches back above the torrent, and it is loud. It is so loud that she stops with her front feet on it and the small ones bump into her from behind.
 
-Men. Two, tonight, early, before the storm, going up and coming down, fast, heavy, sweating, frightened — she can smell the frightened, it is a sharp sour thing on the trail like a broken stem. Tobacco. Rope. Blood, a little, a man's, on a rock. And before them, under them, older, softer — the smell of the morning, the whole village going up, a hundred feet and the smoke they carry, half a day old and washed half away now but still there in the cracks between the stones.
+Men. Two, tonight, early, going up before the storm and coming down in it, fast, heavy, sweating, frightened — she can smell the frightened, it is a sharp sour thing on the trail like a broken stem. Tobacco. Rope. Blood, a little, a man's, on a rock. And before them, under them, older, softer — the smell of the morning, the whole village going up, a hundred feet and the smoke they carry, half a day old and washed half away now but still there in the cracks between the stones.
 
 And something else. Between the morning and the men.
 
@@ -66,7 +66,7 @@ She makes it again.
 
 He comes back. Fast, tumbling, ears flat. She puts her nose on him, rough, all over, and he smells of the door, of the warm thread, of the young one of men and the sweet thing, and she breathes him in once, deep, all of it, and keeps it, the way she keeps every smell she has ever taken in, a place and a thing and what it means, for the rest of her life, which will be long or short depending on roads.
 
-Then she turns them both, and the other one with them, and goes on up the slope, away, upwind, at the steady rolling walk that eats distance without seeming to, toward the rocks under the cliff and the black bitter berries and the few old trees on the south face that have fruited this year, a little, not much, something.
+Then she turns, and turns the two small ones with her, and goes on up the slope, away, upwind, at the steady rolling walk that eats distance without seeming to, toward the rocks under the cliff and the black bitter berries and the few old trees on the south face that have fruited this year, a little, not much, something.
 
 Behind her the tree stands in the dark with the warm thing in it.
 

@@ -120,4 +120,4 @@ A warmth.
 
 The dry wood around it receives it, slowly, only a little, without preference.
 
-Above, the first rain comes onto the crown, and the crown holds it.
+Above, the first drops come onto the crown, far ahead of the rest, and the crown holds them.

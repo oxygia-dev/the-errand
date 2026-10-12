@@ -38,7 +38,7 @@ The woman's hands are warm. That's how you know. The dead have cold hands, every
 
 The woman's hands go still on hers.
 
-"With the little one," says Assunta. "The romana's. You've seen her. She's good. She's a good girl, Mà, she listens, not like the others, she *listens*, she looks at you when you talk. She knows the way. She went up this morning with the saint. I couldn't go. I watched them go up." Her chest is tight, telling it. She is late, she was late, and now she has to explain, and the explaining is like going up a hill. "I gave her the bread from the van. It's not real bread. It's a sponge for the car. I'm sorry. And it's only half. I kept half. You always keep half, you said. You said bring what there is."
+"With the little one," says Assunta. "The romana's. You've seen her. She's good. She's a good girl, Mà, she listens, not like the others, she *listens*, she looks at you when you talk. She knows the way to the Romito. She went up this morning with the saint. I couldn't go. I watched them go up." Her chest is tight, telling it. She is late, she was late, and now she has to explain, and the explaining is like going up a hill. "I gave her the bread from the van. It's not real bread. It's a sponge for the car. I'm sorry. And it's only half. I kept half. You always keep half, you said. You said bring what there is."
 
 "When," says the woman. Her voice has changed. It is still soft but there is something under it now, something very straight, like a stick in a stream. "When did she go, Assù?"
 
@@ -76,7 +76,7 @@ But Rosa is talking into the telephone.
 
 ---
 
-Assunta hears it in pieces. Rosa's voice is fast and very clear and very Italian, the way she spoke to the doctors, every word with its edges on. *Brigadiere. It's Rosa D., Assunta's daughter, via del Forno. Listen to me. No — listen to me.* A pause. *Half a loaf of bread is missing from my mother's madia. She does not eat that bread. She has not eaten bread from the van in twenty years, she says it's for washing cars. I bought a whole loaf from the van on Saturday, for the girl, for her snacks. It's been torn in two. Half is here. The other half is gone, and it's not in the bin, and it's not on a plate. Someone took it. She told me — she just told me — that she gave it to the child. To take to the Romito.* A pause. *Yes. I know. I know she did. I know what she says every evening, I've heard it more times than you. That's why I'm telling you.*
+Assunta hears it in pieces. Rosa's voice is fast and very clear and very Italian, the way she spoke to the doctors, every word with its edges on. *Brigadiere. It's Rosa D., Assunta's daughter, via del Forno. Listen to me. No — listen to me.* A pause. *Half a loaf of bread is missing from my mother's madia. She does not eat that bread. She won't eat bread from the van, she says it's for washing cars. I bought a whole loaf from the van on Saturday, for the girl, for her snacks. It's been torn in two. Half is here. The other half is gone, and it's not in the bin, and it's not on a plate. Someone took it. She told me — she just told me — that she gave it to the child. To take to the Romito.* A pause. *Yes. I know. I know she did. I know what she says every evening, I've heard it more times than you. That's why I'm telling you.*
 
 Assunta has lost the thread. She looks at the window. The white glow down there. Voices, men, very faint. Calling something, the same thing, over and over. She can't hear what. It goes up at the end, like a question.
 
