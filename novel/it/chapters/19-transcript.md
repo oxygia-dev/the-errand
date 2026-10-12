@@ -37,7 +37,7 @@ EXPORT   requested 06/10 22:47 by CARER (ROSA)   nota: "da tenere"
 
 *[pause 00:00:04]*
 
-**IDA** — Solo le candele della mattina. E la croce. E dentro faceva freddissimo ed era buio. E l'acqua che esce dal muro, plic, plic. Allora ho messo il pane sulla pietra, sotto la croce, con le candele, così era tipo — così era bello. E l'ho detto. Quello che mi avevi detto tu. *Ecco, Mà. Sono arrivata.* E stavolta *Mà* l'ho detto bene, non come prima, ho fatto la prova per tutta la salita. *Mà.* Così. Come una pecora.
+**IDA** — Solo le candele della mattina. E la croce. E dentro faceva freddissimo ed era buio. E l'acqua che esce dal muro, plic, plic. Allora ho messo il pane sulla pietra, sotto la croce, con le candele, così era tipo — così era bello. E l'ho detto. Quello che mi avevi detto tu. *Ecco, Mà. Sono arrivata.* E stavolta *Mà* l'ho detto bene, non come prima, ho provato per tutta la salita. *Mà.* Così. Come una pecora.
 
 **ASSUNTA** — *[inaudible]*
 `ASR conf=0.12`
@@ -56,7 +56,7 @@ EXPORT   requested 06/10 22:47 by CARER (ROSA)   nota: "da tenere"
 **ASSUNTA** — Ci stanno, i topi.
 `class=—`
 
-**IDA** — Non c'era manco un topo. E non faceva *così* caldo. Avevi detto che dentro era caldo come una pagnotta. Non è vero. Hai esagerato.
+**IDA** — Non c'era manco un topo. E non faceva *così* caldo. Avevi detto che era caldo come dentro una pagnotta. Non è vero. Hai esagerato.
 
 **ASSUNTA** — *[laughter]* Io esagero su tutto.
 `class=HUMOUR  conf=0.71`

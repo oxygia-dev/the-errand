@@ -16,7 +16,7 @@ Del cane non diciamo niente. Il cane è fastidio.
 
 ---
 
-Viene la luce. Il sole scavalca la montagna e si posa prima sulle cime dei cipressi, su di noi, prima che su qualunque altra cosa della valle. Ci apriamo le ali dentro. Adesso andremmo giù, alle stoppie e ai bidoni e al fiume e al giorno. Ma qualcuna di noi non va. Qualcuna resta sui cipressi, poche, con un occhio al posto dove gli alberi si chiudono.
+Viene la luce. Il sole scavalca la montagna e si posa prima sulle cime dei cipressi, su di noi, prima che su qualunque altra cosa della valle. Apriamo le ali al sole. Adesso andremmo giù, alle stoppie e ai bidoni e al fiume e al giorno. Ma qualcuna di noi non va. Qualcuna resta sui cipressi, poche, con un occhio al posto dove gli alberi si chiudono.
 
 Non sappiamo perché. Niente è dovuto.
 
