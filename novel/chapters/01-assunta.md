@@ -58,7 +58,7 @@ The bread.
 
 There. That's it. That's the thing.
 
-She stands up. The chair complains. The girl looks up from Jupiter with her mouth full and says, "Where are you going?" and Assunta goes to the madia and lifts the lid, and the smell of the madia comes up at her, flour and old wood and the inside of eighty years, and in the madia there is the bread from the van, the soft white bread from Castel di Sangro that is not bread, it is a sponge for washing the car, and half of it is gone because the girl eats like a soldier. Half a loaf. It will have to be half. Mamma will understand. Mamma said bring what there is.
+She stands up. The chair complains. The girl looks up from Jupiter with her mouth full and says, "Where are you going?" and Assunta goes to the madia and lifts the lid, and the smell of the madia comes up at her, flour and old wood and the inside of eighty years, and in the madia there is the bread from the van, the soft white bread from Castel di Sangro that is not bread, it is a sponge for washing the car. She takes it out. She tears it in two, which is harder than it should be, and the bread comes apart with a sound like a sigh, and she puts one half back in its paper in the madia, because you always keep half. You never send all of it. Mamma taught her that before she taught her the Ave Maria. Half for the road and half for tomorrow. Mamma will understand. Mamma said bring what there is.
 
 "Nonna?"
 

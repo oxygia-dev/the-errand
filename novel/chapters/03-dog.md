@@ -6,7 +6,7 @@ Biscuit-girl going up. Her smell laid down on the stones of the path in small wa
 
 Here is what is on the path.
 
-Biscuit-girl: sweet and salt and the inside of a shoe, and soap, the one with flowers, and the biscuit, the yellow one, in the bag on her back where it always is. Under that, the bread. New today. White bread, the van-bread, that smells of the van. Under that, something else, sharp, a little sour — the smell biscuit-girl makes when she is doing something big. Not fear. The one before fear. The one that comes off the young ones of men when they climb a wall.
+Biscuit-girl: sweet and salt and the inside of a shoe, and soap, the one with flowers, and the biscuit, the yellow one, in the bag on her back where it always is. Under that, the bread. White bread, the van-bread, that smells of the van, torn, the torn side loud. Under that, something else, sharp, a little sour — the smell biscuit-girl makes when she is doing something big. Not fear. The one before fear. The one that comes off the young ones of men when they climb a wall.
 
 The old woman: on the bread, on biscuit-girl's hands. The old woman is dust and wax and the yellow from the boxes that hum and something underneath, under everything, a smell like the inside of a cupboard that has had the same thing in it for a very long time.
 
