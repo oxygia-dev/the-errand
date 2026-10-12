@@ -30,7 +30,7 @@
 
 **03:22** — Forestali: strada forestale parzialmente ostruita al km 4,2 (frana, 2025), percorribile con cautela. Tempo stimato 50–60 min fino a fine strada, poi 400 m a piedi fino al Romito.
 
-**03:40** — Brig. Lalli informa la madre al ponte di pietra. La madre chiede di unirsi alle squadre. Richiesta non accolta (capienza mezzi, terreno, notte). La madre viene invitata ad attendere al cancello del cimitero, ai piedi della mulattiera. La madre ottempera; accompagnata da Lucia C.
+**03:40** — Brig. Lalli informa la madre al ponte di pietra. La madre chiede di unirsi alle squadre. Richiesta non accolta (capienza mezzi, terreno, notte). La madre viene invitata ad attendere al cancello del cimitero, ai piedi della mulattiera. La madre ottempera, accompagnata da Lucia C.
 
 **03:56** — Squadre F1, F2 partono dal PCA.
 
@@ -52,7 +52,7 @@
 
 **05:16** — Cane molecolare avviato dalla mensola del Romito (campione odoroso: federa). Il cane prende una traccia in uscita dalla grotta e **in discesa per la mulattiera**, lentamente. Conduttore: traccia molto debole dopo la pioggia; il cane lavora su residui sotto sporgenze di roccia e lettiera fitta. *"Sta scendendo. Più di così non le so dire."*
 
-**05:31** — F1, circa 200 m sotto il Romito, sulla mulattiera. Il cane molecolare perde la traccia su ghiaione aperto e bagnato. Allarga la ricerca, non la riprende. Conduttore: *"Se l'è presa la pioggia."* Le squadre proseguono a piedi lungo il sentiero, perlustrando entrambi i lati, chiamando.
+**05:31** — F1, circa 200 m sotto il Romito, sulla mulattiera. Il cane molecolare perde la traccia su ghiaione aperto e bagnato. Gira a ventaglio, non la ritrova. Conduttore: *"Se l'è presa la pioggia."* Le squadre proseguono a piedi lungo il sentiero, perlustrando entrambi i lati, chiamando.
 
 **05:40** — F2: faggio cavo circa 30 m a sinistra del sentiero (in discesa), sotto uno sperone di roccia. Controllato: **esito negativo** (nido di ghiro, vecchio).
 

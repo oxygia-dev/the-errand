@@ -34,7 +34,7 @@ Le mani della donna sono calde. È così che si capisce. I morti hanno le mani f
 
 «Lo so», dice la donna. «Lo so che lo sei.»
 
-«Allora ho mandato il pane.»
+«Così ho mandato il pane.»
 
 Le mani della donna si fermano sulle sue.
 
@@ -52,7 +52,7 @@ La donna apre la bocca e non dice niente.
 
 ---
 
-E poi la donna si sta alzando. Non piano. Lascia le mani di Assunta e si tira su da terra in un solo movimento, come una ragazza, e attraversa la cucina fino alla madia.
+E poi la donna si alza. Non piano. Lascia le mani di Assunta e si tira su da terra in un solo movimento, come una ragazza, e attraversa la cucina fino alla madia.
 
 Assunta la guarda sollevare il coperchio. L'odore esce nella stanza — farina, legno vecchio, il dentro di ottant'anni — e la donna resta lì col coperchio alzato e guarda dentro. Resta lì a lungo. Assunta le vede la schiena, la schiena lunga nella camicetta buona, le spalle, e le spalle salgono, piano, e restano su.
 
@@ -98,7 +98,7 @@ Rosa dice qualcosa al telefono, svelta, a bassa voce. Assunta ne sente dei pezzi
 
 «Dentro faceva caldo», dice Assunta. «Non ci crederesti, che caldo.»
 
-Rosa smette di ripeterlo al telefono. Guarda sua madre. Ha la faccia che sta facendo una cosa terribile, e Assunta vorrebbe posarci sopra la mano per farla smettere.
+Rosa smette di ripeterlo al telefono. Guarda sua madre. La sua faccia sta facendo una cosa terribile, e Assunta vorrebbe posarci sopra la mano per farla smettere.
 
 «Lo so, Mamma», dice Rosa. «Me l'hai detto.»
 

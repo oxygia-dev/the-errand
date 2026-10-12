@@ -2,7 +2,7 @@
 
 Il fiume era la cosa più rumorosa che avesse mai sentito e dopo quattro ore non riusciva più a sentirlo.
 
-Era la prima cosa che la notte le aveva insegnato. Stai accanto a un rumore così, un muscolo d'acqua bruno e ruggente che passa sotto un arco di pietra con tutto il peso della montagna alle spalle, e per la prima ora non c'è altro; ti riempie il cranio; non riesci a pensare una frase fino in fondo. E poi, a un certo punto della seconda ora, la mente si arrende e lo lascia entrare, e quello diventa il pavimento del mondo, e tu ci stai sopra, e al di sopra, nitidissimo, senti tutto il resto: un uomo che tossisce sull'altra riva; il sibilo delle torri faro; la radio sulla spalla del pompiere; Lucia accanto a lei, che respira con la bocca; il tuo cuore. La tua voce, dentro, che va avanti e avanti, a tradurre.
+Era la prima cosa che la notte le aveva insegnato. Stai accanto a un rumore così, un muscolo d'acqua bruno e ruggente che passa sotto un arco di pietra con tutto il peso della montagna alle spalle, e per la prima ora non c'è altro; ti riempie il cranio; non riesci a pensare una frase fino in fondo. E poi, a un certo punto della seconda ora, la mente si arrende e lo lascia entrare, e quello diventa il pavimento del mondo, e tu ci stai in piedi, e al di sopra, nitidissimo, senti tutto il resto: un uomo che tossisce sull'altra riva; il sibilo delle torri faro; la radio sulla spalla del pompiere; Lucia accanto a lei, che respira con la bocca; il tuo cuore. La tua voce, dentro, che va avanti e avanti, a tradurre.
 
 Aveva tradotto tutta la notte. Non riusciva a smettere. Era quello che la sua mente faceva con le cose che non riusciva a reggere: le trasformava in altre cose. *In piena*: *in spate*, *in flood*. Piena. *Sono piena*: non ne posso più, ne ho abbastanza, non ce la faccio. A mezzanotte era rimasta al parapetto del ponte a guardare giù gli uomini nelle mute stagne, legati ai salici con le corde, che reggevano lunghe pertiche e avanzavano piano lungo i margini dell'acqua, spingendo le pertiche nei punti bui sotto le radici, dove la corrente tornava su se stessa e le cose si raccoglievano, rami, schiuma, una sedia di plastica, e aveva pensato, con grande chiarezza, in inglese: *they are sounding*. La parola che si usa per misurare il fondo. La parola che si usa per dire che effetto fa una cosa. *How does it sound?* Come ti suona. Male. Suona molto male. *Sondare*. Scandagliare. Stavano sondando. E l'aveva tradotta e ritradotta finché le parole non le si erano sfatte tra le mani come carta bagnata e attraverso di loro aveva visto l'acqua, e allora era dovuta andare a sedersi nel camion dei pompieri con lo sportello aperto e la testa tra le ginocchia.
 
@@ -28,7 +28,7 @@ Andarono in fondo al ponte, dove la strada svoltava in salita verso il paese e c
 
 Chiara lo guardò.
 
-«La madre si è svegliata. Ci ha parlato. Del pane.» Aprì il taccuino, lo guardò, lo richiuse, come se quello che c'era scritto potesse essere cambiato. «Signora, dalla casa della signora Assunta manca mezza pagnotta. La figlia dice che sua madre quel pane non lo mangia. La figlia dice che sua madre l'ha dato a Ida. E l'ha mandata su in montagna a portarlo. Al Romito. A portarlo a…» Esitò, appena. «A sua madre.»
+«La madre si è svegliata. Hanno parlato. Del pane.» Aprì il taccuino, lo guardò, lo richiuse, come se quello che c'era scritto potesse essere cambiato. «Signora, dalla casa della signora Assunta manca mezza pagnotta. La figlia dice che sua madre quel pane non lo mangia. La figlia dice che sua madre l'ha dato a Ida. E l'ha mandata su in montagna a portarlo. Al Romito. A portarlo a…» Esitò, appena. «A sua madre.»
 
 Lei disse: «Sua madre.»
 
@@ -48,7 +48,7 @@ Per otto ore era rimasta seduta accanto alla frase sbagliata.
 
 «Un albero.»
 
-«Sopra il guado. Vecchio. Cavo. La signora Assunta ha detto alla figlia dov'è. Esattamente dov'è. E la figlia si ricorda una storia, di quando era ragazzina, di sua madre che ci si era riparata dentro, in guerra, durante un temporale. La figlia pensa, noi pensiamo, che se Ida è arrivata al Romito con il pane e poi è venuto il temporale, può aver fatto lo stesso. Perché gliel'hanno detto.» Guardò il taccuino. «*Se non vedi il sentiero, entra nell'albero.* La figlia dice che sua madre le ha insegnato questo. E pensa che sua madre l'abbia insegnato a Ida.»
+«Sopra il guado. Vecchio. Cavo. La signora Assunta ha detto alla figlia dov'è. Esattamente dov'è. E la figlia si ricorda una storia, di quando era ragazzina, di sua madre che ci si era riparata dentro, in guerra, durante un temporale. La figlia pensa, noi pensiamo, che se Ida è arrivata al Romito con il pane e poi è venuto il temporale, può aver fatto lo stesso. Perché le avevano detto così.» Guardò il taccuino. «*Se non vedi il sentiero, entra nell'albero.* La figlia dice che sua madre le ha insegnato questo. E pensa che sua madre l'abbia insegnato a Ida.»
 
 Chiara appoggiò la mano sul muretto. La pietra era bagnata e gelida. Ci si tenne.
 
@@ -90,9 +90,9 @@ Voleva entrare. Voleva entrare e inginocchiarsi accanto alla poltrona e dire qua
 
 ---
 
-Il cancello del cimitero era di ferro e chiuso a chiave, e al di sopra i cipressi neri salivano in un cielo senza un filo di luce. Chiara sedeva sul muretto accanto al cancello con la coperta termica sulle spalle che crepitava a ogni respiro, e Lucia le sedeva accanto e fumava, e davanti a loro la mulattiera saliva tra i suoi muretti sbrecciati dentro il buio e spariva.
+Il cancello del cimitero era di ferro e chiuso a chiave, e oltre il cancello i cipressi neri salivano in un cielo senza un filo di luce. Chiara sedeva sul muretto accanto al cancello con la coperta termica sulle spalle che crepitava a ogni respiro, e Lucia le sedeva accanto e fumava, e davanti a loro la mulattiera saliva tra i suoi muretti sbrecciati dentro il buio e spariva.
 
-Faceva molto freddo. In alto, tra i cipressi, qualcosa si mosse e si riassestò, uccelli, e tornò immobile.
+Faceva molto freddo. In alto, tra i cipressi, qualcosa si mosse e si riassestò — uccelli — e tornò immobile.
 
 Chiara guardò su per il sentiero. Pensò: è passata di qui. I suoi piedi sono stati su queste pietre. Pensò: quando c'era ancora luce. Mentre io dicevo *dovrebbe*. Pensò: è salita lassù da sola con lo zaino sulle spalle e mezza pagnotta per una morta, perché una vecchia gliel'ha chiesto, e lei ha detto *va bene*. E pensò, per la prima volta in tutta la notte non in traduzione, in nessuna lingua: *certo che c'è andata*.
 
