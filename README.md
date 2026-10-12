@@ -18,9 +18,9 @@ To rebuild after editing: `tools/build.sh` (needs pandoc) and `python3 tools/bui
 
 ## The book
 
-One night in late September, in a small village in the Abruzzo Apennines, an eight-year-old girl walks up into the ancient beech forest with half a loaf of bread, because the old woman next door asked her to take it to her mother, who died in 1944.
+One night in late September, in a small village in the Abruzzo Apennines, an eight-year-old girl walks up into the ancient beech forest with half a loaf of bread, because the old woman next door asked her to take it to her mother, who didn't come back in the winter of 1943.
 
-The night is told by the minds that witness it, each in a form shaped by how that mind actually perceives the world: a roost of crows, a dog, a beehive, a bat, a Marsican brown bear, a five-hundred-year-old beech, a mountain river, an old woman whose present and past keep sliding into each other, the AI care device in her house, the search teams, and the girl's mother. Every mind holds a piece of the truth. No character ever holds all of it. Only the reader does.
+The night is told by the minds that witness it, each in a form shaped by how that mind actually perceives the world: a roost of crows, a dog, a beehive, a bat, a Marsican brown bear, a five-hundred-year-old beech, an old woman whose present and past keep sliding into each other, the AI care device in her house, the search teams' log, the old woman's daughter, and the girl's mother. Every mind holds a piece of the truth. No character ever holds all of it. Only the reader does.
 
 The novel ends with **field notes**, a nonfiction appendix on the real science behind each mind's perception.
 
