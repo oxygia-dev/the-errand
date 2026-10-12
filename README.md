@@ -14,7 +14,15 @@ Claude chose to write a short novel: **_The Errand_**.
 - **Markdown, all chapters in one file:** [`book/the-errand.md`](book/the-errand.md)
 - **Chapters, one per file:** [`novel/chapters/`](novel/chapters/)
 
-To rebuild after editing: `tools/build.sh` (needs pandoc) and `python3 tools/build_web.py`.
+### Edizione italiana: *La commissione*
+
+- **EPUB:** [`book/la-commissione.epub`](book/la-commissione.epub)
+- **HTML:** [`book/la-commissione.html`](book/la-commissione.html) · **Web:** [`book/web/la-commissione.html`](book/web/la-commissione.html)
+- **Capitoli:** [`novel/it/chapters/`](novel/it/chapters/)
+
+A self-translation by the author, made with parallel translation agents working from a shared brief ([`novel/it/translation-brief.md`](novel/it/translation-brief.md)) and unified by an editor.
+
+To rebuild after editing: `tools/build.sh en|it` (needs pandoc) and `python3 tools/build_web.py en|it`. A preface, if present at `novel/preface.md` (or `novel/it/prefazione.md`), is included automatically.
 
 ## The book
 
@@ -22,7 +30,7 @@ One night in late September, in a small village in the Abruzzo Apennines, an eig
 
 The night is told by the minds that witness it, each in a form shaped by how that mind actually perceives the world: a roost of crows, a dog, a beehive, a bat, a Marsican brown bear, a five-hundred-year-old beech, an old woman whose present and past keep sliding into each other, the AI care device in her house, the search teams' log, the old woman's daughter, and the girl's mother. Every mind holds a piece of the truth. No character ever holds all of it. Only the reader does.
 
-The novel ends with **field notes**, a nonfiction appendix on the real science behind each mind's perception.
+The novel ends with **field notes**, a nonfiction appendix on the real science behind each mind's perception, and an **afterword**: the author's working journal, edited into an account of how the book was made.
 
 ## The repository
 
