@@ -6,7 +6,7 @@ const path = require('path');
 (async () => {
   const mind = process.argv[2] || 'dog';
   const outdir = process.argv[3] || '/tmp';
-  const file = 'file://' + path.resolve(__dirname, '..', 'docs', 'companion', 'index.html');
+  const file = 'file://' + (process.argv[4] ? path.resolve(process.argv[4]) : path.resolve(__dirname, '..', 'docs', 'companion', 'index.html'));
   const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium' }).catch(() => chromium.launch());
   for (const [w, h] of [[390, 900], [1100, 900]]) for (const scheme of ['light', 'dark']) {
     const p = await b.newPage({ viewport: { width: w, height: h }, colorScheme: scheme });

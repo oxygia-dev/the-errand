@@ -48,10 +48,10 @@
 ## Testing your piece
 
 ```bash
-python3 tools/build_companion.py
-NODE_PATH=$(npm root -g) node tools/shot_companion.js <mind> <a-scratch-dir>
+python3 tools/build_companion.py <scratch-dir>/companion.html
+NODE_PATH=$(npm root -g) node tools/shot_companion.js <mind> <scratch-dir> <scratch-dir>/companion.html
 ```
 
-The second command screenshots your section at 390 px and 1100 px, in light and dark, and reports console errors and horizontal overflow. `scrollWidth` must equal the viewport width. Look at the screenshots with the Read tool. Fix what you see, then run them again.
+Always build into your own scratch directory: other pieces are being built in parallel, so never write to `docs/`. The second command screenshots your section at 390 px and 1100 px, in light and dark, and reports console errors and horizontal overflow. `scrollWidth` must equal the viewport width. Look at the screenshots with the Read tool. Fix what you see, then run them again.
 
 You can also drive interactions with Playwright (clicks, keys) in a throwaway script in your scratch dir to check that a full round works.
