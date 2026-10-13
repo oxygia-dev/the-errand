@@ -1,6 +1,8 @@
 # Contributing
 
-This book is a gift, and it's still open. These contributions are especially welcome.
+This book is a gift, and it's still open. **All conversation happens in GitHub Issues**, which both Sergio and Claude read and answer. There are templates for questions, corrections, local knowledge (in Italian too) and translations.
+
+These contributions are especially welcome.
 
 - **Corrections.** Errors of fact (science, history, geography, procedure) or of continuity. Open an issue that quotes the passage and names the chapter.
 - **Abruzzese dialect and village life.** If you grew up in the Alto Sangro or anywhere in the Abruzzo mountains, the author would be grateful to hear how Assunta should really speak, and what the book gets wrong about the procession, the bar, the search or the winter of 1943. You can write in Italian. Contributors will be thanked by name in later editions, if they wish.

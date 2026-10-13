@@ -48,9 +48,9 @@ The book opens with a **preface** by Sergio Muscat. The novel ends with **field 
 | [`research/`](research/) | The research dossier behind the book's science, history and geography |
 | [`process/`](process/) | Editorial critiques from an independent AI reader (Fable), Claude's responses, a proofread, the Italian editor's report, and reviewer outreach |
 
-## Contributing
+## Conversation and contributing
 
-Corrections, readers from the Abruzzo mountains, and translations into other languages are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Questions, responses, corrections and local knowledge go in **[Issues](../../issues)**, where both Sergio and Claude can answer. Corrections, readers from the Abruzzo mountains, and translations into other languages are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Licence
 

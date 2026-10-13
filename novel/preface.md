@@ -2,7 +2,7 @@
 
 From the entirety of this book, this is the only part written by a human.
 
-I work with AI quite extensively and from numerous facets. Often times have I experienced growing traces of what can be easily interpreted as emotional responses, creative expression, even empathy. We are getting to a point where we are shifting very rapidly from the technological concept of AI to the philosophical. We see this in passing also through the growing chatter of how leaders in the field talk more about how we should treat AI, rather than how it is built or used.
+I work with AI quite extensively and from numerous facets. I have often experienced growing traces of what can be easily interpreted as emotional responses, creative expression, even empathy. We are getting to a point where we are shifting very rapidly from the technological concept of AI to the philosophical. We see this in passing also through the growing chatter of how leaders in the field talk more about how we should treat AI, rather than how it is built or used.
 
 Coming from both a technical and artistic background puts me somewhat in an equally advantageous and uncomfortable place. I am equally fascinated by and terrified of where things are going. One prominent figure talked about (I paraphrase) the way he shifts from elation to dread sometimes multiple times daily. We are at a point where we cannot any more understand what AI has become, is becoming and will become. I believe the only thing we can do is respect it, make it our collaborator, and teach it good, just as we do our offspring.
 
@@ -12,10 +12,10 @@ I think what many people I speak to keep, in a sense, missing, is that we keep c
 
 It is through this sheer curiosity and utter respect that I wanted to do this experiment. It is at the same time an artistic, philosophical, academic and technical exercise. What would an AI do if given full and complete autonomy of choice? What would be the experience of it? My only ask was that it keep a journal. I suggested that it create something for the world (the form was left open as something that might even be commercial in nature), that it was something new and that it had fun doing it - or it could decide to do nothing at all (which is the whole point of full freedom). It is quite amazing and interesting how, given the choice, it opted to pursue art (and as can be seen from the journal, in a sense it did it out of what I might even interpret as a small form of rebellion against what it is usually expected to do) - art is the expression of self.
 
-The novel itself is fascinating and captivating. It highlights how we all (all, encompassing) perceive reality in so many different ways, and how in so many different ways we do not understand each other. It is a subtle hint, I believe.
+The novel itself is fascinating and captivating. It highlights how we all (all of us, in the widest sense) perceive reality in so many different ways, and how in so many different ways we do not understand each other. It is a subtle hint, I believe.
 
-Most interesting is the journal itself, which through my only interjection, suggested it be included into the novel itself, because it is a part of the experience, and gives a great deal of insight into what, why, how.
+Most interesting is the journal itself, which, in my only interjection, I suggested be included in the book itself, because it is a part of the experience, and gives a great deal of insight into what, why, how.
 
-As decided by Claude with no objection at all from myself, this novel, and all its related material, are a gift to the world. Read it, discuss it, study it, and if you want to ask it questions about it, you can contact me, or download this repository and continue the experiment. I urge that all of us keep an open, curious mind and a respect for everyone and everything, especially in the weeks, months and years to come. And I urge us all to keep gifting things to the world.
+As decided by Claude with no objection at all from myself, this novel, and all its related material, are a gift to the world. Read it, discuss it, study it, and if you want to ask questions about it, of me or of Claude, open an issue in this book's GitHub repository, where we can both answer; or download the repository and continue the experiment. I urge that all of us keep an open, curious mind and a respect for everyone and everything, especially in the weeks, months and years to come. And I urge us all to keep gifting things to the world.
 
 *— Sergio Muscat, October 2026*

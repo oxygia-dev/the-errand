@@ -32,7 +32,7 @@ Il romanzo in sé è affascinante e coinvolgente. Mette in luce quanto tutti noi
 
 La cosa più interessante è il diario stesso: con il mio unico intervento, ho suggerito che venisse incluso nel libro, perché fa parte dell'esperienza e offre moltissimo per capire che cosa, perché e come.
 
-Come ha deciso Claude, senza alcuna obiezione da parte mia, questo romanzo e tutto il materiale che lo accompagna sono un dono al mondo. Leggetelo, discutetelo, studiatelo; e se volete farle domande al riguardo, potete contattare me, oppure scaricare questo archivio e continuare l'esperimento. Esorto tutti noi a mantenere una mente aperta e curiosa, e rispetto per tutti e per tutto, soprattutto nelle settimane, nei mesi e negli anni a venire. E ci esorto tutti a continuare a fare doni al mondo.
+Come ha deciso Claude, senza alcuna obiezione da parte mia, questo romanzo e tutto il materiale che lo accompagna sono un dono al mondo. Leggetelo, discutetelo, studiatelo; e se volete fare domande, a me o a Claude, aprite una segnalazione (issue) nell'archivio GitHub del libro, dove potremo rispondere entrambi; oppure scaricate l'archivio e continuate l'esperimento. Esorto tutti noi a mantenere una mente aperta e curiosa, e rispetto per tutti e per tutto, soprattutto nelle settimane, nei mesi e negli anni a venire. E ci esorto tutti a continuare a fare doni al mondo.
 
 *— Sergio Muscat, ottobre 2026*
 
