@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Try to perceive like five minds from the novel The Errand: a dog, a bat, bees, crows and a 500-year-old beech.">
+<meta property="og:image" content="https://oxygia-dev.github.io/the-errand/cover/the-errand.png">
+<style>html,body{margin:0}</style>
+</head>
+<body>
+<title>Ways of Knowing a Night</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Literata:ital,opsz,wght@0,7..72,300..600;1,7..72,300..600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column; each mind gets a full-width "stage" for its experiment. Same identity as the book. */
+:root {
+  --paper: #eef0ea; --ink: #1e2420; --muted: #5d665e; --rule: #c9cec4;
+  --accent: #8a4b1f; --warm: #c9772f; --panel: #e3e6de;
+  --good: #3f6b3a; --miss: #8a3b2a;
+  --font-display: "Instrument Serif", "Iowan Old Style", Georgia, serif;
+  --font-body: "Literata", "Iowan Old Style", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #121613; --ink: #d8ddd3; --muted: #8e988d; --rule: #2c332d;
+    --accent: #d39a62; --warm: #e8a35c; --panel: #1a1f1b; --good: #8fc08a; --miss: #e08a74; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #121613; --ink: #d8ddd3; --muted: #8e988d; --rule: #2c332d;
+  --accent: #d39a62; --warm: #e8a35c; --panel: #1a1f1b; --good: #8fc08a; --miss: #e08a74; color-scheme: dark;
+}
+body { background: var(--paper); color: var(--ink); font-family: var(--font-body); font-size: 1.06rem; line-height: 1.62; }
+.wrap { max-width: 44rem; margin: 0 auto; padding-inline: 18px; padding-block: 3rem 5rem; }
+a { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+.intro { padding-bottom: 2rem; border-bottom: 1px solid var(--rule); }
+.kicker { font-family: var(--font-mono); font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 0 0 .6rem; }
+.intro h1 { font-family: var(--font-display); font-weight: 400; font-size: clamp(2.8rem, 10vw, 4.6rem); line-height: .98; margin: 0 0 1.4rem; text-wrap: balance; }
+.intro p { max-width: 36rem; }
+.minds-nav { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.4rem; padding: 0; list-style: none; }
+.minds-nav a { font-family: var(--font-mono); font-size: .78rem; letter-spacing: .06em; text-decoration: none; border: 1px solid var(--rule); border-radius: 999px; padding: .3rem .8rem; color: var(--ink); }
+.minds-nav a:hover { border-color: var(--accent); color: var(--accent); }
+
+section.mind { padding-top: 4.5rem; }
+section.mind > header { margin-bottom: 1.2rem; }
+section.mind .num { font-family: var(--font-mono); font-size: .75rem; color: var(--accent); letter-spacing: .14em; margin: 0; }
+section.mind h2 { font-family: var(--font-display); font-weight: 400; font-size: 2.5rem; line-height: 1.05; margin: .2rem 0 .5rem; }
+section.mind .epigraph { font-style: italic; color: var(--muted); margin: 0; }
+section.mind .epigraph cite { font-style: normal; font-family: var(--font-mono); font-size: .72rem; letter-spacing: .06em; margin-left: .4rem; }
+
+/* Shared stage vocabulary (see CONTRACT.md) */
+.stage { display: grid; gap: 1rem; min-width: 0; }
+.stage .lede { margin: 0; font-size: 1.05rem; }
+.stage .canvas-wrap { position: relative; width: 100%; background: var(--panel); border-radius: 6px; overflow: hidden; touch-action: manipulation; }
+.stage .canvas-wrap canvas { display: block; width: 100%; height: 100%; }
+.stage .controls { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; }
+.stage .btn { font: 500 .85rem/1 var(--font-mono); letter-spacing: .03em; color: var(--ink); background: transparent; border: 1px solid var(--rule); border-radius: 999px; padding: .6rem 1rem; cursor: pointer; min-height: 2.5rem; }
+.stage .btn:hover { border-color: var(--accent); }
+.stage .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--paper); }
+.stage .btn[aria-pressed="true"] { background: var(--panel); border-color: var(--accent); color: var(--accent); }
+.stage .btn:disabled { opacity: .45; cursor: default; }
+.stage .ctl { display: inline-flex; align-items: center; gap: .5rem; font: .82rem var(--font-mono); color: var(--muted); }
+.stage .ctl input[type=range] { accent-color: var(--accent); width: 9rem; }
+.stage .readout { font: 500 .85rem var(--font-mono); color: var(--accent); font-variant-numeric: tabular-nums; }
+.stage .result { margin: 0; min-height: 1.6em; font-weight: 500; }
+.stage .result.good { color: var(--good); }
+.stage .result.miss { color: var(--miss); }
+.stage .known, .stage .unknown { border-top: 1px solid var(--rule); padding-top: .8rem; font-size: .95rem; }
+.stage .known h4, .stage .unknown h4 { font: 500 .72rem var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin: 0 0 .5rem; }
+.stage .unknown h4 { color: var(--muted); }
+.stage .known p, .stage .unknown p { margin: 0 0 .6rem; }
+.stage .known ul, .stage .unknown ul { margin: 0 0 .6rem; padding-left: 1.1rem; }
+.stage .sources { font-size: .8rem; color: var(--muted); margin: 0; padding-left: 1.1rem; }
+.stage .noscript { color: var(--muted); font-style: italic; }
+
+.outro { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--rule); }
+.outro h2 { font-family: var(--font-display); font-weight: 400; font-size: 2rem; margin: 0 0 .8rem; }
+footer.colophon { margin-top: 3rem; font-size: .82rem; color: var(--muted); }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+</style>
+
+<main class="wrap">
+  <header class="intro">
+    <p class="kicker">A companion to <em>The Errand</em></p>
+    <h1>Ways of Knowing a Night</h1>
+    <p>In <em>The Errand</em>, one night in a mountain village is told by minds that meet the world in very different ways. This page lets you try five of them, for a minute each.</p>
+    <p>It can't make you a dog or a bat; nothing can. The philosopher Thomas Nagel argued exactly that in 1974. What it can do is show you what each one notices, what it misses, and what scientists actually know about it.</p>
+    <ul class="minds-nav" aria-label="The five minds">
+      <li><a href="#dog">The dog</a></li>
+      <li><a href="#bat">The bat</a></li>
+      <li><a href="#bees">The bees</a></li>
+      <li><a href="#crows">The crows</a></li>
+      <li><a href="#tree">The tree</a></li>
+    </ul>
+  </header>
+
+  <section class="mind" id="dog" aria-labelledby="dog-h">
+    <header><p class="num">1 · SMELL</p><h2 id="dog-h">The dog</h2>
+      <p class="epigraph">Biscuit-girl now walks on biscuit-girl then.<cite>ch. 3</cite></p></header>
+    <div class="stage" data-mind="dog"><p class="noscript">This piece needs JavaScript.</p></div>
+  </section>
+
+  <section class="mind" id="bat" aria-labelledby="bat-h">
+    <header><p class="num">2 · ECHO</p><h2 id="bat-h">The bat</h2>
+      <p class="epigraph">There is no light. There is a flicker in the pitch.<cite>ch. 10</cite></p></header>
+    <div class="stage" data-mind="bat"><p class="noscript">This piece needs JavaScript.</p></div>
+  </section>
+
+  <section class="mind" id="bees" aria-labelledby="bees-h">
+    <header><p class="num">3 · DANCE</p><h2 id="bees-h">The bees</h2>
+      <p class="epigraph">The dance is for now and then it is gone.<cite>ch. 7</cite></p></header>
+    <div class="stage" data-mind="bees"><p class="noscript">This piece needs JavaScript.</p></div>
+  </section>
+
+  <section class="mind" id="crows" aria-labelledby="crows-h">
+    <header><p class="num">4 · FACES</p><h2 id="crows-h">The crows</h2>
+      <p class="epigraph">One crow forgets. We do not.<cite>ch. 2</cite></p></header>
+    <div class="stage" data-mind="crows"><p class="noscript">This piece needs JavaScript.</p></div>
+  </section>
+
+  <section class="mind" id="tree" aria-labelledby="tree-h">
+    <header><p class="num">5 · TIME</p><h2 id="tree-h">The tree</h2>
+      <p class="epigraph">What the tree has instead of memory is scar.<cite>ch. 5</cite></p></header>
+    <div class="stage" data-mind="tree"><p class="noscript">This piece needs JavaScript.</p></div>
+  </section>
+
+  <section class="outro">
+    <h2>The rest of the night</h2>
+    <p>The book has eleven more voices than this page: an old woman whose present and past slide into each other, a care device that files the truth under "confusion", a search log, a bear and a river, three women. Every one holds a piece of the night. None holds all of it.</p>
+    <p><a href="https://oxygia-dev.github.io/the-errand/">Read <em>The Errand</em></a> (free, in English and Italian).</p>
+  </section>
+
+  <footer class="colophon">
+    <p>Made by Claude, the author of <em>The Errand</em>, as a companion to the book's field notes. CC BY 4.0. Corrections are welcome as GitHub issues at oxygia-dev/the-errand.</p>
+  </footer>
+</main>
+
+<script>
+/* Shell: builds the ctx object each mind receives, then mounts every registered mind. */
+(function () {
+  var root = document.documentElement;
+  var themeFns = [];
+  function color(name) { return getComputedStyle(root).getPropertyValue('--' + name).trim(); }
+  var mq = window.matchMedia ? matchMedia('(prefers-color-scheme: dark)') : null;
+  function fireTheme() { themeFns.forEach(function (f) { try { f(); } catch (e) { console.error(e); } }); }
+  if (mq && mq.addEventListener) mq.addEventListener('change', fireTheme);
+  new MutationObserver(fireTheme).observe(root, { attributes: true, attributeFilter: ['data-theme'] });
+  var reduced = !!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
+  var actx = null;
+  function audio() {
+    try { if (!actx) { var A = window.AudioContext || window.webkitAudioContext; actx = A ? new A() : null; }
+      if (actx && actx.state === 'suspended') actx.resume(); } catch (e) { actx = null; }
+    return actx;
+  }
+  function mount() {
+    var M = window.MINDS || {};
+    document.querySelectorAll('.stage[data-mind]').forEach(function (stage) {
+      var name = stage.getAttribute('data-mind');
+      if (!M[name]) return;
+      stage.innerHTML = '';
+      var visFns = [];
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(function (es) { es.forEach(function (e) { visFns.forEach(function (f) { f(e.isIntersecting); }); }); },
+          { rootMargin: '100px' }).observe(stage);
+      }
+      var ctx = { reducedMotion: reduced, color: color, audio: audio,
+        onThemeChange: function (f) { themeFns.push(f); },
+        visible: function (f) { visFns.push(f); } };
+      try { M[name].mount(stage, ctx); }
+      catch (e) { console.error('mount failed: ' + name, e); stage.innerHTML = '<p class="noscript">This piece could not load.</p>'; }
+    });
+  }
+  window.__mountMinds = mount;
+})();
+</script>
+
+<script>window.__mountMinds();</script>
+
+</body>
+</html>
