@@ -309,7 +309,7 @@
         var q = bez(H, 0.82); arrowHead(g, q.x, q.y, q.h - Math.PI / 2, 6, rgba(C.ink, 0.6));
       });
       g.setLineDash([]);
-      var lx = G.b[0] + G.d[0] * W * 0.14, ly = G.b[1] + G.d[1] * W * 0.14;
+      var lx = G.a[0] - G.d[0] * W * 0.17, ly = Math.max(W * 0.2, Math.min(W * 0.86, G.a[1] - G.d[1] * W * 0.17));
       pill(g, 'waggle ' + round.D.toFixed(1) + ' s', lx, ly, '12px "IBM Plex Mono", monospace', C.accent, rgba(C.panel, 0.88), W);
     }
     function arrowHead(g, x, y, a, s, col) {
@@ -445,7 +445,7 @@
       g.setLineDash([]);
       var mono = '11px "IBM Plex Mono", monospace', serif = 'italic 12px Literata, Georgia, serif', bg = rgba(C.panel, 0.8);
       [1, 2].forEach(function (km) { q = P(km * Math.sin(118 * DEG), km * Math.cos(118 * DEG)); pill(g, km + ' km', q[0], q[1], mono, C.muted, bg); });
-      [['Pietrafonda', -0.45, -0.9], ['cemetery', 0.5, 0.52], ['Rio Freddo', -2.35, -1.62], ['beech forest', -1.5, 2.05]].forEach(function (l) {
+      [['Pietrafonda', -0.45, -0.9], ['cemetery', 0.5, 0.52], ['Rio Freddo', -1.9, -1.75], ['beech forest', -1.5, 2.05]].forEach(function (l) {
         q = P(l[1], l[2]); pill(g, l[0], q[0], q[1], serif, rgba(C.ink, 0.75), bg, W);
       });
       pill(g, 'N ↑', 18, 14, mono, C.muted, null);

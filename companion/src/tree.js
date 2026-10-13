@@ -305,9 +305,9 @@
         var rad = R * shapeR(mid, th0), x = cx + rad * Math.cos(th0), y = cy + rad * Math.sin(th0);
         if (e.y === sel) return;
         var eaten = hNow >= 1 && e.y < WOUND && R * hollowR(th0) * Math.pow(hNow, 1.6) > rad;
+        if (eaten) return;                                   // the rot took that wood, and the mark with it
         g.beginPath(); g.arc(x, y, 1.9, 0, TAU);
-        if (eaten) { g.strokeStyle = rgba(col.muted, 0.6); g.lineWidth = 0.8; g.stroke(); }
-        else { g.fillStyle = rgba(e.y < sel ? col.ink : col.muted, e.y < sel ? 0.55 : 0.4); g.fill(); }
+        g.fillStyle = rgba(e.y < sel ? col.ink : col.muted, e.y < sel ? 0.55 : 0.4); g.fill();
       });
 
       if (hover >= 0 && hover !== sel) {

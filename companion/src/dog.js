@@ -186,7 +186,8 @@
       }
 
       function pathY(u) {
-        return R.yc + R.a1 * Math.sin(6.283 * (R.f1 * u + R.p1)) + R.a2 * Math.sin(6.283 * (R.f2 * u + R.p2));
+        var m = H > W * 0.8 ? 1.35 : 1; // swing wider on tall phone canvases
+        return R.yc + m * (R.a1 * Math.sin(6.283 * (R.f1 * u + R.p1)) + R.a2 * Math.sin(6.283 * (R.f2 * u + R.p2)));
       }
       function layout() {
         var M = 260, pts = [], cum = [0], i;
@@ -259,11 +260,35 @@
         var p = geo.steps[i], s = R.steps[i].side;
         return { x: p.cx + p.nx * s * dist, y: p.cy + p.ny * s * dist };
       }
+      function setFont() { g.font = '500 ' + Math.round(11 * Math.max(sc, 0.95)) + 'px ' + mono; }
+      function box(cx, cy, w, h) { return { x: clamp(cx - w / 2, 2, W - w - 2), y: clamp(cy - h / 2, 2, H - h - 2), w: w, h: h }; }
+      function chipRect(i) {
+        var c = chipAt(i, 27 * sc + 3);
+        setFont();
+        return box(c.x, c.y, g.measureText(val(i).toFixed(2)).width + 12, 22);
+      }
+      function overlap(a, b) {
+        var dx = Math.min(a.x + a.w, b.x + b.w) - Math.max(a.x, b.x), dy = Math.min(a.y + a.h, b.y + b.h) - Math.max(a.y, b.y);
+        return dx > 0 && dy > 0 ? dx * dy : 0;
+      }
+      // Place an age tag near an end step where it covers no reading, footstep or arrow.
+      function tagRect(i, txt, avoid) {
+        setFont();
+        var w = g.measureText(txt).width + 14, h = 20, p = geo.steps[i], sd = R.steps[i].side;
+        var o = (i === 0 ? -1 : 1), best = null, bestA = 1e9;
+        var cands = [[sd * 58, 0], [sd * 58, o * 30], [0, o * (w / 2 + 24)], [-sd * 32, o * (w / 2 + 6)],
+          [-sd * 58, 0], [sd * 82, 0], [-sd * 58, o * 30], [sd * 82, -o * 30]];
+        for (var k = 0; k < cands.length; k++) {
+          var cn = cands[k][0] * sc, ct = cands[k][1];
+          var r = box(p.cx + p.nx * cn + p.tx * ct, p.cy + p.ny * cn + p.ty * ct, w, h), area = 0;
+          avoid.forEach(function (b) { area += overlap(r, b); });
+          if (area < bestA) { bestA = area; best = r; }
+          if (!area) break;
+        }
+        return best;
+      }
       function drawChip(i, a, strong) {
-        var v = val(i), txt = v.toFixed(2), c = chipAt(i, 27 * sc + 3);
-        g.font = '500 ' + Math.round(11 * Math.max(sc, 0.95)) + 'px ' + mono;
-        var w = g.measureText(txt).width + 12, h = 22;
-        var x = clamp(c.x - w / 2, 2, W - w - 2), y = clamp(c.y - h / 2, 2, H - h - 2);
+        var v = val(i), txt = v.toFixed(2), r = chipRect(i), x = r.x, y = r.y, w = r.w, h = r.h;
         g.globalAlpha = a;
         roundRect(x, y, w, h, 5);
         g.fillStyle = rgba('paper', 0.92); g.fill();
@@ -275,11 +300,9 @@
         g.fillStyle = rgba('warm', 0.95); g.fillRect(x + 6, y + h - 6, (w - 12) * Math.min(1, v), 2.5);
         g.globalAlpha = 1;
       }
-      function drawTag(i, txt, a) {
-        var c = chipAt(i, 52 * sc + 6);
-        g.font = '500 ' + Math.round(11 * Math.max(sc, 0.95)) + 'px ' + mono;
-        var w = g.measureText(txt).width + 14, h = 20;
-        var x = clamp(c.x - w / 2, 2, W - w - 2), y = clamp(c.y - h / 2, 2, H - h - 2);
+      function drawTag(r, txt, a) {
+        var x = r.x, y = r.y, w = r.w, h = r.h;
+        setFont();
         g.globalAlpha = a;
         roundRect(x, y, w, h, 10);
         g.fillStyle = rgba('accent', 1); g.fill();
@@ -422,8 +445,16 @@
         }
         if (ghost && done) {
           var ta = reduced ? 1 : clamp((t - ghost.t0 - GHOST_MS) / 400, 0, 1);
-          drawTag(newestIdx(), fmt(ageOf(newestIdx())) + ' old', ta);
-          drawTag(oldestIdx(), fmt(ageOf(oldestIdx())) + ' old', ta);
+          var avoid = [], ni = newestIdx(), oi = oldestIdx(), arr = at(geo.steps[ni].s + R.dir * 30 * sc);
+          for (i = 0; i < N; i++) {
+            avoid.push(chipRect(i));
+            avoid.push({ x: geo.steps[i].x - 9, y: geo.steps[i].y - 9, w: 18, h: 18 });
+          }
+          avoid.push({ x: arr.cx - 12, y: arr.cy - 12, w: 24, h: 24 });
+          var tn = fmt(ageOf(ni)) + ' old', to = fmt(ageOf(oi)) + ' old', rn = tagRect(ni, tn, avoid);
+          avoid.push(rn);
+          drawTag(rn, tn, ta);
+          drawTag(tagRect(oi, to, avoid), to, ta);
         }
         if (nosey >= 0) {
           p = geo.steps[nosey];
@@ -499,7 +530,8 @@
         } else {
           msg = 'Not this time. She went ' + way + '.' + ages + ' ' +
             (!used ? 'A sniff or two would help.' : rain ? 'Heavy rain had washed most of her scent away.'
-              : T >= 120 ? 'After hours, old and new steps smell almost the same.' : 'Steps far apart show the biggest difference.');
+              : T >= 120 ? 'After hours, old and new steps smell almost the same.'
+              : spread() < 5 ? 'Steps far apart show the biggest difference.' : 'Her newer steps are the stronger ones.');
         }
         result.textContent = msg;
         result.className = 'result ' + (right ? 'good' : 'miss');
@@ -510,6 +542,11 @@
         ghost = { t0: performance.now() };
         if (document.activeElement === btnL || document.activeElement === btnR) newBtn.focus();
         requestDraw();
+      }
+      function spread() {
+        var lo = N, hi = -1;
+        R.steps.forEach(function (st, i) { if (st.sniffed) { lo = Math.min(lo, i); hi = Math.max(hi, i); } });
+        return hi - lo;
       }
       function conditionsChanged() {
         timeOut.textContent = fmt(T);
