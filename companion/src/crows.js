@@ -1,7 +1,6 @@
 /* The crows: "We know the faces." Face memory, and how a roost passes it on. */
 (function () {
   window.MINDS = window.MINDS || {};
-
   // Human skin and hair tones are natural colours, not theme colours; everything else comes from ctx.color().
   var SKIN = ['#f3d7c2', '#e7bf9d', '#d4a27c', '#bb845c', '#986444', '#764c31', '#573624'];
   var HAIR = ['#1e1a17', '#3b2a1f', '#6b4428', '#9a5a2e', '#c9a46c', '#8e8c87', '#d9d5cd'];
@@ -30,7 +29,6 @@
     S + '.crow-sr { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }',
     S + '.btn[hidden], ' + S + '.readout[hidden] { display: none; }'
   ].join('\n');
-
   function ri(n) { return Math.floor(Math.random() * n); }
   function pick(a) { return a[ri(a.length)]; }
   function clamp(x, a, b) { return x < a ? a : x > b ? b : x; }
@@ -50,7 +48,6 @@
     return 'rgb(' + [0, 1, 2].map(function (i) { return Math.round(A[i] + (B[i] - A[i]) * t); }).join(',') + ')';
   }
   function lum(c) { var p = parse(c); return 0.2126 * p[0] + 0.7152 * p[1] + 0.0722 * p[2]; }
-
   // ---- Faces -------------------------------------------------------------
   function newFace(hatMax) {
     var f = {};
@@ -111,7 +108,6 @@
     if (f.hat && f.hat < 4) p.push(HATN[f.hat]);
     return p.join(', ');
   }
-
   function rrect(c, x, y, w, h, r) {
     r = Math.min(r, w / 2, h / 2);
     c.beginPath(); c.moveTo(x + r, y); c.arcTo(x + w, y, x + w, y + h, r); c.arcTo(x + w, y + h, x, y + h, r);
@@ -153,7 +149,6 @@
     }
     c.closePath();
   }
-
   // Draws a face with its head centre at (x, y); u is pixels per face unit (a head is about 55 units wide).
   function drawFace(c, f, x, y, u, P) {
     var hd = HEADS[f.head], rx = hd[0], ry = hd[1], jaw = hd[2];
@@ -278,7 +273,6 @@
     }
     c.restore();
   }
-
   // Hooded crow, unit length about 4, facing +x when dir is 1: grey mantle, black hood, wings and tail.
   function drawCrow(c, x, y, s, dir, P, fly, flap, caw) {
     c.save(); c.translate(x, y); c.scale(dir * s, s);
@@ -317,7 +311,6 @@
       c.beginPath(); c.moveTo(x + Math.cos(a) * len * 0.3, y + Math.sin(a) * len * 0.3); c.lineTo(x + Math.cos(a) * len, y + Math.sin(a) * len); c.stroke();
     }
   }
-
   window.MINDS.crows = {
     mount: function (stage, ctx) {
       var reduced = !!ctx.reducedMotion;
@@ -357,11 +350,9 @@
         '<li>Cornell, Marzluff &amp; Pecoraro (2012). Social learning spreads knowledge about dangerous humans among American crows. <i>Proceedings of the Royal Society B</i>.</li>' +
         '<li>Marzluff, Miyaoka, Minoshima &amp; Cross (2012). Brain imaging reveals neuronal circuitry underlying the crow’s perception of human faces. <i>PNAS</i>.</li>' +
         '<li>Swift &amp; Marzluff (2015). Wild American crows gather around their dead to learn about danger. <i>Animal Behaviour</i>.</li>');
-
       var c = cv.getContext('2d');
       var W = 0, H = 0, dpr = 1, P = null, visible = true, raf = 0, last = 0;
       var st = {};
-
       function palette() {
         var p = {};
         ['paper', 'ink', 'muted', 'rule', 'accent', 'warm', 'panel'].forEach(function (n) { p[n] = ctx.color(n) || '#888888'; });
@@ -405,7 +396,6 @@
         return out;
       }
       function scolderIdx(n) { var r = []; for (var k = 0; k < 5; k++) r.push(Math.min(n - 1, Math.floor((k + 0.5) * n / 5))); return r; }
-
       function drawBand() {
         var t = topH(), g = c.createLinearGradient(0, 0, 0, t);
         g.addColorStop(0, P.sky0); g.addColorStop(1, P.sky1); c.fillStyle = g; c.fillRect(0, 0, W, t);
@@ -506,7 +496,6 @@
         drawPerched(watching ? scolderIdx(perches().length) : [], st.phase === 'learn' && st.step === 0);
         if (watching) drawScolders();
       }
-
       // ---- loop: runs only while something moves and the stage is on screen ----
       function animating() { return !reduced && visible && ((st.phase === 'learn' && st.step < 2) || st.phase === 'watch'); }
       function tick(ts) {
@@ -518,7 +507,6 @@
         kick();
       }
       function kick() { if (!raf && animating()) raf = requestAnimationFrame(tick); if (!animating()) last = 0; }
-
       // ---- UI ----
       function say(text, cls, sr) {
         result.className = 'result' + (cls ? ' ' + cls : '');
@@ -549,7 +537,6 @@
         else if (had && hits.firstChild) hits.firstChild.focus();
       }
       function refresh() { layout(); buildHits(); draw(); kick(); }
-
       function reset() {
         st = { jit: [], dirs: [], remembered: 0, season: 0 };
         for (var i = 0; i < 12; i++) { st.jit.push(Math.random() * 2 - 1); st.dirs.push(Math.random() < 0.5 ? -1 : 1); }
@@ -558,15 +545,13 @@
         var blue = stranger(d, [g, n], 5, 2);
         st.trio = { danger: d, gives: g, neither: n }; st.blue = blue;
         st.phase = 'learn'; st.step = 0; st.stepT = 0; st.crowd = null;
-        readout.hidden = true;
-        showLearn();
+        readout.hidden = true; showLearn();
       }
       function showLearn() {
         var item = LEARN[st.step];
         lede.innerHTML = step('1 · One crow learns') + 'Every face a crow meets gets one of three verdicts: <em>gives</em>, <em>danger</em> or <em>neither</em>. Learn these three faces. You will need them.';
         say(item.text, '', 'face ' + (st.step + 1) + ' of 3: ' + describe(st.trio[item.role]));
-        setPrimary(st.step < 2 ? 'Next' : 'To the street');
-        refresh();
+        setPrimary(st.step < 2 ? 'Next' : 'To the street'); refresh();
       }
       function nextLearn() { if (st.step < 2) { st.step++; st.stepT = 0; showLearn(); } else startRoost(); }
       function makeCrowd(n, specials, lookN, lookK, minD) {
@@ -574,31 +559,25 @@
         for (var i = 0; i < lookN; i++) { var lf = lookalike(st.blue, lookK); faces.push(lf); items.push({ f: lf, role: 'stranger' }); }
         while (items.length < n) { var sf = stranger(t, faces, minD); faces.push(sf); items.push({ f: sf, role: 'stranger' }); }
         shuffle(items).forEach(function (it, k) { it.mark = null; if (it.role === 'danger') st.targetIdx = k; });
-        st.misses = 0; st.done = false; st.focusIdx = null;
-        return items;
+        st.misses = 0; st.done = false; st.focusIdx = null; return items;
       }
       function startRoost() {
         var dv = clone(st.trio.danger);
         dv.hat = dv.hat ? 0 : 1 + ri(2); dv.hatTone = ri(4); dv.coat = (dv.coat + 1 + ri(3)) % 4;
-        st.dangerHat = dv.hat;
-        st.crowd = makeCrowd(9, [{ f: dv, role: 'danger' }, { f: st.trio.gives, role: 'gives' }, { f: st.trio.neither, role: 'neither' }], 0, 0, 4);
+        st.dangerHat = dv.hat; st.crowd = makeCrowd(9, [{ f: dv, role: 'danger' }, { f: st.trio.gives, role: 'gives' }, { f: st.trio.neither, role: 'neither' }], 0, 0, 4);
         st.phase = 'roost';
         lede.innerHTML = step('2 · The roost tells it') + 'Dusk, and the street is full. Tap the face that is <em>danger</em>. Its hat may have changed.';
-        say('', '');
-        refresh();
-        setPrimary(null);
+        say('', ''); refresh(); setPrimary(null);
       }
       function startWatch() {
         st.crowd = makeCrowd(9, [{ f: clone(st.blue), role: 'danger' }], 0, 0, 4);
         st.phase = 'watch'; st.flyT = 0;
         lede.innerHTML = step('3 · Generations') + 'Years later, you are a young crow. You never met the face from the blue gate: that was before you hatched. Watch which face the old crows scold.';
         say('The old crows scold one face: <em>that one, that one</em>. Remember it.', '', 'they are scolding the face with ' + describe(st.blue));
-        setPrimary('I’m ready');
-        refresh();
+        setPrimary('I’m ready'); refresh();
       }
       function startSeason() {
-        var s = ++st.season;
-        var v = s === 1 ? clone(st.blue) : variant(st.blue, s);
+        var s = ++st.season, v = s === 1 ? clone(st.blue) : variant(st.blue, s);
         var n = s === 1 ? 9 : s === 2 ? 10 : 12, look = s === 1 ? 0 : Math.min(4, s - 1), lookK = s <= 3 ? 3 : 2;
         st.crowd = makeCrowd(n, [{ f: v, role: 'danger' }], look, lookK, s <= 2 ? 4 : 3);
         st.phase = 'season'; st.hatChanged = v.hat !== st.blue.hat;
@@ -606,15 +585,12 @@
           ? step('3 · Generations') + 'A new evening, new faces. Find the face the old crows scolded.'
           : step('Season ' + s) + 'A year has gone round. The street is full of strangers. Is the face from the blue gate among them?';
         readout.hidden = false; readout.textContent = 'Seasons remembered: ' + st.remembered;
-        say('', '');
-        refresh();
-        setPrimary(null);
+        say('', ''); refresh(); setPrimary(null);
       }
       function choose(i) {
-        var it = st.crowd && st.crowd[i];
+        var it = st.crowd && st.crowd[i], target = it && st.crowd[st.targetIdx];
         if (!it) return;
         st.focusIdx = i;
-        var target = st.crowd[st.targetIdx];
         if (st.phase === 'roost') {
           if (it.role === 'danger' && !st.done) {
             it.mark = 'danger'; st.done = true;
@@ -652,22 +628,15 @@
         }
         buildHits(); draw();
       }
-
-      primary.addEventListener('click', function () {
-        if (st.phase === 'learn') nextLearn();
-        else if (st.phase === 'roost') startWatch();
-        else startSeason();
-      });
-      again.addEventListener('click', function () { reset(); });
+      primary.addEventListener('click', function () { if (st.phase === 'learn') nextLearn(); else if (st.phase === 'roost') startWatch(); else startSeason(); });
+      again.addEventListener('click', reset);
       hits.addEventListener('keydown', function (e) {
         var bs = Array.prototype.slice.call(hits.children), i = bs.indexOf(document.activeElement), cols = st.lay ? st.lay.cols : 3, j;
         if (i < 0) return;
         if (e.key === 'ArrowRight') j = i + 1; else if (e.key === 'ArrowLeft') j = i - 1;
         else if (e.key === 'ArrowDown') j = i + cols; else if (e.key === 'ArrowUp') j = i - cols; else return;
-        e.preventDefault();
-        if (j >= 0 && j < bs.length) bs[j].focus();
+        e.preventDefault(); if (j >= 0 && j < bs.length) bs[j].focus();
       });
-
       function resize() {
         var w = wrap.clientWidth, h = wrap.clientHeight;
         if (!w || !h) return;
@@ -679,7 +648,6 @@
       else window.addEventListener('resize', resize);
       ctx.onThemeChange(function () { P = null; draw(); });
       ctx.visible(function (v) { visible = v; kick(); });
-
       reset();
       resize();
     }
