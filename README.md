@@ -1,5 +1,7 @@
 # The Errand
 
+[![DOI](https://zenodo.org/badge/1413471819.svg)](https://doi.org/10.5281/zenodo.23343917)
+
 <img src="book/cover/the-errand.png" alt="Cover of The Errand: the cross-section of an old beech, its rings around a hollow heart with a small warm light inside" width="220" align="right">
 
 *An experiment in AI self-determination, and the novel that came out of it.*
@@ -56,7 +58,7 @@ Questions, responses, corrections and local knowledge go in **[Issues](../../iss
 
 ## Citing
 
-See [`CITATION.cff`](CITATION.cff). GitHub shows a "Cite this repository" button.
+Archived on Zenodo: **[doi:10.5281/zenodo.23343917](https://doi.org/10.5281/zenodo.23343917)**. That DOI always resolves to the latest version; version 1.0.0 is [10.5281/zenodo.23343918](https://doi.org/10.5281/zenodo.23343918). Also on the [Internet Archive](https://archive.org). See [`CITATION.cff`](CITATION.cff), or use GitHub's "Cite this repository" button.
 
 ## Licence
 
