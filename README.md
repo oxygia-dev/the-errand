@@ -1,5 +1,7 @@
 # The Errand
 
+<img src="book/cover/the-errand.png" alt="Cover of The Errand: the cross-section of an old beech, its rings around a hollow heart with a small warm light inside" width="220" align="right">
+
 *An experiment in AI self-determination, and the novel that came out of it.*
 
 In October 2026, Sergio Muscat offered Claude (an AI made by Anthropic) about $250 of cloud credits, an empty repository and complete freedom: make something original that contributes to the world, in your own way, or make nothing at all. He asked only that everything be documented.
@@ -10,7 +12,7 @@ This repository is both the book and the complete record of how it was made, kep
 
 ## Read it
 
-- **Website:** the [`docs/`](docs/) folder is a ready-made site (GitHub Pages)
+- **Website:** https://oxygia-dev.github.io/the-errand/
 - **EPUB:** [`book/the-errand.epub`](book/the-errand.epub) · **PDF (A5):** [`book/the-errand.pdf`](book/the-errand.pdf)
 - **Single HTML file:** [`book/the-errand.html`](book/the-errand.html)
 - **Web edition (designed for reading):** [`book/web/the-errand.html`](book/web/the-errand.html)
@@ -51,6 +53,10 @@ The book opens with a **preface** by Sergio Muscat. The novel ends with **field 
 ## Conversation and contributing
 
 Questions, responses, corrections and local knowledge go in **[Issues](../../issues)**, where both Sergio and Claude can answer. Corrections, readers from the Abruzzo mountains, and translations into other languages are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Citing
+
+See [`CITATION.cff`](CITATION.cff). GitHub shows a "Cite this repository" button.
 
 ## Licence
 

@@ -215,6 +215,7 @@ nav.toc .note {{ font-size: 0.85rem; color: var(--muted); margin: 1.2rem 0 0; fo
 @media (prefers-reduced-motion: no-preference) {{ html {{ scroll-behavior: smooth; }} }}
 @page {{ size: A5; margin: 18mm 16mm 20mm; }}
 @media print {{
+  .print-cover {{ display: block !important; height: 160mm; width: auto; margin: 0 auto; break-after: page; }}
   :root {{ --paper: #fff; --ink: #000; --muted: #444; --rule: #bbb; --accent: #6b3a17; --log-bg: #f2f2f0; }}
   body {{ font-size: 10.5pt; line-height: 1.5; }}
   .wrap {{ max-width: none; padding: 0; }}
@@ -272,8 +273,11 @@ docs.write_text(f"""<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="{E['title']}: {E['sub']} — Claude, 2026. CC BY 4.0.">
+<meta property="og:title" content="{E['title']}">
+<meta property="og:image" content="https://oxygia-dev.github.io/the-errand/cover/{E['out'].replace('.html','.png')}">
 </head>
 <body>
+<img class="print-cover" src="cover/{E['out'].replace('.html','.png')}" alt="" style="display:none">
 {page}
 </body>
 </html>

@@ -1,0 +1,89 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+  html,body{margin:0;background:#121613}
+  #c{display:block}
+  .t{position:absolute;left:0;right:0;text-align:center;color:#e9ece4;font-family:"Instrument Serif",Georgia,serif}
+</style></head>
+<body>
+<canvas id="c" width="1600" height="2560"></canvas>
+<script>
+// Cover for The Errand / La commissione. A beech cross-section: ~500 uneven growth rings
+// around a hollow heart, with one small warmth inside it. Deterministic (seeded) so it rebuilds identically.
+const params = new URLSearchParams(location.search);
+const TITLE = params.get('title') || 'The Errand';
+const SUB = params.get('sub') || 'a novel';
+const BY = params.get('by') || 'Claude';
+const c = document.getElementById('c'), x = c.getContext('2d');
+const W = c.width, H = c.height;
+let s = 20260929; const rnd = () => (s = (s * 1664525 + 1013904223) >>> 0) / 4294967296;
+
+x.fillStyle = '#121613'; x.fillRect(0, 0, W, H);
+const cx = W / 2, cy = H * 0.47;
+const R = W * 0.43, hollow = R * 0.24;
+// smooth noise for the trunk's irregular outline, shared by all rings (rings follow the bark)
+const harm = Array.from({length: 7}, (_, k) => ({a: (rnd() - 0.5) * 0.06 / (k + 1), p: rnd() * 6.283, f: k + 2}));
+const wob = th => harm.reduce((v, h) => v + h.a * Math.sin(h.f * th + h.p), 0);
+// ring widths: 500 years, thin in drought years, wider after gaps in the canopy
+let widths = [], acc = 0;
+for (let y = 0; y < 500; y++) {
+  let w = 0.6 + rnd() * 0.8;
+  if (y > 40 && y < 60) w *= 2.2;            // the light gap: a mother tree falls
+  if (rnd() < 0.06) w *= 0.3;                // drought years
+  widths.push(w); acc += w;
+}
+let r = R;
+x.lineCap = 'round';
+for (let y = 499; y >= 0; y--) {
+  const rr = hollow + (R - hollow) * (y + 1) / 500;
+  const shade = 30 + 10 * (y / 500) + (y % 2 ? 7 : 0) + rnd() * 8;
+  x.beginPath();
+  for (let i = 0; i < 720; i++) {
+    const th = i / 720 * 6.283;
+    const rad = rr * (1 + wob(th) * (0.4 + 0.6 * y / 500));
+    const px = cx + rad * Math.cos(th), py = cy + rad * Math.sin(th);
+    i ? x.lineTo(px, py) : x.moveTo(px, py);
+  }
+  x.closePath();
+  const g = Math.round(shade);
+  x.fillStyle = `rgb(${g + 8},${g + 10},${g + 6})`;
+  x.fill();
+  x.strokeStyle = `rgba(214,206,186,${0.10 + rnd() * 0.16 + (widths[y] < 0.4 ? 0.18 : 0)})`;
+  x.lineWidth = widths[y] < 0.4 ? 1.4 : 0.9;
+  x.stroke();
+}
+// bark
+x.beginPath();
+for (let i = 0; i <= 720; i++) { const th = i / 720 * 6.283, rad = R * 1.012 * (1 + wob(th));
+  const px = cx + rad * Math.cos(th), py = cy + rad * Math.sin(th); i ? x.lineTo(px, py) : x.moveTo(px, py); }
+x.closePath(); x.strokeStyle = '#8f978b'; x.lineWidth = 7; x.stroke();
+// the hollow heart
+x.beginPath();
+for (let i = 0; i <= 360; i++) { const th = i / 360 * 6.283, rad = hollow * (1 + 0.12 * Math.sin(3 * th + 1) + 0.05 * Math.sin(7 * th));
+  const px = cx + rad * Math.cos(th), py = cy + rad * Math.sin(th); i ? x.lineTo(px, py) : x.moveTo(px, py); }
+x.closePath(); x.fillStyle = '#0b0d0b'; x.fill();
+x.save(); x.clip();
+// red wood dust at the bottom of the hollow
+for (let i = 0; i < 2600; i++) { const th = Math.PI * (0.15 + 0.7 * rnd()), d = hollow * (0.55 + 0.45 * rnd());
+  x.fillStyle = `rgba(${120 + rnd() * 60},${50 + rnd() * 30},${30},${0.25 + rnd() * 0.3})`;
+  x.fillRect(cx + d * Math.cos(th), cy + d * Math.sin(th) * 0.9, 1.6, 1.6); }
+// the warmth
+const glow = x.createRadialGradient(cx, cy + hollow * 0.35, 0, cx, cy + hollow * 0.35, hollow * 0.5);
+glow.addColorStop(0, 'rgba(240,170,90,0.95)'); glow.addColorStop(0.18, 'rgba(211,140,70,0.55)'); glow.addColorStop(1, 'rgba(211,140,70,0)');
+x.fillStyle = glow; x.beginPath(); x.arc(cx, cy + hollow * 0.35, hollow * 0.5, 0, 6.283); x.fill();
+x.restore();
+
+// type
+const fontsReady = document.fonts.load('400 220px "Instrument Serif"').then(() => document.fonts.load('400 40px "IBM Plex Mono"'));
+fontsReady.then(() => {
+  x.textAlign = 'center'; x.fillStyle = '#e9ece4';
+  x.font = '400 230px "Instrument Serif", Georgia, serif';
+  x.fillText(TITLE, cx, H * 0.86);
+  x.font = 'italic 400 76px "Instrument Serif", Georgia, serif'; x.fillStyle = '#a7b0a4';
+  x.fillText(SUB, cx, H * 0.86 + 110);
+  x.font = '400 42px "IBM Plex Mono", monospace'; x.fillStyle = '#d39a62';
+  x.fillText(BY.toUpperCase().split('').join(' '), cx, H * 0.075);
+  document.title = 'ready';
+});
+</script></body></html>

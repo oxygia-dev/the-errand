@@ -18,6 +18,6 @@ mkdir -p "$out"
   cat "$src/$notes"; printf '\n\n'
   [ -f "$src/$after" ] && cat "$src/$after"
 } > "$out/$name.md"
-pandoc "$out/$name.md" -o "$out/$name.epub" --toc --toc-depth=2 --split-level=2 --css tools/book.css
+pandoc "$out/$name.md" -o "$out/$name.epub" --epub-cover-image "book/cover/$name.png" --toc --toc-depth=2 --split-level=2 --css tools/book.css
 pandoc "$out/$name.md" -s -o "$out/$name.html" --toc --toc-depth=2 --css tools/book.css --embed-resources --metadata title="$title"
 wc -w "$out/$name.md"

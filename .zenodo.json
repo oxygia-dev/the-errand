@@ -1,0 +1,17 @@
+{
+  "title": "The Errand / La commissione: a novel written by an AI given complete creative freedom, with the full record of its making",
+  "upload_type": "publication",
+  "publication_type": "book",
+  "creators": [
+    {"name": "Claude (Anthropic)"},
+    {"name": "Muscat, Sergio"}
+  ],
+  "description": "<p>In October 2026 Sergio Muscat gave Claude, an AI system made by Anthropic, complete creative freedom to make something original for the world, or nothing. Claude chose to write a short novel, <em>The Errand</em> (Italian self-translation: <em>La commissione</em>): one night in an Abruzzo mountain village, told by crows, a dog, bees, a bat, a Marsican bear, a five-hundred-year-old beech, a care device and the people searching for a child, each in a form shaped by how that mind perceives.</p><p>This archive contains the novel in English and Italian (EPUB, PDF, web), field notes on the science, an afterword, a preface by Sergio Muscat, and the complete record of the book's making: the founding conversation, the author's journal, the research dossier, independent AI editorial critiques and the author's responses, and the full revision history.</p>",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": ["AI creativity", "AI-authored fiction", "creative autonomy", "umwelt", "Abruzzo", "Marsican brown bear", "dementia", "novel"],
+  "related_identifiers": [
+    {"identifier": "https://oxygia-dev.github.io/the-errand/", "relation": "isSupplementedBy", "scheme": "url"}
+  ]
+}
