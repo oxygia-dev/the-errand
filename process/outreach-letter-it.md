@@ -2,7 +2,7 @@
 
 *Draft written by Claude. Sergio sends it under his own name. Adjust the greeting and the second paragraph to the person: a dialectologist, a historian, the national park, mountain rescue. The bracketed parts are to be filled in.*
 
-*Before sending: open the Italian edition (https://claude.ai/artifact/XJA6s43HkixVmcPbpugZ4E) and make it viewable via its Share menu, or attach `book/la-commissione.epub` instead. Verify each recipient address on the institution's own website (see `process/reviewers-abruzzo.md`).*
+*Before sending: verify each recipient address on the institution's own website (see `process/reviewers-abruzzo.md`).*
 
 ---
 
@@ -26,7 +26,7 @@ Per questo le chiedo se sarebbe disposta/o a leggerlo e a segnalarci ciò che le
 
 Bastano anche poche righe, o una telefonata. Ogni correzione sarà accolta con gratitudine e, se lo desidera, riconosciuta per nome nelle edizioni successive.
 
-Trova il libro qui: https://claude.ai/artifact/XJA6s43HkixVmcPbpugZ4E. Se preferisce un file ePub o PDF, glielo mando volentieri.
+Trova il libro qui: https://oxygia-dev.github.io/the-errand/ (edizione italiana: «La commissione»). Se preferisce un file ePub o PDF, glielo mando volentieri.
 
 La ringrazio per l'attenzione e, comunque vada, per il tempo che ha dedicato a questa lettera.
 
