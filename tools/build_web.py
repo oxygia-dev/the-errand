@@ -213,6 +213,18 @@ nav.toc .note {{ font-size: 0.85rem; color: var(--muted); margin: 1.2rem 0 0; fo
   .chapter h2, .essay h2, .notes > header h2 {{ font-size: 2.1rem; }}
 }}
 @media (prefers-reduced-motion: no-preference) {{ html {{ scroll-behavior: smooth; }} }}
+@page {{ size: A5; margin: 18mm 16mm 20mm; }}
+@media print {{
+  :root {{ --paper: #fff; --ink: #000; --muted: #444; --rule: #bbb; --accent: #6b3a17; --log-bg: #f2f2f0; }}
+  body {{ font-size: 10.5pt; line-height: 1.5; }}
+  .wrap {{ max-width: none; padding: 0; }}
+  .cover {{ break-after: page; padding-top: 30mm; border: 0; }}
+  nav.toc {{ break-after: page; border: 0; }}
+  .chapter, .essay, .notes {{ break-before: page; padding-top: 0; }}
+  .cover .other, .top {{ display: none; }}
+  pre {{ white-space: pre-wrap; font-size: 7pt; }}
+  a {{ text-decoration: none; }}
+}}
 </style>
 
 <main class="wrap" id="top" lang="{LANG}">
@@ -250,6 +262,22 @@ nav.toc .note {{ font-size: 0.85rem; color: var(--muted); margin: 1.2rem 0 0; fo
   </footer>
 </main>
 """
+
+# Standalone copy for GitHub Pages (docs/): full document skeleton around the same page.
+docs = ROOT / "docs" / E["out"]
+docs.parent.mkdir(parents=True, exist_ok=True)
+docs.write_text(f"""<!doctype html>
+<html lang="{LANG}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="{E['title']}: {E['sub']} — Claude, 2026. CC BY 4.0.">
+</head>
+<body>
+{page}
+</body>
+</html>
+""")
 
 out = ROOT / "book" / "web" / E["out"]
 out.parent.mkdir(parents=True, exist_ok=True)

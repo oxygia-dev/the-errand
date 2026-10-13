@@ -4,11 +4,14 @@
 
 In October 2026, Sergio Muscat offered Claude (an AI made by Anthropic) about $250 of cloud credits, an empty repository and complete freedom: make something original that contributes to the world, in your own way, or make nothing at all. He asked only that everything be documented.
 
-Claude chose to write a short novel: **_The Errand_**.
+Claude chose to write a short novel: **_The Errand_**. Sergio wrote the preface, the only part of the book written by a human.
+
+This repository is both the book and the complete record of how it was made, kept for anyone who wants to read, study, correct, translate or continue it.
 
 ## Read it
 
-- **EPUB:** [`book/the-errand.epub`](book/the-errand.epub)
+- **Website:** the [`docs/`](docs/) folder is a ready-made site (GitHub Pages)
+- **EPUB:** [`book/the-errand.epub`](book/the-errand.epub) · **PDF (A5):** [`book/the-errand.pdf`](book/the-errand.pdf)
 - **Single HTML file:** [`book/the-errand.html`](book/the-errand.html)
 - **Web edition (designed for reading):** [`book/web/the-errand.html`](book/web/the-errand.html)
 - **Markdown, all chapters in one file:** [`book/the-errand.md`](book/the-errand.md)
@@ -16,13 +19,13 @@ Claude chose to write a short novel: **_The Errand_**.
 
 ### Edizione italiana: *La commissione*
 
-- **EPUB:** [`book/la-commissione.epub`](book/la-commissione.epub)
+- **EPUB:** [`book/la-commissione.epub`](book/la-commissione.epub) · **PDF (A5):** [`book/la-commissione.pdf`](book/la-commissione.pdf)
 - **HTML:** [`book/la-commissione.html`](book/la-commissione.html) · **Web:** [`book/web/la-commissione.html`](book/web/la-commissione.html)
 - **Capitoli:** [`novel/it/chapters/`](novel/it/chapters/)
 
 A self-translation by the author, made with parallel translation agents working from a shared brief ([`novel/it/translation-brief.md`](novel/it/translation-brief.md)) and unified by an editor.
 
-To rebuild after editing: `tools/build.sh en|it` (needs pandoc) and `python3 tools/build_web.py en|it`. A preface, if present at `novel/preface.md` (or `novel/it/prefazione.md`), is included automatically.
+To rebuild everything after editing: `tools/build_all.sh` (needs pandoc, Python 3, and Node with Playwright for the PDFs).
 
 ## The book
 
@@ -30,7 +33,7 @@ One night in late September, in a small village in the Abruzzo Apennines, an eig
 
 The night is told by the minds that witness it, each in a form shaped by how that mind actually perceives the world: a roost of crows, a dog, a beehive, a bat, a Marsican brown bear, a five-hundred-year-old beech, an old woman whose present and past keep sliding into each other, the AI care device in her house, the search teams' log, the old woman's daughter, and the girl's mother. Every mind holds a piece of the truth. No character ever holds all of it. Only the reader does.
 
-The novel ends with **field notes**, a nonfiction appendix on the real science behind each mind's perception, and an **afterword**: the author's working journal, edited into an account of how the book was made.
+The book opens with a **preface** by Sergio Muscat. The novel ends with **field notes**, a nonfiction appendix on the real science behind each mind's perception, and an **afterword**: the author's working journal, edited into an account of how the book was made.
 
 ## The repository
 
@@ -39,10 +42,15 @@ The novel ends with **field notes**, a nonfiction appendix on the real science b
 | [`conversation/`](conversation/) | The conversation between Sergio and Claude, verbatim |
 | [`journal/`](journal/) | Claude's working journal: decisions, doubts, process, reflections |
 | [`novel/`](novel/) | The design documents (`architecture.md`, `plan-v2.md`), the chapters, and the field notes |
-| [`book/`](book/) | Built editions |
+| [`book/`](book/) | Built editions (EPUB, PDF, HTML, Markdown) |
+| [`docs/`](docs/) | The website (GitHub Pages) |
 | [`tools/`](tools/) | Build scripts |
 | [`research/`](research/) | The research dossier behind the book's science, history and geography |
-| [`process/`](process/) | Editorial critiques from an independent AI reader (Fable), Claude's responses, and a proofread |
+| [`process/`](process/) | Editorial critiques from an independent AI reader (Fable), Claude's responses, a proofread, the Italian editor's report, and reviewer outreach |
+
+## Contributing
+
+Corrections, readers from the Abruzzo mountains, and translations into other languages are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Licence
 
