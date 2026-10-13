@@ -42,8 +42,7 @@
     mount: function (stage, ctx) {
       var reduced = !!ctx.reducedMotion;
       var style = document.createElement('style');
-      style.textContent = CSS;
-      stage.appendChild(style);
+      style.textContent = CSS; stage.appendChild(style);
 
       function el(tag, cls, html, parent) {
         var e = document.createElement(tag);
@@ -57,8 +56,7 @@
         'so her newest steps smell strongest. Tap up to five footsteps to sniff them, then say which way she went.');
       var wrap = el('div', 'canvas-wrap');
       var cv = el('canvas', null, null, wrap);
-      cv.tabIndex = 0;
-      cv.setAttribute('role', 'application');
+      cv.tabIndex = 0; cv.setAttribute('role', 'application');
       cv.setAttribute('aria-label', 'A trail of ten footsteps, numbered from left to right. ' +
         'Left and right arrow keys move the nose; Enter sniffs.');
 
@@ -74,16 +72,14 @@
       var btnR = el('button', 'btn primary', 'this way <span class="arr" aria-hidden="true">→</span>', row2);
       btnL.setAttribute('aria-label', 'She went left');
       btnR.setAttribute('aria-label', 'She went right');
-      var result = el('p', 'result');
-      result.setAttribute('aria-live', 'polite');
+      var result = el('p', 'result'); result.setAttribute('aria-live', 'polite');
 
       var row3 = el('div', 'controls');
       var lab = el('label', 'ctl', 'Time since she passed ', row3);
       var slider = el('input', null, null, lab);
       slider.type = 'range'; slider.min = 0; slider.max = STOPS.length - 1; slider.step = 1; slider.value = 1;
       var timeOut = el('output', 'readout', null, row3);
-      var rainBtn = el('button', 'btn', 'Heavy rain', row3);
-      rainBtn.setAttribute('aria-pressed', 'false');
+      var rainBtn = el('button', 'btn', 'Heavy rain', row3); rainBtn.setAttribute('aria-pressed', 'false');
       var newBtn = el('button', 'btn', 'New trail', row3);
       var tallyOut = el('output', 'readout', null, row3);
 
@@ -105,8 +101,7 @@
       var g = cv.getContext('2d');
       var bg = document.createElement('canvas'), blob = document.createElement('canvas');
       var W = 0, H = 0, dpr = 1, sc = 1, dark = false, mono = 'monospace', cache = {};
-      var R = null, geo = null;
-      var T = STOPS[1], rain = false;
+      var R = null, geo = null, T = STOPS[1], rain = false;
       var phase = 'sniff', sniffsLeft = MAX_SNIFFS, cursor = 4, hover = -1, focused = false;
       var sniffing = null, ghost = null, wins = 0, plays = 0;
       var running = false, visible = true, raf = 0, lastT = 0;
@@ -127,20 +122,15 @@
         return 'rgba(' + c[0] + ',' + c[1] + ',' + c[2] + ',' + (a == null ? 1 : a) + ')';
       }
       function readTheme() {
-        cache = {};
-        rgba('paper');
+        cache = {}; rgba('paper');
         var p = cache.paper;
         dark = (0.299 * p[0] + 0.587 * p[1] + 0.114 * p[2]) < 128;
         mono = getComputedStyle(stage).getPropertyValue('--font-mono').trim() || 'monospace';
         var n = Math.round(48 * dpr);
         blob.width = blob.height = n;
         var b = blob.getContext('2d'), gr = b.createRadialGradient(n / 2, n / 2, 0, n / 2, n / 2, n / 2);
-        gr.addColorStop(0, rgba('warm', 1));
-        gr.addColorStop(0.45, rgba('warm', 0.45));
-        gr.addColorStop(1, rgba('warm', 0));
-        b.clearRect(0, 0, n, n);
-        b.fillStyle = gr;
-        b.fillRect(0, 0, n, n);
+        gr.addColorStop(0, rgba('warm', 1)); gr.addColorStop(0.45, rgba('warm', 0.45)); gr.addColorStop(1, rgba('warm', 0));
+        b.clearRect(0, 0, n, n); b.fillStyle = gr; b.fillRect(0, 0, n, n);
       }
 
       function ageOf(i) { return T + (R.dir > 0 ? (N - 1 - i) : i) * GAP; }
@@ -159,7 +149,7 @@
           yc: 0.46 + Math.random() * 0.08,
           a1: 0.07 + Math.random() * 0.1, f1: 0.45 + Math.random() * 0.8, p1: Math.random(),
           a2: 0.015 + Math.random() * 0.03, f2: 1.6 + Math.random() * 1.2, p2: Math.random(),
-          wx: Math.cos(wa) * 0.5, wy: Math.sin(wa) * 0.5, steps: [], leaves: []
+          wx: Math.cos(wa) * 0.5, wy: Math.sin(wa) * 0.5, steps: [], leaves: [], t0: performance.now()
         };
         for (var i = 0; i < N; i++) {
           var parts = [];
@@ -175,10 +165,8 @@
             c: cols[(Math.random() * cols.length) | 0], a: Math.random() });
         }
         phase = 'sniff'; sniffsLeft = MAX_SNIFFS; cursor = 4; sniffing = null; ghost = null;
-        btnL.disabled = btnR.disabled = false;
-        newBtn.classList.remove('primary');
-        result.textContent = '';
-        result.className = 'result';
+        btnL.disabled = btnR.disabled = false; newBtn.classList.remove('primary');
+        result.textContent = ''; result.className = 'result';
         lastOut.textContent = 'Tap a footstep to sniff it.';
         updateTokens();
         if (W) { layout(); renderBg(); }
@@ -186,7 +174,7 @@
       }
 
       function pathY(u) {
-        var m = H > W * 0.8 ? 1.35 : 1; // swing wider on tall phone canvases
+        var m = H > W * 0.8 ? 1.3 : 1; // swing wider on tall phone canvases
         return R.yc + m * (R.a1 * Math.sin(6.283 * (R.f1 * u + R.p1)) + R.a2 * Math.sin(6.283 * (R.f2 * u + R.p2)));
       }
       function layout() {
@@ -209,15 +197,13 @@
         s = clamp(s, 0, c[hi]);
         while (hi - lo > 1) { var mid = (lo + hi) >> 1; if (c[mid] < s) lo = mid; else hi = mid; }
         var a = geo.pts[lo], b = geo.pts[hi], f = (s - c[lo]) / ((c[hi] - c[lo]) || 1);
-        var tx = b[0] - a[0], ty = b[1] - a[1], L = Math.hypot(tx, ty) || 1;
-        tx /= L; ty /= L;
+        var L = Math.hypot(b[0] - a[0], b[1] - a[1]) || 1, tx = (b[0] - a[0]) / L, ty = (b[1] - a[1]) / L;
         return { s: s, cx: a[0] + (b[0] - a[0]) * f, cy: a[1] + (b[1] - a[1]) * f, tx: tx, ty: ty, nx: -ty, ny: tx };
       }
 
       // ---------- drawing ----------
       function strokePath(c, w, color) {
-        c.lineWidth = w; c.strokeStyle = color;
-        c.beginPath();
+        c.lineWidth = w; c.strokeStyle = color; c.beginPath();
         geo.pts.forEach(function (p, i) { if (i) c.lineTo(p[0], p[1]); else c.moveTo(p[0], p[1]); });
         c.stroke();
       }
@@ -228,15 +214,12 @@
         c.fillStyle = rgba(L.c, (L.c === 'rule' ? 0.45 + 0.4 * L.a : 0.07 + 0.12 * L.a) * alphaMul);
         c.beginPath(); c.moveTo(-len, 0);
         c.bezierCurveTo(-len * 0.4, -len * 0.75, len * 0.5, -len * 0.5, len, 0); c.bezierCurveTo(len * 0.5, len * 0.5, -len * 0.4, len * 0.75, -len, 0);
-        c.fill();
-        c.strokeStyle = rgba('panel', 0.5 * alphaMul); c.lineWidth = 0.6;
-        c.beginPath(); c.moveTo(-len * 0.8, 0); c.lineTo(len * 1.1, 0); c.stroke();
-        c.restore();
+        c.fill(); c.strokeStyle = rgba('panel', 0.5 * alphaMul); c.lineWidth = 0.6;
+        c.beginPath(); c.moveTo(-len * 0.8, 0); c.lineTo(len * 1.1, 0); c.stroke(); c.restore();
       }
       function renderBg() {
         bg.width = Math.round(W * dpr); bg.height = Math.round(H * dpr);
-        var b = bg.getContext('2d');
-        b.setTransform(dpr, 0, 0, dpr, 0, 0);
+        var b = bg.getContext('2d'); b.setTransform(dpr, 0, 0, dpr, 0, 0);
         b.fillStyle = rgba('panel'); b.fillRect(0, 0, W, H);
         var nL = Math.min(R.leaves.length, Math.round(W * H / 950)), i;
         for (i = 0; i < nL * 0.8; i++) leaf(b, R.leaves[i], 1);
@@ -311,21 +294,19 @@
         g.globalAlpha = 1;
       }
       function drawNose(x, y, k) {
-        g.save(); g.translate(x, y); g.scale(k * sc, k * sc);
-        g.fillStyle = rgba('ink', 0.92);
-        g.beginPath(); g.moveTo(-10, -3);
-        g.bezierCurveTo(-10, -10, 10, -10, 10, -3);
-        g.bezierCurveTo(10, 3, 4, 8, 0, 8);
-        g.bezierCurveTo(-4, 8, -10, 3, -10, -3);
-        g.fill();
-        g.fillStyle = rgba('panel'); g.strokeStyle = rgba('panel'); g.lineWidth = 1;
+        g.save(); g.translate(x, y); g.scale(k * sc * 1.2, k * sc * 1.2);
+        g.fillStyle = rgba('accent'); g.strokeStyle = rgba('panel', 0.9); g.lineWidth = 1.2;
+        g.beginPath(); g.moveTo(-11, -4); g.bezierCurveTo(-11, -10.5, 11, -10.5, 11, -4);
+        g.bezierCurveTo(11, 2, 5, 5, 1.6, 6.5); g.lineTo(0, 9); g.lineTo(-1.6, 6.5);
+        g.bezierCurveTo(-5, 5, -11, 2, -11, -4); g.fill(); g.stroke();
+        g.strokeStyle = rgba('panel', 0.95); g.fillStyle = rgba('panel', 0.95); g.lineWidth = 1.1; g.lineCap = 'round';
         [-1, 1].forEach(function (d) {
-          g.beginPath(); g.ellipse(d * 3.8, -1.6, 2.4, 1.6, d * 0.5, 0, 6.283); g.fill();
-          g.beginPath(); g.moveTo(d * 5.4, -0.6); g.quadraticCurveTo(d * 7.4, 0.6, d * 7.6, 3.2); g.stroke(); // side slit
+          g.beginPath(); g.ellipse(d * 4.4, -2.2, 2.6, 1.7, d * 0.45, 0, 6.283); g.fill();
+          g.beginPath(); g.moveTo(d * 6.6, -1.2); g.quadraticCurveTo(d * 8.6, 0.6, d * 8, 3); g.stroke(); // side slit: the out-breath leaves here
         });
-        g.fillStyle = rgba('paper', 0.3);
-        g.beginPath(); g.ellipse(-3, -6, 3, 1.2, -0.2, 0, 6.283); g.fill();
-        g.restore();
+        g.beginPath(); g.moveTo(0, 0.5); g.lineTo(0, 6); g.stroke();
+        g.fillStyle = rgba('paper', 0.35);
+        g.beginPath(); g.ellipse(-3.5, -7, 3.4, 1.2, -0.15, 0, 6.283); g.fill(); g.restore();
       }
 
       function draw(t) {
@@ -338,13 +319,13 @@
           p = geo.steps[i];
           g.save(); g.translate(p.x, p.y); g.rotate(Math.atan2(p.ty, p.tx));
           g.fillStyle = rgba('ink', dark ? 0.2 : 0.11);
-          g.strokeStyle = R.steps[i].sniffed ? rgba('accent', 0.8) : rgba('muted', 0.45);
-          g.lineWidth = 1;
+          g.strokeStyle = R.steps[i].sniffed ? rgba('accent', 0.8) : rgba('muted', 0.45); g.lineWidth = 1;
           g.beginPath(); g.ellipse(0, 0, 6.5 * sc, 3.6 * sc, 0, 0, 6.283); g.fill(); g.stroke();
           g.restore();
         }
         // scent clouds: density and brightness follow the current strength
         var sn = sniffing && !reduced ? (t - sniffing.t0) / SNIFF_MS : 2;
+        var rise = reduced ? 1 : clamp((t - R.t0) / 900, 0, 1); // the whole trail breathes in at once: no laying order to give her away
         g.save();
         g.globalCompositeOperation = dark ? 'lighter' : 'source-over';
         for (i = 0; i < N; i++) {
@@ -359,7 +340,7 @@
             var x = p.x + Math.cos(an) * r + R.wx * ph * 16 * sc, y = p.y + Math.sin(an) * r + R.wy * ph * 16 * sc;
             if (pull) { x += (p.x - x) * pull; y += (p.y - 4 * sc - y) * pull; }
             var size = (7 + 8 * ph) * q.sz * sc * (1 - pull * 0.6);
-            g.globalAlpha = amp * Math.sin(Math.PI * ph);
+            g.globalAlpha = amp * rise * Math.sin(Math.PI * ph);
             g.drawImage(blob, x - size, y - size, size * 2, size * 2);
           }
         }
@@ -518,7 +499,7 @@
       }
       function choose(d) {
         if (phase !== 'sniff') return;
-        phase = 'reveal'; hover = -1;
+        phase = 'reveal'; hover = -1; cv.style.cursor = 'default';
         var right = d === R.dir, used = MAX_SNIFFS - sniffsLeft, faint = rain || T >= 120;
         plays++; if (right) wins++;
         var way = R.dir > 0 ? 'this way →' : '← this way';

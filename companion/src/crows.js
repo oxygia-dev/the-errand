@@ -370,7 +370,7 @@
         p.sky0 = mix(p.panel, p.warm, 0.03); p.sky1 = mix(p.panel, p.warm, dark ? 0.2 : 0.3);
         p.roof = mix(p.panel, p.deep, dark ? 0.35 : 0.22); p.cypress = mix(p.panel, p.deep, dark ? 0.6 : 0.5);
         p.street = mix(p.panel, p.muted, 0.08); p.door = mix(p.panel, p.warm, dark ? 0.24 : 0.2); p.doorEdge = mix(p.door, p.deep, 0.18);
-        p.crowGrey = mix(p.muted, p.panel, dark ? 0.2 : 0.3); p.crowBlack = dark ? mix(p.deep, p.muted, 0.18) : mix(p.deep, p.muted, 0.1);
+        p.crowGrey = dark ? mix(p.muted, p.ink, 0.2) : mix(p.muted, p.panel, 0.3); p.crowBlack = dark ? mix(p.deep, p.muted, 0.42) : mix(p.deep, p.muted, 0.1);
         p.coat = [mix(p.accent, p.panel, 0.15), mix(p.warm, p.deep, 0.15), mix(p.muted, p.panel, 0.1), mix(p.deep, p.muted, 0.35)];
         p.hat = [mix(p.deep, p.warm, 0.3), mix(p.muted, p.deep, 0.35), mix(p.accent, p.deep, 0.2), mix(p.warm, p.panel, 0.1)];
         p.hatBand = mix(p.accent, p.deep, 0.45); p.frame = mix(p.deep, p.accent, 0.2);
@@ -422,7 +422,7 @@
         c.stroke();
       }
       function drawPerched(skip, caw) {
-        var ps = perches(), s = clamp(topH() * 0.16, 6, 10);
+        var ps = perches(), s = clamp(topH() * 0.18, 7, 11);
         ps.forEach(function (p, i) { if (skip.indexOf(i) < 0) drawCrow(c, p.x, p.y - s * 1.05, s, p.dir, P, false, 0, caw); });
       }
       function pill(text, cx, cy, bg, fg, fs) {
@@ -479,7 +479,8 @@
       }
       function drawScolders() {
         var L = st.lay, cl = L.cells[st.targetIdx], ps = perches(), idx = scolderIdx(ps.length);
-        var s = clamp(L.u * 6, 6, 11), rxo = Math.min(cl.w * 0.5, 50 * L.u), ryo = 44 * L.u;
+        var s = clamp(L.u * 8, 8, 14), rxo = Math.min(cl.w * 0.55, 54 * L.u), ryo = 50 * L.u;
+        arch(c, cl.x + 3, cl.y + 3, cl.w - 6, cl.h - 6); c.strokeStyle = P.accent; c.lineWidth = 3; c.stroke();
         idx.forEach(function (pi, k) {
           var ang = -Math.PI + (k + 0.5) / 5 * Math.PI;
           var ex = clamp(cl.hx + Math.cos(ang) * rxo, s * 2.5, W - s * 2.5), ey = Math.max(s * 2, cl.hy - 12 * L.u + Math.sin(ang) * ryo);
@@ -582,10 +583,10 @@
         st.dangerHat = dv.hat;
         st.crowd = makeCrowd(9, [{ f: dv, role: 'danger' }, { f: st.trio.gives, role: 'gives' }, { f: st.trio.neither, role: 'neither' }], 0, 0, 4);
         st.phase = 'roost';
-        lede.innerHTML = step('2 · The roost tells it') + 'Dusk, and the street is full. Tap the face that is <em>danger</em>. It may be wearing a different hat.';
+        lede.innerHTML = step('2 · The roost tells it') + 'Dusk, and the street is full. Tap the face that is <em>danger</em>. Its hat may have changed.';
         say('', '');
-        setPrimary(null);
         refresh();
+        setPrimary(null);
       }
       function startWatch() {
         st.crowd = makeCrowd(9, [{ f: clone(st.blue), role: 'danger' }], 0, 0, 4);
@@ -606,8 +607,8 @@
           : step('Season ' + s) + 'A year has gone round. The street is full of strangers. Is the face from the blue gate among them?';
         readout.hidden = false; readout.textContent = 'Seasons remembered: ' + st.remembered;
         say('', '');
-        setPrimary(null);
         refresh();
+        setPrimary(null);
       }
       function choose(i) {
         var it = st.crowd && st.crowd[i];
@@ -617,7 +618,7 @@
         if (st.phase === 'roost') {
           if (it.role === 'danger' && !st.done) {
             it.mark = 'danger'; st.done = true;
-            say('That one. Danger, ' + (st.dangerHat ? 'even in a different hat.' : 'even without the hat.'), 'good');
+            say('That one. Danger, ' + (st.dangerHat ? 'even in a hat.' : 'even without the hat.'), 'good');
             lede.innerHTML = step('2 · The roost tells it') + 'Found. Is there a face here that <em>gives</em>, too? Tap it, or go on.';
           } else if (it.role === 'gives') {
             it.mark = 'gives';
@@ -630,7 +631,7 @@
             it.mark = 'miss'; st.misses++;
             if (st.misses >= 2) {
               target.mark = 'reveal'; st.done = true;
-              say('There it is, ' + (st.dangerHat ? 'under a different hat' : 'without its hat') + '. Same brows, same eyes, same nose.', 'miss');
+              say('There it is, ' + (st.dangerHat ? 'under a hat' : 'without its hat') + '. Same brows, same eyes, same nose.', 'miss');
             } else say('Not that one. That face is new to you. Look past the hat, at the brows, eyes and nose.', 'miss');
           }
           if (st.done) setPrimary('Go on');
