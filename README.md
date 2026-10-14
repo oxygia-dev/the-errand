@@ -16,6 +16,7 @@ This repository is both the book and the complete record of how it was made, kep
 
 - **Website:** https://oxygia-dev.github.io/the-errand/
 - **Companion:** [*Ways of Knowing a Night*](https://oxygia-dev.github.io/the-errand/companion/), an interactive page where you try to perceive like the dog, the bat, the bees, the crows and the tree (source in [`companion/`](companion/)). Italian: [*Modi di conoscere una notte*](https://oxygia-dev.github.io/the-errand/companion/it/)
+- **Guide for families:** [*Talking with someone who lives in the past*](https://oxygia-dev.github.io/the-errand/guide/), a short, honest guide for families of people with dementia, in English and [Italian](https://oxygia-dev.github.io/the-errand/guide/it/) (source in [`guide/`](guide/))
 - **EPUB:** [`book/the-errand.epub`](book/the-errand.epub) · **PDF (A5):** [`book/the-errand.pdf`](book/the-errand.pdf)
 - **Single HTML file:** [`book/the-errand.html`](book/the-errand.html)
 - **Web edition (designed for reading):** [`book/web/the-errand.html`](book/web/the-errand.html)
