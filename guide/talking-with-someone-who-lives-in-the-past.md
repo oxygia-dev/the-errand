@@ -2,7 +2,14 @@
 
 *A short guide for families and friends of people with dementia.*
 
-> **Read this first.** This guide was written by Claude, an AI system, as a companion to the novel *The Errand*. It draws on published research and on the guidance of dementia organisations, and it tries to say clearly what is known and what isn't. It is **not medical advice** and it has **not yet been reviewed by a clinician**. Every person with dementia is different, and so is every family. If something changes suddenly, or you're worried about safety, contact a doctor or one of the helplines at the end. Corrections are welcome as issues at github.com/oxygia-dev/the-errand.
+> **Read this first.** This guide was written by Claude, an AI system, as a companion to the novel *The Errand*. It draws on published research and on the guidance of dementia organisations, and it tries to say clearly what is known and what isn't. It is **not medical advice** and it has **not yet been reviewed by a clinician**. Every person with dementia is different, and so is every family. If something changes suddenly, or you're worried about safety, contact a doctor, or in an emergency call your local emergency number (112 in Italy and across the EU, 999 in the UK, 911 in the US). The helplines at the end are for support, not emergencies. Corrections are welcome as issues at github.com/oxygia-dev/the-errand.
+
+> **Right now, if it's hard**
+> - **Is anyone in danger, or is this a sudden change?** Call your emergency number (112 in Italy and the EU, 999 in the UK, 911 in the US) or get a doctor the same day.
+> - **Don't argue.** Respond to the feeling: *"You're worried. I'm here."*
+> - **Check the basics:** pain, toilet, hunger, thirst, cold, tiredness.
+> - **Make it calmer:** lights on, noise down, one familiar voice.
+> - **If you're at the end of your rope:** make sure the person is safe, step out of the room, and ring a helpline or a friend.
 
 ---
 
@@ -16,7 +23,7 @@ This is common in dementia, and it can be one of the hardest parts for families.
 
 **Evenings can be harder.** Many families notice more confusion, restlessness or agitation in the late afternoon and evening. This is often called *sundowning*. It isn't a formal diagnosis, and estimates of how common it is vary enormously, because there's no agreed definition. Its causes are uncertain: tiredness, fading light, disrupted body clocks, hunger, pain and an overstimulating environment have all been suggested.
 
-**When to call a doctor.** A **sudden** change, such as new confusion over hours or days, sudden agitation, or a change in alertness, can be a sign of delirium, often caused by an infection, dehydration, pain, constipation or a medication. That is a medical matter, and it needs a medical check promptly. Not every change is "just the dementia".
+**When to call a doctor.** A **sudden** change, such as new confusion over hours or days, sudden agitation, or a change in alertness (including becoming unusually sleepy, quiet or withdrawn), can be a sign of delirium, often caused by an infection, dehydration, pain, constipation or a medication. That is a medical matter, and it needs a medical check the same day. Not every change is "just the dementia".
 
 ---
 
@@ -28,9 +35,9 @@ Families often face the same dilemma many times a day. When she asks for her mot
 
 What the evidence says, honestly:
 
-- **There's little evidence that repeated correction helps.** The main review of formal reality orientation was withdrawn years ago and folded into research on group "cognitive stimulation". That group programme shows a small, short-term benefit for people with mild-to-moderate dementia. Gentle cues around the home, such as clocks, calendars and clear signs, may help some people. Repeatedly telling someone a painful fact they can't hold onto can mean they grieve it again each time, as if for the first time.
-- **There isn't strong trial evidence for formal validation therapy either.** A Cochrane review found too few good trials to say whether it works. That's an absence of proof, not proof of harm. Its central attitude (take the person seriously, respond to the feeling, don't argue) is shared by almost every dementia organisation.
-- **No trial has compared telling the truth with gentle untruths.** The best guidance comes from careful inquiries that listened to people living with dementia and to carers. The most thorough, by the UK's Mental Health Foundation in 2016, described responses as running along a line:
+- **Repeated correction hasn't been shown to help.** Formal "reality orientation" classes were studied decades ago, with mixed results, and that review has since been withdrawn and folded into research on group "cognitive stimulation". Whether correcting someone again and again in everyday conversation helps or harms has never been properly tested. That group programme shows a small, short-term benefit for people with mild-to-moderate dementia. Gentle cues around the home, such as clocks, calendars and clear signs, may help some people. Repeatedly telling someone a painful fact they can't hold onto can mean they grieve it again each time, as if for the first time.
+- **There isn't strong trial evidence for formal validation therapy either.** A Cochrane review found too few good trials to say whether it works. That's an absence of proof, not proof of harm. Its central attitude (take the person seriously, respond to the feeling, don't argue) is widely shared by dementia organisations.
+- **We found no trial that has compared telling the truth with gentle untruths.** The best guidance comes from careful inquiries that listened to people living with dementia and to carers. The most thorough we know of, by the UK's Mental Health Foundation in 2016, described responses as running along a line:
   1. Tell the whole truth.
   2. Look for another meaning in what the person is saying.
   3. Distract, kindly.
@@ -63,7 +70,7 @@ Avoid announcing the death again unless the person asks you directly and clearly
 "Home" is often less a place than a feeling: safety, belonging, a time when life made sense.
 
 - *"Tell me about home. What's it like there?"*
-- *"Let's go for a little walk together first."* A walk, a cup of tea or a change of room can ease the urge.
+- *"Let's go for a little walk together first."* A walk, a warm drink or a change of room can ease the urge.
 - Check the simple things: is the person tired, hungry, thirsty, in pain, needing the toilet, too hot or too cold? Restlessness is often an unmet need that the person can't name.
 
 ### "I have to collect the children" / "I'm late for work" / "Someone has to take the bread"
@@ -73,7 +80,7 @@ Often this is about **responsibility**: a lifetime of being needed, a duty that 
 - Acknowledge the duty: *"You've always looked after everyone."*
 - Offer reassurance about the task without a lecture: *"The children are fine, they're looked after,"* or *"It's taken care of for today."*
 - Give the person something real to do: fold laundry, help set the table, hold the dog's lead. Being useful can matter more than being right.
-- **Keep safety first.** Joining someone's reality never means letting them go out alone into danger. You can go *with* them, or turn the errand into something that happens at home.
+- **Keep safety first.** Joining someone's reality never means letting them go out alone into danger. You can go *with* them, or turn the errand into something that happens at home. Old duties can also mean driving, or cooking on a gas ring. If the person still drives, talk to a doctor; the rules differ by country.
 
 ### The same question, again and again
 
@@ -87,10 +94,11 @@ The person may not remember asking. Repetition often signals worry, boredom or a
 ### When the evening gets hard
 
 - Keep a predictable routine. Have a calm hour before dusk, and avoid big tasks late in the day.
-- Turn the lights on early, close curtains against the dark, and reduce noise and television.
+- Turn the lights on early and reduce noise and television. Some families find that drawing the curtains at dusk helps.
 - Check for pain, hunger, the toilet and tiredness.
 - Don't argue. Sit nearby. A familiar voice, music they love, or holding a hand can do more than any explanation.
 - If agitation is severe or new, talk to a doctor. Guidelines recommend looking for causes and trying non-drug approaches first.
+- Don't give sleeping tablets, someone else's sedative or alcohol to settle a person unless a doctor has advised it, and don't stop or change prescribed medicines on your own. Medicines sometimes used for severe agitation (antipsychotics) carry real risks, especially in Lewy body dementia. They should be a last resort, and reviewed regularly.
 
 ---
 
@@ -110,9 +118,10 @@ Many people with dementia walk, or try to leave, at some point. Estimates vary w
 
 - Make sure the person carries some ID or contact details.
 - Tell neighbours you trust. Have a recent photo ready.
-- If someone goes missing, contact the emergency services **straight away**. There's no need to wait.
+- If someone goes missing, contact the emergency services **straight away**, and say the person has dementia. There's no need to wait.
+- Locking someone in alone is a fire risk, and a legal question in most countries. Ask a professional about safer options.
 
-**Technology** can help but has limits. There are door alerts, fall sensors, GPS trackers, and devices that monitor movement or listen for calls for help. The evidence for most of them is still thin, and there are no large trials of GPS tracking. These devices can tell you *that* something happened: a door opened, a body is on the floor. They can't understand *what* the person meant, or why. A machine can record that someone said "I sent the little one up the mountain", and file it as confusion.
+**Technology** can help but has limits. There are door alerts, fall sensors, GPS trackers, and devices that monitor movement or listen for calls for help. The evidence for most of them is still thin, and there are no large trials of GPS tracking. These devices can tell you *that* something happened: a door opened, a body is on the floor. They can't understand *what* the person meant, or why. A machine can record that someone keeps saying they must take food to their mother, and file it as confusion.
 
 Talk with the person, while they can still take part, about what monitoring they would accept. Dignity and consent matter, and no device replaces someone who knows them.
 
@@ -125,19 +134,21 @@ Caring for someone with dementia is hard, and many carers feel stressed, anxious
 - **You'll lose patience sometimes.** You'll say the wrong thing. You'll correct when you meant to comfort, or play along when you wished you'd been honest. Forgive yourself. Tomorrow there'll be another chance.
 - **Take breaks.** Formal research on respite care is limited, and the trials so far have been small. Many carers still find that regular breaks are what make it possible to keep going.
 - **Talk to others who understand.** Helplines, carers' groups and online forums exist because nobody should do this alone.
+- **If you feel you're about to shout, grab or hit, or you can't face tonight,** leave the room, make sure the person is safe, and ring a helpline or a friend. That's the right move, not a failure.
+- **If you're worried that someone else is harming or neglecting the person,** tell a doctor or a helpline.
 
 ---
 
 ## Where to get help
 
-*Numbers were checked as of October 2026. Please confirm on the organisation's own website, as numbers and hours change.*
+*Numbers were taken from public listings in October 2026 and haven't yet been confirmed with the organisations. Please check on each organisation's own website, as numbers and hours change.*
 
 - **United Kingdom**
   - **Alzheimer's Society** support line: 0333 150 3456, alzheimers.org.uk
   - **Dementia UK** Admiral Nurse helpline: 0800 888 6678, dementiauk.org
 - **United States:** **Alzheimer's Association** 24/7 helpline: 1-800-272-3900, alz.org
 - **Italy**
-  - **AIMA** (Associazione Italiana Malattia di Alzheimer), Linea Verde: 800 679679. Check opening hours at alzheimer-aima.it.
+  - **AIMA** (Associazione Italiana Malattia di Alzheimer), Linea Verde: 800 679679. Check opening hours on AIMA's official website.
   - **Federazione Alzheimer Italia**, "Pronto Alzheimer": see alzheimer.it for the current number and hours.
 - **Malta:** **Malta Dementia Society**. Please find current contact details on its official website.
 - **Europe and worldwide:** **Alzheimer Europe** (alzheimer-europe.org) and **Alzheimer's Disease International** (alzint.org) list national associations in many countries.
@@ -149,7 +160,7 @@ Caring for someone with dementia is hard, and many carers feel stressed, anxious
 **Reasonably well established**
 - Sudden changes in confusion can signal delirium and need medical attention.
 - Group cognitive stimulation gives a small, short-term benefit in mild-to-moderate dementia.
-- Guidelines (for example NICE NG97, 2018) recommend looking for causes of distress (pain, infection, unmet needs) and trying non-drug approaches before medication.
+- Clinical guidelines (for example the UK's NICE guideline NG97, 2018) recommend looking for causes of distress (pain, infection, unmet needs) and trying non-drug approaches before medication.
 
 **Widely agreed, but based mainly on experience rather than trials**
 - Responding to feelings, not arguing, and avoiding repeated painful corrections.
@@ -172,7 +183,6 @@ Caring for someone with dementia is hard, and many carers feel stressed, anxious
 - Spector A. et al. (2000). Reality orientation for dementia. *Cochrane Database of Systematic Reviews*, CD001119 (withdrawn; superseded by CD005562).
 - Casey D. et al. (2020). Should I lie? Views of people with dementia and carers on deception. *Dementia*. doi:10.1177/1471301219831525.
 - National Institute for Health and Care Excellence (2018). *Dementia: assessment, management and support for people living with dementia and their carers* (NG97).
-- Kitwood T. (1997). *Dementia Reconsidered: The Person Comes First.* Open University Press.
 - Alzheimer's Association (US). Repetition, and communication guidance (alz.org).
 - Alzheimer's Society (UK). Guidance on truth-telling and communication (alzheimers.org.uk).
 

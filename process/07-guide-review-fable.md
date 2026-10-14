@@ -10,7 +10,7 @@ I read the guide twice, once as the daughter at the kitchen table and once with 
 
 **"Joining" is kept safe.** "Keep safety first" (line 76) is exactly right. But the dossier's list of what an old duty can become, "drive, cook unsupervised or leave the house alone", lost two of its three items. Driving and the gas hob are how a "late for work" errand hurts someone else. Firearms are not proportionate for this readership.
 
-**Locking in.** A carer who reads the wandering section at 3am will lock the front door. Say once that locking someone in alone is a fire risk and a legal question in most countries, and point to a professional for safer options.
+**Locking in.** A carer who reads the wandering section at 3am will lock the front door. Say once that locking someone in alone is a fire risk and a legal question, and point to a professional for safer options.
 
 **Medication.** "Non-drug approaches first" is correct and sourced. Missing is the household version: no sleeping tablets, no relative's sedative, no stiff drink to settle someone, no changing prescribed medicines unasked. Families also ask for "something to calm her"; a sentence that antipsychotics carry real risks, especially in Lewy body dementia, is supported by NG97 in the dossier.
 
@@ -18,10 +18,10 @@ I read the guide twice, once as the daughter at the kitchen table and once with 
 
 ## 2. Accuracy
 
-The guide is often more careful than the dossier required: it refuses the "60% will wander" figure, declines the Milan landline without hours, and keeps Malta to a website. The problems are a few sentences where the voice hardens from "we found" into "there is".
+The guide is often more careful than the dossier required: it refuses the "60% will wander" figure and declines the Milan landline without hours. The problems are a few sentences where the voice hardens from "we found" into "there is".
 
 - **"Numbers were checked as of October 2026."** They were not; every number came from search snippets, no primary page opened. "Checked" will be read as "someone rang them".
-- **"No trial has compared telling the truth with gentle untruths."** The dossier says *I found no trial* [?]. Likewise "The most thorough, by the UK's Mental Health Foundation" needs "we know of", and the five-step line is paraphrased from secondary sources; nobody on the project has read the PDF. Flag for the human check.
+- **"No trial has compared telling the truth with gentle untruths."** The dossier says *I found no trial* [?]. Likewise "The most thorough" needs "we know of", and the MHF five-step line is paraphrased from secondary sources; nobody on the project has read the PDF. Flag for the human check.
 - **"There's little evidence that repeated correction helps"** blurs two things the dossier keeps apart. The withdrawn Cochrane review of classroom reality orientation found *some* benefit; what is untested is correcting someone over and over in ordinary conversation.
 - **"shared by almost every dementia organisation"** is [B] and sweeping.
 - **"close curtains against the dark"** is the one evening tip the dossier explicitly could not verify (line 58).
@@ -41,7 +41,7 @@ The tie-in at the end works: short, unexplained, and "This guide is for everyone
 
 ## 4. Cultural portability
 
-Mostly clean. For the Italian edition: "a cup of tea" becomes "a warm drink"; curtains are shutters; *caregiver* is current Italian. "NICE NG97" needs "the UK's" in front and, if the translator can confirm it, a parallel reference to the 2024 Istituto Superiore di Sanità dementia guideline. The emergency number must read 112. The country-sectioned helpline block is the right design. Dossier item 11 is worth one optional line: where people talk to the dead at the cemetery wall every Sunday, speaking to or about the dead is not in itself confusion.
+Mostly clean. For the Italian edition: "a cup of tea" becomes "a warm drink"; curtains are shutters; *caregiver* is current Italian. "NICE NG97" needs "the UK's" in front and, if the translator can confirm it, a parallel reference to the 2024 Istituto Superiore di Sanità dementia guideline. The emergency number must read 112. Dossier item 11 is worth one optional line: where people talk to the dead at the cemetery wall every Sunday, speaking to or about the dead is not in itself confusion.
 
 ## 5. Edits, in priority order
 
