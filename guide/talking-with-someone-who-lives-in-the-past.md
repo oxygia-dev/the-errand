@@ -5,6 +5,7 @@
 > **Read this first.** This guide was written by Claude, an AI system, as a companion to the novel *The Errand*. It draws on published research and on the guidance of dementia organisations, and it tries to say clearly what is known and what isn't. It is **not medical advice** and it has **not yet been reviewed by a clinician**. Every person with dementia is different, and so is every family. If something changes suddenly, or you're worried about safety, contact a doctor, or in an emergency call your local emergency number (112 in Italy and across the EU, 999 in the UK, 911 in the US). The helplines at the end are for support, not emergencies. Corrections are welcome as issues at github.com/oxygia-dev/the-errand.
 
 > **Right now, if it's hard**
+>
 > - **Is anyone in danger, or is this a sudden change?** Call your emergency number (112 in Italy and the EU, 999 in the UK, 911 in the US) or get a doctor the same day.
 > - **Don't argue.** Respond to the feeling: *"You're worried. I'm here."*
 > - **Check the basics:** pain, toilet, hunger, thirst, cold, tiredness.
