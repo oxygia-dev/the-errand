@@ -8,7 +8,7 @@ I read the guide twice, once as the daughter at the kitchen table and once with 
 
 **There is no emergency line anywhere.** The guide never says what counts as a medical emergency or how to call one, and the disclaimer sends the worried reader to "a doctor or one of the helplines". Those are support lines with office hours; a reader could ring Dementia UK while someone is having a stroke. One sentence fixes it (collapse, head injury, sudden weakness or trouble speaking, breathing difficulty, missing person: 112 in Italy and the EU, 999 UK, 911 US). With that, the disclaimer is adequate; its candour about clinician review is a strength.
 
-**"Joining" is kept safe.** "Keep safety first" (line 76) is exactly right. But the dossier's list of what an old duty can become, "drive, cook unsupervised or leave the house alone", lost two of its three items. Driving and the gas hob are how a "late for work" errand hurts someone else. Two lines will do. Firearms are not proportionate for this readership.
+**"Joining" is kept safe.** "Keep safety first" (line 76) is exactly right. But the dossier's list of what an old duty can become, "drive, cook unsupervised or leave the house alone", lost two of its three items. Driving and the gas hob are how a "late for work" errand hurts someone else. Firearms are not proportionate for this readership.
 
 **Locking in.** A carer who reads the wandering section at 3am will lock the front door. Say once that locking someone in alone is a fire risk and a legal question in most countries, and point to a professional for safer options.
 
@@ -27,7 +27,7 @@ The guide is often more careful than the dossier required: it refuses the "60% w
 - **"close curtains against the dark"** is the one evening tip the dossier explicitly could not verify (line 58).
 - **"alzheimer-aima.it"** appears nowhere in the dossier, whose own guess was aima.it, marked unverified. It may be right; nobody has confirmed it.
 - **Kitwood** is in the Sources and never used. The dossier warns against attributing a position to him unread.
-- Minor: "there are no large trials of GPS tracking" rests on a 2015 review; "we found none" is the honest form. "Grieve it again each time, as if for the first time" is a gerontologist's remark in a syndicated article [V weak]; the "can" keeps it defensible, but it is the weakest-sourced sentence in the evidence section.
+- Minor: "there are no large trials of GPS tracking" should be "we found none". "Grieve it again each time, as if for the first time" is a gerontologist's remark in a syndicated article [V weak]; the "can" keeps it defensible, but it is the weakest-sourced sentence in the evidence section.
 
 Nothing is misattributed to NICE, the Alzheimer's Association or the Alzheimer's Society. Casey and the Cochrane citations match.
 
@@ -35,9 +35,9 @@ Nothing is misattributed to NICE, the Alzheimer's Association or the Alzheimer's
 
 Kind, dry, never saccharine. "It is, for them." "Being useful can matter more than being right." "You may win the argument and lose the person's trust and calm." A nurse would steal these. Nothing is preachy; "Forgive yourself. Tomorrow there'll be another chance" comes closest and has earned it.
 
-The 3am problem is structure, not voice. The reader arrives with a mother at the door and the first thing they meet is Ribot's law. At 2,300 words the guide is fine for tomorrow; tonight needs five lines at the top (check pain, hunger, toilet; don't argue; go with them a little way; sudden and new means a doctor; missing means 112/999/911).
+The 3am problem is structure, not voice. The reader arrives with a mother at the door and the first thing they meet is Ribot's law. At 2,300 words the guide is fine for tomorrow; tonight needs five lines at the top (pain, hunger, toilet; don't argue; go with them a little way; sudden and new means a doctor; missing means 112/999/911).
 
-The tie-in at the end works: short, unexplained, and "This guide is for everyone standing in that kitchen" is the right last sentence. The intrusion is earlier, at line 115, where "I sent the little one up the mountain" appears in the technology section. A reader who has not read the book will stop and wonder what mountain. Keep the novel to the last page.
+The tie-in at the end works: short, unexplained, and "This guide is for everyone standing in that kitchen" is the right last sentence. The intrusion is at line 115, where "I sent the little one up the mountain" turns up in the technology section. A reader who has not read the book will wonder what mountain. Keep the novel to the last page.
 
 ## 4. Cultural portability
 
