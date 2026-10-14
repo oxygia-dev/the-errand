@@ -503,7 +503,7 @@
         var right = d === R.dir, used = MAX_SNIFFS - sniffsLeft, faint = rain || T >= 120;
         plays++; if (right) wins++;
         var way = R.dir > 0 ? 'di qua →' : '← di qua';
-        var ages = ' Il suo passo più recente era di ' + fmt(ageOf(newestIdx())) + ' fa, il più vecchio qui di ' + fmt(ageOf(oldestIdx())) + ' fa.';
+        var ages = ' Il suo passo più recente risaliva a ' + fmt(ageOf(newestIdx())) + ' prima, il più vecchio qui a ' + fmt(ageOf(oldestIdx())) + '.';
         var msg;
         if (right) {
           msg = (used ? 'Sì. È andata ' : 'Colpo di fortuna. È andata ') + way + '.' + ages +
