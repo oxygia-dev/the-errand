@@ -1,0 +1,3118 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Try to perceive like five minds from the novel The Errand: a dog, a bat, bees, crows and a 500-year-old beech.">
+<meta property="og:image" content="https://oxygia-dev.github.io/the-errand/cover/the-errand.png">
+<style>html,body{margin:0}</style>
+</head>
+<body>
+<title>Modi di conoscere una notte</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Literata:ital,opsz,wght@0,7..72,300..600;1,7..72,300..600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column; each mind gets a full-width "stage" for its experiment. Same identity as the book. */
+:root {
+  --paper: #eef0ea; --ink: #1e2420; --muted: #5d665e; --rule: #c9cec4;
+  --accent: #8a4b1f; --warm: #c9772f; --panel: #e3e6de;
+  --good: #3f6b3a; --miss: #8a3b2a;
+  --font-display: "Instrument Serif", "Iowan Old Style", Georgia, serif;
+  --font-body: "Literata", "Iowan Old Style", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #121613; --ink: #d8ddd3; --muted: #8e988d; --rule: #2c332d;
+    --accent: #d39a62; --warm: #e8a35c; --panel: #1a1f1b; --good: #8fc08a; --miss: #e08a74; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #121613; --ink: #d8ddd3; --muted: #8e988d; --rule: #2c332d;
+  --accent: #d39a62; --warm: #e8a35c; --panel: #1a1f1b; --good: #8fc08a; --miss: #e08a74; color-scheme: dark;
+}
+body { background: var(--paper); color: var(--ink); font-family: var(--font-body); font-size: 1.06rem; line-height: 1.62; }
+.wrap { max-width: 44rem; margin: 0 auto; padding-inline: 18px; padding-block: 3rem 5rem; }
+a { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+.intro { padding-bottom: 2rem; border-bottom: 1px solid var(--rule); }
+.kicker { font-family: var(--font-mono); font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 0 0 .6rem; }
+.intro h1 { font-family: var(--font-display); font-weight: 400; font-size: clamp(2.8rem, 10vw, 4.6rem); line-height: .98; margin: 0 0 1.4rem; text-wrap: balance; }
+.intro p { max-width: 36rem; }
+.minds-nav { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.4rem; padding: 0; list-style: none; }
+.minds-nav a { font-family: var(--font-mono); font-size: .78rem; letter-spacing: .06em; text-decoration: none; border: 1px solid var(--rule); border-radius: 999px; padding: .3rem .8rem; color: var(--ink); }
+.minds-nav a:hover { border-color: var(--accent); color: var(--accent); }
+
+section.mind { padding-top: 4.5rem; }
+section.mind > header { margin-bottom: 1.2rem; }
+section.mind .num { font-family: var(--font-mono); font-size: .75rem; color: var(--accent); letter-spacing: .14em; margin: 0; }
+section.mind h2 { font-family: var(--font-display); font-weight: 400; font-size: 2.5rem; line-height: 1.05; margin: .2rem 0 .5rem; }
+section.mind .epigraph { font-style: italic; color: var(--muted); margin: 0; }
+section.mind .epigraph cite { font-style: normal; font-family: var(--font-mono); font-size: .72rem; letter-spacing: .06em; margin-left: .4rem; }
+
+/* Shared stage vocabulary (see CONTRACT.md) */
+.stage { display: grid; gap: 1rem; min-width: 0; }
+.stage .lede { margin: 0; font-size: 1.05rem; }
+.stage .canvas-wrap { position: relative; width: 100%; background: var(--panel); border-radius: 6px; overflow: hidden; touch-action: manipulation; }
+.stage .canvas-wrap canvas { display: block; width: 100%; height: 100%; }
+.stage .controls { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; }
+.stage .btn { font: 500 .85rem/1 var(--font-mono); letter-spacing: .03em; color: var(--ink); background: transparent; border: 1px solid var(--rule); border-radius: 999px; padding: .6rem 1rem; cursor: pointer; min-height: 2.5rem; }
+.stage .btn:hover { border-color: var(--accent); }
+.stage .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--paper); }
+.stage .btn[aria-pressed="true"] { background: var(--panel); border-color: var(--accent); color: var(--accent); }
+.stage .btn:disabled { opacity: .45; cursor: default; }
+.stage .ctl { display: inline-flex; align-items: center; gap: .5rem; font: .82rem var(--font-mono); color: var(--muted); }
+.stage .ctl input[type=range] { accent-color: var(--accent); width: 9rem; }
+.stage .readout { font: 500 .85rem var(--font-mono); color: var(--accent); font-variant-numeric: tabular-nums; }
+.stage .result { margin: 0; min-height: 1.6em; font-weight: 500; }
+.stage .result.good { color: var(--good); }
+.stage .result.miss { color: var(--miss); }
+.stage .known, .stage .unknown { border-top: 1px solid var(--rule); padding-top: .8rem; font-size: .95rem; }
+.stage .known h4, .stage .unknown h4 { font: 500 .72rem var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin: 0 0 .5rem; }
+.stage .unknown h4 { color: var(--muted); }
+.stage .known p, .stage .unknown p { margin: 0 0 .6rem; }
+.stage .known ul, .stage .unknown ul { margin: 0 0 .6rem; padding-left: 1.1rem; }
+.stage .sources { font-size: .8rem; color: var(--muted); margin: 0; padding-left: 1.1rem; }
+.stage .noscript { color: var(--muted); font-style: italic; }
+
+.outro { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--rule); }
+.outro h2 { font-family: var(--font-display); font-weight: 400; font-size: 2rem; margin: 0 0 .8rem; }
+footer.colophon { margin-top: 3rem; font-size: .82rem; color: var(--muted); }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+</style>
+
+<main class="wrap">
+  <header class="intro">
+    <p class="kicker">Accanto a <em>La commissione</em> · <a href="../" lang="en">English</a></p>
+    <h1>Modi di conoscere una notte</h1>
+    <p>Nel romanzo <em>La commissione</em>, una notte in un paese di montagna è raccontata da menti che incontrano il mondo in modi molto diversi. Questa pagina ti fa provare cinque di loro, un minuto ciascuna.</p>
+    <p>Non può trasformarti in un cane o in un pipistrello; niente può farlo. È proprio quello che sosteneva il filosofo Thomas Nagel nel 1974. Quello che può fare è mostrarti che cosa nota ciascuna, che cosa le sfugge e che cosa ne sanno davvero gli scienziati.</p>
+    <ul class="minds-nav" aria-label="Le cinque menti">
+      <li><a href="#dog">Il cane</a></li>
+      <li><a href="#bat">Il pipistrello</a></li>
+      <li><a href="#bees">Le api</a></li>
+      <li><a href="#crows">Le cornacchie</a></li>
+      <li><a href="#tree">L'albero</a></li>
+    </ul>
+  </header>
+
+  <section class="mind" id="dog" aria-labelledby="dog-h">
+    <header><p class="num">1 · FIUTO</p><h2 id="dog-h">Il cane</h2>
+      <p class="epigraph">La bambina-biscotto di adesso cammina sulla bambina-biscotto di allora.<cite>cap. 3</cite></p></header>
+    <div class="stage" data-mind="dog"><p class="noscript">Per questo pezzo serve JavaScript.</p></div>
+  </section>
+
+  <section class="mind" id="bat" aria-labelledby="bat-h">
+    <header><p class="num">2 · ECO</p><h2 id="bat-h">Il pipistrello</h2>
+      <p class="epigraph">Non c'è luce. C'è un tremolio nel tono.<cite>cap. 10</cite></p></header>
+    <div class="stage" data-mind="bat"><p class="noscript">Per questo pezzo serve JavaScript.</p></div>
+  </section>
+
+  <section class="mind" id="bees" aria-labelledby="bees-h">
+    <header><p class="num">3 · DANZA</p><h2 id="bees-h">Le api</h2>
+      <p class="epigraph">La danza è per adesso e poi non c'è più.<cite>cap. 7</cite></p></header>
+    <div class="stage" data-mind="bees"><p class="noscript">Per questo pezzo serve JavaScript.</p></div>
+  </section>
+
+  <section class="mind" id="crows" aria-labelledby="crows-h">
+    <header><p class="num">4 · FACCE</p><h2 id="crows-h">Le cornacchie</h2>
+      <p class="epigraph">Una cornacchia dimentica. Noi no.<cite>cap. 2</cite></p></header>
+    <div class="stage" data-mind="crows"><p class="noscript">Per questo pezzo serve JavaScript.</p></div>
+  </section>
+
+  <section class="mind" id="tree" aria-labelledby="tree-h">
+    <header><p class="num">5 · TEMPO</p><h2 id="tree-h">L'albero</h2>
+      <p class="epigraph">Quello che l'albero ha al posto della memoria è la cicatrice.<cite>cap. 5</cite></p></header>
+    <div class="stage" data-mind="tree"><p class="noscript">Per questo pezzo serve JavaScript.</p></div>
+  </section>
+
+  <section class="outro">
+    <h2>Il resto della notte</h2>
+    <p>Il libro ha undici voci in più di questa pagina: una donna anziana in cui presente e passato scivolano l'uno nell'altro, un dispositivo di assistenza che archivia la verità alla voce «confusione», un verbale operativo, un'orsa e un fiume, tre donne. Ognuna ha in mano un pezzo della notte. Nessuna ce l'ha tutta.</p>
+    <p><a href="https://oxygia-dev.github.io/the-errand/">Leggi <em>La commissione</em></a> (gratis, in italiano e in inglese).</p>
+  </section>
+
+  <footer class="colophon">
+    <p>Realizzato da Claude, autore di <em>La commissione</em>, come complemento alle Note dal campo del libro. CC BY 4.0. Le correzioni sono benvenute come issue su GitHub, in oxygia-dev/the-errand.</p>
+  </footer>
+</main>
+
+<script>
+/* Shell: builds the ctx object each mind receives, then mounts every registered mind. */
+(function () {
+  var root = document.documentElement;
+  var themeFns = [];
+  function color(name) { return getComputedStyle(root).getPropertyValue('--' + name).trim(); }
+  var mq = window.matchMedia ? matchMedia('(prefers-color-scheme: dark)') : null;
+  function fireTheme() { themeFns.forEach(function (f) { try { f(); } catch (e) { console.error(e); } }); }
+  if (mq && mq.addEventListener) mq.addEventListener('change', fireTheme);
+  new MutationObserver(fireTheme).observe(root, { attributes: true, attributeFilter: ['data-theme'] });
+  var reduced = !!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
+  var actx = null;
+  function audio() {
+    try { if (!actx) { var A = window.AudioContext || window.webkitAudioContext; actx = A ? new A() : null; }
+      if (actx && actx.state === 'suspended') actx.resume(); } catch (e) { actx = null; }
+    return actx;
+  }
+  function mount() {
+    var M = window.MINDS || {};
+    document.querySelectorAll('.stage[data-mind]').forEach(function (stage) {
+      var name = stage.getAttribute('data-mind');
+      if (!M[name]) return;
+      stage.innerHTML = '';
+      var visFns = [];
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(function (es) { es.forEach(function (e) { visFns.forEach(function (f) { f(e.isIntersecting); }); }); },
+          { rootMargin: '100px' }).observe(stage);
+      }
+      var ctx = { reducedMotion: reduced, color: color, audio: audio,
+        onThemeChange: function (f) { themeFns.push(f); },
+        visible: function (f) { visFns.push(f); } };
+      try { M[name].mount(stage, ctx); }
+      catch (e) { console.error('mount failed: ' + name, e); stage.innerHTML = '<p class="noscript">Non è stato possibile caricare questo pezzo.</p>'; }
+    });
+  }
+  window.__mountMinds = mount;
+})();
+</script>
+<script>/* dog.js */
+/* The dog: "Which way did she go?" Reading time in a scent trail. */
+(function () {
+  window.MINDS = window.MINDS || {};
+
+  var STOPS = [5, 10, 15, 20, 30, 45, 60, 90, 120, 180, 240, 360]; // minutes since her newest step
+  var N = 10, MAX_SNIFFS = 5, GAP = 1, PARTS = 24, SNIFF_MS = 900, GHOST_MS = 3400;
+  var S = '.stage[data-mind="dog"] ';
+  var CSS = [
+    S + '.canvas-wrap { aspect-ratio: 16 / 9; }',
+    '@media (max-width: 560px) { ' + S + '.canvas-wrap { aspect-ratio: 1 / 0.95; } }',
+    S + 'canvas:focus-visible { outline-offset: -3px; }',
+    S + '.dog-tokens { display: inline-flex; align-items: center; gap: .4rem; font: .82rem var(--font-mono); color: var(--muted); }',
+    S + '.dog-tok { display: inline-block; width: 14px; height: 10px; background: var(--accent);' +
+      ' border-radius: 50% 50% 46% 46% / 64% 64% 36% 36%; transition: opacity .35s, transform .35s; }',
+    S + '.dog-tok.used { opacity: .16; transform: scale(.78); }',
+    S + '.dog-last { color: var(--muted); font-weight: 400; }',
+    S + '.dog-choose { display: grid; grid-template-columns: auto 1fr 1fr; gap: .6rem; align-items: center; }',
+    S + '.dog-went { font: italic 1.05rem var(--font-body); color: var(--ink); padding-right: .2rem; }',
+    S + '.dog-choose .btn { line-height: 1.25; padding-block: .55rem; }',
+    S + '.dog-choose .arr { font-size: 1.15em; }',
+    '@media (max-width: 420px) { ' + S + '.ctl input[type=range] { width: 7.5rem; } }'
+  ].join('\n');
+
+  function fmt(m) {
+    if (m < 60) return m + ' min';
+    var h = Math.floor(m / 60), r = m % 60;
+    return h + ' h' + (r ? ' ' + r + ' min' : '');
+  }
+  // Two-part fade: some scent evaporates within minutes, some lingers for hours (illustrative rates).
+  function strength(age, rain) {
+    var s = 0.6 * Math.pow(2, -age / 20) + 0.4 * Math.pow(2, -age / 240);
+    return rain ? s * 0.3 : s;
+  }
+  function gauss() {
+    var u = 1 - Math.random(), v = Math.random();
+    var z = Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v);
+    return Math.max(-2.5, Math.min(2.5, z));
+  }
+  function clamp(x, a, b) { return x < a ? a : x > b ? b : x; }
+
+  window.MINDS.dog = {
+    mount: function (stage, ctx) {
+      var reduced = !!ctx.reducedMotion;
+      var style = document.createElement('style');
+      style.textContent = CSS; stage.appendChild(style);
+
+      function el(tag, cls, html, parent) {
+        var e = document.createElement(tag);
+        if (cls) e.className = cls;
+        if (html != null) e.innerHTML = html;
+        (parent || stage).appendChild(e);
+        return e;
+      }
+
+      el('p', 'lede', 'Qualcuno è passato su questo sentiero poco fa. Ogni passo lascia un odore che svanisce invecchiando, ' +
+        'così i passi più recenti sono quelli che odorano di più. Tocca fino a cinque impronte per annusarle, poi di’ da che parte è andata.');
+      var wrap = el('div', 'canvas-wrap');
+      var cv = el('canvas', null, null, wrap);
+      cv.tabIndex = 0; cv.setAttribute('role', 'application');
+      cv.setAttribute('aria-label', 'Una pista di dieci impronte, numerate da sinistra a destra. ' +
+        'Le frecce sinistra e destra spostano il naso; Invio annusa.');
+
+      var row1 = el('div', 'controls');
+      var tokWrap = el('span', 'dog-tokens', 'Annusate ', row1);
+      var toks = [];
+      for (var k = 0; k < MAX_SNIFFS; k++) toks.push(el('span', 'dog-tok', null, tokWrap));
+      var lastOut = el('output', 'readout dog-last', null, row1);
+
+      var row2 = el('div', 'dog-choose');
+      el('span', 'dog-went', 'È andata', row2).setAttribute('aria-hidden', 'true');
+      var btnL = el('button', 'btn primary', '<span class="arr" aria-hidden="true">←</span> di qua', row2);
+      var btnR = el('button', 'btn primary', 'di qua <span class="arr" aria-hidden="true">→</span>', row2);
+      btnL.setAttribute('aria-label', 'È andata a sinistra');
+      btnR.setAttribute('aria-label', 'È andata a destra');
+      var result = el('p', 'result'); result.setAttribute('aria-live', 'polite');
+
+      var row3 = el('div', 'controls');
+      var lab = el('label', 'ctl', 'Da quanto è passata ', row3);
+      var slider = el('input', null, null, lab);
+      slider.type = 'range'; slider.min = 0; slider.max = STOPS.length - 1; slider.step = 1; slider.value = 1;
+      var timeOut = el('output', 'readout', null, row3);
+      var rainBtn = el('button', 'btn', 'Pioggia forte', row3); rainBtn.setAttribute('aria-pressed', 'false');
+      var newBtn = el('button', 'btn', 'Nuova pista', row3);
+      var tallyOut = el('output', 'readout', null, row3);
+
+      el('div', 'known', '<h4>Che cosa si sa</h4><ul>' +
+        '<li>Chi cammina lascia a ogni passo cellule della pelle e odore. L’odore evapora e si disperde, così una pista è una fila di età diverse: i passi più vecchi sono più deboli.</li>' +
+        '<li>In uno studio del 2005, cani addestrati capivano in che direzione era andata una persona da circa cinque impronte, un paio di secondi di cammino.</li>' +
+        '<li>Un cane ha all’incirca da 125 a 300 milioni di cellule recettrici olfattive, secondo la razza. Una persona ne ha circa 5–6 milioni.</li>' +
+        '<li>Un cane che segue una pista annusa a colpi brevi, spesso diversi al secondo. L’aria che espira esce dalle fessure ai lati del naso, così non soffia via l’odore che sta entrando.</li>' +
+        '<li>La pioggia forte e l’acqua corrente spezzano una pista. L’aria fresca, umida e ferma e uno spesso strato di foglie possono conservarla per ore.</li></ul>');
+      el('div', 'unknown', '<h4>Che cosa non si sa</h4><ul>' +
+        '<li>Alexandra Horowitz sostiene che i cani sentano l’odore del tempo stesso: debole è prima, forte è adesso. È un’ipotesi ben fondata, non un fatto misurato.</li>' +
+        '<li>Come i cani leggano esattamente la direzione non è stabilito. La differenza di intensità tra i passi è la spiegazione più accreditata, e i cani combinano anche la traccia a terra con l’odore portato dall’aria, in modi non del tutto compresi.</li>' +
+        '<li>Questa pista è semplificata. Qui i suoi passi sono a un minuto l’uno dall’altro, perché si veda la differenza, e le velocità con cui l’odore svanisce sono inventate. Quelle vere dipendono dal tempo, dal terreno e dalla persona.</li></ul>');
+      el('ul', 'sources', '<li>Hepper, P. G. &amp; Wells, D. L. (2005). How many footsteps do dogs need to determine the direction of an odour trail? <em>Chemical Senses</em> 30.</li>' +
+        '<li>Horowitz, A. (2009). <em>Inside of a Dog</em>. Scribner.</li>' +
+        '<li>Craven, B. A., Paterson, E. G. &amp; Settles, G. S. (2010). The fluid dynamics of canine olfaction. <em>Journal of the Royal Society Interface</em> 7.</li>');
+
+      // ---------- state ----------
+      var g = cv.getContext('2d');
+      var bg = document.createElement('canvas'), blob = document.createElement('canvas');
+      var W = 0, H = 0, dpr = 1, sc = 1, dark = false, mono = 'monospace', cache = {};
+      var R = null, geo = null, T = STOPS[1], rain = false;
+      var phase = 'sniff', sniffsLeft = MAX_SNIFFS, cursor = 4, hover = -1, focused = false;
+      var sniffing = null, ghost = null, wins = 0, plays = 0;
+      var running = false, visible = true, raf = 0, lastT = 0;
+      var drops = [];
+      for (k = 0; k < 90; k++) drops.push({ x: Math.random() * 1.3, y: Math.random(), l: 0.03 + Math.random() * 0.05, s: 0.9 + Math.random() * 0.7 });
+
+      function rgba(name, a) {
+        var c = cache[name];
+        if (!c) {
+          var s = ctx.color(name) || '#888', m;
+          if (s[0] === '#') {
+            if (s.length === 4) s = '#' + s[1] + s[1] + s[2] + s[2] + s[3] + s[3];
+            c = [parseInt(s.substr(1, 2), 16), parseInt(s.substr(3, 2), 16), parseInt(s.substr(5, 2), 16)];
+          } else if ((m = s.match(/[\d.]+/g))) c = [+m[0], +m[1], +m[2]];
+          else c = [128, 128, 128];
+          cache[name] = c;
+        }
+        return 'rgba(' + c[0] + ',' + c[1] + ',' + c[2] + ',' + (a == null ? 1 : a) + ')';
+      }
+      function readTheme() {
+        cache = {}; rgba('paper');
+        var p = cache.paper;
+        dark = (0.299 * p[0] + 0.587 * p[1] + 0.114 * p[2]) < 128;
+        mono = getComputedStyle(stage).getPropertyValue('--font-mono').trim() || 'monospace';
+        var n = Math.round(48 * dpr);
+        blob.width = blob.height = n;
+        var b = blob.getContext('2d'), gr = b.createRadialGradient(n / 2, n / 2, 0, n / 2, n / 2, n / 2);
+        gr.addColorStop(0, rgba('warm', 1)); gr.addColorStop(0.45, rgba('warm', 0.45)); gr.addColorStop(1, rgba('warm', 0));
+        b.clearRect(0, 0, n, n); b.fillStyle = gr; b.fillRect(0, 0, n, n);
+      }
+
+      function ageOf(i) { return T + (R.dir > 0 ? (N - 1 - i) : i) * GAP; }
+      function val(i) {
+        var st = R.steps[i], s = strength(ageOf(i), rain);
+        return Math.max(0, s * (1 + (rain ? 0.10 : 0.015) * st.z1) + (rain ? 0.02 : 0.005) * st.z2);
+      }
+      function newestIdx() { return R.dir > 0 ? N - 1 : 0; }
+      function oldestIdx() { return R.dir > 0 ? 0 : N - 1; }
+
+      // ---------- round ----------
+      function newRound() {
+        var side0 = Math.random() < 0.5 ? 1 : -1, wa = Math.random() * Math.PI * 2;
+        R = {
+          dir: Math.random() < 0.5 ? -1 : 1,
+          yc: 0.46 + Math.random() * 0.08,
+          a1: 0.07 + Math.random() * 0.1, f1: 0.45 + Math.random() * 0.8, p1: Math.random(),
+          a2: 0.015 + Math.random() * 0.03, f2: 1.6 + Math.random() * 1.2, p2: Math.random(),
+          wx: Math.cos(wa) * 0.5, wy: Math.sin(wa) * 0.5, steps: [], leaves: [], t0: performance.now()
+        };
+        for (var i = 0; i < N; i++) {
+          var parts = [];
+          for (var j = 0; j < PARTS; j++) {
+            parts.push({ u: Math.random(), a: Math.random() * 6.283, d: 0.25 + Math.random() * 0.75,
+              off: Math.random(), per: 3500 + Math.random() * 2500, spin: (Math.random() - 0.5) * 1.4, sz: 0.7 + Math.random() * 0.6 });
+          }
+          R.steps.push({ z1: gauss(), z2: gauss(), side: (i % 2 ? 1 : -1) * side0, parts: parts, sniffed: false, tSniff: 0 });
+        }
+        var cols = ['muted', 'muted', 'rule', 'rule', 'rule', 'warm', 'accent'];
+        for (i = 0; i < 420; i++) {
+          R.leaves.push({ x: Math.random(), y: Math.random(), r: Math.random() * 6.283, l: 3.5 + Math.random() * 6.5,
+            c: cols[(Math.random() * cols.length) | 0], a: Math.random() });
+        }
+        phase = 'sniff'; sniffsLeft = MAX_SNIFFS; cursor = 4; sniffing = null; ghost = null;
+        btnL.disabled = btnR.disabled = false; newBtn.classList.remove('primary');
+        result.textContent = ''; result.className = 'result';
+        lastOut.textContent = 'Tocca un’impronta per annusarla.';
+        updateTokens();
+        if (W) { layout(); renderBg(); }
+        requestDraw();
+      }
+
+      function pathY(u) {
+        var m = H > W * 0.8 ? 1.3 : 1; // swing wider on tall phone canvases
+        return R.yc + m * (R.a1 * Math.sin(6.283 * (R.f1 * u + R.p1)) + R.a2 * Math.sin(6.283 * (R.f2 * u + R.p2)));
+      }
+      function layout() {
+        var M = 260, pts = [], cum = [0], i;
+        for (i = 0; i <= M; i++) {
+          var u = -0.06 + 1.12 * i / M;
+          pts.push([u * W, pathY(u) * H]);
+          if (i) cum.push(cum[i - 1] + Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]));
+        }
+        geo = { pts: pts, cum: cum, steps: [] };
+        var sA = cum[Math.round(0.13 / 1.12 * M)], sB = cum[Math.round(0.99 / 1.12 * M)];
+        for (i = 0; i < N; i++) {
+          var p = at(sA + (sB - sA) * i / (N - 1)), side = R.steps[i].side, off = 5.5 * sc;
+          p.x = p.cx + p.nx * side * off; p.y = p.cy + p.ny * side * off;
+          geo.steps.push(p);
+        }
+      }
+      function at(s) {
+        var c = geo.cum, lo = 0, hi = c.length - 1;
+        s = clamp(s, 0, c[hi]);
+        while (hi - lo > 1) { var mid = (lo + hi) >> 1; if (c[mid] < s) lo = mid; else hi = mid; }
+        var a = geo.pts[lo], b = geo.pts[hi], f = (s - c[lo]) / ((c[hi] - c[lo]) || 1);
+        var L = Math.hypot(b[0] - a[0], b[1] - a[1]) || 1, tx = (b[0] - a[0]) / L, ty = (b[1] - a[1]) / L;
+        return { s: s, cx: a[0] + (b[0] - a[0]) * f, cy: a[1] + (b[1] - a[1]) * f, tx: tx, ty: ty, nx: -ty, ny: tx };
+      }
+
+      // ---------- drawing ----------
+      function strokePath(c, w, color) {
+        c.lineWidth = w; c.strokeStyle = color; c.beginPath();
+        geo.pts.forEach(function (p, i) { if (i) c.lineTo(p[0], p[1]); else c.moveTo(p[0], p[1]); });
+        c.stroke();
+      }
+      function leaf(c, L, alphaMul) {
+        var len = L.l * sc;
+        c.save();
+        c.translate(L.x * W, L.y * H); c.rotate(L.r);
+        c.fillStyle = rgba(L.c, (L.c === 'rule' ? 0.45 + 0.4 * L.a : 0.07 + 0.12 * L.a) * alphaMul);
+        c.beginPath(); c.moveTo(-len, 0);
+        c.bezierCurveTo(-len * 0.4, -len * 0.75, len * 0.5, -len * 0.5, len, 0); c.bezierCurveTo(len * 0.5, len * 0.5, -len * 0.4, len * 0.75, -len, 0);
+        c.fill(); c.strokeStyle = rgba('panel', 0.5 * alphaMul); c.lineWidth = 0.6;
+        c.beginPath(); c.moveTo(-len * 0.8, 0); c.lineTo(len * 1.1, 0); c.stroke(); c.restore();
+      }
+      function renderBg() {
+        bg.width = Math.round(W * dpr); bg.height = Math.round(H * dpr);
+        var b = bg.getContext('2d'); b.setTransform(dpr, 0, 0, dpr, 0, 0);
+        b.fillStyle = rgba('panel'); b.fillRect(0, 0, W, H);
+        var nL = Math.min(R.leaves.length, Math.round(W * H / 950)), i;
+        for (i = 0; i < nL * 0.8; i++) leaf(b, R.leaves[i], 1);
+        b.lineCap = 'round'; b.lineJoin = 'round';
+        var core = dark ? 'rule' : 'paper';
+        strokePath(b, 46 * sc, rgba('rule', dark ? 0.3 : 0.22));
+        strokePath(b, 38 * sc, rgba(core, dark ? 0.6 : 0.5));
+        strokePath(b, 28 * sc, rgba(core, dark ? 0.6 : 0.6));
+        for (i = 0; i < geo.pts.length; i += 2) { // grit along the path
+          var p = geo.pts[i], q = R.leaves[i % R.leaves.length];
+          b.fillStyle = rgba('muted', 0.12 + 0.1 * q.a);
+          b.beginPath(); b.arc(p[0] + (q.x - 0.5) * 34 * sc, p[1] + (q.y - 0.5) * 30 * sc, 0.6 + q.a * 1.1, 0, 6.283); b.fill();
+        }
+        for (i = Math.ceil(nL * 0.8); i < nL; i++) leaf(b, R.leaves[i], 0.7);
+      }
+      function roundRect(x, y, w, h, r) {
+        g.beginPath(); g.moveTo(x + r, y); g.arcTo(x + w, y, x + w, y + h, r); g.arcTo(x + w, y + h, x, y + h, r);
+        g.arcTo(x, y + h, x, y, r); g.arcTo(x, y, x + w, y, r); g.closePath();
+      }
+      function chipAt(i, dist) {
+        var p = geo.steps[i], s = R.steps[i].side;
+        return { x: p.cx + p.nx * s * dist, y: p.cy + p.ny * s * dist };
+      }
+      function setFont() { g.font = '500 ' + Math.round(11 * Math.max(sc, 0.95)) + 'px ' + mono; }
+      function box(cx, cy, w, h) { return { x: clamp(cx - w / 2, 2, W - w - 2), y: clamp(cy - h / 2, 2, H - h - 2), w: w, h: h }; }
+      function chipRect(i) {
+        var c = chipAt(i, 27 * sc + 3);
+        setFont();
+        return box(c.x, c.y, g.measureText(val(i).toFixed(2).replace('.', ',')).width + 12, 22);
+      }
+      function overlap(a, b) {
+        var dx = Math.min(a.x + a.w, b.x + b.w) - Math.max(a.x, b.x), dy = Math.min(a.y + a.h, b.y + b.h) - Math.max(a.y, b.y);
+        return dx > 0 && dy > 0 ? dx * dy : 0;
+      }
+      // Place an age tag near an end step where it covers no reading, footstep or arrow.
+      function tagRect(i, txt, avoid) {
+        setFont();
+        var w = g.measureText(txt).width + 14, h = 20, p = geo.steps[i], sd = R.steps[i].side;
+        var o = (i === 0 ? -1 : 1), best = null, bestA = 1e9;
+        var cands = [[sd * 58, 0], [sd * 58, o * 30], [0, o * (w / 2 + 24)], [-sd * 32, o * (w / 2 + 6)],
+          [-sd * 58, 0], [sd * 82, 0], [-sd * 58, o * 30], [sd * 82, -o * 30]];
+        for (var k = 0; k < cands.length; k++) {
+          var cn = cands[k][0] * sc, ct = cands[k][1];
+          var r = box(p.cx + p.nx * cn + p.tx * ct, p.cy + p.ny * cn + p.ty * ct, w, h), area = 0;
+          avoid.forEach(function (b) { area += overlap(r, b); });
+          if (area < bestA) { bestA = area; best = r; }
+          if (!area) break;
+        }
+        return best;
+      }
+      function drawChip(i, a, strong) {
+        var v = val(i), txt = v.toFixed(2).replace('.', ','), r = chipRect(i), x = r.x, y = r.y, w = r.w, h = r.h;
+        g.globalAlpha = a;
+        roundRect(x, y, w, h, 5);
+        g.fillStyle = rgba('paper', 0.92); g.fill();
+        g.lineWidth = 1; g.strokeStyle = strong ? rgba('accent', 0.8) : rgba('rule', 1); g.stroke();
+        g.fillStyle = strong ? rgba('ink') : rgba('muted');
+        g.textAlign = 'center'; g.textBaseline = 'middle';
+        g.fillText(txt, x + w / 2, y + 9);
+        g.fillStyle = rgba('rule', 1); g.fillRect(x + 6, y + h - 6, w - 12, 2.5);
+        g.fillStyle = rgba('warm', 0.95); g.fillRect(x + 6, y + h - 6, (w - 12) * Math.min(1, v), 2.5);
+        g.globalAlpha = 1;
+      }
+      function drawTag(r, txt, a) {
+        var x = r.x, y = r.y, w = r.w, h = r.h;
+        setFont();
+        g.globalAlpha = a;
+        roundRect(x, y, w, h, 10);
+        g.fillStyle = rgba('accent', 1); g.fill();
+        g.fillStyle = rgba('paper'); g.textAlign = 'center'; g.textBaseline = 'middle';
+        g.fillText(txt, x + w / 2, y + h / 2 + 0.5);
+        g.globalAlpha = 1;
+      }
+      function drawNose(x, y, k) {
+        g.save(); g.translate(x, y); g.scale(k * sc * 1.2, k * sc * 1.2);
+        g.fillStyle = rgba('accent'); g.strokeStyle = rgba('panel', 0.9); g.lineWidth = 1.2;
+        g.beginPath(); g.moveTo(-11, -4); g.bezierCurveTo(-11, -10.5, 11, -10.5, 11, -4);
+        g.bezierCurveTo(11, 2, 5, 5, 1.6, 6.5); g.lineTo(0, 9); g.lineTo(-1.6, 6.5);
+        g.bezierCurveTo(-5, 5, -11, 2, -11, -4); g.fill(); g.stroke();
+        g.strokeStyle = rgba('panel', 0.95); g.fillStyle = rgba('panel', 0.95); g.lineWidth = 1.1; g.lineCap = 'round';
+        [-1, 1].forEach(function (d) {
+          g.beginPath(); g.ellipse(d * 4.4, -2.2, 2.6, 1.7, d * 0.45, 0, 6.283); g.fill();
+          g.beginPath(); g.moveTo(d * 6.6, -1.2); g.quadraticCurveTo(d * 8.6, 0.6, d * 8, 3); g.stroke(); // side slit: the out-breath leaves here
+        });
+        g.beginPath(); g.moveTo(0, 0.5); g.lineTo(0, 6); g.stroke();
+        g.fillStyle = rgba('paper', 0.35);
+        g.beginPath(); g.ellipse(-3.5, -7, 3.4, 1.2, -0.15, 0, 6.283); g.fill(); g.restore();
+      }
+
+      function draw(t) {
+        if (!W || !geo) return;
+        g.setTransform(dpr, 0, 0, dpr, 0, 0);
+        g.drawImage(bg, 0, 0, W, H);
+        var i, p, st;
+        // footsteps: plain ovals, the same front and back, so only scent gives the direction away
+        for (i = 0; i < N; i++) {
+          p = geo.steps[i];
+          g.save(); g.translate(p.x, p.y); g.rotate(Math.atan2(p.ty, p.tx));
+          g.fillStyle = rgba('ink', dark ? 0.2 : 0.11);
+          g.strokeStyle = R.steps[i].sniffed ? rgba('accent', 0.8) : rgba('muted', 0.45); g.lineWidth = 1;
+          g.beginPath(); g.ellipse(0, 0, 6.5 * sc, 3.6 * sc, 0, 0, 6.283); g.fill(); g.stroke();
+          g.restore();
+        }
+        // scent clouds: density and brightness follow the current strength
+        var sn = sniffing && !reduced ? (t - sniffing.t0) / SNIFF_MS : 2;
+        var rise = reduced ? 1 : clamp((t - R.t0) / 900, 0, 1); // the whole trail breathes in at once: no laying order to give her away
+        g.save();
+        g.globalCompositeOperation = dark ? 'lighter' : 'source-over';
+        for (i = 0; i < N; i++) {
+          p = geo.steps[i]; st = R.steps[i];
+          var v = val(i), thr = 0.06 + v, amp = (dark ? 0.05 : 0.06) + (dark ? 0.2 : 0.3) * Math.sqrt(v);
+          var pull = sniffing && sniffing.i === i && sn < 1 ? Math.sin(Math.PI * Math.min(1, sn * 1.4)) * 0.85 : 0;
+          for (var j = 0; j < PARTS; j++) {
+            var q = st.parts[j];
+            if (q.u > thr) continue;
+            var ph = reduced ? q.off : ((t / q.per + q.off) % 1);
+            var r = 3 + q.d * 30 * sc * Math.pow(ph, 0.7), an = q.a + ph * q.spin;
+            var x = p.x + Math.cos(an) * r + R.wx * ph * 16 * sc, y = p.y + Math.sin(an) * r + R.wy * ph * 16 * sc;
+            if (pull) { x += (p.x - x) * pull; y += (p.y - 4 * sc - y) * pull; }
+            var size = (7 + 8 * ph) * q.sz * sc * (1 - pull * 0.6);
+            g.globalAlpha = amp * rise * Math.sin(Math.PI * ph);
+            g.drawImage(blob, x - size, y - size, size * 2, size * 2);
+          }
+        }
+        g.restore();
+        // rain
+        if (rain) {
+          g.fillStyle = rgba('muted', dark ? 0.06 : 0.07); g.fillRect(0, 0, W, H);
+          g.strokeStyle = rgba('ink', dark ? 0.2 : 0.16); g.lineWidth = 1;
+          g.beginPath();
+          drops.forEach(function (d) {
+            var x = d.x * W - d.y * H * 0.3, y = d.y * H, l = d.l * H;
+            g.moveTo(x, y); g.lineTo(x - l * 0.3, y + l);
+          });
+          g.stroke();
+        }
+        // reveal: her ghost walks the trail from oldest step to newest
+        var gp = 0, done = phase === 'reveal';
+        if (ghost) {
+          gp = reduced ? 1 : clamp((t - ghost.t0) / GHOST_MS, 0, 1);
+          done = gp >= 1;
+          var sOld = geo.steps[oldestIdx()].s, sNew = geo.steps[newestIdx()].s;
+          var s0 = sOld - R.dir * 40 * sc, s1 = sNew + R.dir * 46 * sc, sg = s0 + (s1 - s0) * gp;
+          // dotted line behind her
+          g.save(); g.setLineDash([2, 6]); g.lineCap = 'round';
+          g.strokeStyle = rgba('accent', 0.75); g.lineWidth = 2;
+          var sTo = R.dir > 0 ? Math.min(sg, sNew) : Math.max(sg, sNew);
+          if (R.dir * (sTo - sOld) > 0) {
+            g.beginPath();
+            for (var m = 0; m <= 40; m++) {
+              var a = at(sOld + (sTo - sOld) * m / 40);
+              if (m) g.lineTo(a.cx, a.cy); else g.moveTo(a.cx, a.cy);
+            }
+            g.stroke();
+          }
+          g.restore();
+          for (i = 0; i < N; i++) { // each step glows as she passes it
+            var since = R.dir * (sg - geo.steps[i].s) / (Math.abs(s1 - s0) || 1) * GHOST_MS;
+            if (since > 0 && since < 900 && !reduced) {
+              p = geo.steps[i];
+              g.strokeStyle = rgba('accent', 0.7 * (1 - since / 900)); g.lineWidth = 2;
+              g.beginPath(); g.arc(p.x, p.y, (8 + since / 60) * sc, 0, 6.283); g.stroke();
+            }
+          }
+          if (gp < 1) {
+            var gpos = at(sg), fade = gp > 0.85 ? (1 - gp) / 0.15 : Math.min(1, gp * 6);
+            g.save(); g.translate(gpos.cx, gpos.cy); g.rotate(Math.atan2(gpos.ty * R.dir, gpos.tx * R.dir));
+            g.globalAlpha = fade;
+            g.fillStyle = rgba('ink', dark ? 0.35 : 0.25);
+            g.beginPath(); g.ellipse(-1 * sc, 0, 5 * sc, 11 * sc, 0, 0, 6.283); g.fill();
+            g.fillStyle = rgba('ink', dark ? 0.5 : 0.38);
+            g.beginPath(); g.arc(1.5 * sc, 0, 5 * sc, 0, 6.283); g.fill();
+            g.restore();
+          }
+          if (done) { // arrowhead past her newest step
+            var e = at(sNew + R.dir * 30 * sc), ux = e.tx * R.dir, uy = e.ty * R.dir;
+            g.strokeStyle = rgba('accent', 1); g.lineWidth = 2.5; g.lineCap = 'round'; g.lineJoin = 'round';
+            g.beginPath();
+            g.moveTo(e.cx - ux * 9 * sc + e.nx * 7 * sc, e.cy - uy * 9 * sc + e.ny * 7 * sc);
+            g.lineTo(e.cx, e.cy);
+            g.lineTo(e.cx - ux * 9 * sc - e.nx * 7 * sc, e.cy - uy * 9 * sc - e.ny * 7 * sc);
+            g.stroke();
+          }
+        }
+        // cursor and nose
+        var nosey = -1, nk = 1;
+        if (sniffing && sn < 1) { nosey = sniffing.i; nk = 1 - 0.1 * Math.abs(Math.sin(sn * Math.PI * 6)); }
+        else if (phase === 'sniff' && (hover >= 0 || focused)) nosey = hover >= 0 ? hover : cursor;
+        if (nosey >= 0) {
+          p = geo.steps[nosey];
+          g.strokeStyle = rgba('accent', 0.9); g.lineWidth = 1.5;
+          g.beginPath(); g.arc(p.x, p.y, 13 * sc, 0, 6.283); g.stroke();
+        }
+        // readings
+        for (i = 0; i < N; i++) {
+          st = R.steps[i];
+          var ca = 0;
+          if (st.sniffed) ca = reduced ? 1 : clamp((t - st.tSniff - SNIFF_MS * 0.6) / 300, 0, 1);
+          else if (ghost) {
+            var passed = reduced ? 1 : clamp((R.dir * (geo.steps[i].s - geo.steps[oldestIdx()].s) / (Math.abs(geo.steps[newestIdx()].s - geo.steps[oldestIdx()].s) || 1)) * 0.75 + 0.25, 0, 1);
+            ca = clamp((gp - passed * 0.8) * 4, 0, 1) * 0.9;
+          }
+          if (ca > 0) drawChip(i, ca, st.sniffed);
+        }
+        if (ghost && done) {
+          var ta = reduced ? 1 : clamp((t - ghost.t0 - GHOST_MS) / 400, 0, 1);
+          var avoid = [], ni = newestIdx(), oi = oldestIdx(), arr = at(geo.steps[ni].s + R.dir * 30 * sc);
+          for (i = 0; i < N; i++) {
+            avoid.push(chipRect(i));
+            avoid.push({ x: geo.steps[i].x - 9, y: geo.steps[i].y - 9, w: 18, h: 18 });
+          }
+          avoid.push({ x: arr.cx - 12, y: arr.cy - 12, w: 24, h: 24 });
+          var tn = fmt(ageOf(ni)) + ' fa', to = fmt(ageOf(oi)) + ' fa', rn = tagRect(ni, tn, avoid);
+          avoid.push(rn);
+          drawTag(rn, tn, ta);
+          drawTag(tagRect(oi, to, avoid), to, ta);
+        }
+        if (nosey >= 0) {
+          p = geo.steps[nosey];
+          var lift = sniffing && sniffing.i === nosey && sn < 1 ? 4 : 17;
+          drawNose(p.x, p.y - lift * sc, nk);
+        }
+      }
+
+      // ---------- loop ----------
+      function frame(t) {
+        if (!running) return;
+        var dt = Math.min(0.05, (t - (lastT || t)) / 1000);
+        lastT = t;
+        if (rain) drops.forEach(function (d) { d.y += d.s * dt * 1.6; if (d.y > 1.05) { d.y = -0.1; d.x = Math.random() * 1.3; } });
+        if (sniffing && t - sniffing.t0 > SNIFF_MS + 400) sniffing = null;
+        draw(t);
+        raf = requestAnimationFrame(frame);
+      }
+      function start() {
+        if (running || reduced || !visible) return;
+        running = true; lastT = 0;
+        raf = requestAnimationFrame(frame);
+      }
+      function stop() { running = false; cancelAnimationFrame(raf); }
+      function requestDraw() { if (!running) draw(performance.now()); }
+
+      // ---------- actions ----------
+      function updateTokens() {
+        toks.forEach(function (tk, i) { tk.classList.toggle('used', i >= sniffsLeft); });
+        tokWrap.setAttribute('aria-label', 'Annusate rimaste: ' + sniffsLeft + ' su ' + MAX_SNIFFS);
+      }
+      function sniffSound() {
+        var ac = ctx.audio && ctx.audio();
+        if (!ac) return;
+        try {
+          var len = Math.round(ac.sampleRate * 0.07), buf = ac.createBuffer(1, len, ac.sampleRate), d = buf.getChannelData(0);
+          for (var i = 0; i < len; i++) d[i] = (Math.random() * 2 - 1) * Math.sin(Math.PI * i / len);
+          for (var k = 0; k < 4; k++) {
+            var src = ac.createBufferSource(), f = ac.createBiquadFilter(), gn = ac.createGain();
+            src.buffer = buf; f.type = 'bandpass'; f.frequency.value = 1500 + k * 120; f.Q.value = 0.9;
+            gn.gain.value = 0.05;
+            src.connect(f); f.connect(gn); gn.connect(ac.destination);
+            src.start(ac.currentTime + k * 0.14);
+          }
+        } catch (e) { /* sound is optional */ }
+      }
+      function sniff(i) {
+        if (phase !== 'sniff' || i < 0) return;
+        cursor = i;
+        var st = R.steps[i];
+        if (!st.sniffed) {
+          if (sniffsLeft <= 0) { lastOut.textContent = 'Annusate finite. Da che parte è andata?'; requestDraw(); return; }
+          sniffsLeft--; st.sniffed = true; st.tSniff = performance.now();
+          updateTokens();
+          sniffSound();
+        }
+        sniffing = { i: i, t0: performance.now() };
+        lastOut.textContent = 'Impronta ' + (i + 1) + ' di ' + N + ': intensità ' + val(i).toFixed(2).replace('.', ',') +
+          (sniffsLeft ? '' : '. Sono cinque. Da che parte?');
+        requestDraw();
+      }
+      function choose(d) {
+        if (phase !== 'sniff') return;
+        phase = 'reveal'; hover = -1; cv.style.cursor = 'default';
+        var right = d === R.dir, used = MAX_SNIFFS - sniffsLeft, faint = rain || T >= 120;
+        plays++; if (right) wins++;
+        var way = R.dir > 0 ? 'di qua →' : '← di qua';
+        var ages = ' Il suo passo più recente risaliva a ' + fmt(ageOf(newestIdx())) + ' prima, il più vecchio qui a ' + fmt(ageOf(oldestIdx())) + '.';
+        var msg;
+        if (right) {
+          msg = (used ? 'Sì. È andata ' : 'Colpo di fortuna. È andata ') + way + '.' + ages +
+            (used && faint ? ' Su una pista così debole, un po’ è fortuna.' : '');
+        } else {
+          msg = 'Non stavolta. È andata ' + way + '.' + ages + ' ' +
+            (!used ? 'Una o due annusate aiuterebbero.' : rain ? 'La pioggia forte aveva lavato via quasi tutto il suo odore.'
+              : T >= 120 ? 'Dopo ore, passi vecchi e nuovi hanno quasi lo stesso odore.'
+              : spread() < 5 ? 'Le impronte lontane tra loro mostrano la differenza più grande.' : 'I suoi passi più nuovi sono i più forti.');
+        }
+        result.textContent = msg;
+        result.className = 'result ' + (right ? 'good' : 'miss');
+        tallyOut.textContent = 'Giuste ' + wins + ' su ' + plays;
+        btnL.disabled = btnR.disabled = true;
+        newBtn.classList.add('primary');
+        lastOut.textContent = 'Ora si vedono tutte e dieci le impronte.';
+        ghost = { t0: performance.now() };
+        if (document.activeElement === btnL || document.activeElement === btnR) newBtn.focus();
+        requestDraw();
+      }
+      function spread() {
+        var lo = N, hi = -1;
+        R.steps.forEach(function (st, i) { if (st.sniffed) { lo = Math.min(lo, i); hi = Math.max(hi, i); } });
+        return hi - lo;
+      }
+      function conditionsChanged() {
+        timeOut.textContent = fmt(T);
+        if (phase === 'reveal' || sniffsLeft < MAX_SNIFFS) newRound();
+        else requestDraw();
+      }
+
+      function nearest(e) {
+        var r = cv.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top, best = -1, bd = 1e9;
+        for (var i = 0; i < N; i++) {
+          var p = geo.steps[i], d = Math.hypot(p.x - x, p.y - y);
+          if (d < bd) { bd = d; best = i; }
+        }
+        return bd < 30 * Math.max(sc, 1) ? best : -1;
+      }
+      var down = null;
+      cv.addEventListener('pointermove', function (e) {
+        if (!geo || phase !== 'sniff') return;
+        var h = e.pointerType === 'mouse' ? nearest(e) : -1;
+        if (h !== hover) { hover = h; cv.style.cursor = h >= 0 ? 'pointer' : 'default'; requestDraw(); }
+      });
+      cv.addEventListener('pointerleave', function () { if (hover >= 0) { hover = -1; requestDraw(); } });
+      cv.addEventListener('pointerdown', function (e) { down = { x: e.clientX, y: e.clientY }; });
+      cv.addEventListener('pointercancel', function () { down = null; });
+      cv.addEventListener('pointerup', function (e) {
+        if (!down || !geo) return;
+        var moved = Math.hypot(e.clientX - down.x, e.clientY - down.y);
+        down = null;
+        if (moved < 12) sniff(nearest(e));
+      });
+      cv.addEventListener('focus', function () { focused = true; requestDraw(); });
+      cv.addEventListener('blur', function () { focused = false; requestDraw(); });
+      cv.addEventListener('keydown', function (e) {
+        var k = e.key;
+        if (k === 'ArrowLeft' || k === 'ArrowUp') cursor = Math.max(0, cursor - 1);
+        else if (k === 'ArrowRight' || k === 'ArrowDown') cursor = Math.min(N - 1, cursor + 1);
+        else if (k === 'Home') cursor = 0;
+        else if (k === 'End') cursor = N - 1;
+        else if (k === 'Enter' || k === ' ') { sniff(cursor); e.preventDefault(); return; }
+        else return;
+        e.preventDefault(); hover = -1; focused = true;
+        if (phase === 'sniff') lastOut.textContent = 'Naso sull’impronta ' + (cursor + 1) + ' di ' + N + '. Invio per annusare.';
+        requestDraw();
+      });
+      btnL.addEventListener('click', function () { choose(-1); });
+      btnR.addEventListener('click', function () { choose(1); });
+      newBtn.addEventListener('click', newRound);
+      slider.addEventListener('input', function () { T = STOPS[+slider.value]; conditionsChanged(); });
+      rainBtn.addEventListener('click', function () {
+        rain = !rain; rainBtn.setAttribute('aria-pressed', String(rain)); conditionsChanged();
+      });
+
+      function resize() {
+        var w = wrap.clientWidth, h = wrap.clientHeight;
+        if (!w || !h) return;
+        W = w; H = h; dpr = Math.min(window.devicePixelRatio || 1, 2.5);
+        sc = clamp(W / 680, 0.85, 1.15);
+        cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr);
+        readTheme(); layout(); renderBg(); requestDraw();
+      }
+      ctx.onThemeChange(function () { if (W) { readTheme(); renderBg(); requestDraw(); } });
+      ctx.visible(function (v) { visible = v; if (v) start(); else stop(); });
+
+      timeOut.textContent = fmt(T);
+      newRound();
+      if ('ResizeObserver' in window) new ResizeObserver(resize).observe(wrap);
+      else window.addEventListener('resize', resize);
+      resize();
+      start();
+    }
+  };
+})();
+
+</script>
+<script>/* bat.js */
+/* The bat: "A flicker in a held note". How a lesser horseshoe bat finds a moth among leaves.
+   Model: constant-frequency call near 110 kHz, Doppler shift of echoes while flying, Doppler shift
+   compensation, wingbeat glints, rain masking. Sound is transposed down by a factor of 40. */
+(function () {
+  'use strict';
+  var C = 343;          // speed of sound in air, m/s
+  var REF = 110;        // kHz: reference frequency, where the echo is held
+  var BAND = 0.8;       // kHz: half-width of the drawn band of sharpest hearing (schematic)
+  var FMIN = 105.4, FMAX = 114.6;
+  var DIV = 40;         // pitch divisor for the sound
+  var SLOW = 6;         // wingbeats slowed six-fold so the flutter is audible and visible
+  var WINDOW = 2.6;     // seconds of (slowed) time across the display
+  var ROUNDS = 5, COLW = 2, TAU = Math.PI * 2;
+
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function rand(a, b) { return a + Math.random() * (b - a); }
+  function gauss() { return (Math.random() + Math.random() + Math.random() - 1.5) * 2; }
+  // Echo from a stationary object when the bat flies toward it at v m/s.
+  function echoOf(call, v) { return call * (C + v) / (C - v); }
+  // The call that brings the echo back exactly at REF.
+  function compCall(v) { return REF * (C - v) / (C + v); }
+  // How well the bat's hearing resolves detail at frequency f (1 inside the sharp band).
+  function bandFactor(f) {
+    var d = Math.abs(f - REF) - BAND;
+    return d <= 0 ? 1 : Math.max(0.08, Math.exp(-d * d));
+  }
+
+  var P = '.stage[data-mind="bat"] ';
+  var CSS = [
+    P + '.bat-nosound { font: .8rem var(--font-mono, monospace); color: var(--muted); }',
+    P + '.bat-score { margin-left: auto; color: var(--muted); }',
+    P + '.controls + .controls { margin-top: -.2rem; }',
+    P + '.ctl input[type=range] { width: 6.5rem; }',
+    P + '.canvas-wrap { touch-action: pan-y; }'
+  ].join('\n');
+
+  function mount(stage, ctx) {
+    var S = {
+      speed: 3, comp: true, rain: false, call: compCall(3), t: 0, scroll: 0, cols: [], acc: 0,
+      roundNo: 1, score: 0, answered: false, round: null, everOff: false, raf: 0, last: 0
+    };
+    var pal = {}, L = null, G = null, A = null, carry = 0, carryA = 0, carryH = 0;
+    var reduced = !!ctx.reducedMotion;
+
+    function readPal() {
+      ['paper', 'ink', 'muted', 'rule', 'accent', 'warm', 'panel'].forEach(function (k) {
+        pal[k] = ctx.color(k) || '#888';
+      });
+    }
+
+    /* ---------- DOM ---------- */
+    var style = el('style'); style.textContent = CSS; stage.appendChild(style);
+    var lede = el('p', 'lede', 'Un pipistrello ferro di cavallo caccia tenendo una sola nota, lunga e acuta, e ascoltando un tremolio nella sua eco. ' +
+      'Guarda la linea luminosa dell’eco, o premi Ascolta, e decidi a ogni turno: tra le foglie si nasconde una falena? ' +
+      'Il richiamo vero è di circa 110 kHz, troppo acuto per l’orecchio umano, così qui il suono è abbassato di quaranta volte, a circa 2,75 kHz.');
+    var wrap = el('div', 'canvas-wrap');
+    var cv = el('canvas');
+    cv.setAttribute('role', 'img');
+    cv.setAttribute('aria-label', 'In alto, uno schizzo del pipistrello in volo tra i tronchi. In basso, un grafico delle frequenze: una linea tenue per il richiamo che il pipistrello emette, ' +
+      'una linea luminosa per l’eco che sente e una fascia ombreggiata dove il suo udito è più fine. Una falena appare come strisce tremolanti sulla linea dell’eco.');
+    wrap.appendChild(cv);
+
+    var senses = el('div', 'controls');
+    var btnListen = el('button', 'btn', 'Ascolta');
+    btnListen.type = 'button'; btnListen.setAttribute('aria-pressed', 'false');
+    var noSound = el('span', 'bat-nosound', 'suono non disponibile'); noSound.hidden = true;
+    var btnComp = el('button', 'btn', 'Compensazione Doppler: attiva');
+    btnComp.type = 'button'; btnComp.setAttribute('aria-pressed', 'true');
+    var spdLabel = el('label', 'ctl', 'Velocità ');
+    var spd = el('input'); spd.type = 'range'; spd.min = '0'; spd.max = '5'; spd.step = '0.1'; spd.value = '3';
+    spdLabel.appendChild(spd);
+    var spdOut = el('output', 'readout', '3,0 m/s');
+    var btnRain = el('button', 'btn', 'Pioggia');
+    btnRain.type = 'button'; btnRain.setAttribute('aria-pressed', 'false');
+    [btnListen, noSound, btnComp, spdLabel, spdOut, btnRain].forEach(function (n) { senses.appendChild(n); });
+
+    var game = el('div', 'controls');
+    var btnMoth = el('button', 'btn primary', 'Falena!'); btnMoth.type = 'button';
+    var btnLeaves = el('button', 'btn', 'Solo foglie'); btnLeaves.type = 'button';
+    var btnNext = el('button', 'btn', 'Prossimo turno'); btnNext.type = 'button'; btnNext.hidden = true;
+    var scoreOut = el('output', 'readout bat-score');
+    [btnMoth, btnLeaves, btnNext, scoreOut].forEach(function (n) { game.appendChild(n); });
+    var result = el('p', 'result'); result.setAttribute('aria-live', 'polite');
+
+    var known = el('div', 'known');
+    known.appendChild(el('h4', null, 'Che cosa si sa'));
+    [
+      'Il rinolofo minore (Rhinolophus hipposideros) emette i richiami dal naso, indirizzati da una piega di pelle a forma di ferro di cavallo. Ogni richiamo è una nota lunga di tono quasi costante, circa 110 kHz: più di cinque volte più acuta della nota più alta che un giovane essere umano riesca a sentire.',
+      'Volare verso le cose alza il tono dei loro echi (effetto Doppler); a 5 m/s, di circa 3 kHz. I rinolofi abbassano il richiamo esattamente di tanto, così l’eco torna a un tono di riferimento fisso, dove il loro udito è sintonizzato più finemente. Si chiama compensazione dello spostamento Doppler.',
+      'Foglie e tronchi restituiscono un’eco ferma. Un’ala che batte fa tremolare l’eco in intensità e in tono, una volta a ogni battito: "luccichii acustici" che fanno spiccare un insetto nel groviglio degli echi. I rinolofi riescono perfino a usarli per distinguere alcuni insetti.',
+      'Il ritardo dell’eco dà la distanza: il suono impiega circa 6 ms per raggiungere una cosa a un metro e tornare indietro.',
+      'La pioggia riempie l’aria di rumore e assorbe le frequenze alte. Quando piove, i pipistrelli cacciano meno.'
+    ].forEach(function (t) { known.appendChild(el('p', null, t)); });
+
+    var unknown = el('div', 'unknown');
+    unknown.appendChild(el('h4', null, 'Che cosa non si sa'));
+    unknown.appendChild(el('p', null, 'Che cosa sia tutto questo per il pipistrello. Nagel (1974) sosteneva che possiamo descrivere il meccanismo per intero e non sapere ancora che cosa si provi a percepire col sonar. "Tremolio" e "luccichio" sono parole nostre, non sue.'));
+    unknown.appendChild(el('p', null, 'Questo è uno schizzo, non una registrazione. I richiami veri arrivano a raffiche di qualche decina di millisecondi, non come un’unica nota infinita. Qui il tono è diviso per 40 e i battiti d’ala sono rallentati di circa sei volte. La larghezza della fascia più fine e l’effetto della pioggia sono disegnati in modo schematico, e ogni pipistrello è diverso.'));
+
+    var sources = el('ul', 'sources');
+    [
+      'Schnitzler H-U & Denzinger A (2011). Auditory fovea and Doppler shift compensation: adaptations for flutter detection in echolocating bats using CF-FM signals. Journal of Comparative Physiology A 197.',
+      'von der Emde G & Schnitzler H-U (1990). Classification of insects by echolocating greater horseshoe bats. Journal of Comparative Physiology A 167.',
+      'Frontiers in Ecology and Evolution (2022), on rain and bat activity.',
+      'Nagel T (1974). What is it like to be a bat? The Philosophical Review 83.'
+    ].forEach(function (t) { sources.appendChild(el('li', null, t)); });
+
+    [lede, wrap, senses, game, result, known, unknown, sources].forEach(function (n) { stage.appendChild(n); });
+
+    if (!(window.AudioContext || window.webkitAudioContext)) { btnListen.hidden = true; noSound.hidden = false; }
+
+    /* ---------- forest (world positions in metres, looping) ---------- */
+    var LOOP = 40;
+    function makeLayer(gapMin, gapMax, wMin, wMax) {
+      var out = [], x = rand(0, 1);
+      while (x < LOOP - 1) {
+        var blobs = [], nb = 3 + (Math.random() * 4 | 0);
+        for (var i = 0; i < nb; i++) blobs.push([rand(-1.6, 1.6), rand(0.02, 0.55), rand(0.6, 1.3)]);
+        out.push({ x: x, w: rand(wMin, wMax), blobs: blobs });
+        x += rand(gapMin, gapMax);
+      }
+      return out;
+    }
+    var far = makeLayer(0.8, 1.8, 0.5, 1), near = makeLayer(1.6, 3, 0.9, 1.6);
+
+    /* ---------- model ---------- */
+    function targetCall() { return S.comp ? compCall(S.speed) : REF; }
+    function currentEcho() { return echoOf(S.call, S.speed); }
+    function mothVis(band) {
+      var r = S.round;
+      return r && r.moth ? r.strength * band * (S.rain ? 0.4 : 1) : 0;
+    }
+    function makeCol(t) {
+      var echo = currentEcho();
+      if (S.comp) echo += 0.07 * Math.sin(t * 2.3) + 0.04 * Math.sin(t * 5.1); // compensation is close, not perfect
+      var band = bandFactor(echo), r = S.round;
+      var c = { call: S.call, echo: echo, band: band, amp: 1, glint: 0, gh: 0, fm: 0, jit: 0, fg: 0, fgh: 0, specks: null };
+      if (r.moth) {
+        var ph = t * r.wing / SLOW + r.phase;
+        var pulse = Math.pow(0.5 + 0.5 * Math.cos(TAU * ph), 9);
+        var vis = mothVis(band);
+        c.glint = vis * pulse;
+        c.gh = 0.25 + 1.1 * pulse;
+        c.amp = 1 + 0.6 * vis * pulse;
+        c.fm = vis * 0.16 * Math.sin(TAU * ph);
+      }
+      if (S.rain) {
+        c.jit = gauss() * 0.2;
+        c.specks = [];
+        var n = 2 + (Math.random() * 5 | 0);
+        for (var i = 0; i < n; i++) {
+          c.specks.push(Math.random() < 0.55 ? echo + gauss() * 1.3 : rand(FMIN, FMAX), rand(0.12, 0.5));
+        }
+        if (carry > 0) { c.fg = carryA; c.fgh = carryH; carry--; }
+        else if (Math.random() < 0.03) {
+          carry = Math.random() < 0.5 ? 1 : 2; carryA = rand(0.2, 0.5); carryH = rand(0.3, 1.2);
+          c.fg = carryA; c.fgh = carryH;
+        }
+      }
+      return c;
+    }
+    function prefill() {
+      if (!L) return;
+      S.call = targetCall(); S.cols = []; S.acc = 0; carry = 0;
+      for (var i = L.n - 1; i >= 0; i--) S.cols.push(makeCol(S.t - i * L.dtCol));
+    }
+
+    /* ---------- layout ---------- */
+    function resize() {
+      var W = wrap.clientWidth;
+      if (!W) return;
+      var ar = W < 520 ? 1 : 1.65;
+      wrap.style.aspectRatio = ar === 1 ? '1 / 1' : '1.65 / 1';
+      var H = Math.round(W / ar), dpr = Math.min(2, window.devicePixelRatio || 1);
+      cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr);
+      G = cv.getContext('2d');
+      G.setTransform(dpr, 0, 0, dpr, 0, 0);
+      var fh = Math.round(H * 0.3), sx = W < 520 ? 36 : 44;
+      var sy = fh + 12, sw = W - sx - 10, sh = H - sy - 24;
+      var n = Math.ceil(sw / COLW);
+      var changed = !L || L.n !== n;
+      L = { W: W, H: H, fh: fh, sx: sx, sy: sy, sw: sw, sh: sh, n: n, dtCol: WINDOW / n, ppm: W / 6.5, narrow: W < 520 };
+      if (changed && S.round) prefill();
+    }
+
+    /* ---------- drawing ---------- */
+    function drawBat(g, x, y, s, flap) {
+      g.save(); g.translate(x, y); g.scale(s, s);
+      g.fillStyle = pal.ink; g.globalAlpha = 0.92;
+      g.beginPath(); g.ellipse(0, 0, 9, 4.2, 0, 0, TAU); g.fill();
+      g.beginPath(); g.arc(8.5, -1.2, 3.6, 0, TAU); g.fill();
+      g.beginPath(); g.moveTo(7, -3.5); g.lineTo(8.2, -10); g.lineTo(10.6, -3.6); g.closePath(); g.fill();
+      var tipY = -15 * flap - 1, midY = -7 * flap;
+      g.beginPath(); g.moveTo(3, -2);
+      g.quadraticCurveTo(-1, tipY * 0.7, -5, tipY);
+      g.quadraticCurveTo(-8, midY, -14, midY + 3);
+      g.quadraticCurveTo(-9, 0, -4, 1.5);
+      g.closePath(); g.fill();
+      g.restore();
+    }
+    function drawMoth(g, x, y, s) {
+      g.save(); g.translate(x, y); g.scale(s, s);
+      g.fillStyle = pal.warm; g.globalAlpha = 1;
+      g.beginPath(); g.ellipse(-3, -2, 4.5, 3, -0.6, 0, TAU); g.fill();
+      g.beginPath(); g.ellipse(3, -2, 4.5, 3, 0.6, 0, TAU); g.fill();
+      g.fillStyle = pal.ink; g.beginPath(); g.ellipse(0, 0, 1.2, 4, 0, 0, TAU); g.fill();
+      g.restore();
+    }
+    function drawLayer(g, layer, par, alphaT, alphaL, fh) {
+      var ppm = L.ppm;
+      layer.forEach(function (tr) {
+        var sx = ((tr.x - S.scroll * par) % LOOP + LOOP) % LOOP;
+        var x = sx * ppm - 40;
+        if (x > L.W + 40) return;
+        var w = tr.w * ppm * 0.09 + 3;
+        g.fillStyle = pal.muted; g.globalAlpha = alphaT;
+        g.fillRect(x - w / 2, 0, w, fh);
+        g.globalAlpha = alphaL;
+        tr.blobs.forEach(function (b) {
+          g.beginPath(); g.ellipse(x + b[0] * w * 1.6, b[1] * fh, 9 * b[2], 5.5 * b[2], 0, 0, TAU); g.fill();
+        });
+      });
+    }
+    function drawForest(g) {
+      var W = L.W, fh = L.fh, t = S.t;
+      g.save(); g.beginPath(); g.rect(0, 0, W, fh); g.clip();
+      g.fillStyle = pal.ink; g.globalAlpha = 0.06; g.fillRect(0, 0, W, fh);
+      drawLayer(g, far, 0.6, 0.22, 0.16, fh);
+      var bs = Math.max(0.85, Math.min(1.4, W / 520));
+      var bx = W * 0.12, by = fh * 0.45, nose = bx + 12 * bs;
+      // the call spreading ahead: a faint cone and travelling wavefronts
+      var reach = (W - nose) * (S.rain ? 0.55 : 1);
+      g.fillStyle = pal.accent; g.globalAlpha = 0.07;
+      g.beginPath(); g.moveTo(nose, by - 2); g.lineTo(W, by - fh * 0.42); g.lineTo(W, by + fh * 0.42); g.lineTo(nose, by + 2); g.fill();
+      g.strokeStyle = pal.accent; g.lineWidth = 1.5;
+      for (var i = 0; i < 5; i++) {
+        var r = ((t * 0.35 + i / 5) % 1) * reach;
+        g.globalAlpha = 0.55 * (1 - r / reach);
+        g.beginPath(); g.arc(nose, by, r + 2, -0.4, 0.4); g.stroke();
+      }
+      drawLayer(g, near, 1, 0.42, 0.3, fh);
+      // distance ticks
+      g.fillStyle = pal.muted; g.globalAlpha = 0.9; g.font = '10px "IBM Plex Mono", ui-monospace, monospace';
+      g.textAlign = 'center'; g.textBaseline = 'alphabetic';
+      for (var m = 1; m <= 4; m++) {
+        var tx = nose + m * L.ppm;
+        g.fillRect(tx, fh - 9, 1, 5);
+        g.fillStyle = pal.panel; g.globalAlpha = 0.8; g.fillRect(tx - 12, fh - 21, 24, 12);
+        g.fillStyle = pal.muted; g.globalAlpha = 1;
+        g.fillText(m + ' m', tx, fh - 12);
+      }
+      g.fillRect(nose, fh - 5, 4 * L.ppm, 1);
+      drawBat(g, bx, by, bs, reduced ? 0.6 : Math.sin(t * TAU * 2.2));
+      // reveal
+      var rd = S.round;
+      if (S.answered) {
+        g.font = '11px "IBM Plex Mono", ui-monospace, monospace'; g.textBaseline = 'middle';
+        if (rd.moth) {
+          var mx = nose + rd.dist * L.ppm, my = by + rd.dy * fh;
+          var wob = reduced ? 1 : 0.75 + 0.25 * Math.sin(t * TAU * rd.wing / SLOW);
+          drawMoth(g, mx, my, bs * wob);
+          var label = 'falena · ' + rd.dist.toFixed(1).replace('.', ',') + ' m · eco ' + Math.round(2000 * rd.dist / C) + ' ms';
+          var lw = g.measureText(label).width, ly = my < fh * 0.4 ? my + 16 : my - 16;
+          var lx = Math.min(W - lw / 2 - 6, Math.max(lw / 2 + 6, mx));
+          g.globalAlpha = 0.85; g.fillStyle = pal.panel; g.fillRect(lx - lw / 2 - 4, ly - 8, lw + 8, 16);
+          g.globalAlpha = 1; g.fillStyle = pal.ink; g.textAlign = 'center'; g.fillText(label, lx, ly);
+        } else {
+          var txt = 'nessuna falena: solo foglie e tronchi';
+          var tw = g.measureText(txt).width;
+          g.globalAlpha = 0.85; g.fillStyle = pal.panel; g.fillRect(W - tw - 14, 6, tw + 8, 16);
+          g.globalAlpha = 1; g.fillStyle = pal.ink; g.textAlign = 'right'; g.fillText(txt, W - 10, 14);
+        }
+      }
+      if (S.rain) {
+        g.strokeStyle = pal.muted; g.lineWidth = 1; g.globalAlpha = 0.55;
+        g.beginPath();
+        var nr = Math.round(W / 9);
+        for (var k = 0; k < nr; k++) {
+          var x = ((k * 53.7 + t * 40) % (W + 20)) - 10, y = ((k * 91.3 + t * 300) % (fh + 24)) - 12;
+          g.moveTo(x, y); g.lineTo(x - 3, y + 9);
+        }
+        g.stroke();
+      }
+      g.restore();
+    }
+    function drawSpec(g) {
+      var x0 = L.sx, y0 = L.sy, w = L.sw, h = L.sh, cols = S.cols, n = cols.length;
+      function fy(f) { return y0 + (FMAX - f) / (FMAX - FMIN) * h; }
+      g.globalAlpha = 0.6; g.fillStyle = pal.paper; g.fillRect(x0, y0, w, h);
+      g.fillStyle = pal.rule; g.globalAlpha = 1;
+      g.font = '10px "IBM Plex Mono", ui-monospace, monospace';
+      g.textBaseline = 'middle'; g.textAlign = 'right';
+      for (var f = 106; f <= 114; f++) {
+        g.fillStyle = pal.rule; g.fillRect(x0, Math.round(fy(f)), w, 1);
+        if (f % 2 === 0) { g.fillStyle = pal.muted; g.fillText(String(f), x0 - 5, fy(f)); }
+      }
+      var bt = fy(REF + BAND), bb = fy(REF - BAND);
+      g.fillStyle = pal.accent; g.globalAlpha = 0.14; g.fillRect(x0, bt, w, bb - bt);
+      g.globalAlpha = 0.6; g.strokeStyle = pal.accent; g.lineWidth = 1; g.setLineDash([3, 4]);
+      g.beginPath(); g.moveTo(x0, Math.round(fy(REF)) + 0.5); g.lineTo(x0 + w, Math.round(fy(REF)) + 0.5); g.stroke();
+      g.setLineDash([]);
+
+      g.save(); g.beginPath(); g.rect(x0, y0, w, h); g.clip();
+      var i, c, x;
+      // call sent
+      g.fillStyle = pal.muted; g.globalAlpha = 0.65;
+      for (i = 0; i < n; i++) { c = cols[i]; g.fillRect(x0 + w - (n - i) * COLW, fy(c.call) - 1, COLW, 2); }
+      // rain speckle
+      if (S.rain) {
+        g.fillStyle = pal.muted;
+        for (i = 0; i < n; i++) {
+          c = cols[i]; if (!c.specks) continue; x = x0 + w - (n - i) * COLW;
+          for (var k = 0; k < c.specks.length; k += 2) { g.globalAlpha = c.specks[k + 1]; g.fillRect(x, fy(c.specks[k]) - 1, 2, 2); }
+        }
+      }
+      // echo heard: blurred outside the sharp band, smeared in rain
+      g.fillStyle = pal.ink;
+      for (i = 0; i < n; i++) {
+        c = cols[i]; x = x0 + w - (n - i) * COLW;
+        var th = 2 + 7 * (1 - c.band) + (S.rain ? 3 : 0);
+        g.globalAlpha = Math.min(1, (0.28 + 0.67 * c.band) * (S.rain ? 0.75 : 1) * c.amp);
+        g.fillRect(x, fy(c.echo + c.jit + c.fm) - th / 2, COLW, th);
+      }
+      // glints: real ones from the wingbeat, false ones from raindrops
+      g.fillStyle = pal.warm;
+      for (i = 0; i < n; i++) {
+        c = cols[i]; x = x0 + w - (n - i) * COLW;
+        var gl = c.glint > c.fg ? c.glint : c.fg, gh = c.glint > c.fg ? c.gh : c.fgh;
+        if (gl < 0.015) continue;
+        var e = c.echo + c.jit;
+        g.globalAlpha = Math.min(1, gl * 1.1); g.fillRect(x, fy(e + gh), COLW, fy(e - gh) - fy(e + gh));
+        g.globalAlpha = Math.min(1, gl * 1.6); g.fillRect(x, fy(e + gh * 0.35), COLW, fy(e - gh * 0.35) - fy(e + gh * 0.35));
+      }
+      g.restore();
+
+      // labels
+      var first = cols[0], last = cols[n - 1];
+      g.globalAlpha = 1; g.textAlign = 'left'; g.textBaseline = 'alphabetic';
+      if (first) {
+        var ey = fy(first.echo) - 8 - 3.5 * (1 - first.band), cy = fy(first.call) + 14;
+        if (Math.abs(first.echo - first.call) < 0.4) cy = Math.max(cy, fy(first.echo) + 16);
+        var et = first.band < 0.6 ? 'eco sentita · sfocata' : 'eco sentita', etw = g.measureText(et).width;
+        g.fillStyle = pal.panel; g.globalAlpha = 0.85; g.fillRect(x0 + 3, ey - 11, etw + 6, 13);
+        g.fillStyle = pal.ink; g.globalAlpha = 1; g.fillText(et, x0 + 6, ey);
+        g.fillStyle = pal.muted; g.fillText('richiamo emesso', x0 + 6, cy);
+      }
+      g.textAlign = 'right';
+      var shw = g.measureText('udito più fine').width;
+      g.fillStyle = pal.panel; g.globalAlpha = 0.85; g.fillRect(x0 + w - shw - 9, bt - 15, shw + 6, 13);
+      g.fillStyle = pal.accent; g.globalAlpha = 1;
+      g.fillText('udito più fine', x0 + w - 6, bt - 4);
+      g.fillStyle = pal.muted;
+      g.fillText('tempo →', x0 + w, y0 + h + 16);
+      g.textAlign = 'left';
+      g.fillText('kHz', 4, y0 + h + 16);
+      if (last) {
+        g.fillStyle = pal.ink;
+        g.fillText('richiamo ' + last.call.toFixed(1).replace('.', ',') + ' → eco ' + currentEcho().toFixed(1).replace('.', ','), x0, y0 + h + 16);
+      }
+    }
+    function draw() {
+      if (!L || !G) return;
+      G.clearRect(0, 0, L.W, L.H);
+      drawForest(G);
+      drawSpec(G);
+      G.globalAlpha = 1;
+    }
+
+    /* ---------- animation ---------- */
+    function frame(now) {
+      var dt = Math.min(0.05, Math.max(0, (now - S.last) / 1000));
+      S.last = now;
+      S.call += (targetCall() - S.call) * (1 - Math.exp(-dt / 0.3));
+      S.t += dt; S.scroll += S.speed * dt;
+      if (L) {
+        S.acc += dt / L.dtCol;
+        while (S.acc >= 1) { S.acc -= 1; S.cols.push(makeCol(S.t - S.acc * L.dtCol)); }
+        if (S.cols.length > L.n) S.cols.splice(0, S.cols.length - L.n);
+      }
+      setAudio();
+      draw();
+      S.raf = requestAnimationFrame(frame);
+    }
+    function startLoop() {
+      if (S.raf || reduced) return;
+      S.last = performance.now();
+      S.raf = requestAnimationFrame(frame);
+    }
+    function stopLoop() { if (S.raf) cancelAnimationFrame(S.raf); S.raf = 0; }
+
+    /* ---------- sound ---------- */
+    function startAudio() {
+      var ac = ctx.audio();
+      if (!ac) { btnListen.hidden = true; noSound.hidden = false; return; }
+      try {
+        var now = ac.currentTime, hz = currentEcho() * 1000 / DIV;
+        var a = { ac: ac, nodes: [], last: {} };
+        function gain(v) { var gn = ac.createGain(); gn.gain.value = v; return gn; }
+        a.master = gain(0); a.master.connect(ac.destination);
+        // clutter: the steady echo, plus a fainter, later copy from the trees further away
+        a.osc = ac.createOscillator(); a.osc.type = 'sine'; a.osc.frequency.value = hz;
+        a.clutter = gain(0.5); a.osc.connect(a.clutter); a.clutter.connect(a.master);
+        var dly = ac.createDelay(0.1); dly.delayTime.value = 0.012;
+        var g2 = gain(0.22); a.osc.connect(dly); dly.connect(g2); g2.connect(a.master);
+        // moth: the same note, pulsed and wobbled once per (slowed) wingbeat
+        a.mosc = ac.createOscillator(); a.mosc.type = 'sine'; a.mosc.frequency.value = hz;
+        a.mvca = gain(0); a.mosc.connect(a.mvca); a.mvca.connect(a.master);
+        a.lfo = ac.createOscillator();
+        a.lfo.setPeriodicWave(ac.createPeriodicWave(new Float32Array([0, 1, 0.8, 0.55, 0.3, 0.12]), new Float32Array(6)));
+        a.lfo.frequency.value = S.round.wing / SLOW;
+        a.am = gain(0); a.fm = gain(0);
+        a.lfo.connect(a.am); a.am.connect(a.mvca.gain);
+        a.lfo.connect(a.fm); a.fm.connect(a.mosc.frequency);
+        // rain: band-passed noise
+        var len = ac.sampleRate * 2, buf = ac.createBuffer(1, len, ac.sampleRate), d = buf.getChannelData(0);
+        for (var i = 0; i < len; i++) d[i] = Math.random() * 2 - 1;
+        a.noise = ac.createBufferSource(); a.noise.buffer = buf; a.noise.loop = true;
+        var bp = ac.createBiquadFilter(); bp.type = 'bandpass'; bp.frequency.value = REF * 1000 / DIV; bp.Q.value = 0.7;
+        a.rain = gain(0); a.noise.connect(bp); bp.connect(a.rain); a.rain.connect(a.master);
+        a.nodes = [a.osc, a.mosc, a.lfo, a.noise];
+        a.nodes.forEach(function (o) { o.start(now); });
+        a.master.gain.setTargetAtTime(0.09, now, 0.08);
+        A = a;
+        setAudio(true);
+        btnListen.textContent = 'Ferma'; btnListen.setAttribute('aria-pressed', 'true');
+      } catch (err) {
+        btnListen.hidden = true; noSound.hidden = false; A = null;
+      }
+    }
+    function stopAudio() {
+      var a = A; A = null;
+      btnListen.textContent = 'Ascolta'; btnListen.setAttribute('aria-pressed', 'false');
+      if (!a) return;
+      try {
+        var now = a.ac.currentTime;
+        a.master.gain.cancelScheduledValues(now);
+        a.master.gain.setValueAtTime(a.master.gain.value, now);
+        a.master.gain.setTargetAtTime(0, now, 0.04);
+      } catch (e) { /* ignore */ }
+      setTimeout(function () {
+        a.nodes.forEach(function (o) { try { o.stop(); } catch (e) { /* already stopped */ } });
+        try { a.master.disconnect(); } catch (e) { /* ignore */ }
+      }, 400);
+    }
+    function setP(param, key, v, tol, force) {
+      if (!force && A.last[key] != null && Math.abs(A.last[key] - v) < tol) return;
+      A.last[key] = v;
+      param.setTargetAtTime(v, A.ac.currentTime, 0.05);
+    }
+    function setAudio(force) {
+      if (!A) return;
+      var echo = currentEcho(), hz = echo * 1000 / DIV, vis = mothVis(bandFactor(echo));
+      var m = 0.6 * vis;
+      setP(A.osc.frequency, 'f', hz, 0.05, force);
+      setP(A.mosc.frequency, 'mf', hz, 0.05, force);
+      setP(A.mvca.gain, 'base', m * 0.5, 0.003, force);
+      setP(A.am.gain, 'am', m * 0.5, 0.003, force);
+      setP(A.fm.gain, 'fm', vis * 22, 0.2, force);
+      setP(A.lfo.frequency, 'lfo', S.round.wing / SLOW, 0.01, force);
+      setP(A.rain.gain, 'rain', S.rain ? 0.45 : 0, 0.01, force);
+      setP(A.clutter.gain, 'cl', S.rain ? 0.35 : 0.5, 0.01, force);
+    }
+
+    /* ---------- game ---------- */
+    function updScore() {
+      scoreOut.value = 'Turno ' + S.roundNo + ' di ' + ROUNDS + ' · ' + S.score + ' giusti';
+      scoreOut.textContent = scoreOut.value;
+    }
+    function newRound() {
+      S.round = {
+        moth: Math.random() < 0.5, strength: rand(0.4, 0.95), wing: rand(35, 70),
+        phase: Math.random(), dist: rand(1.2, 4.4), dy: rand(-0.2, 0.2)
+      };
+      S.answered = false;
+      btnMoth.disabled = false; btnLeaves.disabled = false; btnNext.hidden = true;
+      result.textContent = ''; result.className = 'result';
+      updScore(); prefill(); setAudio(); draw();
+    }
+    function answer(saidMoth) {
+      if (S.answered) return;
+      S.answered = true;
+      var r = S.round, ok = saidMoth === r.moth, band = bandFactor(currentEcho()), msg;
+      if (ok) S.score++;
+      var where = ' Era ' + r.dist.toFixed(1).replace('.', ',') + ' m più avanti, così la sua eco è tornata dopo ' + Math.round(2000 * r.dist / C) +
+        ' ms. Le sue ali battevano circa ' + Math.round(r.wing) + ' volte al secondo (qui rallentate).';
+      if (r.moth && ok) msg = 'Presa.' + where;
+      else if (r.moth) {
+        msg = 'C’era una falena, ed è scappata.' + where;
+        if (band < 0.6) msg += S.comp ? ' Il suo tremolio cadeva fuori dal tuo udito più fine.' : ' Senza compensazione, la sua eco è scivolata fuori dal tuo udito più fine.';
+        else if (S.rain) msg += ' La pioggia ha nascosto il suo tremolio.';
+        else msg += r.strength < 0.6 ? ' Stavolta il suo tremolio era debole.' : ' Cerca strisce che si ripetono a ritmo regolare.';
+      } else if (ok) msg = 'Giusto: solo foglie e tronchi, ogni eco ferma.';
+      else msg = 'Solo foglie. Hai addentato un rametto.' + (S.rain ? ' Anche la pioggia fa scintillare l’eco, ma non a ritmo.' : '');
+      if (S.roundNo >= ROUNDS) {
+        msg += ' Notte finita: ' + S.score + ' su ' + ROUNDS + '.' + (S.everOff ? '' : ' La prossima notte, prova a spegnere la compensazione alla massima velocità.');
+        btnNext.textContent = 'Nuova notte';
+      } else btnNext.textContent = 'Prossimo turno';
+      result.textContent = msg;
+      result.className = 'result ' + (ok ? 'good' : 'miss');
+      btnNext.hidden = false;
+      btnNext.focus();
+      btnMoth.disabled = true; btnLeaves.disabled = true;
+      updScore(); draw();
+    }
+
+    /* ---------- events ---------- */
+    function changed() {
+      if (reduced) { prefill(); draw(); }
+      setAudio();
+    }
+    btnListen.addEventListener('click', function () { if (A) stopAudio(); else startAudio(); });
+    btnComp.addEventListener('click', function () {
+      S.comp = !S.comp;
+      if (!S.comp) S.everOff = true;
+      btnComp.textContent = 'Compensazione Doppler: ' + (S.comp ? 'attiva' : 'spenta');
+      btnComp.setAttribute('aria-pressed', String(S.comp));
+      changed();
+    });
+    btnRain.addEventListener('click', function () {
+      S.rain = !S.rain;
+      btnRain.setAttribute('aria-pressed', String(S.rain));
+      changed();
+    });
+    spd.addEventListener('input', function () {
+      S.speed = +spd.value;
+      spdOut.value = S.speed.toFixed(1).replace('.', ',') + ' m/s';
+      spdOut.textContent = spdOut.value;
+      changed();
+    });
+    btnMoth.addEventListener('click', function () { answer(true); });
+    btnLeaves.addEventListener('click', function () { answer(false); });
+    btnNext.addEventListener('click', function () {
+      if (S.roundNo >= ROUNDS) { S.roundNo = 1; S.score = 0; } else S.roundNo++;
+      newRound();
+      btnMoth.focus();
+    });
+
+    readPal();
+    resize();
+    newRound();
+    if ('ResizeObserver' in window) {
+      new ResizeObserver(function () { var w = L && L.W; resize(); if (!L || L.W !== w || !S.raf) draw(); }).observe(wrap);
+    } else window.addEventListener('resize', function () { resize(); draw(); });
+    ctx.onThemeChange(function () { readPal(); draw(); });
+    ctx.visible(function (v) {
+      if (v) startLoop();
+      else { stopLoop(); if (A) stopAudio(); }
+    });
+    startLoop();
+  }
+
+  window.MINDS = window.MINDS || {};
+  window.MINDS.bat = { mount: mount };
+})();
+
+</script>
+<script>/* bees.js */
+/* The bees: "Read the dance". Decode a honeybee waggle dance and find the flowers on a map of the valley. */
+(function () {
+  'use strict';
+  window.MINDS = window.MINDS || {};
+  var TAU = Math.PI * 2, DEG = Math.PI / 180;
+  var SEC_PER_KM = 1.0; // rounded rule of thumb; real calibrations vary
+
+  function rgba(c, a) {
+    c = String(c || '#888').trim();
+    var r, g, b, m;
+    if (c[0] === '#') {
+      var h = c.slice(1);
+      if (h.length === 3) h = h.replace(/./g, '$&$&');
+      r = parseInt(h.slice(0, 2), 16); g = parseInt(h.slice(2, 4), 16); b = parseInt(h.slice(4, 6), 16);
+    } else if ((m = c.match(/[\d.]+/g)) && m.length >= 3) { r = +m[0]; g = +m[1]; b = +m[2]; } else return c;
+    return 'rgba(' + r + ',' + g + ',' + b + ',' + a + ')';
+  }
+  function lum(c) { var m = rgba(c, 1).match(/[\d.]+/g); return m ? (0.3 * m[0] + 0.59 * m[1] + 0.11 * m[2]) / 255 : 1; }
+  function norm360(a) { return ((a % 360) + 360) % 360; }
+  function norm180(a) { return norm360(a + 180) - 180; }
+  function rnd(a, b) { return a + Math.random() * (b - a); }
+  function seeded(s) { return function () { s = (s * 16807) % 2147483647; return (s - 1) / 2147483646; }; }
+  function ease(u) { return u < 0.5 ? 2 * u * u : 1 - Math.pow(-2 * u + 2, 2) / 2; }
+  function hhmm(h) { var m = Math.round(h * 60); return Math.floor(m / 60) + ':' + ('0' + (m % 60)).slice(-2); }
+  function fmtKm(km) { return km < 1 ? Math.round(km * 1000 / 10) * 10 + ' m' : km.toFixed(1).replace('.', ',') + ' km'; }
+  function rrect(g, x, y, w, h, r) {
+    g.beginPath(); g.moveTo(x + r, y); g.arcTo(x + w, y, x + w, y + h, r); g.arcTo(x + w, y + h, x, y + h, r);
+    g.arcTo(x, y + h, x, y, r); g.arcTo(x, y, x + w, y, r); g.closePath();
+  }
+  function pill(g, text, x, y, font, color, bg, W) {
+    g.font = font; var w = g.measureText(text).width, hgt = parseFloat(font.match(/(\d+)px/)[1]) * 1.5;
+    if (W) x = Math.max(w / 2 + 6, Math.min(W - w / 2 - 6, x));
+    if (bg) { g.fillStyle = bg; rrect(g, x - w / 2 - 4, y - hgt / 2, w + 8, hgt, 4); g.fill(); }
+    g.fillStyle = color; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(text, x, y + 0.5);
+  }
+
+  // Approximate sun azimuth (degrees clockwise from north) in late September at ~41.8°N, 13.9°E, clock time CEST.
+  function sunAzimuth(hours) {
+    var lat = 41.8 * DEG, dec = -1.5 * DEG, h = (hours - 12.92) * 15 * DEG;
+    return norm360(Math.atan2(Math.sin(h), Math.cos(h) * Math.sin(lat) - Math.tan(dec) * Math.cos(lat)) / DEG + 180);
+  }
+
+  // The valley around Assunta's hive, in km (x east, y north). Fictional, after the novel.
+  function forestEdge(x) { return 1.15 + 0.22 * Math.sin(1.5 * x + 0.6) + 0.09 * Math.sin(3.9 * x + 1.0); }
+  var RIVER = [[-3.4, -1.0], [-2.4, -1.3], [-1.6, -1.5], [-0.8, -1.15], [0.0, -1.34], [0.9, -1.22], [1.7, -0.95], [2.4, -1.25], [3.4, -1.1]];
+  var TRACK = [[0.06, -0.08], [0.34, 0.2], [0.62, 0.52], [0.72, 0.95], [0.58, 1.5], [0.7, 2.2], [0.6, 3.4]];
+  var CEM = { x: 0.48, y: 0.3, w: 0.2, h: 0.13 };
+  var FIELDS = [
+    { x: 1.9, y: -0.45, rx: 0.6, ry: 0.3, kind: 'field' }, { x: 2.0, y: 0.72, rx: 0.5, ry: 0.26, kind: 'field' },
+    { x: 0.3, y: -2.15, rx: 0.75, ry: 0.35, kind: 'field' }, { x: -2.1, y: 0.25, rx: 0.55, ry: 0.5, kind: 'stony' }
+  ];
+  var SITES = [
+    { what: 'l’edera sul muro del cimitero', short: 'edera, cimitero', x: 0.48, y: 0.3, j: 0.05 },
+    { what: 'i settembrini in un giardino ai margini del paese', short: 'settembrini', x: -0.2, y: -0.15, j: 0.03 },
+    { what: 'gli ultimi fiori sulla riva del fiume', short: 'fiori sulla riva', x: -1.6, y: -1.4, j: 0.12 },
+    { what: 'l’edera sul vecchio ponte di pietra', short: 'edera, ponte di pietra', x: 0.9, y: -1.22, j: 0.02 },
+    { what: 'l’erica al margine della faggeta', short: 'erica', x: -1.0, y: forestEdge(-1.0) - 0.06, j: 0.04 },
+    { what: 'la santoreggia sul pendio sassoso', short: 'santoreggia', x: -2.1, y: 0.25, j: 0.2 },
+    { what: 'un campo di trifoglio tardivo', short: 'trifoglio tardivo', x: 1.9, y: -0.45, j: 0.25 },
+    { what: 'gli ultimi cardi lungo la mulattiera', short: 'cardi', x: 0.66, y: 0.74, j: 0.04 },
+    { what: 'l’edera su una capanna di pastori diroccata', short: 'edera, capanna', x: 2.0, y: 0.72, j: 0.1 },
+    { what: 'l’origano selvatico nel prato oltre il fiume', short: 'origano selvatico', x: 0.3, y: -2.15, j: 0.25 }
+  ];
+
+  var CSS = [
+    '.bees-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:1rem;min-width:0}',
+    '.bees-panel{margin:0;min-width:0;display:grid;gap:.35rem}',
+    '.canvas-wrap{aspect-ratio:1/1}',
+    '.bees-map canvas{cursor:crosshair}',
+    '.bees-cap{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:.2rem .8rem;font:.76rem var(--font-mono);color:var(--muted);min-height:1.3em}',
+    '.bees-explain{margin:-.6rem 0 0;color:var(--muted);font-size:.92rem;min-height:1.2em}',
+    '.bees-explain:empty{display:none}'
+  ].map(function (r) { return '.stage[data-mind="bees"] ' + r; }).join('\n');
+
+  function mount(stage, ctx) {
+    var C = {}, dark = false;
+    function readColors() {
+      ['paper', 'ink', 'muted', 'rule', 'accent', 'warm', 'panel'].forEach(function (n) { C[n] = ctx.color(n) || '#888'; });
+      dark = lum(C.paper) < 0.5;
+      C.deep = dark ? C.paper : C.ink; C.pale = dark ? C.ink : C.paper;
+    }
+    readColors();
+
+    function el(tag, cls, text, parent) {
+      var e = document.createElement(tag); if (cls) e.className = cls; if (text) e.textContent = text;
+      (parent || stage).appendChild(e); return e;
+    }
+    el('style', null, CSS);
+    el('p', 'lede', 'Una delle api di Assunta è tornata da certi fiori, da qualche parte nella valle, e nel buio del favo danza per dire dove sono. L’angolo del suo scodinzolio rispetto alla verticale è l’angolo dei fiori rispetto al sole, e ogni secondo di scodinzolio vale più o meno un chilometro: leggi la sua danza, poi tocca la mappa dove pensi che siano i fiori.');
+    var grid = el('div', 'bees-grid');
+    var fig1 = el('figure', 'bees-panel', null, grid);
+    var combWrap = el('div', 'canvas-wrap', null, fig1);
+    var comb = el('canvas', null, null, combWrap);
+    comb.setAttribute('role', 'img');
+    var cap1 = el('figcaption', 'bees-cap', null, fig1);
+    var waggleOut = el('output', 'readout', 'scodinzolio: –', cap1);
+    el('span', null, 'il favo, appeso in verticale', cap1);
+    var fig2 = el('figure', 'bees-panel bees-map', null, grid);
+    var mapWrap = el('div', 'canvas-wrap', null, fig2);
+    var map = el('canvas', null, null, mapWrap);
+    map.tabIndex = 0;
+    map.setAttribute('aria-label', 'Mappa della valle vista dall’alto, con il nord in alto e l’arnia al centro. Fai clic o tocca dove pensi che siano i fiori, oppure sposta il segnaposto con le frecce e premi Invio.');
+    var cap2 = el('figcaption', 'bees-cap', null, fig2);
+    var sunOut = el('output', 'readout', '', cap2);
+    var guessNote = el('span', null, 'la valle dall’alto, nord in alto', cap2);
+
+    var controls = el('div', 'controls');
+    var bNew = el('button', 'btn primary', 'Un’altra danza', controls); bNew.type = 'button';
+    var bPlay = null;
+    if (ctx.reducedMotion) { bPlay = el('button', 'btn', 'Riproduci una volta', controls); bPlay.type = 'button'; }
+    var bSun = el('button', 'btn', 'Mostra il sole sul favo', controls); bSun.type = 'button'; bSun.setAttribute('aria-pressed', 'false');
+    var bSlow = el('button', 'btn', 'Rallenta', controls); bSlow.type = 'button'; bSlow.setAttribute('aria-pressed', 'false');
+    var bSound = el('button', 'btn', 'Suono', controls); bSound.type = 'button'; bSound.setAttribute('aria-pressed', 'false');
+    var result = el('p', 'result'); result.setAttribute('aria-live', 'polite');
+    var explain = el('p', 'bees-explain'); explain.setAttribute('aria-live', 'polite');
+
+    var known = el('div', 'known');
+    el('h4', null, 'Che cosa si sa', known);
+    [
+      'Verso l’alto vuol dire verso il sole. Sul favo verticale, l’angolo della corsa scodinzolante rispetto alla verticale è uguale all’angolo del cibo rispetto alla direzione del sole, orario per orario. Karl von Frisch lo scoprì, e per questo condivise il premio Nobel del 1973.',
+      'Uno scodinzolio più lungo vuol dire cibo più lontano: nelle api mellifere europee, più o meno un secondo di scodinzolio per ogni chilometro. Tra una corsa e l’altra la danzatrice torna indietro con un giro, una volta a sinistra e una a destra, disegnando un otto. Le api correggono anche l’angolo man mano che il sole si sposta durante il giorno.',
+      'Nell’arnia è buio, quindi chi segue la danza non guarda. Le seguaci si stringono dietro la danzatrice e la leggono al tatto con le antenne, e attraverso i movimenti d’aria e le vibrazioni che produce; durante lo scodinzolio le sue ali ronzano a brevi raffiche di circa 200–300 Hz.',
+      'La danza recluta; non comanda. Le seguaci sentono anche l’odore dei fiori sulla danzatrice e assaggiano il nettare che lei offre, e spesso seguono diverse corse prima di partire.',
+      'Funziona. Nel 2005 Joe Riley e colleghi hanno seguito le api reclutate con un radar armonico: sono volate nella direzione indicata dalla danza, fino a circa la distanza giusta, e poi hanno cercato i fiori nei dintorni.'
+    ].forEach(function (t) { el('p', null, t, known); });
+    var unknown = el('div', 'unknown');
+    el('h4', null, 'Che cosa non si sa', unknown);
+    [
+      'Il rapporto esatto tra durata dello scodinzolio e distanza cambia da colonia a colonia, tra sottospecie e paesaggi, anche perché le api stimano la distanza da quanto velocemente il paesaggio scorre davanti ai loro occhi. "Un secondo, un chilometro" è una regola arrotondata, e qui le posizioni del sole sono approssimative (fine settembre, Italia centrale).',
+      'Quanto le seguaci si affidino alla danza piuttosto che all’odore e alla propria memoria cambia con la situazione, e i ricercatori ne discutono ancora. Le danze vere, inoltre, variano da una corsa all’altra più di questa.'
+    ].forEach(function (t) { el('p', null, t, unknown); });
+    var src = el('ul', 'sources');
+    [
+      'von Frisch, K. (1967). The Dance Language and Orientation of Bees. Harvard University Press.',
+      'Riley, J. R. et al. (2005). The flight paths of honeybees recruited by the waggle dance. Nature 435.',
+      'Seeley, T. D. (2010). Honeybee Democracy. Princeton University Press.',
+      'Esch, H. E. et al. (2001). Honeybee dances communicate distances measured by optic flow. Nature 411.',
+      'Kirchner, W. H. (1993). Acoustical communication in honeybees. Apidologie 24.',
+      'Grüter, C. & Farina, W. M. (2009). The honeybee waggle dance: can we follow the steps? Trends in Ecology & Evolution 24.'
+    ].forEach(function (t) { el('li', null, t, src); });
+
+    // ---------- state
+    var round = null, revealed = false, guess = null, hover = null, kb = null;
+    var showSun = false, slow = false, visible = true, playOnce = false;
+    var dance = { phase: 'waggle', t: 0, side: 1, dur: 1, ang: 0, wall: 0, shown: -1 };
+    var followers = [];
+
+    function newRound() {
+      var hours = 8 + Math.floor(Math.random() * 55) / 6; // 8:00 to 17:00 in 10-minute steps
+      var s = SITES[Math.floor(Math.random() * SITES.length)], x, y, d, tries = 0;
+      do { x = s.x + rnd(-s.j, s.j); y = s.y + rnd(-s.j, s.j); d = Math.hypot(x, y); } while ((d < 0.2 || d > 2.5) && ++tries < 20);
+      var az = sunAzimuth(hours), bear = norm360(Math.atan2(x, y) / DEG);
+      round = { hours: hours, sun: az, site: s, x: x, y: y, dist: d, bear: bear, theta: norm180(bear - az), D: d * SEC_PER_KM };
+      revealed = false; guess = null; hover = null; kb = null;
+      result.textContent = ''; result.className = 'result'; explain.textContent = '';
+      guessNote.textContent = 'la valle dall’alto, nord in alto';
+      sunOut.textContent = hhmm(hours) + ' · direzione del sole ≈ ' + Math.round(az) + '°';
+      comb.setAttribute('aria-label', 'Un’ape che danza sul favo. La sua corsa scodinzolante punta ' + Math.round(Math.abs(round.theta)) + ' gradi ' +
+        (round.theta >= 0 ? 'in senso orario' : 'in senso antiorario') + ' rispetto alla verticale e dura circa ' + round.D.toFixed(1).replace('.', ',') + ' secondi.');
+      startRun(true);
+      initFollowers();
+      if (ctx.reducedMotion) dance.phase = 'static';
+      waggleOut.textContent = ctx.reducedMotion ? 'scodinzolio: ' + round.D.toFixed(1).replace('.', ',') + ' s' : 'scodinzolio: 0,0 s';
+      drawComb(); drawMap();
+    }
+
+    // ---------- comb
+    var cg = comb.getContext('2d'), CW = 300, combCache = null;
+    var mg = map.getContext('2d'), MW = 300, mapCache = null;
+    var dpr = 1;
+    function size(cv, wrap) {
+      var w = Math.max(100, Math.round(wrap.clientWidth)); dpr = Math.min(3, window.devicePixelRatio || 1);
+      cv.width = Math.round(w * dpr); cv.height = Math.round(w * dpr); return w;
+    }
+    function offscreen(w) { var c = document.createElement('canvas'); c.width = Math.round(w * dpr); c.height = Math.round(w * dpr); var g = c.getContext('2d'); g.scale(dpr, dpr); return { c: c, g: g }; }
+
+    function drawBee(g, x, y, ang, L, o) {
+      o = o || {};
+      g.save(); g.translate(x, y); g.rotate(ang); g.globalAlpha = o.alpha == null ? 1 : o.alpha;
+      var line = dark ? rgba(C.warm, 0.5) : rgba(C.ink, 0.45);
+      g.lineWidth = Math.max(0.6, L * 0.02); g.strokeStyle = line;
+      g.save(); g.rotate(o.swing || 0); // abdomen swings from the waist
+      g.beginPath(); g.ellipse(0, L * 0.2, L * 0.17, L * 0.29, 0, 0, TAU); g.fillStyle = o.body || C.warm; g.fill(); g.stroke();
+      g.save(); g.clip(); g.fillStyle = rgba(C.deep, 0.62);
+      for (var i = 0; i < 3; i++) g.fillRect(-L, L * (0.12 + i * 0.12), 2 * L, L * 0.055);
+      g.restore(); g.restore();
+      g.fillStyle = rgba(C.deep, 0.85);
+      g.beginPath(); g.arc(0, -L * 0.1, L * 0.14, 0, TAU); g.fill(); g.stroke();
+      g.beginPath(); g.arc(0, -L * 0.3, L * 0.09, 0, TAU); g.fill(); g.stroke();
+      g.beginPath(); g.moveTo(-L * 0.04, -L * 0.37); g.quadraticCurveTo(-L * 0.12, -L * 0.48, -L * 0.17, -L * 0.52);
+      g.moveTo(L * 0.04, -L * 0.37); g.quadraticCurveTo(L * 0.12, -L * 0.48, L * 0.17, -L * 0.52); g.stroke();
+      g.fillStyle = rgba(C.pale, o.buzz ? 0.35 : 0.55); g.strokeStyle = rgba(C.deep, 0.35);
+      var spread = o.buzz ? 0.55 : 0.28;
+      [-1, 1].forEach(function (sd) {
+        g.beginPath(); g.ellipse(sd * L * 0.12, L * 0.06, L * 0.09, L * 0.24, sd * spread, 0, TAU); g.fill(); g.stroke();
+      });
+      g.restore();
+    }
+
+    function buildComb() {
+      var o = offscreen(CW), g = o.g, W = CW, r = W / 40, dx = Math.sqrt(3) * r, dy = 1.5 * r, rand = seeded(7);
+      g.fillStyle = C.panel; g.fillRect(0, 0, W, W);
+      g.lineWidth = 1; g.strokeStyle = dark ? rgba(C.ink, 0.13) : rgba(C.ink, 0.14);
+      for (var row = -1; row * dy < W + r; row++) {
+        var y = row * dy;
+        for (var col = -1; col * dx < W + dx; col++) {
+          var x = col * dx + (row & 1 ? dx / 2 : 0), q = rand(), d = Math.hypot(x - W / 2, y - W / 2) / W;
+          g.beginPath();
+          for (var k = 0; k < 6; k++) { var a = TAU * k / 6 + Math.PI / 6; g.lineTo(x + r * 0.92 * Math.cos(a), y + r * 0.92 * Math.sin(a)); }
+          g.closePath();
+          if (d > 0.42 && q < 0.7) g.fillStyle = rgba(C.warm, (dark ? 0.14 : 0.08) + 0.08 * rand());
+          else if (d > 0.3 && q < 0.12) g.fillStyle = rgba(C.accent, 0.22);
+          else g.fillStyle = rgba(C.deep, 0.02 + 0.05 * rand());
+          g.fill(); g.stroke();
+        }
+      }
+      var vg = g.createRadialGradient(W / 2, W / 2, W * 0.25, W / 2, W / 2, W * 0.75);
+      vg.addColorStop(0, rgba(C.deep, 0)); vg.addColorStop(1, rgba(C.deep, dark ? 0.55 : 0.2));
+      g.fillStyle = vg; g.fillRect(0, 0, W, W);
+      for (var i = 0; i < 9; i++) { // resting sisters around the dance floor
+        var ang = (-50 + i * 31 + rand() * 12) * DEG, rr = W * (0.36 + rand() * 0.08);
+        drawBee(g, W / 2 + Math.cos(ang) * rr, W / 2 + Math.sin(ang) * rr, rand() * TAU, W * 0.1, { alpha: 0.5, body: C.accent });
+      }
+      g.strokeStyle = C.ink; g.fillStyle = C.ink; g.lineWidth = 1.5;
+      g.beginPath(); g.moveTo(W / 2, W * 0.1); g.lineTo(W / 2, W * 0.03); g.stroke();
+      g.beginPath(); g.moveTo(W / 2 - 5, W * 0.03 + 6); g.lineTo(W / 2, W * 0.03 - 1); g.lineTo(W / 2 + 5, W * 0.03 + 6); g.fill();
+      pill(g, 'su', W / 2 + 22, W * 0.06, '12px "IBM Plex Mono", monospace', C.ink, rgba(C.panel, 0.85));
+      combCache = o.c;
+    }
+
+    function runGeom(D, ang, side) {
+      var W = CW, L = W * (0.1 + 0.11 * Math.min(D, 2.6)), d = [Math.sin(ang), -Math.cos(ang)], n = [Math.cos(ang), Math.sin(ang)];
+      var a = [W / 2 - d[0] * L / 2, W / 2 - d[1] * L / 2], b = [W / 2 + d[0] * L / 2, W / 2 + d[1] * L / 2], w = W * 0.12 + L * 0.25;
+      return { a: a, b: b, d: d, n: n, L: L,
+        c1: [b[0] + n[0] * w * side + d[0] * w * 0.5, b[1] + n[1] * w * side + d[1] * w * 0.5],
+        c2: [a[0] + n[0] * w * side - d[0] * w * 0.5, a[1] + n[1] * w * side - d[1] * w * 0.5] };
+    }
+    function bez(G, u) {
+      var v = 1 - u, p = [G.b, G.c1, G.c2, G.a], co = [v * v * v, 3 * v * v * u, 3 * v * u * u, u * u * u];
+      var dc = [-3 * v * v, 3 * v * v - 6 * u * v, 6 * u * v - 3 * u * u, 3 * u * u];
+      var x = 0, y = 0, tx = 0, ty = 0;
+      for (var i = 0; i < 4; i++) { x += co[i] * p[i][0]; y += co[i] * p[i][1]; tx += dc[i] * p[i][0]; ty += dc[i] * p[i][1]; }
+      return { x: x, y: y, h: Math.atan2(tx, -ty) };
+    }
+
+    var RETURN_T = 1.5;
+    function startRun(first) {
+      dance.phase = 'waggle'; dance.t = 0; if (!first) dance.side = -dance.side;
+      var scatter = first ? 0 : 1;
+      dance.ang = (round.theta + scatter * rnd(-3, 3)) * DEG;
+      dance.dur = round.D * (1 + scatter * rnd(-0.04, 0.04));
+      dance.geom = runGeom(round.D, dance.ang, dance.side);
+      dance.shown = -1;
+      buzz(true);
+    }
+    function dancerPos() {
+      var G = dance.geom;
+      if (dance.phase === 'waggle') {
+        var u = Math.min(1, dance.t / dance.dur), wig = Math.sin(dance.wall * TAU * 7);
+        return { x: G.a[0] + G.d[0] * G.L * u + G.n[0] * wig * CW * 0.01, y: G.a[1] + G.d[1] * G.L * u + G.n[1] * wig * CW * 0.01, h: dance.ang, swing: wig * 0.35, buzz: true };
+      }
+      var p = bez(G, ease(Math.min(1, dance.t / RETURN_T))); p.swing = 0; return p;
+    }
+    var FOFF = [[-0.11, 0.05], [-0.11, -0.05], [-0.03, 0.085], [-0.03, -0.085]];
+    function initFollowers() {
+      var p = dancerPos();
+      followers = FOFF.map(function (f) { var q = followTarget(p, f); return { x: q.x, y: q.y }; });
+    }
+    function followTarget(p, f) {
+      var a = dance.ang, dx = Math.sin(a), dy = -Math.cos(a), nx = Math.cos(a), ny = Math.sin(a);
+      return { x: p.x + (dx * f[0] + nx * f[1]) * CW, y: p.y + (dy * f[0] + ny * f[1]) * CW };
+    }
+
+    function step(dt, wdt) {
+      dance.wall += wdt; dance.t += dt;
+      if (dance.phase === 'waggle') {
+        var shown = Math.floor(Math.min(dance.t, dance.dur) * 10);
+        if (shown !== dance.shown) { dance.shown = shown; waggleOut.textContent = 'scodinzolio: ' + (shown / 10).toFixed(1).replace('.', ',') + ' s'; }
+        if (dance.t >= dance.dur) {
+          waggleOut.textContent = 'scodinzolio: ' + dance.dur.toFixed(1).replace('.', ',') + ' s';
+          dance.phase = 'return'; dance.t = 0; buzz(false);
+        }
+      } else if (dance.t >= RETURN_T) {
+        if (playOnce) { playOnce = false; startRun(true); buzz(false); dance.phase = 'static'; return; }
+        startRun(false);
+      }
+      var p = dancerPos(), rate = dance.phase === 'waggle' ? 3 : 0.8;
+      followers.forEach(function (f, i) {
+        var q = followTarget(p, FOFF[i]), k = Math.min(1, rate * dt);
+        f.x += (q.x - f.x) * k; f.y += (q.y - f.y) * k;
+      });
+    }
+
+    function drawRunDiagram(g, G) {
+      var W = CW, amp = W * 0.012, n = 60;
+      g.strokeStyle = C.accent; g.lineWidth = 1.6; g.beginPath();
+      for (var i = 0; i <= n; i++) {
+        var u = i / n, s = Math.sin(u * TAU * 7) * amp;
+        g.lineTo(G.a[0] + G.d[0] * G.L * u + G.n[0] * s, G.a[1] + G.d[1] * G.L * u + G.n[1] * s);
+      }
+      g.stroke();
+      var e = [G.b[0] + G.d[0] * W * 0.05, G.b[1] + G.d[1] * W * 0.05];
+      g.beginPath(); g.moveTo(G.b[0], G.b[1]); g.lineTo(e[0], e[1]); g.stroke();
+      arrowHead(g, e[0], e[1], Math.atan2(G.d[1], G.d[0]), 8, C.accent);
+      g.setLineDash([4, 4]); g.strokeStyle = rgba(C.ink, 0.45); g.lineWidth = 1.2;
+      [1, -1].forEach(function (sd) {
+        var H = runGeom(round.D, dance.ang, sd);
+        g.beginPath(); g.moveTo(H.b[0], H.b[1]); g.bezierCurveTo(H.c1[0], H.c1[1], H.c2[0], H.c2[1], H.a[0], H.a[1]); g.stroke();
+        var q = bez(H, 0.82); arrowHead(g, q.x, q.y, q.h - Math.PI / 2, 6, rgba(C.ink, 0.6));
+      });
+      g.setLineDash([]);
+      var lx = G.a[0] - G.d[0] * W * 0.17, ly = Math.max(W * 0.2, Math.min(W * 0.86, G.a[1] - G.d[1] * W * 0.17));
+      pill(g, 'scodinzolio ' + round.D.toFixed(1).replace('.', ',') + ' s', lx, ly, '12px "IBM Plex Mono", monospace', C.accent, rgba(C.panel, 0.88), W);
+    }
+    function arrowHead(g, x, y, a, s, col) {
+      g.save(); g.translate(x, y); g.rotate(a); g.fillStyle = col;
+      g.beginPath(); g.moveTo(s * 0.4, 0); g.lineTo(-s * 0.7, -s * 0.5); g.lineTo(-s * 0.7, s * 0.5); g.closePath(); g.fill(); g.restore();
+    }
+    function sunGlyph(g, x, y, r) {
+      g.fillStyle = C.warm; g.strokeStyle = C.warm; g.lineWidth = Math.max(1.2, r * 0.22);
+      g.beginPath(); g.arc(x, y, r, 0, TAU); g.fill();
+      for (var i = 0; i < 8; i++) {
+        var a = i * TAU / 8; g.beginPath(); g.moveTo(x + Math.cos(a) * r * 1.45, y + Math.sin(a) * r * 1.45);
+        g.lineTo(x + Math.cos(a) * r * 2, y + Math.sin(a) * r * 2); g.stroke();
+      }
+    }
+
+    function drawComb() {
+      if (!round || !combCache) return;
+      var g = cg, W = CW, G = dance.geom;
+      g.setTransform(dpr, 0, 0, dpr, 0, 0);
+      g.drawImage(combCache, 0, 0, W, W);
+      if (showSun) {
+        sunGlyph(g, W / 2 - W * 0.13, W * 0.06, W * 0.022);
+        g.setLineDash([3, 5]); g.strokeStyle = rgba(C.warm, 0.8); g.lineWidth = 1.5;
+        g.beginPath(); g.moveTo(W / 2, W / 2); g.lineTo(W / 2, W * 0.12); g.stroke(); g.setLineDash([]);
+        var r = W * 0.3, a0 = -Math.PI / 2, a1 = a0 + round.theta * DEG;
+        g.strokeStyle = C.warm; g.lineWidth = 2; g.beginPath(); g.arc(W / 2, W / 2, r, Math.min(a0, a1), Math.max(a0, a1)); g.stroke();
+        var am = (a0 + a1) / 2, side = round.theta >= 0 ? 'a destra' : 'a sinistra';
+        pill(g, Math.round(Math.abs(round.theta)) + '° ' + side + ' della verticale', W / 2 + Math.cos(am) * (r + 18), W / 2 + Math.sin(am) * (r + 18),
+          '12px "IBM Plex Mono", monospace', C.ink, rgba(C.panel, 0.9), W);
+        pill(g, 'la verticale sta per il sole', W / 2, W - 16, 'italic 12px Literata, Georgia, serif', C.ink, rgba(C.panel, 0.9), W);
+      }
+      var still = dance.phase === 'static';
+      if (still) drawRunDiagram(g, G);
+      else {
+        var u = dance.phase === 'waggle' ? Math.min(1, dance.t / dance.dur) : 1;
+        var fade = dance.phase === 'waggle' ? 0.55 : 0.55 * (1 - Math.min(1, dance.t / RETURN_T));
+        g.strokeStyle = rgba(C.accent, fade); g.lineWidth = 2; g.lineCap = 'round';
+        g.beginPath(); g.moveTo(G.a[0], G.a[1]); g.lineTo(G.a[0] + G.d[0] * G.L * u, G.a[1] + G.d[1] * G.L * u); g.stroke();
+      }
+      var p = still ? { x: G.a[0], y: G.a[1], h: dance.ang, swing: 0 } : dancerPos();
+      if (!still) followers.forEach(function (f) {
+        drawBee(g, f.x, f.y, Math.atan2(p.x - f.x, -(p.y - f.y)), W * 0.1, { alpha: 0.85, body: C.accent });
+      });
+      drawBee(g, p.x, p.y, p.h, W * 0.11, { swing: p.swing, buzz: p.buzz });
+    }
+
+    // ---------- loop
+    var raf = 0, last = 0;
+    function running() { return visible && round && (playOnce || (!ctx.reducedMotion && dance.phase !== 'static')); }
+    function frame(ts) {
+      raf = 0;
+      var wdt = last ? Math.min(0.05, (ts - last) / 1000) : 0; last = ts;
+      step(wdt * (slow ? 0.4 : 1), wdt);
+      drawComb();
+      if (running()) raf = requestAnimationFrame(frame);
+    }
+    function kick() { if (!raf && running()) { last = 0; raf = requestAnimationFrame(frame); } }
+
+    // ---------- sound (optional): bursts of ~250 Hz during the waggle
+    var ac = null, env = null, soundOn = false;
+    function buildSound() {
+      ac = ctx.audio && ctx.audio(); if (!ac) return false;
+      if (env) return true;
+      var osc = ac.createOscillator(), lp = ac.createBiquadFilter(), amp = ac.createGain(), lfo = ac.createOscillator(), depth = ac.createGain();
+      osc.type = 'sawtooth'; osc.frequency.value = 250; lp.type = 'lowpass'; lp.frequency.value = 800;
+      lfo.frequency.value = 15; depth.gain.value = 0.5; amp.gain.value = 0.5;
+      env = ac.createGain(); env.gain.value = 0;
+      osc.connect(lp); lp.connect(amp); amp.connect(env); env.connect(ac.destination); lfo.connect(depth); depth.connect(amp.gain);
+      osc.start(); lfo.start(); return true;
+    }
+    function buzz(on) {
+      if (!env || !ac) return;
+      var now = ac.currentTime; env.gain.cancelScheduledValues(now); env.gain.setValueAtTime(env.gain.value, now);
+      if (on && soundOn && visible && running()) {
+        env.gain.setTargetAtTime(0.05, now, 0.015);
+        env.gain.setTargetAtTime(0, now + dance.dur / (slow ? 0.4 : 1), 0.02);
+      } else env.gain.setTargetAtTime(0, now, 0.02);
+    }
+
+    // ---------- map
+    var S = 150, K = 1;
+    function P(x, y) { return [S + x * K, S - y * K]; }
+    function smoothPath(g, pts) {
+      var p = pts.map(function (q) { return P(q[0], q[1]); });
+      g.beginPath(); g.moveTo(p[0][0], p[0][1]);
+      for (var i = 1; i < p.length - 1; i++) g.quadraticCurveTo(p[i][0], p[i][1], (p[i][0] + p[i + 1][0]) / 2, (p[i][1] + p[i + 1][1]) / 2);
+      g.lineTo(p[p.length - 1][0], p[p.length - 1][1]);
+    }
+    function buildMap() {
+      var o = offscreen(MW), g = o.g, W = MW, rand = seeded(11), i, q, x, y;
+      S = W / 2; K = S * 0.86 / 2.7;
+      g.fillStyle = C.panel; g.fillRect(0, 0, W, W);
+      FIELDS.forEach(function (f) {
+        q = P(f.x, f.y); g.beginPath(); g.ellipse(q[0], q[1], f.rx * K, f.ry * K, -0.2, 0, TAU);
+        g.fillStyle = f.kind === 'field' ? rgba(C.warm, 0.1) : rgba(C.muted, 0.08); g.fill();
+        g.fillStyle = f.kind === 'field' ? rgba(C.warm, 0.4) : rgba(C.muted, 0.4);
+        for (i = 0; i < 70; i++) {
+          var a = rand() * TAU, rr = Math.sqrt(rand());
+          g.fillRect(q[0] + Math.cos(a) * rr * f.rx * K * 0.9, q[1] + Math.sin(a) * rr * f.ry * K * 0.9, 1.4, 1.4);
+        }
+      });
+      g.beginPath(); g.moveTo(0, 0);
+      for (x = -3.5; x <= 3.5; x += 0.05) { q = P(x, forestEdge(x)); g.lineTo(q[0], q[1]); }
+      g.lineTo(W, 0); g.closePath(); g.fillStyle = rgba(C.muted, 0.13); g.fill();
+      g.lineWidth = 0.8;
+      for (i = 0; i < 420; i++) {
+        x = rand() * 7 - 3.5; y = forestEdge(x) + 0.04 + rand() * 2.4;
+        q = P(x, y); if (q[1] < -6) continue;
+        g.beginPath(); g.arc(q[0], q[1], K * (0.035 + rand() * 0.025), 0, TAU);
+        g.fillStyle = rgba(C.muted, 0.12); g.fill(); g.strokeStyle = rgba(C.muted, 0.32); g.stroke();
+      }
+      smoothPath(g, RIVER); g.strokeStyle = rgba(C.muted, 0.5); g.lineWidth = Math.max(4, K * 0.07); g.lineCap = 'round'; g.stroke();
+      smoothPath(g, RIVER); g.strokeStyle = rgba(C.pale, 0.45); g.lineWidth = 1.2; g.stroke();
+      q = P(0.9, -1.22); g.strokeStyle = rgba(C.ink, 0.6); g.lineWidth = 1.5;
+      g.beginPath(); g.moveTo(q[0] - 5, q[1] - 6); g.lineTo(q[0] + 5, q[1] - 6); g.moveTo(q[0] - 5, q[1] + 6); g.lineTo(q[0] + 5, q[1] + 6); g.stroke();
+      smoothPath(g, TRACK); g.setLineDash([3, 3]); g.strokeStyle = rgba(C.ink, 0.35); g.lineWidth = 1.1; g.stroke(); g.setLineDash([]);
+      q = P(CEM.x, CEM.y); g.save(); g.translate(q[0], q[1]); g.rotate(-0.25);
+      g.fillStyle = rgba(C.ink, 0.06); g.strokeStyle = rgba(C.ink, 0.6); g.lineWidth = 1.3;
+      g.fillRect(-CEM.w * K / 2, -CEM.h * K / 2, CEM.w * K, CEM.h * K); g.strokeRect(-CEM.w * K / 2, -CEM.h * K / 2, CEM.w * K, CEM.h * K);
+      g.fillStyle = rgba(C.ink, 0.5);
+      for (i = 0; i < 4; i++) { g.beginPath(); g.ellipse((-0.3 + i * 0.2) * CEM.w * K, -CEM.h * K * 0.15, 1.8, 4, 0, 0, TAU); g.fill(); }
+      g.restore();
+      for (i = 0; i < 34; i++) {
+        var a2 = rand() * TAU, r2 = Math.sqrt(rand()); x = -0.38 + Math.cos(a2) * r2 * 0.44; y = -0.5 + Math.sin(a2) * r2 * 0.3;
+        if (Math.hypot(x, y) < 0.14) continue;
+        q = P(x, y); var s = K * (0.045 + rand() * 0.03);
+        g.save(); g.translate(q[0], q[1]); g.rotate(rand() * 0.8 - 0.4);
+        g.fillStyle = rgba(C.ink, 0.16); g.strokeStyle = rgba(C.ink, 0.45); g.lineWidth = 0.8;
+        g.fillRect(-s / 2, -s / 2, s, s * 0.8); g.strokeRect(-s / 2, -s / 2, s, s * 0.8); g.restore();
+      }
+      g.setLineDash([2, 4]); g.strokeStyle = rgba(C.muted, 0.6); g.lineWidth = 1;
+      [1, 2].forEach(function (km) { g.beginPath(); g.arc(S, S, km * K, 0, TAU); g.stroke(); });
+      g.setLineDash([]);
+      var mono = '11px "IBM Plex Mono", monospace', serif = 'italic 12px Literata, Georgia, serif', bg = rgba(C.panel, 0.8);
+      [1, 2].forEach(function (km) { q = P(km * Math.sin(118 * DEG), km * Math.cos(118 * DEG)); pill(g, km + ' km', q[0], q[1], mono, C.muted, bg); });
+      [['Pietrafonda', -0.45, -0.9], ['cimitero', 0.5, 0.52], ['Rio Freddo', -1.9, -1.75], ['faggeta', -1.5, 2.05]].forEach(function (l) {
+        q = P(l[1], l[2]); pill(g, l[0], q[0], q[1], serif, rgba(C.ink, 0.75), bg, W);
+      });
+      pill(g, 'N ↑', 18, 14, mono, C.muted, null);
+      q = P(0, 0); g.fillStyle = C.warm; g.strokeStyle = C.deep; g.lineWidth = 1.2;
+      rrect(g, q[0] - 7, q[1] - 6, 14, 12, 2); g.fill(); g.stroke();
+      g.beginPath(); g.moveTo(q[0] - 7, q[1] - 1); g.lineTo(q[0] + 7, q[1] - 1); g.moveTo(q[0] - 7, q[1] + 3); g.lineTo(q[0] + 7, q[1] + 3); g.stroke();
+      pill(g, 'arnia', q[0], q[1] + 15, mono, C.ink, bg);
+      mapCache = o.c;
+    }
+    function bearingXY(b, r) { return P(Math.sin(b * DEG) * r, Math.cos(b * DEG) * r); }
+    function marker(g, x, y, col, alpha) {
+      var q = P(x, y); g.globalAlpha = alpha; g.strokeStyle = col; g.lineWidth = 2;
+      g.beginPath(); g.arc(q[0], q[1], 8, 0, TAU); g.moveTo(q[0] - 12, q[1]); g.lineTo(q[0] - 4, q[1]); g.moveTo(q[0] + 4, q[1]); g.lineTo(q[0] + 12, q[1]);
+      g.moveTo(q[0], q[1] - 12); g.lineTo(q[0], q[1] - 4); g.moveTo(q[0], q[1] + 4); g.lineTo(q[0], q[1] + 12); g.stroke(); g.globalAlpha = 1;
+      return q;
+    }
+    function flower(g, x, y) {
+      var q = P(x, y), i;
+      g.fillStyle = C.warm; g.strokeStyle = C.deep; g.lineWidth = 1;
+      for (i = 0; i < 5; i++) { var a = i * TAU / 5; g.beginPath(); g.ellipse(q[0] + Math.cos(a) * 5, q[1] + Math.sin(a) * 5, 4.2, 2.8, a, 0, TAU); g.fill(); g.stroke(); }
+      g.fillStyle = C.deep; g.beginPath(); g.arc(q[0], q[1], 2.6, 0, TAU); g.fill();
+      return q;
+    }
+    function drawMap() {
+      if (!round || !mapCache) return;
+      var g = mg, W = MW, rs = 2.85, mono = '11px "IBM Plex Mono", monospace', bg = rgba(C.panel, 0.88), i, q;
+      g.setTransform(dpr, 0, 0, dpr, 0, 0); g.drawImage(mapCache, 0, 0, W, W);
+      g.strokeStyle = rgba(C.warm, 0.45); g.lineWidth = 1; g.beginPath(); g.arc(S, S, rs * K, 0, TAU); g.stroke();
+      if (showSun || revealed) {
+        for (i = -150; i <= 180; i += 30) {
+          var b = round.sun + i, a1 = bearingXY(b, rs - (i % 90 ? 0.08 : 0.16)), a2 = bearingXY(b, rs);
+          g.strokeStyle = rgba(C.warm, 0.8); g.lineWidth = 1.5; g.beginPath(); g.moveTo(a1[0], a1[1]); g.lineTo(a2[0], a2[1]); g.stroke();
+        }
+      }
+      var s0 = bearingXY(round.sun, 0.2), s1 = bearingXY(round.sun, rs - 0.2);
+      g.setLineDash([4, 4]); g.strokeStyle = rgba(C.warm, 0.7); g.lineWidth = 1.4;
+      g.beginPath(); g.moveTo(s0[0], s0[1]); g.lineTo(s1[0], s1[1]); g.stroke(); g.setLineDash([]);
+      q = bearingXY(round.sun, rs); sunGlyph(g, q[0], q[1], S * 0.04);
+      if (!revealed) {
+        var lt = 'sole ' + hhmm(round.hours); g.font = mono;
+        var back = S * 0.14 + Math.abs(Math.sin(round.sun * DEG)) * (g.measureText(lt).width / 2 + 4);
+        q = bearingXY(round.sun, rs - back / K); pill(g, lt, q[0], q[1], mono, C.ink, bg, W);
+      }
+      if (revealed) {
+        var r = 0.55, a0 = round.sun, a1b = round.sun + round.theta;
+        g.strokeStyle = C.warm; g.lineWidth = 2; g.beginPath();
+        g.arc(S, S, r * K, (Math.min(a0, a1b) - 90) * DEG, (Math.max(a0, a1b) - 90) * DEG); g.stroke();
+        var t = P(round.x, round.y); g.strokeStyle = C.warm; g.lineWidth = 2;
+        g.beginPath(); g.moveTo(S, S); g.lineTo(t[0], t[1]); g.stroke();
+        if (guess) {
+          var gq = P(guess.x, guess.y); g.setLineDash([5, 4]); g.strokeStyle = C.accent; g.lineWidth = 1.6;
+          g.beginPath(); g.moveTo(S, S); g.lineTo(gq[0], gq[1]); g.stroke(); g.setLineDash([]);
+          marker(g, guess.x, guess.y, C.accent, 1);
+        }
+        q = flower(g, round.x, round.y);
+        pill(g, round.site.short, q[0], q[1] + (q[1] > W - 30 ? -18 : 18), mono, C.ink, bg, W);
+        var mid = (a0 + a1b) / 2; q = bearingXY(mid, r + 0.28);
+        if (Math.abs(round.theta) >= 6) pill(g, Math.round(Math.abs(round.theta)) + '°', q[0], q[1], mono, C.warm, bg, W);
+      } else {
+        var m = hover || kb;
+        if (m) {
+          q = marker(g, m.x, m.y, C.accent, hover ? 0.6 : 1);
+          pill(g, fmtKm(Math.hypot(m.x, m.y)), q[0], q[1] - 20, mono, C.accent, bg, W);
+        }
+      }
+    }
+    function toKm(e) {
+      var r = map.getBoundingClientRect(), sx = MW / r.width;
+      return { x: ((e.clientX - r.left) * sx - S) / K, y: -((e.clientY - r.top) * sx - S) / K };
+    }
+
+    function judge(p) {
+      if (revealed || !round) return;
+      guess = { x: p.x, y: p.y }; revealed = true; hover = null;
+      var gd = Math.hypot(p.x, p.y), gb = norm360(Math.atan2(p.x, p.y) / DEG);
+      var angErr = Math.round(Math.abs(norm180(gb - round.bear))), dErr = Math.abs(gd - round.dist) * 1000;
+      var miss = Math.hypot(p.x - round.x, p.y - round.y) * 1000, dTxt = dErr < 995 ? Math.round(dErr / 10) * 10 + ' m' : (dErr / 1000).toFixed(1).replace('.', ',') + ' km';
+      var good = miss < 150 || (angErr <= 15 && dErr <= Math.max(250, 250 * round.dist));
+      if (gd < 0.05) {
+        result.textContent = 'Questa è l’arnia stessa. Lei aveva trovato ' + round.site.what + ', a ' + fmtKm(round.dist) + '.';
+        good = false;
+      } else if (good) {
+        result.textContent = 'Vicino: scarto di ' + angErr + '° e ' + dTxt + '. Le sue sorelle troverebbero ' + round.site.what + '.';
+      } else {
+        result.textContent = 'Fuori di ' + angErr + '° in direzione e di ' + dTxt + ' in distanza. Aveva trovato ' + round.site.what + '.';
+      }
+      result.className = 'result ' + (good ? 'good' : 'miss');
+      var th = Math.round(Math.abs(round.theta)), side = round.theta >= 0 ? 'a destra' : 'a sinistra';
+      explain.textContent = (th > 172 ? 'Il suo scodinzolio puntava dritto in giù, quindi i fiori stavano dalla parte opposta al sole. ' :
+        th < 4 ? 'Il suo scodinzolio puntava dritto in su, quindi i fiori stavano verso il sole. ' :
+        'Il suo scodinzolio puntava ' + th + '° ' + side + ' della verticale, quindi i fiori stavano ' + th + '° ' + side + ' del sole. ') +
+        'Uno scodinzolio di ' + round.D.toFixed(1).replace('.', ',') + ' s vuol dire circa ' + fmtKm(round.dist) + '.';
+      guessNote.textContent = 'la tua ipotesi: ' + fmtKm(gd) + ', direzione ' + Math.round(gb) + '°';
+      drawMap();
+    }
+
+    // ---------- input
+    var down = null;
+    map.addEventListener('pointerdown', function (e) { down = { x: e.clientX, y: e.clientY }; });
+    map.addEventListener('pointerup', function (e) {
+      if (!down) return;
+      var moved = Math.hypot(e.clientX - down.x, e.clientY - down.y); down = null;
+      if (moved < 12 && e.button === 0) judge(toKm(e));
+    });
+    map.addEventListener('pointercancel', function () { down = null; });
+    map.addEventListener('pointermove', function (e) {
+      if (e.pointerType !== 'mouse' || revealed) return;
+      hover = toKm(e); drawMap();
+    });
+    map.addEventListener('pointerleave', function () { if (hover) { hover = null; drawMap(); } });
+    map.addEventListener('keydown', function (e) {
+      if (revealed) return;
+      var st = e.shiftKey ? 0.25 : 0.05, mv = { ArrowUp: [0, st], ArrowDown: [0, -st], ArrowLeft: [-st, 0], ArrowRight: [st, 0] }[e.key];
+      if (mv) {
+        e.preventDefault(); kb = kb || { x: 0, y: 0 };
+        kb.x = Math.max(-2.9, Math.min(2.9, kb.x + mv[0])); kb.y = Math.max(-2.9, Math.min(2.9, kb.y + mv[1]));
+        guessNote.textContent = 'segnaposto: ' + fmtKm(Math.hypot(kb.x, kb.y)) + ', direzione ' + Math.round(norm360(Math.atan2(kb.x, kb.y) / DEG)) + '° · Invio per scegliere';
+        drawMap();
+      } else if ((e.key === 'Enter' || e.key === ' ') && kb) { e.preventDefault(); judge(kb); }
+    });
+    map.addEventListener('focus', function () {
+      if (!revealed && !kb) { guessNote.textContent = 'le frecce spostano il segnaposto (Maiusc per passi lunghi)'; }
+    });
+
+    bNew.addEventListener('click', function () { newRound(); kick(); });
+    if (bPlay) bPlay.addEventListener('click', function () { startRun(true); playOnce = true; initFollowers(); kick(); buzz(true); });
+    function toggle(btn, v) { btn.setAttribute('aria-pressed', v ? 'true' : 'false'); }
+    bSun.addEventListener('click', function () { showSun = !showSun; toggle(bSun, showSun); drawComb(); drawMap(); });
+    bSlow.addEventListener('click', function () { slow = !slow; toggle(bSlow, slow); if (dance.phase === 'waggle') buzz(true); });
+    bSound.addEventListener('click', function () {
+      if (!soundOn && !buildSound()) { bSound.disabled = true; bSound.textContent = 'Niente suono qui'; return; }
+      soundOn = !soundOn; toggle(bSound, soundOn); buzz(soundOn && dance.phase === 'waggle');
+    });
+
+    ctx.visible(function (v) { visible = v; if (v) kick(); else buzz(false); });
+    ctx.onThemeChange(function () { readColors(); buildComb(); buildMap(); drawComb(); drawMap(); });
+    function resize() {
+      var oldCW = CW;
+      CW = size(comb, combWrap); MW = size(map, mapWrap);
+      buildComb(); buildMap();
+      if (round) {
+        var k = CW / oldCW; dance.geom = runGeom(round.D, dance.ang, dance.side);
+        followers.forEach(function (f) { f.x *= k; f.y *= k; });
+      }
+      drawComb(); drawMap();
+    }
+    if ('ResizeObserver' in window) {
+      var pending = 0;
+      new ResizeObserver(function () { if (!pending) pending = requestAnimationFrame(function () { pending = 0; resize(); }); }).observe(combWrap);
+    } else window.addEventListener('resize', resize);
+    CW = size(comb, combWrap); MW = size(map, mapWrap); buildComb(); buildMap();
+    newRound();
+    kick();
+  }
+
+  window.MINDS.bees = { mount: mount };
+})();
+
+</script>
+<script>/* crows.js */
+/* The crows: "We know the faces." Face memory, and how a roost passes it on. */
+(function () {
+  window.MINDS = window.MINDS || {};
+  // Human skin and hair tones are natural colours, not theme colours; everything else comes from ctx.color().
+  var SKIN = ['#f3d7c2', '#e7bf9d', '#d4a27c', '#bb845c', '#986444', '#764c31', '#573624'];
+  var HAIR = ['#1e1a17', '#3b2a1f', '#6b4428', '#9a5a2e', '#c9a46c', '#8e8c87', '#d9d5cd'];
+  var HAIRN = ['capelli neri', 'capelli castano scuro', 'capelli castani', 'capelli ramati', 'capelli biondi', 'capelli grigi', 'capelli bianchi'];
+  var STYLEN = ['corti', 'con la riga di lato', 'lunghi', 'ricci', 'raccolti', 'radi', 'a caschetto'];
+  var HATN = ['', 'una coppola', 'un cappello a tesa', 'un berretto di lana', 'un fazzoletto in testa'];
+  var HEADS = [[26, 33, 0.42], [28.5, 30.5, 0.56], [24, 35, 0.36], [27.5, 32, 0.8]]; // rx, ry, jaw
+  var EYES = [[9.5, 2.3], [11, 2.6], [12.5, 2.2]]; // spacing, size
+  var CORE = ['head', 'skin', 'hairStyle', 'hairColor', 'brows', 'eyes', 'nose', 'mouth', 'glasses', 'beard'];
+  var NV = { head: 4, skin: 7, hairStyle: 7, hairColor: 7, brows: 3, eyes: 3, nose: 3, mouth: 3, glasses: 3, beard: 4 };
+  var STEP = 5.5, TAU = Math.PI * 2;
+  var LEARN = [
+    { role: 'danger', text: 'Questa faccia ti ha preso con una rete e ti ha messo un anello alla zampa. Pericolo.' },
+    { role: 'gives', text: 'Questa faccia lascia le croste sul muro dietro le case. Dà.' },
+    { role: 'neither', text: 'Questa faccia passa per la strada ogni mattina e non ti fa niente. Né.' }
+  ];
+  var S = '.stage[data-mind="crows"] ';
+  var CSS = [
+    S + '.canvas-wrap { aspect-ratio: 10 / 7; }',
+    '@media (max-width: 560px) { ' + S + '.canvas-wrap { aspect-ratio: 4 / 5; } }',
+    S + '.crow-step { display: block; font: 500 .72rem var(--font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-bottom: .25rem; }',
+    S + '.crow-hits { position: absolute; inset: 0; }',
+    S + '.crow-hit { position: absolute; margin: 0; padding: 0; border: 0; background: transparent; cursor: pointer; -webkit-tap-highlight-color: transparent; }',
+    S + '.crow-hit:hover { box-shadow: inset 0 0 0 2px var(--rule); }',
+    S + '.crow-hit:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }',
+    S + '.crow-sr { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }',
+    S + '.btn[hidden], ' + S + '.readout[hidden] { display: none; }'
+  ].join('\n');
+  function ri(n) { return Math.floor(Math.random() * n); }
+  function pick(a) { return a[ri(a.length)]; }
+  function clamp(x, a, b) { return x < a ? a : x > b ? b : x; }
+  function clone(o) { var r = {}; for (var k in o) r[k] = o[k]; return r; }
+  function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = ri(i + 1), t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+  function parse(c) {
+    c = String(c || '').trim();
+    if (c[0] === '#') {
+      if (c.length === 4) c = '#' + c[1] + c[1] + c[2] + c[2] + c[3] + c[3];
+      return [parseInt(c.slice(1, 3), 16), parseInt(c.slice(3, 5), 16), parseInt(c.slice(5, 7), 16)];
+    }
+    var m = c.match(/[\d.]+/g);
+    return m && m.length >= 3 ? [+m[0], +m[1], +m[2]] : [128, 128, 128];
+  }
+  function mix(a, b, t) {
+    var A = parse(a), B = parse(b);
+    return 'rgb(' + [0, 1, 2].map(function (i) { return Math.round(A[i] + (B[i] - A[i]) * t); }).join(',') + ')';
+  }
+  function lum(c) { var p = parse(c); return 0.2126 * p[0] + 0.7152 * p[1] + 0.0722 * p[2]; }
+  // ---- Faces -------------------------------------------------------------
+  function newFace(hatMax) {
+    var f = {};
+    CORE.forEach(function (k) { f[k] = ri(NV[k]); });
+    f.glasses = Math.random() < 0.5 ? 0 : 1 + ri(2);
+    f.beard = Math.random() < 0.62 ? 0 : 1 + ri(3);
+    f.hat = Math.random() < 0.45 ? 0 : 1 + ri(hatMax == null ? 4 : hatMax);
+    if (f.hat === 4) f.beard = 0;
+    f.hatTone = ri(4); f.coat = ri(4); f.earring = !f.beard && Math.random() < 0.3; f.turn = 0; f.tilt = 0;
+    return f;
+  }
+  // Count the core features that differ and can actually be seen (a headscarf hides hair, a knitted hat its style).
+  function visDiff(a, b) {
+    var n = 0, scarf = a.hat === 4 || b.hat === 4, beanie = a.hat === 3 || b.hat === 3;
+    CORE.forEach(function (k) {
+      if (a[k] === b[k]) return;
+      if (scarf && (k === 'hairStyle' || k === 'hairColor')) return;
+      if (beanie && k === 'hairStyle') return;
+      n++;
+    });
+    return n;
+  }
+  function stranger(target, others, minD, hatMax) {
+    var f;
+    for (var i = 0; i < 300; i++) {
+      f = newFace(hatMax);
+      if ((!target || visDiff(f, target) >= minD) && others.every(function (o) { return visDiff(f, o) >= 2; })) return f;
+    }
+    return f;
+  }
+  function lookalike(target, k) {
+    var f;
+    for (var i = 0; i < 60; i++) {
+      f = clone(target); f.turn = 0; f.tilt = 0;
+      shuffle(CORE.slice()).slice(0, k).forEach(function (key) { f[key] = (f[key] + 1 + ri(NV[key] - 1)) % NV[key]; });
+      f.hat = ri(3); f.hatTone = ri(4); f.coat = ri(4); if (f.beard) f.earring = false;
+      if (visDiff(f, target) >= k) return f;
+    }
+    return f;
+  }
+  // The same person on another day: different hat or coat, later a slight turn of the head. Core features stay.
+  function variant(t, season) {
+    var f = clone(t);
+    if (season >= 3 || (season === 2 && Math.random() < 0.6)) {
+      f.hat = pick([0, 1, 2, 3].filter(function (h) { return h !== t.hat; })); f.hatTone = ri(4);
+    }
+    if (season >= 3) { f.turn = (Math.random() < 0.5 ? -1 : 1) * (0.2 + Math.random() * 0.15); f.tilt = (Math.random() - 0.5) * 0.12; }
+    f.coat = ri(4);
+    return f;
+  }
+  function describe(f) {
+    var p = [];
+    if (f.hat === 4) p.push('un fazzoletto in testa');
+    else if (f.hairStyle === 5) p.push(HAIRN[f.hairColor] + ', stempiatura');
+    else p.push(HAIRN[f.hairColor] + ' ' + STYLEN[f.hairStyle]);
+    if (f.glasses) p.push(['', 'occhiali tondi', 'occhiali squadrati'][f.glasses]);
+    if (f.beard) p.push(['', 'i baffi', 'la barba', 'il pizzetto'][f.beard]);
+    if (f.hat && f.hat < 4) p.push(HATN[f.hat]);
+    return p.join(', ');
+  }
+  function rrect(c, x, y, w, h, r) {
+    r = Math.min(r, w / 2, h / 2);
+    c.beginPath(); c.moveTo(x + r, y); c.arcTo(x + w, y, x + w, y + h, r); c.arcTo(x + w, y + h, x, y + h, r);
+    c.arcTo(x, y + h, x, y, r); c.arcTo(x, y, x + w, y, r); c.closePath();
+  }
+  function arch(c, x, y, w, h) {
+    var r = Math.min(w, h) * 0.45;
+    c.beginPath(); c.moveTo(x, y + h); c.lineTo(x, y + r); c.arcTo(x, y, x + r, y, r); c.lineTo(x + w - r, y);
+    c.arcTo(x + w, y, x + w, y + r, r); c.lineTo(x + w, y + h); c.closePath();
+  }
+  function headPath(c, rx, ry, jaw) {
+    c.beginPath(); c.moveTo(-rx, 0);
+    c.bezierCurveTo(-rx, -ry * 1.33, rx, -ry * 1.33, rx, 0);
+    c.bezierCurveTo(rx, ry * 0.62, rx * jaw, ry, 0, ry);
+    c.bezierCurveTo(-rx * jaw, ry, -rx, ry * 0.62, -rx, 0);
+    c.closePath();
+  }
+  function hairFront(c, s, rx, ry) {
+    var R = rx + 1.6, T = ry + 2, sideY = s === 2 ? 8 : s === 6 ? 4 : -3, h;
+    c.beginPath(); c.moveTo(-R, sideY); c.bezierCurveTo(-R, -T * 1.36, R, -T * 1.36, R, sideY);
+    if (s === 1) {
+      c.lineTo(rx - 1.5, -4); c.quadraticCurveTo(rx * 0.95, -ry * 0.62, rx * 0.3, -ry * 0.66);
+      c.quadraticCurveTo(-rx * 0.45, -ry * 0.62, -rx * 0.85, -ry * 0.2); c.lineTo(-rx + 1.5, -3);
+    } else if (s === 2) {
+      c.lineTo(rx - 1, 8); c.quadraticCurveTo(rx * 0.75, -ry * 0.45, 0, -ry * 0.72); c.quadraticCurveTo(-rx * 0.75, -ry * 0.45, -rx + 1, 8);
+    } else if (s === 6) {
+      c.lineTo(rx - 1, 4); c.lineTo(rx * 0.84, -ry * 0.42); c.quadraticCurveTo(0, -ry * 0.34, -rx * 0.84, -ry * 0.42); c.lineTo(-rx + 1, 4);
+    } else if (s === 3) {
+      var n = 7, px = rx - 1, py = -3;
+      c.lineTo(px, py);
+      for (var i = 1; i <= n; i++) {
+        var a = Math.PI * i / n, qx = (rx - 1) * Math.cos(a), qy = -3 - ry * 0.5 * Math.sin(a);
+        var mx = (px + qx) / 2, my = (py + qy) / 2, d = Math.hypot(mx, my - 2) || 1;
+        c.quadraticCurveTo(mx - mx / d * 4, my - (my - 2) / d * 4, qx, qy); px = qx; py = qy;
+      }
+    } else {
+      h = s === 4 ? 0.68 : 0.58;
+      c.lineTo(rx - 1.5, -4); c.quadraticCurveTo(rx * 0.85, -ry * h, 0, -ry * h); c.quadraticCurveTo(-rx * 0.85, -ry * h, -rx + 1.5, -4);
+    }
+    c.closePath();
+  }
+  // Draws a face with its head centre at (x, y); u is pixels per face unit (a head is about 55 units wide).
+  function drawFace(c, f, x, y, u, P) {
+    var hd = HEADS[f.head], rx = hd[0], ry = hd[1], jaw = hd[2];
+    var skin = SKIN[f.skin], hair = HAIR[f.hairColor], skinD = mix(skin, P.deep, 0.14), line = mix(skin, P.deep, 0.55);
+    var tx = (f.turn || 0) * 9, sc = f.hat === 4, hatC = P.hat[f.hatTone], hatD = mix(hatC, P.deep, 0.3);
+    var sp = EYES[f.eyes][0], er = EYES[f.eyes][1], side, i, a;
+    c.save(); c.translate(x, y); c.scale(u, u); c.rotate(f.tilt || 0);
+    c.lineCap = 'round'; c.lineJoin = 'round';
+    c.fillStyle = P.coat[f.coat];
+    c.beginPath(); c.moveTo(-46, 76); c.bezierCurveTo(-46, 44, -30, 34, 0, 34); c.bezierCurveTo(30, 34, 46, 44, 46, 76); c.closePath(); c.fill();
+    c.fillStyle = skinD; c.fillRect(-8, ry - 12, 16, 48 - ry);
+    c.beginPath(); c.moveTo(-8, 34); c.lineTo(0, 43); c.lineTo(8, 34); c.fill();
+    // back layers: headscarf, long hair, bob, curls, bun
+    if (sc) {
+      c.fillStyle = hatC; c.beginPath(); c.ellipse(0, -2, rx + 5.5, ry + 5, 0, Math.PI, TAU);
+      c.lineTo(rx + 5.5, ry * 0.7); c.quadraticCurveTo(rx * 0.6, ry + 9, 0, ry + 9); c.quadraticCurveTo(-rx * 0.6, ry + 9, -rx - 5.5, ry * 0.7);
+      c.closePath(); c.fill();
+    } else {
+      c.fillStyle = hair;
+      if (f.hairStyle === 2) {
+        c.beginPath(); c.ellipse(0, -3, rx + 5, ry + 4, 0, Math.PI, TAU); c.lineTo(rx + 6, ry + 14);
+        c.quadraticCurveTo(0, ry + 20, -rx - 6, ry + 14); c.closePath(); c.fill();
+      } else if (f.hairStyle === 6) {
+        c.beginPath(); c.ellipse(0, -3, rx + 5, ry + 3.5, 0, Math.PI, TAU); c.lineTo(rx + 5, ry * 0.55);
+        c.quadraticCurveTo(rx + 5, ry * 0.78, rx + 1, ry * 0.78); c.lineTo(-rx - 1, ry * 0.78);
+        c.quadraticCurveTo(-rx - 5, ry * 0.78, -rx - 5, ry * 0.55); c.closePath(); c.fill();
+      } else if (f.hairStyle === 3) {
+        c.beginPath(); c.ellipse(0, -5, rx + 4, ry + 2, 0, 0, TAU); c.fill();
+        for (i = 0; i < 15; i++) {
+          a = Math.PI * (0.88 + i * 1.24 / 14);
+          if (f.hat && Math.sin(a) < -0.5) continue;
+          c.beginPath(); c.arc(Math.cos(a) * (rx + 5), -5 + Math.sin(a) * (ry + 3), 7, 0, TAU); c.fill();
+        }
+      } else if (f.hairStyle === 4 && !f.hat) {
+        c.beginPath(); c.arc(0, -ry - 5, 8.5, 0, TAU); c.fill();
+      }
+      for (side = -1; side <= 1; side += 2) {
+        c.fillStyle = skin; c.strokeStyle = mix(skin, P.deep, 0.3); c.lineWidth = 0.8;
+        c.beginPath(); c.ellipse(side * rx, 1, 4, 6.5, 0, 0, TAU); c.fill(); c.stroke();
+        if (f.earring) { c.fillStyle = P.warm; c.beginPath(); c.arc(side * rx, 8.6, 1.7, 0, TAU); c.fill(); }
+      }
+    }
+    headPath(c, rx, ry, jaw); c.fillStyle = skin; c.fill(); c.strokeStyle = mix(skin, P.deep, 0.3); c.lineWidth = 1; c.stroke();
+    // beard
+    c.fillStyle = hair;
+    if (f.beard === 2) {
+      c.beginPath(); c.moveTo(-rx + 0.5, -3);
+      c.bezierCurveTo(-rx + 0.5, ry * 0.7, -rx * jaw - 2, ry + 3, 0, ry + 3); c.bezierCurveTo(rx * jaw + 2, ry + 3, rx - 0.5, ry * 0.7, rx - 0.5, -3);
+      c.lineTo(rx - 4, -3); c.quadraticCurveTo(rx - 3, 10, tx + 7, 11); c.quadraticCurveTo(tx, 9.5, tx - 7, 11);
+      c.quadraticCurveTo(-rx + 3, 10, -rx + 4, -3); c.closePath(); c.fill();
+    } else if (f.beard === 3) { c.beginPath(); c.ellipse(tx, ry - 5, 6, 6.5, 0, 0, TAU); c.fill(); }
+    // eyes
+    for (side = -1; side <= 1; side += 2) {
+      c.fillStyle = mix(P.deep, '#000000', 0.3); c.beginPath(); c.ellipse(tx + side * sp, -1, er * 0.9, er * 1.15, 0, 0, TAU); c.fill();
+      c.fillStyle = mix(skin, '#ffffff', 0.8); c.beginPath(); c.arc(tx + side * sp + er * 0.3, -1 - er * 0.4, er * 0.3, 0, TAU); c.fill();
+    }
+    // nose
+    c.strokeStyle = mix(skin, P.deep, 0.34); c.lineWidth = 1.4; c.beginPath();
+    if (f.nose === 0) { c.moveTo(tx + 0.5, 1); c.quadraticCurveTo(tx + 3.6, 7.5, tx + 0.2, 8.6); }
+    else if (f.nose === 1) { c.arc(tx, 6.4, 3.4, 0.15 * Math.PI, 0.85 * Math.PI); }
+    else { c.moveTo(tx - 0.5, -4); c.lineTo(tx + 3.2, 9); c.lineTo(tx - 1.6, 9.6); }
+    c.stroke();
+    // mouth
+    c.strokeStyle = line; c.lineWidth = 1.6;
+    if (f.beard === 2) { c.fillStyle = mix(skin, P.accent, 0.25); c.beginPath(); c.ellipse(tx, 16.5, 5, 2.2, 0, 0, TAU); c.fill(); }
+    c.beginPath();
+    if (f.mouth === 0) { c.arc(tx, 11.5, 6.5, 0.22 * Math.PI, 0.78 * Math.PI); c.stroke(); }
+    else if (f.mouth === 1) { c.moveTo(tx - 6, 16.4); c.quadraticCurveTo(tx, 18.6, tx + 6, 16.4); c.stroke(); }
+    else { c.moveTo(tx - 6.5, 15); c.quadraticCurveTo(tx, 23, tx + 6.5, 15); c.closePath(); c.fillStyle = mix(skinD, P.deep, 0.45); c.fill(); }
+    if (f.beard) {
+      c.fillStyle = hair; c.beginPath(); c.moveTo(tx - 8, 12.6); c.quadraticCurveTo(tx - 4, 8.4, tx, 10.2);
+      c.quadraticCurveTo(tx + 4, 8.4, tx + 8, 12.6); c.quadraticCurveTo(tx, 11.6, tx - 8, 12.6); c.fill();
+    }
+    // glasses
+    if (f.glasses) {
+      var lr = f.glasses === 1 ? 5.8 : 6.5;
+      c.strokeStyle = P.frame; c.lineWidth = 1.5;
+      for (side = -1; side <= 1; side += 2) {
+        if (f.glasses === 1) { c.beginPath(); c.arc(tx + side * sp, -1, lr, 0, TAU); c.stroke(); }
+        else { rrect(c, tx + side * sp - lr, -5.6, lr * 2, 9.4, 2.4); c.stroke(); }
+        c.beginPath(); c.moveTo(tx + side * (sp + lr), -2); c.lineTo(side * (rx - 0.5), -3); c.stroke();
+      }
+      c.beginPath(); c.moveTo(tx - sp + lr, -2); c.quadraticCurveTo(tx, -4.5, tx + sp - lr, -2); c.stroke();
+    }
+    // hair front
+    if (!sc) {
+      c.fillStyle = hair;
+      if (f.hairStyle === 5) {
+        for (side = -1; side <= 1; side += 2) { c.beginPath(); c.ellipse(side * (rx - 0.5), -5, 3.6, 9, side * 0.15, 0, TAU); c.fill(); }
+      } else { hairFront(c, f.hairStyle, rx, ry); c.fill(); }
+    }
+    // brows
+    c.strokeStyle = f.hairColor >= 4 ? mix(hair, P.deep, 0.35) : hair;
+    for (side = -1; side <= 1; side += 2) {
+      var bx = tx + side * sp; c.beginPath();
+      if (f.brows === 0) { c.lineWidth = 1.6; c.moveTo(bx - side * 4.5, -8.6); c.quadraticCurveTo(bx, -12.6, bx + side * 4.5, -9.2); }
+      else if (f.brows === 1) { c.lineWidth = 3; c.moveTo(bx - side * 5, -10); c.lineTo(bx + side * 4.6, -10.4); }
+      else { c.lineWidth = 2.2; c.moveTo(bx - side * 4.5, -11.6); c.quadraticCurveTo(bx, -11, bx + side * 4.6, -8.8); }
+      c.stroke();
+    }
+    // hats
+    c.fillStyle = hatC;
+    if (sc) {
+      c.beginPath(); c.moveTo(-rx - 5.5, 2); c.bezierCurveTo(-rx - 5.5, -(ry + 5) * 1.33, rx + 5.5, -(ry + 5) * 1.33, rx + 5.5, 2);
+      c.lineTo(rx - 1, 2); c.quadraticCurveTo(rx * 0.85, -ry * 0.5, 0, -ry * 0.5); c.quadraticCurveTo(-rx * 0.85, -ry * 0.5, -rx + 1, 2);
+      c.closePath(); c.fill();
+      c.fillStyle = hatD; c.beginPath(); c.moveTo(-4, ry + 6); c.lineTo(4, ry + 6); c.lineTo(0, ry + 13); c.closePath(); c.fill();
+    } else if (f.hat === 1) {
+      var yc = -ry * 0.5;
+      c.beginPath(); c.moveTo(-rx - 2.5, yc); c.bezierCurveTo(-rx - 3, -ry * 1.35, rx + 3, -ry * 1.35, rx + 2.5, yc);
+      c.quadraticCurveTo(0, yc - 3, -rx - 2.5, yc); c.fill();
+      c.fillStyle = hatD; c.beginPath(); c.ellipse(tx * 0.5, yc - 1, rx * 0.78, 3, 0, 0, Math.PI); c.fill();
+    } else if (f.hat === 2) {
+      var yb = -ry * 0.78;
+      rrect(c, -rx * 0.8, -ry - 15, rx * 1.6, yb + ry + 16, 6); c.fill();
+      c.fillStyle = P.hatBand; c.fillRect(-rx * 0.8, yb - 4.5, rx * 1.6, 4);
+      c.fillStyle = hatD; c.beginPath(); c.ellipse(0, yb, rx + 13, 4.8, 0, 0, TAU); c.fill();
+    } else if (f.hat === 3) {
+      var yk = -ry * 0.45;
+      c.beginPath(); c.moveTo(-rx - 2.5, yk); c.bezierCurveTo(-rx - 3, -ry * 1.58, rx + 3, -ry * 1.58, rx + 2.5, yk); c.closePath(); c.fill();
+      c.fillStyle = hatD; rrect(c, -rx - 3, yk - 7.5, rx * 2 + 6, 8, 3); c.fill();
+    }
+    c.restore();
+  }
+  // Hooded crow, unit length about 4, facing +x when dir is 1: grey mantle, black hood, wings and tail.
+  function drawCrow(c, x, y, s, dir, P, fly, flap, caw) {
+    c.save(); c.translate(x, y); c.scale(dir * s, s);
+    c.fillStyle = P.crowBlack; c.strokeStyle = P.crowBlack; c.lineWidth = 0.14;
+    var bx, by;
+    if (fly) {
+      c.beginPath(); c.moveTo(0.4, -0.1); c.quadraticCurveTo(0, -1.2 * flap, -0.9, -1.9 * flap); c.lineTo(-0.5, 0); c.fill();
+      c.beginPath(); c.moveTo(-1, 0); c.lineTo(-2, -0.35); c.lineTo(-2, 0.4); c.closePath(); c.fill();
+      c.fillStyle = P.crowGrey; c.beginPath(); c.ellipse(0, 0, 1.2, 0.48, 0, 0, TAU); c.fill();
+      c.fillStyle = P.crowBlack; c.beginPath(); c.arc(1.1, -0.1, 0.45, 0, TAU); c.fill();
+      c.beginPath(); c.moveTo(1.45, -0.25); c.lineTo(2.05, -0.02); c.lineTo(1.45, 0.1); c.fill();
+      c.beginPath(); c.moveTo(0.6, -0.1); c.quadraticCurveTo(0.2, -1.4 * flap, -0.5, -2.2 * flap); c.lineTo(-0.3, 0); c.fill();
+      bx = 2.05; by = -0.02;
+    } else {
+      c.beginPath(); c.moveTo(-0.9, 0.1); c.lineTo(-2.1, 0.75); c.lineTo(-1.9, 0.98); c.lineTo(-0.7, 0.45); c.fill();
+      c.fillStyle = P.crowGrey; c.beginPath(); c.ellipse(0, 0, 1.15, 0.72, -0.25, 0, TAU); c.fill();
+      c.fillStyle = P.crowBlack; c.beginPath(); c.ellipse(-0.3, 0.05, 0.95, 0.48, -0.2, 0, TAU); c.fill();
+      c.beginPath(); c.arc(0.95, -0.55, 0.48, 0, TAU); c.fill();
+      c.beginPath(); c.moveTo(1.3, -0.7); c.lineTo(1.88, -0.5); c.lineTo(1.3, -0.38); c.fill();
+      c.beginPath(); c.moveTo(0.1, 0.6); c.lineTo(0.1, 1.05); c.stroke();
+      bx = 1.88; by = -0.5;
+    }
+    if (caw) {
+      c.strokeStyle = P.accent; c.lineWidth = 0.2;
+      for (var k = -1; k <= 1; k++) {
+        var a = k * 0.55 - (fly ? 0 : 0.3);
+        c.beginPath(); c.moveTo(bx + Math.cos(a) * 0.45, by + Math.sin(a) * 0.45); c.lineTo(bx + Math.cos(a) * 1.3, by + Math.sin(a) * 1.3); c.stroke();
+      }
+    }
+    c.restore();
+  }
+  function cawMarks(c, x, y, ang, len, color) {
+    c.strokeStyle = color; c.lineWidth = Math.max(1.6, len * 0.16); c.lineCap = 'round';
+    for (var k = -1; k <= 1; k++) {
+      var a = ang + k * 0.5;
+      c.beginPath(); c.moveTo(x + Math.cos(a) * len * 0.3, y + Math.sin(a) * len * 0.3); c.lineTo(x + Math.cos(a) * len, y + Math.sin(a) * len); c.stroke();
+    }
+  }
+  window.MINDS.crows = {
+    mount: function (stage, ctx) {
+      var reduced = !!ctx.reducedMotion;
+      var style = document.createElement('style');
+      style.textContent = CSS;
+      stage.appendChild(style);
+      function el(tag, cls, html, parent) {
+        var e = document.createElement(tag);
+        if (cls) e.className = cls;
+        if (html != null) e.innerHTML = html;
+        (parent || stage).appendChild(e);
+        return e;
+      }
+      var lede = el('p', 'lede');
+      var wrap = el('div', 'canvas-wrap');
+      var cv = el('canvas', null, null, wrap);
+      cv.setAttribute('aria-hidden', 'true');
+      var hits = el('div', 'crow-hits', null, wrap);
+      hits.setAttribute('role', 'group'); hits.setAttribute('aria-label', 'Facce in strada');
+      var controls = el('div', 'controls');
+      var primary = el('button', 'btn primary', 'Avanti', controls); primary.type = 'button';
+      var again = el('button', 'btn', 'Ricomincia', controls); again.type = 'button';
+      var readout = el('output', 'readout', null, controls);
+      var result = el('p', 'result'); result.setAttribute('aria-live', 'polite');
+      el('div', 'known', '<h4>Che cosa si sa</h4>' +
+        '<p>All’Università di Washington alcuni ricercatori, con il viso coperto da una certa maschera di gomma, hanno catturato e inanellato sette cornacchie americane selvatiche, poi le hanno liberate. Da allora le cornacchie sgridavano e assalivano in gruppo chiunque portasse quella maschera, e per lo più ignoravano una maschera neutra (Marzluff e colleghi, 2010).</p>' +
+        '<p>Il ricordo è durato. Cinque anni dopo le cornacchie sgridavano ancora la maschera pericolosa, e a farlo erano più di all’inizio.</p>' +
+        '<p>Si è diffuso guardando. Cornacchie mai catturate, compresi giovani nati dopo, hanno imparato a sgridare la maschera vedendolo fare alle altre, e le sgridate sono arrivate fino a uccelli a circa 1,2 km di distanza (Cornell e colleghi, 2012).</p>' +
+        '<p>Le immagini del cervello di cornacchie che guardavano la faccia pericolosa hanno mostrato attività in regioni legate alla paura e all’apprendimento (Marzluff e colleghi, 2012).</p>' +
+        '<p>Le cornacchie che si radunano a gridare intorno a una cornacchia morta sembrano imparare qualcosa sul pericolo, non piangerla: dopo diffidavano di quel luogo, e sgridavano una persona che avevano visto tenere in mano l’uccello morto (Swift e Marzluff, 2015).</p>' +
+        '<p>Quegli studi riguardano la cornacchia americana. La cornacchia grigia, quella grigia e nera dei paesi dell’Italia centrale, è una parente stretta. I tre verdetti sono una scorciatoia del romanzo, non parole degli uccelli.</p>');
+      el('div', 'unknown', '<h4>Che cosa non si sa</h4>' +
+        '<p>Che cosa tiene esattamente una cornacchia di una faccia: pochi tratti, come sopracciglia e bocca, o tutta la faccia insieme. Qui la faccia del pericolo cambia cappello; negli esperimenti veri si usava ogni volta la stessa maschera, portata da persone diverse.</p>' +
+        '<p>Quanto dura il ricordo. Quando gli studi sono stati pubblicati non si era ancora affievolito, e nessuno sa ancora se uno stormo possa portarsi dietro una faccia per decenni.</p>');
+      el('ul', 'sources',
+        '<li>Marzluff, Walls, Cornell, Withey &amp; Craig (2010). Lasting recognition of threatening people by wild American crows. <i>Animal Behaviour</i>.</li>' +
+        '<li>Cornell, Marzluff &amp; Pecoraro (2012). Social learning spreads knowledge about dangerous humans among American crows. <i>Proceedings of the Royal Society B</i>.</li>' +
+        '<li>Marzluff, Miyaoka, Minoshima &amp; Cross (2012). Brain imaging reveals neuronal circuitry underlying the crow’s perception of human faces. <i>PNAS</i>.</li>' +
+        '<li>Swift &amp; Marzluff (2015). Wild American crows gather around their dead to learn about danger. <i>Animal Behaviour</i>.</li>');
+      var c = cv.getContext('2d');
+      var W = 0, H = 0, dpr = 1, P = null, visible = true, raf = 0, last = 0;
+      var st = {};
+      function palette() {
+        var p = {};
+        ['paper', 'ink', 'muted', 'rule', 'accent', 'warm', 'panel'].forEach(function (n) { p[n] = ctx.color(n) || '#888888'; });
+        var dark = lum(p.ink) > lum(p.paper);
+        p.deep = dark ? p.paper : p.ink;
+        p.sky0 = mix(p.panel, p.warm, 0.03); p.sky1 = mix(p.panel, p.warm, dark ? 0.2 : 0.3);
+        p.roof = mix(p.panel, p.deep, dark ? 0.35 : 0.22); p.cypress = mix(p.panel, p.deep, dark ? 0.6 : 0.5);
+        p.street = mix(p.panel, p.muted, 0.08); p.door = mix(p.panel, p.warm, dark ? 0.24 : 0.2); p.doorEdge = mix(p.door, p.deep, 0.18);
+        p.crowGrey = dark ? mix(p.muted, p.ink, 0.2) : mix(p.muted, p.panel, 0.3); p.crowBlack = dark ? mix(p.deep, p.muted, 0.42) : mix(p.deep, p.muted, 0.1);
+        p.coat = [mix(p.accent, p.panel, 0.15), mix(p.warm, p.deep, 0.15), mix(p.muted, p.panel, 0.1), mix(p.deep, p.muted, 0.35)];
+        p.hat = [mix(p.deep, p.warm, 0.3), mix(p.muted, p.deep, 0.35), mix(p.accent, p.deep, 0.2), mix(p.warm, p.panel, 0.1)];
+        p.hatBand = mix(p.accent, p.deep, 0.45); p.frame = mix(p.deep, p.accent, 0.2);
+        return p;
+      }
+      function font(px) { return '500 ' + px + 'px "IBM Plex Mono", ui-monospace, Menlo, monospace'; }
+      function topH() { return clamp(H * 0.12, 44, 64); }
+      function area() { var t = topH(), pad = 8; return { x: pad, y: t + pad, w: W - pad * 2, h: H - t - pad * 2 }; }
+      function layout() {
+        var a = area(), n = st.crowd ? st.crowd.length : 0, best = null;
+        if (!n) { st.lay = null; return; }
+        for (var cols = 2; cols <= 6; cols++) {
+          var rows = Math.ceil(n / cols), cw = a.w / cols, ch = a.h / rows, u = Math.min(cw / 84, ch / 100);
+          if (!best || u > best.u + 0.01) best = { cols: cols, rows: rows, cw: cw, ch: ch, u: u };
+        }
+        best.cells = [];
+        for (var i = 0; i < n; i++) {
+          var r = Math.floor(i / best.cols), k = i % best.cols, inRow = Math.min(best.cols, n - r * best.cols);
+          var x0 = a.x + (a.w - inRow * best.cw) / 2;
+          var cell = { x: x0 + k * best.cw, y: a.y + r * best.ch + (a.h - best.rows * best.ch) / 2, w: best.cw, h: best.ch };
+          cell.hx = cell.x + cell.w / 2; cell.hy = cell.y + cell.h - 46 * best.u;
+          best.cells.push(cell);
+        }
+        st.lay = best;
+      }
+      function perches() {
+        var t = topH(), n = clamp(Math.round(W / 62), 5, 12), out = [];
+        for (var i = 0; i < n; i++) {
+          var x = W * (i + 0.5) / n + st.jit[i] * (W / n) * 0.25, q = (x - W / 2) / (W / 2);
+          out.push({ x: x, y: t * 0.5 + t * 0.14 * (1 - q * q), dir: st.dirs[i] });
+        }
+        return out;
+      }
+      function scolderIdx(n) { var r = []; for (var k = 0; k < 5; k++) r.push(Math.min(n - 1, Math.floor((k + 0.5) * n / 5))); return r; }
+      function drawBand() {
+        var t = topH(), g = c.createLinearGradient(0, 0, 0, t);
+        g.addColorStop(0, P.sky0); g.addColorStop(1, P.sky1); c.fillStyle = g; c.fillRect(0, 0, W, t);
+        c.fillStyle = P.roof; c.beginPath(); c.moveTo(0, t);
+        for (var x = 0, i = 0; x < W; i++) { var w = 46 + (i * 37 % 30), h = t * (0.16 + (i * 13 % 7) / 60); c.lineTo(x, t - h * 0.7); c.lineTo(x + w / 2, t - h); c.lineTo(x + w, t - h * 0.7); x += w; }
+        c.lineTo(W, t); c.closePath(); c.fill();
+        c.fillStyle = P.cypress;
+        [0.07, 0.84, 0.91].forEach(function (fx, j) {
+          var cx = W * fx, w = t * (j === 2 ? 0.1 : 0.13), top = t * (j === 2 ? 0.22 : 0.06);
+          c.beginPath(); c.moveTo(cx - w, t); c.quadraticCurveTo(cx - w * 1.2, t * 0.45, cx, top); c.quadraticCurveTo(cx + w * 1.2, t * 0.45, cx + w, t); c.fill();
+        });
+        c.strokeStyle = mix(P.deep, P.muted, 0.35); c.lineWidth = 1; c.beginPath();
+        for (var k = 0; k <= 24; k++) { var px = W * k / 24, q = (px - W / 2) / (W / 2), py = t * 0.5 + t * 0.14 * (1 - q * q); if (k) c.lineTo(px, py); else c.moveTo(px, py); }
+        c.stroke();
+      }
+      function drawPerched(skip, caw) {
+        var ps = perches(), s = clamp(topH() * 0.18, 7, 11);
+        ps.forEach(function (p, i) { if (skip.indexOf(i) < 0) drawCrow(c, p.x, p.y - s * 1.05, s, p.dir, P, false, 0, caw); });
+      }
+      function pill(text, cx, cy, bg, fg, fs) {
+        c.font = font(fs); var w = c.measureText(text).width + fs * 1.3, h = fs * 1.75;
+        c.fillStyle = bg; rrect(c, cx - w / 2, cy - h / 2, w, h, h / 2); c.fill();
+        c.fillStyle = fg; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillText(text, cx, cy + 0.5);
+        return w;
+      }
+      function verdictPill(role, cx, cy, fs) {
+        if (role === 'danger') return pill('pericolo', cx, cy, P.accent, P.paper, fs);
+        if (role === 'gives') return pill('dà', cx, cy, P.warm, P.deep, fs);
+        return pill(role === 'new' ? 'faccia nuova' : 'né', cx, cy, P.muted, P.paper, fs);
+      }
+      function drawDoor(x, y, w, h) {
+        arch(c, x, y, w, h); c.fillStyle = P.door; c.fill(); c.strokeStyle = P.doorEdge; c.lineWidth = 1; c.stroke();
+      }
+      function drawLearn() {
+        var a = area(), item = LEARN[st.step], f = st.trio[item.role];
+        var fs = clamp(W / 38, 12, 15), u = Math.min(a.w / 120, (a.h - fs * 3) / 104, 3.2);
+        var dw = 96 * u, dh = 104 * u, dx = a.x + (a.w - dw) / 2, dy = a.y + (a.h - fs * 3 - dh) / 2;
+        drawDoor(dx, dy, dw, dh);
+        c.save(); arch(c, dx, dy, dw, dh); c.clip(); drawFace(c, f, dx + dw / 2, dy + dh - 46 * u, u, P); c.restore();
+        if (item.role === 'danger') { arch(c, dx, dy, dw, dh); c.strokeStyle = P.accent; c.lineWidth = 3; c.stroke(); }
+        var py = dy + dh + fs * 1.4, pw = verdictPill(item.role, a.x + a.w / 2, py, fs);
+        if (!reduced && st.step < 2) {
+          c.fillStyle = P.rule; c.fillRect(a.x + (a.w - pw) / 2, py + fs * 1.15, pw, 2);
+          c.fillStyle = P.accent; c.fillRect(a.x + (a.w - pw) / 2, py + fs * 1.15, pw * clamp(st.stepT / STEP, 0, 1), 2);
+        }
+        for (var i = 0; i < 3; i++) {
+          c.fillStyle = i === st.step ? P.accent : P.rule;
+          c.beginPath(); c.arc(W - 16 - (2 - i) * 13, H - 14, 4, 0, TAU); c.fill();
+        }
+      }
+      function drawCrowd() {
+        var L = st.lay; if (!L) return;
+        var fs = clamp(L.u * 9, 10, 13);
+        st.crowd.forEach(function (it, i) {
+          var cl = L.cells[i], x = cl.x + 3, y = cl.y + 3, w = cl.w - 6, h = cl.h - 6;
+          drawDoor(x, y, w, h);
+          c.save(); arch(c, x, y, w, h); c.clip(); drawFace(c, it.f, cl.hx, cl.hy, L.u, P); c.restore();
+          var m = it.mark;
+          if (!m) return;
+          if (m === 'miss') { c.save(); c.globalAlpha = 0.45; arch(c, x, y, w, h); c.fillStyle = P.panel; c.fill(); c.restore(); }
+          if (m === 'danger' || m === 'reveal' || m === 'gives') {
+            arch(c, x, y, w, h); c.strokeStyle = m === 'gives' ? P.warm : P.accent; c.lineWidth = 3; c.stroke();
+          }
+          if (m === 'danger' || m === 'reveal') {
+            var len = clamp(L.u * 11, 8, 16);
+            cawMarks(c, cl.hx - 31 * L.u, cl.hy - 30 * L.u, -2.4, len, P.accent);
+            cawMarks(c, cl.hx + 31 * L.u, cl.hy - 30 * L.u, -0.74, len, P.accent);
+          }
+          verdictPill(m === 'reveal' ? 'danger' : m === 'miss' ? 'new' : m, cl.x + cl.w / 2, cl.y + cl.h - fs * 1.4, fs);
+        });
+      }
+      function drawScolders() {
+        var L = st.lay, cl = L.cells[st.targetIdx], ps = perches(), idx = scolderIdx(ps.length);
+        var s = clamp(L.u * 8, 8, 14), rxo = Math.min(cl.w * 0.55, 54 * L.u), ryo = 50 * L.u;
+        arch(c, cl.x + 3, cl.y + 3, cl.w - 6, cl.h - 6); c.strokeStyle = P.accent; c.lineWidth = 3; c.stroke();
+        idx.forEach(function (pi, k) {
+          var ang = -Math.PI + (k + 0.5) / 5 * Math.PI;
+          var ex = clamp(cl.hx + Math.cos(ang) * rxo, s * 2.5, W - s * 2.5), ey = Math.max(s * 2, cl.hy - 12 * L.u + Math.sin(ang) * ryo);
+          var dir = Math.cos(ang) < 0 ? 1 : -1, p = ps[pi], sx = p.x, sy = p.y - s;
+          var tt = reduced ? 1 : clamp((st.flyT - k * 0.08) / 0.9, 0, 1), e = tt * tt * (3 - 2 * tt);
+          var cx = (sx + ex) / 2, cy = Math.min(sy, ey) - 30, im = 1 - e;
+          var x = im * im * sx + 2 * im * e * cx + e * e * ex, y = im * im * sy + 2 * im * e * cy + e * e * ey;
+          var hover = reduced ? 0 : Math.sin(st.flyT * 5 + k) * 2;
+          var flap = reduced ? 0.6 : Math.sin(st.flyT * 16 + k * 1.3);
+          var caw = tt >= 1 && (reduced || Math.sin(st.flyT * 7 + k * 1.9) > -0.3);
+          drawCrow(c, x, y + hover, s, tt < 1 ? (ex >= sx ? 1 : -1) : dir, P, true, flap, caw);
+        });
+      }
+      function draw() {
+        if (!W) return;
+        if (!P) P = palette();
+        c.setTransform(dpr, 0, 0, dpr, 0, 0); c.clearRect(0, 0, W, H);
+        var t = topH();
+        c.fillStyle = P.street; c.fillRect(0, t, W, H - t);
+        drawBand();
+        if (st.phase === 'learn') drawLearn(); else drawCrowd();
+        var watching = st.phase === 'watch' && st.lay;
+        drawPerched(watching ? scolderIdx(perches().length) : [], st.phase === 'learn' && st.step === 0);
+        if (watching) drawScolders();
+      }
+      // ---- loop: runs only while something moves and the stage is on screen ----
+      function animating() { return !reduced && visible && ((st.phase === 'learn' && st.step < 2) || st.phase === 'watch'); }
+      function tick(ts) {
+        raf = 0;
+        var dt = last ? Math.min(0.05, (ts - last) / 1000) : 0.016; last = ts;
+        if (st.phase === 'learn' && st.step < 2) { st.stepT += dt; if (st.stepT >= STEP) { nextLearn(); return; } }
+        if (st.phase === 'watch') st.flyT += dt;
+        draw();
+        kick();
+      }
+      function kick() { if (!raf && animating()) raf = requestAnimationFrame(tick); if (!animating()) last = 0; }
+      // ---- UI ----
+      function say(text, cls, sr) {
+        result.className = 'result' + (cls ? ' ' + cls : '');
+        result.innerHTML = text + (sr ? '<span class="crow-sr"> (' + sr + ')</span>' : '');
+      }
+      function step(label) { return '<span class="crow-step">' + label + '</span>'; }
+      function buildHits() {
+        var hadFocus = hits.contains(document.activeElement);
+        hits.innerHTML = '';
+        var L = st.lay, live = st.phase === 'roost' || st.phase === 'season';
+        hits.hidden = !live || !L;
+        if (!live || !L) return;
+        st.crowd.forEach(function (it, i) {
+          var cl = L.cells[i], b = el('button', 'crow-hit', null, hits);
+          b.type = 'button';
+          b.style.left = (cl.x / W * 100) + '%'; b.style.top = (cl.y / H * 100) + '%';
+          b.style.width = (cl.w / W * 100) + '%'; b.style.height = (cl.h / H * 100) + '%';
+          b.style.borderRadius = Math.round(Math.min(cl.w, cl.h) * 0.42) + 'px ' + Math.round(Math.min(cl.w, cl.h) * 0.42) + 'px 4px 4px';
+          b.setAttribute('aria-label', 'Faccia ' + (i + 1) + ': ' + describe(it.f) + (it.mark ? ' (' + (it.mark === 'reveal' ? 'pericolo' : it.mark === 'miss' ? 'non questa' : { danger: 'pericolo', gives: 'dà', neither: 'né' }[it.mark]) + ')' : ''));
+          b.addEventListener('click', function () { choose(i); });
+        });
+        if (hadFocus && st.focusIdx != null && hits.children[st.focusIdx]) hits.children[st.focusIdx].focus();
+      }
+      function setPrimary(label) {
+        var had = document.activeElement === primary;
+        primary.hidden = !label;
+        if (label) primary.textContent = label;
+        else if (had && hits.firstChild) hits.firstChild.focus();
+      }
+      function refresh() { layout(); buildHits(); draw(); kick(); }
+      function reset() {
+        st = { jit: [], dirs: [], remembered: 0, season: 0 };
+        for (var i = 0; i < 12; i++) { st.jit.push(Math.random() * 2 - 1); st.dirs.push(Math.random() < 0.5 ? -1 : 1); }
+        var d = stranger(null, [], 0, 2), g = stranger(d, [], 5), n = stranger(d, [g], 5, 3);
+        while (visDiff(n, g) < 5) n = stranger(d, [g], 5, 3);
+        var blue = stranger(d, [g, n], 5, 2);
+        st.trio = { danger: d, gives: g, neither: n }; st.blue = blue;
+        st.phase = 'learn'; st.step = 0; st.stepT = 0; st.crowd = null;
+        readout.hidden = true; showLearn();
+      }
+      function showLearn() {
+        var item = LEARN[st.step];
+        lede.innerHTML = step('1 · Una cornacchia impara') + 'Ogni faccia che una cornacchia incontra riceve uno di tre verdetti: <em>dà</em>, <em>pericolo</em> o <em>né</em>. Impara queste tre facce. Ti serviranno.';
+        say(item.text, '', 'faccia ' + (st.step + 1) + ' di 3: ' + describe(st.trio[item.role]));
+        setPrimary(st.step < 2 ? 'Avanti' : 'In strada'); refresh();
+      }
+      function nextLearn() { if (st.step < 2) { st.step++; st.stepT = 0; showLearn(); } else startRoost(); }
+      function makeCrowd(n, specials, lookN, lookK, minD) {
+        var items = specials.slice(), faces = specials.map(function (s) { return s.f; }), t = specials[0].f;
+        for (var i = 0; i < lookN; i++) { var lf = lookalike(st.blue, lookK); faces.push(lf); items.push({ f: lf, role: 'stranger' }); }
+        while (items.length < n) { var sf = stranger(t, faces, minD); faces.push(sf); items.push({ f: sf, role: 'stranger' }); }
+        shuffle(items).forEach(function (it, k) { it.mark = null; if (it.role === 'danger') st.targetIdx = k; });
+        st.misses = 0; st.done = false; st.focusIdx = null; return items;
+      }
+      function startRoost() {
+        var dv = clone(st.trio.danger);
+        dv.hat = dv.hat ? 0 : 1 + ri(2); dv.hatTone = ri(4); dv.coat = (dv.coat + 1 + ri(3)) % 4;
+        st.dangerHat = dv.hat; st.crowd = makeCrowd(9, [{ f: dv, role: 'danger' }, { f: st.trio.gives, role: 'gives' }, { f: st.trio.neither, role: 'neither' }], 0, 0, 4);
+        st.phase = 'roost';
+        lede.innerHTML = step('2 · Lo stormo lo dice') + 'Imbrunire, e la strada è piena. Tocca la faccia che è <em>pericolo</em>. Il cappello potrebbe essere cambiato.';
+        say('', ''); refresh(); setPrimary(null);
+      }
+      function startWatch() {
+        st.crowd = makeCrowd(9, [{ f: clone(st.blue), role: 'danger' }], 0, 0, 4);
+        st.phase = 'watch'; st.flyT = 0;
+        lede.innerHTML = step('3 · Generazioni') + 'Anni dopo, sei una cornacchia giovane. La faccia del cancello blu non l’hai mai incontrata: era prima che uscissi dall’uovo. Guarda quale faccia sgridano le cornacchie vecchie.';
+        say('Le cornacchie vecchie sgridano una faccia: <em>quella, quella</em>. Ricordala.', '', 'sgridano la faccia con ' + describe(st.blue));
+        setPrimary('Sono pronta'); refresh();
+      }
+      function startSeason() {
+        var s = ++st.season, v = s === 1 ? clone(st.blue) : variant(st.blue, s);
+        var n = s === 1 ? 9 : s === 2 ? 10 : 12, look = s === 1 ? 0 : Math.min(4, s - 1), lookK = s <= 3 ? 3 : 2;
+        st.crowd = makeCrowd(n, [{ f: v, role: 'danger' }], look, lookK, s <= 2 ? 4 : 3);
+        st.phase = 'season'; st.hatChanged = v.hat !== st.blue.hat;
+        lede.innerHTML = s === 1
+          ? step('3 · Generazioni') + 'Una nuova sera, facce nuove. Trova la faccia che le cornacchie vecchie hanno sgridato.'
+          : step('Stagione ' + s) + 'L’anno ha fatto il suo giro. La strada è piena di sconosciuti. C’è anche la faccia del cancello blu?';
+        readout.hidden = false; readout.textContent = 'Stagioni ricordate: ' + st.remembered;
+        say('', ''); refresh(); setPrimary(null);
+      }
+      function choose(i) {
+        var it = st.crowd && st.crowd[i], target = it && st.crowd[st.targetIdx];
+        if (!it) return;
+        st.focusIdx = i;
+        if (st.phase === 'roost') {
+          if (it.role === 'danger' && !st.done) {
+            it.mark = 'danger'; st.done = true;
+            say('Quella. Pericolo, ' + (st.dangerHat ? 'anche con il cappello.' : 'anche senza cappello.'), 'good');
+            lede.innerHTML = step('2 · Lo stormo lo dice') + 'Trovata. C’è anche una faccia che <em>dà</em>? Toccala, oppure vai avanti.';
+          } else if (it.role === 'gives') {
+            it.mark = 'gives';
+            say(st.done ? 'Dà: le croste sul muro. Hai tenuto tutte e due le facce.' : 'Quella faccia dà: le croste sul muro. Buono a sapersi. Adesso trova il pericolo.', st.done ? 'good' : '');
+          } else if (it.role === 'neither') {
+            it.mark = 'neither'; say('Quella passa ogni mattina. Né.', '');
+          } else if (it.role === 'stranger' && st.done) {
+            it.mark = 'neither'; say('Una faccia nuova. Né, per ora.', '');
+          } else if (it.role === 'stranger' && it.mark !== 'miss') {
+            it.mark = 'miss'; st.misses++;
+            if (st.misses >= 2) {
+              target.mark = 'reveal'; st.done = true;
+              say('Eccola, ' + (st.dangerHat ? 'sotto un cappello' : 'senza cappello') + '. Stesse sopracciglia, stessi occhi, stesso naso.', 'miss');
+            } else say('Non quella. Quella faccia per te è nuova. Guarda oltre il cappello: sopracciglia, occhi, naso.', 'miss');
+          }
+          if (st.done) setPrimary('Continua');
+        } else if (st.phase === 'season' && !st.done) {
+          if (it.role === 'danger') {
+            it.mark = 'danger'; st.done = true; st.remembered++;
+            var msg = st.season === 1 ? 'Quella. Non l’hai mai vista fare niente. L’hai imparata guardando le altre.'
+              : st.hatChanged ? 'Ricordata. Ha cambiato cappello; lo stormo non ha dimenticato.' : 'Ricordata. La faccia si sa ancora.';
+            if (st.remembered === 5) msg += ' Cinque stagioni: nello studio vero, le cornacchie sgridavano ancora la maschera dopo cinque anni.';
+            say(msg, 'good');
+          } else if (it.mark !== 'miss') {
+            it.mark = 'miss'; st.misses++;
+            if (st.misses >= 2) { target.mark = 'reveal'; st.done = true; say('Lo stormo sgrida questa. Guardala bene, e tienila per la prossima stagione.', 'miss'); }
+            else say('Non quella. Guarda ancora: sopracciglia, occhi, naso, occhiali. I cappelli cambiano; le facce no.', 'miss');
+          }
+          readout.textContent = 'Stagioni ricordate: ' + st.remembered;
+          if (st.done) setPrimary('Altra stagione');
+        }
+        buildHits(); draw();
+      }
+      primary.addEventListener('click', function () { if (st.phase === 'learn') nextLearn(); else if (st.phase === 'roost') startWatch(); else startSeason(); });
+      again.addEventListener('click', reset);
+      hits.addEventListener('keydown', function (e) {
+        var bs = Array.prototype.slice.call(hits.children), i = bs.indexOf(document.activeElement), cols = st.lay ? st.lay.cols : 3, j;
+        if (i < 0) return;
+        if (e.key === 'ArrowRight') j = i + 1; else if (e.key === 'ArrowLeft') j = i - 1;
+        else if (e.key === 'ArrowDown') j = i + cols; else if (e.key === 'ArrowUp') j = i - cols; else return;
+        e.preventDefault(); if (j >= 0 && j < bs.length) bs[j].focus();
+      });
+      function resize() {
+        var w = wrap.clientWidth, h = wrap.clientHeight;
+        if (!w || !h) return;
+        dpr = Math.min(window.devicePixelRatio || 1, 2); W = w; H = h;
+        cv.width = Math.round(w * dpr); cv.height = Math.round(h * dpr);
+        refresh();
+      }
+      if ('ResizeObserver' in window) new ResizeObserver(resize).observe(wrap);
+      else window.addEventListener('resize', resize);
+      ctx.onThemeChange(function () { P = null; draw(); });
+      ctx.visible(function (v) { visible = v; kick(); });
+      reset();
+      resize();
+    }
+  };
+})();
+
+</script>
+<script>/* tree.js */
+/* The tree: "Five hundred rings". A seeded beech cross-section (sibling of the book's cover):
+   one ring per year from 1525 to 2026, a hollow heart that the rot opens after the 1736 wound,
+   and a caption in the tree's own register for the year under the player's finger. */
+(function () {
+  'use strict';
+  var FIRST = 1525, LAST = 2026, N = LAST - FIRST + 1;   // 502 rings
+  var GAP = 1566, SHEEP = 1610, SHEEP_END = 1956, POLLARD = 1712, WOUND = 1736, ROT_END = 1850;
+  var TAU = Math.PI * 2;
+
+  // c: year approximate. h: human-history line (null: none on record; '': show nothing). w: a last, separate line.
+  var EVENTS = [
+    { y: 1525, c: true, t: 'Una faggiola rompe la buccia. Una radice va giù, due foglie vengono su, e poi aspetta.',
+      h: 'Nessuno nella valle ricorderà quest’anno, come quasi tutti gli anni.' },
+    { y: GAP, c: true, t: 'Neve bagnata di primavera sulle foglie già piene. Cade un albero madre e se ne porta dietro altri tre. Dal buco nel soffitto: il cielo.', h: null },
+    { y: SHEEP, c: true, t: 'Pecore, a giugno. A centinaia all’ombra a mezzogiorno; il loro sterco entra nella terra, e la terra nell’albero. A settembre, sparite.',
+      h: 'La transumanza: ogni estate le greggi salgono a piedi dalle pianure della Puglia lungo i tratturi.' },
+    { y: POLLARD, c: true, t: 'Scuri, e per due estati il fumo di una radura più in basso. Capitozzato all’altezza di un uomo. Ricresce pieno di braccia, e tiene quella forma.',
+      h: 'Per secoli i carbonai hanno lavorato in questi boschi.' },
+    { y: WOUND, c: true, t: 'Un fulmine a quaranta passi; la scossa attraversa le radici. Il ramo più basso si strappa. Una ferita grande come una porta, e dentro, le piogge e le spore.', h: null },
+    { y: ROT_END, c: true, t: 'Il cuore non c’è più. Intorno al vuoto, un muro nel legno che il marciume non attraversa. Dentro: ghiri, allocchi, larve di coleottero che fanno polvere rossa.', h: null },
+    { y: 1888, t: 'Un coltello nella corteccia: 1888. Gli otto si allargheranno con il tronco fino a ingrassare come pupazzi di neve.',
+      h: 'Qualcuno incide la data. La corteccia del faggio non si sfalda, e l’incisione resta.' },
+    { y: 1915, t: 'In un inverno la terra trema: un lungo brivido basso tra le radici, da ovest. Il bosco resta in piedi.',
+      h: 'Terremoto di Avezzano, 13 gennaio 1915. Circa 30.000 morti.' },
+    { y: 1923, t: 'All’albero non arriva niente. Su una mappa, intorno a lui, si traccia una linea. Non può saperlo.',
+      h: 'Il Parco Nazionale d’Abruzzo viene istituito per legge, gennaio 1923.' },
+    { y: 1943, t: 'Un tepore, una volta, in un inverno.', h: '', warm: true },
+    { y: SHEEP_END, c: true, t: 'Niente pecore, questo giugno. Smettono piano, e poi tutto d’un tratto. Il suolo cambia, e gli anelli con lui.',
+      h: 'Dopo la guerra la transumanza a piedi si dirada; le greggi viaggiano in camion e in treno, poi quasi non si spostano più.' },
+    { y: 2003, t: 'Niente pioggia. Le colonne d’acqua nel legno si spezzano, ognuna con uno scatto troppo acuto per qualsiasi orecchio del bosco tranne quello dei pipistrelli.',
+      h: 'L’ondata di calore europea del 2003. Gli scatti sono ultrasuoni: le persone li sentono solo con gli strumenti.' },
+    { y: 2009, t: 'La terra trema di nuovo, meno forte, novantaquattro anni dopo, in una primavera.',
+      h: 'Terremoto dell’Aquila, 6 aprile 2009. 309 morti.' },
+    { y: 2025, t: 'Pasciona. Faggiole così fitte che chi ci cammina sopra sembra camminare sulla ghiaia. Ogni sera un’orsa si siede contro il tronco a rompere ricci.',
+      h: 'Nel romanzo, l’autunno prima.' },
+    { y: LAST, t: 'Neve fino ad aprile. Niente pasciona. Niente pioggia da giugno ad agosto: scatti, per tutti i pomeriggi.', w: 'Un tepore.',
+      h: '29 settembre 2026: la notte del romanzo.', warm: true }
+  ];
+  var EV = {};
+  EVENTS.forEach(function (e) { EV[e.y] = e; });
+
+  // ---- seeded growth record (same generator and seed as the cover, so the trunk has the cover's outline) ----
+  var s = 20260929;
+  function rnd() { s = (s * 1664525 + 1013904223) >>> 0; return s / 4294967296; }
+  var harm = [];
+  for (var k = 0; k < 7; k++) harm.push({ a: (rnd() - 0.5) * 0.06 / (k + 1), p: rnd() * TAU, f: k + 2 });
+  function wob(th) { var v = 0; for (var j = 0; j < 7; j++) v += harm[j].a * Math.sin(harm[j].f * th + harm[j].p); return v; }
+
+  var widths = [], cum = [], total = 0, ar = 0;
+  for (var i = 0; i < N; i++) {
+    var y = FIRST + i, w;
+    ar = 0.55 * ar + 0.45 * (rnd() - 0.5);                 // a few years of good or bad weather in a row
+    if (y < GAP) w = 0.09 + 0.06 * rnd();                    // waiting in shade
+    else {
+      w = y < 1610 ? 2.3 - 0.9 * (y - GAP) / 44 : 1.3 - 0.5 * (y - 1610) / 416;   // release, then slow ageing
+      w *= 1 + ar * 0.7 + (rnd() - 0.5) * 0.35;
+      if (rnd() < 0.055) w *= 0.38;                          // a hard year
+      if (y >= POLLARD && y < POLLARD + 6) w *= 0.3 + 0.12 * (y - POLLARD);   // crown cut back
+      if (y >= WOUND && y < WOUND + 4) w *= 0.6;
+      if (y > SHEEP_END) w *= 0.88;
+      if (y === 1943) w *= 0.62;                             // "the narrowness is the summer's"
+      if (y === 2003) w *= 0.3;
+      if (y === 2025) w *= 0.6;                              // mast years take wood
+      if (y === LAST) w *= 0.42;
+    }
+    widths.push(w); total += w;
+  }
+  var acc = 0;
+  for (i = 0; i < N; i++) { acc += widths[i]; cum.push(acc / total); }   // outer edge of each ring, 0..1
+  var thin = widths.map(function (w, i) {
+    if (FIRST + i < GAP) return false;
+    var a = 0, n = 0;
+    for (var j = Math.max(41, i - 10); j <= Math.min(N - 1, i + 10); j++) { a += widths[j]; n++; }
+    return w < 0.5 * a / n;
+  });
+
+  // ---- the hollow, bounded by the ring laid down in the wound year (the wall the rot does not cross) ----
+  var BI = WOUND - FIRST;
+  function shapeR(frac, th) { return frac * (1 + wob(th) * (0.4 + 0.6 * frac)); }
+  function hollowR(th) { return shapeR(cum[BI], th) * 0.97 * (1 + 0.12 * Math.sin(3 * th + 1) + 0.05 * Math.sin(7 * th)) / 1.17; }
+  function goneFrac(idx) {
+    var n = 0;
+    for (var q = 0; q < 120; q++) { var th = q / 120 * TAU; if (shapeR(cum[idx], th) <= hollowR(th)) n++; }
+    return n / 120;
+  }
+  var dust = [];
+  for (i = 0; i < 900; i++) dust.push({ th: Math.PI * (0.15 + 0.7 * rnd()), d: 0.5 + 0.48 * rnd(), a: 0.2 + 0.4 * rnd(), z: 0.8 + 0.9 * rnd() });
+
+  function captionFor(y) {
+    var e = EV[y];
+    if (e) return e;
+    var parts = [], idx = y - FIRST;
+    if (thin[idx]) parts.push('Un anello sottile: siccità, o una gelata tardiva.');
+    if (y < GAP) parts.push('Ombra. Luce già usata da centomila foglie: abbastanza per restare, non per crescere. Un anello troppo sottile per contarlo senza una lente.');
+    else if (y < SHEEP) parts.push('Luce dal varco. La chioma ci sale dentro. In certi anni, legno largo un dito.');
+    if (y > POLLARD && y < POLLARD + 8) parts.push('Le braccia nuove si ispessiscono.');
+    if (y > WOUND && y < ROT_END) parts.push('Dentro, dietro un muro, il marciume mangia il cuore morto. L’albero continua a vivere negli anelli esterni.');
+    if (y > SHEEP && y < SHEEP_END) parts.push('Estati di pecore, inverni di neve.');
+    else if (y > SHEEP_END) parts.push('Neve, foglie, faggiole, foglie che cadono. Niente pecore.');
+    return { t: parts.join(' ') };
+  }
+
+  function parse(c) {
+    c = (c || '').trim();
+    if (c.charAt(0) === '#') {
+      if (c.length === 4) c = '#' + c[1] + c[1] + c[2] + c[2] + c[3] + c[3];
+      var n = parseInt(c.slice(1, 7), 16);
+      return [n >> 16 & 255, n >> 8 & 255, n & 255];
+    }
+    var m = c.match(/[\d.]+/g);
+    return m && m.length >= 3 ? [+m[0], +m[1], +m[2]] : [128, 128, 128];
+  }
+  function mix(a, b, t) { return [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t, a[2] + (b[2] - a[2]) * t]; }
+  function rgba(c, al) { return 'rgba(' + Math.round(c[0]) + ',' + Math.round(c[1]) + ',' + Math.round(c[2]) + ',' + (al == null ? 1 : al) + ')'; }
+
+  var CSS = [
+    '.stage[data-mind="tree"] .canvas-wrap{aspect-ratio:10/9}',
+    '@media (max-width:560px){.stage[data-mind="tree"] .canvas-wrap{aspect-ratio:1/1.1}}',
+    '.stage[data-mind="tree"] canvas{cursor:pointer;touch-action:pan-y}',
+    '.stage[data-mind="tree"] .scrub{display:grid;gap:.15rem;min-width:0}',
+    '.stage[data-mind="tree"] .track{position:relative;padding-bottom:9px}',
+    '.stage[data-mind="tree"] .track input{display:block;width:100%;margin:0;height:30px;accent-color:var(--accent);cursor:pointer}',
+    '.stage[data-mind="tree"] .marks{position:absolute;left:8px;right:8px;bottom:0;height:9px;pointer-events:none}',
+    '.stage[data-mind="tree"] .marks i{position:absolute;top:0;width:1px;height:6px;background:var(--muted);opacity:.7}',
+    '.stage[data-mind="tree"] .marks i.on{background:var(--warm);opacity:1;width:3px;height:9px;margin-left:-1px;border-radius:1px}',
+    '.stage[data-mind="tree"] .ends{display:flex;justify-content:space-between;align-items:baseline;font:.72rem var(--font-mono);color:var(--muted)}',
+    '.stage[data-mind="tree"] .ends output{font-size:.85rem}',
+    '.stage[data-mind="tree"] .reading{min-height:7.5em}',
+    '.stage[data-mind="tree"] .cap{font-weight:400;font-size:1.1rem;line-height:1.55;color:var(--ink);max-width:36rem;text-wrap:pretty}',
+    '.stage[data-mind="tree"] .cap .w{display:block;margin-top:.45rem;font-style:italic}',
+    '.stage[data-mind="tree"] .human{margin:.55rem 0 0;font-size:.88rem;line-height:1.5;color:var(--muted);max-width:36rem}',
+    '.stage[data-mind="tree"] .human b{font:500 .66rem var(--font-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-right:.55rem}',
+    '.stage[data-mind="tree"] .note{margin:.55rem 0 0;font-size:.82rem;font-style:italic;color:var(--muted)}'
+  ].join('\n');
+
+  function mount(stage, ctx) {
+    var st = document.createElement('style');
+    st.textContent = CSS;
+    stage.appendChild(st);
+    var box = document.createElement('div');
+    box.style.display = 'contents';
+    box.innerHTML =
+      '<p class="lede">Trascina attraverso cinque secoli. L’albero ricorda solo quello che lo ha toccato.</p>' +
+      '<div class="canvas-wrap"><canvas tabindex="0" role="slider" aria-valuemin="' + FIRST + '" aria-valuemax="' + LAST + '"' +
+      ' aria-label="Sezione di un faggio di 500 anni. Tocca un anello, o usa i tasti freccia, per scegliere un anno."></canvas></div>' +
+      '<div class="scrub"><div class="track"><input type="range" min="' + FIRST + '" max="' + LAST + '" step="1" aria-label="Anno">' +
+      '<div class="marks" aria-hidden="true"></div></div>' +
+      '<div class="ends" aria-hidden="true"><span>' + FIRST + '</span><output class="readout"></output><span>' + LAST + '</span></div></div>' +
+      '<div class="controls"><button class="btn" data-a="prev" aria-label="Anno precedente">◀ anno</button>' +
+      '<button class="btn" data-a="next" aria-label="Anno successivo">anno ▶</button>' +
+      '<button class="btn primary" data-a="play"></button>' +
+      '<button class="btn" data-a="human" aria-pressed="false">Date umane</button></div>' +
+      '<div class="reading"><p class="result cap" aria-live="polite"></p>' +
+      '<p class="human" hidden><b>Persone</b><span></span></p><p class="note"></p></div>' +
+      '<div class="known"><h4>Che cosa si sa</h4>' +
+      '<p>Negli alberi dei climi con le stagioni si aggiunge un anello di crescita all’anno; contarli e confrontarli è la dendrocronologia. Un anello stretto segna un anno difficile: siccità, una gelata tardiva, una chioma perduta, un’annata carica di faggiole.</p>' +
+      '<p>Le giovani piante di faggio possono aspettare per decenni nell’ombra fitta, crescendo quasi niente, e poi slanciarsi verso l’alto quando un vicino caduto apre un varco nella volta del bosco.</p>' +
+      '<p>Un albero ferito isola il danno con barriere chimiche. Dentro quel muro i funghi possono poi mangiare il durame morto, lasciando una cavità. Un tronco cavo è un tubo, e i tubi sono robusti: molti faggi cavi restano in piedi per secoli.</p>' +
+      '<p>Poiché il centro non c’è più, i faggi più vecchi non si possono carotare fino al primo anello, e la loro età è una stima. In Val Cervara, in Abruzzo, all’interno di un sito del Patrimonio mondiale dell’UNESCO, alcuni faggi sono stati datati a circa 500 anni.</p>' +
+      '<p>Con la siccità le colonne d’acqua nel legno possono spezzarsi. Ogni rottura produce uno scatto ultrasonico, troppo acuto per l’orecchio umano.</p></div>' +
+      '<div class="unknown"><h4>Che cosa non si sa</h4>' +
+      '<p>È controverso se gli alberi si passino cibo o avvertimenti attraverso i filamenti dei funghi nel suolo. Una rassegna del 2023 di Karst, Jones e Hoeksema ha concluso che le prove non sostengono l’idea di «alberi madre» che nutrono e avvertono i loro simili, anche se altri ne contestano alcune parti. Per questo, quest’albero non manda messaggi.</p>' +
+      '<p>Questa sezione è disegnata, non misurata. Le larghezze degli anelli sono generate per seguire il romanzo, e gli anni segnati «ca.» sono approssimativi. I veri anelli del faggio sono tenui, e per contarli serve una lente.</p></div>' +
+      '<ul class="sources">' +
+      '<li>Fritts, H. C. (1976). <em>Tree Rings and Climate</em>. Academic Press.</li>' +
+      '<li>Schirone, B. et al. Studies of the old-growth beeches of Val Cervara, Abruzzo; UNESCO, Ancient and Primeval Beech Forests of the Carpathians and Other Regions of Europe.</li>' +
+      '<li>Shigo, A. L. (1984). Compartmentalization: a conceptual framework for understanding how trees grow and defend themselves. <em>Annual Review of Phytopathology</em> 22.</li>' +
+      '<li>Ponomarenko, A. et al. (2014). Ultrasonic emissions reveal individual cavitation bubbles in water-stressed wood. <em>Journal of the Royal Society Interface</em> 11.</li>' +
+      '<li>Karst, J., Jones, M. D. &amp; Hoeksema, J. D. (2023). Positive citation bias and overinterpreted results lead to misinformation on common mycorrhizal networks in forests. <em>Nature Ecology &amp; Evolution</em> 7.</li>' +
+      '</ul>';
+    stage.appendChild(box);
+
+    function q(sel) { return box.querySelector(sel); }
+    var wrap = q('.canvas-wrap'), cv = q('canvas'), g = cv.getContext('2d');
+    var range = q('input[type=range]'), out = q('output'), marks = q('.marks');
+    var cap = q('.cap'), human = q('.human'), humanText = q('.human span'), note = q('.note');
+    var bPrev = q('[data-a=prev]'), bNext = q('[data-a=next]'), bPlay = q('[data-a=play]'), bHuman = q('[data-a=human]');
+    var reduced = !!ctx.reducedMotion;
+
+    var markEls = {};
+    EVENTS.forEach(function (e) {
+      var m = document.createElement('i');
+      m.style.left = ((e.y - FIRST) / (LAST - FIRST) * 100) + '%';
+      marks.appendChild(m); markEls[e.y] = m;
+    });
+
+    var sel = LAST, hover = -1, humanOn = false, playing = false, visible = true;
+    var W = 0, H = 0, dpr = 1, R = 0, cx = 0, cy = 0, off = null, col = null, drawQueued = 0, lastKey = '';
+
+    function readColors() {
+      var c = {};
+      ['paper', 'ink', 'muted', 'rule', 'accent', 'warm', 'panel'].forEach(function (n) { c[n] = parse(ctx.color(n)); });
+      var p = c.paper; c.dark = (0.2126 * p[0] + 0.7152 * p[1] + 0.0722 * p[2]) / 255 < 0.45;
+      var base = mix(c.panel, c.ink, c.dark ? 0.1 : 0.05);
+      c.wood = mix(base, c.accent, c.dark ? 0.06 : 0.17);
+      c.hollow = c.dark ? mix(c.paper, [0, 0, 0], 0.45) : mix(c.ink, c.paper, 0.06);
+      c.stain = c.dark ? mix(c.accent, c.hollow, 0.55) : mix(c.accent, c.ink, 0.35);
+      col = c;
+    }
+
+    function trace(gc, frac, extra) {
+      var rp = Math.max(0.5, R * frac), n = Math.max(28, Math.min(720, Math.round(rp * 1.3)));
+      gc.beginPath();
+      for (var j = 0; j <= n; j++) {
+        var th = j / n * TAU, rad = R * shapeR(frac, th) + (extra || 0);
+        if (j) gc.lineTo(cx + rad * Math.cos(th), cy + rad * Math.sin(th)); else gc.moveTo(cx + rad, cy);
+      }
+      gc.closePath();
+    }
+    function traceHollow(gc, scale) {
+      gc.beginPath();
+      for (var j = 0; j <= 360; j++) {
+        var th = j / 360 * TAU, rad = R * hollowR(th) * scale;
+        if (j) gc.lineTo(cx + rad * Math.cos(th), cy + rad * Math.sin(th)); else gc.moveTo(cx + rad, cy);
+      }
+      gc.closePath();
+    }
+
+    function buildWood() {
+      off = document.createElement('canvas');
+      off.width = cv.width; off.height = cv.height;
+      var o = off.getContext('2d');
+      o.setTransform(dpr, 0, 0, dpr, 0, 0);
+      var r2 = 0x9e3779b9;
+      function rr() { r2 = (r2 * 1664525 + 1013904223) >>> 0; return r2 / 4294967296; }
+      o.lineJoin = 'round';
+      for (var j = N - 1; j >= 0; j--) {
+        trace(o, cum[j]);
+        var shade = (j % 2 ? 0.014 : 0) + rr() * 0.022 + (1 - cum[j]) * (col.dark ? 0.035 : 0.05);
+        o.fillStyle = rgba(mix(col.wood, col.ink, shade));
+        o.fill();
+        o.strokeStyle = rgba(col.ink, (col.dark ? 0.06 : 0.05) + rr() * 0.08 + (thin[j] ? 0.16 : 0));
+        o.lineWidth = thin[j] ? 0.9 : 0.55;
+        o.stroke();
+      }
+      // bark
+      trace(o, 1, 1.2);
+      o.strokeStyle = rgba(col.muted, 0.9); o.lineWidth = 2.4; o.stroke();
+    }
+
+    function resize() {
+      var r = wrap.getBoundingClientRect();
+      var w = Math.max(1, Math.round(r.width)), h = Math.max(1, Math.round(r.height));
+      dpr = Math.min(3, window.devicePixelRatio || 1);
+      W = w; H = h;
+      cv.width = Math.round(w * dpr); cv.height = Math.round(h * dpr);
+      R = Math.min(W, H) * 0.44; cx = W / 2; cy = H > W ? H - W / 2 : H / 2;
+      buildWood();
+      draw();
+    }
+
+    function hollowState(y) {
+      if (y <= WOUND) return 0;
+      return Math.min(1, (y - WOUND) / (ROT_END - WOUND));
+    }
+
+    function draw() {
+      drawQueued = 0;
+      if (!off || !col) return;
+      var idx = sel - FIRST;
+      g.setTransform(dpr, 0, 0, dpr, 0, 0);
+      g.clearRect(0, 0, W, H);
+      g.fillStyle = rgba(col.panel); g.fillRect(0, 0, W, H);
+      // the years not yet laid down: a ghost
+      g.globalAlpha = col.dark ? 0.3 : 0.26; g.drawImage(off, 0, 0, W, H); g.globalAlpha = 1;
+      // the years so far
+      g.save(); trace(g, cum[idx]); g.clip(); g.drawImage(off, 0, 0, W, H);
+      // the rot, then the hollow
+      var p = hollowState(sel);
+      if (p > 0) {
+        g.save(); trace(g, cum[BI]); g.clip();
+        traceHollow(g, Math.min(1.08, 0.1 + p * 1.1));
+        g.fillStyle = rgba(col.stain, col.dark ? 0.45 : 0.22); g.fill();
+        g.restore();
+        var hs = Math.pow(p, 1.6);
+        if (hs > 0.01) {
+          traceHollow(g, hs); g.fillStyle = rgba(col.hollow, 0.55 + 0.45 * p); g.fill();
+          g.save(); traceHollow(g, hs); g.clip();
+          var da = Math.max(0, Math.min(1, (sel - ROT_END + 20) / 50));
+          if (da > 0) {
+            for (var j = 0; j < dust.length; j++) {
+              var d = dust[j], rad = R * hollowR(d.th) * d.d;
+              g.fillStyle = rgba(col.accent, d.a * da * (col.dark ? 0.8 : 0.9));
+              g.fillRect(cx + rad * Math.cos(d.th) - d.z / 2, cy + rad * Math.sin(d.th) * 0.92 - d.z / 2, d.z, d.z);
+            }
+          }
+          var e = EV[sel];
+          if (e && e.warm) {
+            var hb = R * hollowR(Math.PI / 2), wy = cy + hb * 0.42, wr = hb * 0.5;
+            var gr = g.createRadialGradient(cx, wy, 0, cx, wy, wr);
+            gr.addColorStop(0, rgba(col.warm, 0.95)); gr.addColorStop(0.2, rgba(col.warm, 0.5)); gr.addColorStop(1, rgba(col.warm, 0));
+            g.fillStyle = gr; g.beginPath(); g.arc(cx, wy, wr, 0, TAU); g.fill();
+          }
+          g.restore();
+        }
+        // the wall
+        trace(g, cum[BI]); g.strokeStyle = rgba(col.ink, col.dark ? 0.32 : 0.38); g.lineWidth = 0.9; g.stroke();
+      }
+      g.restore();
+
+      // marks along one radius: where the tree was touched
+      var th0 = -Math.PI / 4, hNow = hollowState(sel);
+      EVENTS.forEach(function (e) {
+        var ei = e.y - FIRST, mid = (ei ? cum[ei - 1] : 0) * 0.5 + cum[ei] * 0.5;
+        var rad = R * shapeR(mid, th0), x = cx + rad * Math.cos(th0), y = cy + rad * Math.sin(th0);
+        if (e.y === sel) return;
+        var eaten = hNow >= 1 && e.y < WOUND && R * hollowR(th0) * Math.pow(hNow, 1.6) > rad;
+        if (eaten) return;                                   // the rot took that wood, and the mark with it
+        g.beginPath(); g.arc(x, y, 1.9, 0, TAU);
+        g.fillStyle = rgba(e.y < sel ? col.ink : col.muted, e.y < sel ? 0.55 : 0.4); g.fill();
+      });
+
+      if (hover >= 0 && hover !== sel) {
+        trace(g, cum[hover - FIRST]); g.strokeStyle = rgba(col.ink, 0.45); g.lineWidth = 1; g.stroke();
+      }
+
+      // this year's ring
+      var rS = R * cum[idx];
+      g.lineJoin = 'round';
+      if (rS < 4) {
+        var gl = g.createRadialGradient(cx, cy, 0, cx, cy, 9);
+        gl.addColorStop(0, rgba(col.warm, 1)); gl.addColorStop(0.35, rgba(col.warm, 0.45)); gl.addColorStop(1, rgba(col.warm, 0));
+        g.fillStyle = gl; g.beginPath(); g.arc(cx, cy, 9, 0, TAU); g.fill();
+      } else {
+        trace(g, cum[idx]);
+        g.strokeStyle = rgba(col.warm, 0.14); g.lineWidth = 10; g.stroke();
+        g.strokeStyle = rgba(col.warm, 0.32); g.lineWidth = 4; g.stroke();
+        g.strokeStyle = rgba(col.warm, 1); g.lineWidth = 1.5; g.stroke();
+      }
+      if (EV[sel]) {
+        var mi = (idx ? cum[idx - 1] : 0) * 0.5 + cum[idx] * 0.5, mr = R * shapeR(mi, th0);
+        g.beginPath(); g.arc(cx + mr * Math.cos(th0), cy + mr * Math.sin(th0), 3.2, 0, TAU);
+        g.fillStyle = rgba(col.warm); g.fill();
+      }
+
+      // the year, like a label on a museum slice
+      var fs = Math.round(Math.max(26, Math.min(48, W * 0.068))), pad = Math.round(fs * 0.5);
+      g.textBaseline = 'alphabetic'; g.textAlign = 'left';
+      g.fillStyle = rgba(col.ink, 0.92);
+      g.font = '400 ' + fs + 'px "Instrument Serif", "Iowan Old Style", Georgia, serif';
+      var label = (EV[sel] && EV[sel].c ? 'ca. ' : '') + sel, base = pad + fs * 0.8;
+      g.fillText(label, pad, base);
+      var lw = g.measureText(label).width;
+      g.fillStyle = rgba(col.muted);
+      g.font = '400 ' + Math.max(10, Math.round(fs * 0.24)) + 'px "IBM Plex Mono", ui-monospace, Menlo, monospace';
+      var tally = 'ANELLO ' + (idx + 1) + ' DI ' + N;
+      if (H > W) g.fillText(tally, pad + lw + 12, base);              // narrow: one line above the trunk
+      else g.fillText(tally, pad + 1, base + Math.max(15, fs * 0.5));
+    }
+    function requestDraw() { if (!drawQueued) drawQueued = requestAnimationFrame(draw); }
+
+    function updateText() {
+      var e = captionFor(sel), idx = sel - FIRST;
+      var key = e.t + '|' + (e.w || '');
+      if (key !== lastKey) {
+        lastKey = key;
+        cap.textContent = e.t;
+        if (e.w) { var sp = document.createElement('span'); sp.className = 'w'; sp.textContent = e.w; cap.appendChild(sp); }
+      }
+      var ev = EV[sel], ht = ev ? (ev.h === null ? 'Nessuna testimonianza umana.' : ev.h) : '';
+      humanText.textContent = ht;
+      human.hidden = !humanOn || !ht;
+      var nt = '';
+      if (sel < WOUND) {
+        var gf = goneFrac(idx);
+        if (gf >= 1) nt = 'Questo legno ora non c’è più: l’ha mangiato il marciume. Anelli così vecchi non si possono contare, solo stimare.';
+        else if (gf > 0) nt = 'Parte di questo anello ora non c’è più: se l’è presa la cavità.';
+      }
+      note.textContent = nt;
+    }
+
+    function setYear(y) {
+      y = Math.max(FIRST, Math.min(LAST, Math.round(y)));
+      if (markEls[sel]) markEls[sel].className = '';
+      sel = y;
+      if (markEls[sel]) markEls[sel].className = 'on';
+      range.value = String(y);
+      out.textContent = (EV[y] && EV[y].c ? 'ca. ' : '') + y;
+      cv.setAttribute('aria-valuenow', String(y));
+      cv.setAttribute('aria-valuetext', y + ', anello ' + (y - FIRST + 1) + ' di ' + N);
+      range.setAttribute('aria-valuetext', y + ', anello ' + (y - FIRST + 1) + ' di ' + N);
+      bPrev.disabled = y <= FIRST; bNext.disabled = y >= LAST;
+      updateText();
+      requestDraw();
+    }
+
+    function nextEvent(y) { for (var j = 0; j < EVENTS.length; j++) if (EVENTS[j].y > y) return EVENTS[j].y; return null; }
+    function prevEvent(y) { for (var j = EVENTS.length - 1; j >= 0; j--) if (EVENTS[j].y < y) return EVENTS[j].y; return null; }
+
+    // ---- playing the centuries ----
+    var raf = 0, last = 0, pos = LAST, hold = 0, RATE = 30, HOLD = 1.9;
+    function playLabel() {
+      if (reduced) bPlay.textContent = 'Segno dopo ▶';
+      else bPlay.textContent = playing ? 'Pausa' : 'Scorri i secoli';
+      bPlay.setAttribute('aria-pressed', playing ? 'true' : 'false');
+      if (reduced) bPlay.removeAttribute('aria-pressed');
+    }
+    function stopPlay() {
+      playing = false;
+      if (raf) cancelAnimationFrame(raf);
+      raf = 0; playLabel();
+    }
+    function tick(ts) {
+      raf = 0;
+      if (!playing || !visible) return;
+      var dt = last ? Math.min(0.1, (ts - last) / 1000) : 0;
+      last = ts;
+      if (hold > 0) hold -= dt;
+      else {
+        var nx = nextEvent(Math.floor(pos));
+        pos += dt * RATE;
+        if (nx !== null && pos >= nx) { pos = nx; hold = EV[nx].warm ? HOLD * 1.5 : HOLD; }
+      }
+      if (pos >= LAST) { setYear(LAST); stopPlay(); return; }
+      if (Math.floor(pos) !== sel) setYear(Math.floor(pos));
+      raf = requestAnimationFrame(tick);
+    }
+    function startPlay() {
+      if (sel >= LAST) { pos = FIRST; setYear(FIRST); hold = HOLD; } else { pos = sel + 0.001; hold = 0; }
+      playing = true; last = 0; playLabel();
+      if (visible && !raf) raf = requestAnimationFrame(tick);
+    }
+    bPlay.addEventListener('click', function () {
+      if (reduced) { var n = nextEvent(sel); setYear(n === null ? FIRST : n); return; }
+      if (playing) stopPlay(); else startPlay();
+    });
+
+    bPrev.addEventListener('click', function () { stopPlay(); setYear(sel - 1); });
+    bNext.addEventListener('click', function () { stopPlay(); setYear(sel + 1); });
+    bHuman.addEventListener('click', function () {
+      humanOn = !humanOn;
+      bHuman.setAttribute('aria-pressed', humanOn ? 'true' : 'false');
+      updateText();
+    });
+    range.addEventListener('input', function () { stopPlay(); setYear(+range.value); });
+
+    // ---- touching the wood ----
+    function yearAt(ev) {
+      var r = cv.getBoundingClientRect();
+      var x = ev.clientX - r.left - cx, y = ev.clientY - r.top - cy;
+      var d = Math.sqrt(x * x + y * y) / R, th = Math.atan2(y, x);
+      if (th < 0) th += TAU;
+      if (d > shapeR(1, th) + 0.12) return -1;
+      var lo = 0, hi = N - 1;
+      while (lo < hi) { var mid = (lo + hi) >> 1; if (shapeR(cum[mid], th) >= d) hi = mid; else lo = mid + 1; }
+      return FIRST + lo;
+    }
+    var dragging = false;
+    cv.addEventListener('pointerdown', function (e) {
+      var y = yearAt(e);
+      if (y < 0) return;
+      dragging = true; stopPlay();
+      try { cv.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ }
+      hover = -1; setYear(y);
+    });
+    cv.addEventListener('pointermove', function (e) {
+      if (dragging) { var y = yearAt(e); setYear(y < 0 ? LAST : y); return; }
+      if (e.pointerType === 'mouse') { var h = yearAt(e); if (h !== hover) { hover = h; requestDraw(); } }
+    });
+    function endDrag() { dragging = false; }
+    cv.addEventListener('pointerup', endDrag);
+    cv.addEventListener('pointercancel', endDrag);
+    cv.addEventListener('pointerleave', function () { if (hover !== -1) { hover = -1; requestDraw(); } });
+    cv.addEventListener('keydown', function (e) {
+      var k = e.key, y = null;
+      if (k === 'ArrowLeft' || k === 'ArrowDown') y = e.shiftKey ? prevEvent(sel) : sel - 1;
+      else if (k === 'ArrowRight' || k === 'ArrowUp') y = e.shiftKey ? nextEvent(sel) : sel + 1;
+      else if (k === 'PageDown') y = sel - 10;
+      else if (k === 'PageUp') y = sel + 10;
+      else if (k === 'Home') y = FIRST;
+      else if (k === 'End') y = LAST;
+      if (y === null) return;
+      e.preventDefault(); stopPlay(); setYear(y);
+    });
+
+    ctx.onThemeChange(function () { readColors(); if (W) { buildWood(); draw(); } });
+    ctx.visible(function (v) {
+      visible = v;
+      if (v && playing && !raf) { last = 0; raf = requestAnimationFrame(tick); }
+    });
+    var lastW = 0;
+    if ('ResizeObserver' in window) {
+      new ResizeObserver(function () {
+        var w = Math.round(wrap.getBoundingClientRect().width);
+        if (w !== lastW) { lastW = w; resize(); }
+      }).observe(wrap);
+    } else window.addEventListener('resize', resize);
+
+    readColors();
+    playLabel();
+    setYear(LAST);
+    lastW = Math.round(wrap.getBoundingClientRect().width);
+    resize();
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { requestDraw(); });
+  }
+
+  window.MINDS = window.MINDS || {};
+  window.MINDS.tree = { mount: mount };
+})();
+
+</script>
+<script>window.__mountMinds();</script>
+
+</body>
+</html>
